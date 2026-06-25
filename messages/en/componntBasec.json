@@ -1,0 +1,11 @@
+{
+  "Header": {
+    "home": "Home",
+    "managePlaylist": "Manage Playlist",
+    "legalPolicy": "Legal & Policy",
+    "downloadWatching": "Download & Watching",
+    "dashboard": "Dashboard",
+    "faq": "FAQ's",
+    "contactUs": "Contact Us"
+  }
+}

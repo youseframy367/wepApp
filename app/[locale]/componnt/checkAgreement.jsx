@@ -11,10 +11,10 @@ export default function CheckAgreemnt (){
     return(
         <div>
          <GradientBorderBox className="w-[90%] block mx-auto flex px-[20px] items-center h-[68px] md:my-[40px] my-[30px]">
-                <div className="flex gap-[30px]  w-[100%] shrink-0">
+                <div className="flex gap-[30px] items-center  w-[100%] shrink-0">
                   <ImageCheckbox checked={agree} onChange={setAgree} name="agree" />
                   <p
-                    className={`text-[#fff] font-[400] md:text-[16px] text-[14px] ${local === "en" ? "font-inter" : " font-cairo font-[400] md:text-[19px] text-[15px] tracking-[-0.25px] "}`}
+                    className={`text-[#fff] font-[400] md:text-[16px] text-[14px] ${local === "en" ? "font-inter ml-[-15px] " : " font-cairo font-[400] md:text-[19px] text-[15px] tracking-[-0.25px] mr-[-15px]"}`}
                   >
                     {local === "en"
                       ? "I confirm that I have legal capacity and agree to all terms above"

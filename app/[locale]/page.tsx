@@ -10,11 +10,11 @@ export default function Home() {
     <div className="flex flex-col w-[100%] ">
       {/* <Navbar/>
      <Footer/>
-              <AgreementReseller/>
+ <AgreementCustomer />
 
         */}
-             
- <AgreementCustomer />
+                          <AgreementReseller/>
+ 
     </div>
   );
 }

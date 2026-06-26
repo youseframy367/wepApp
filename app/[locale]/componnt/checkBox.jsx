@@ -20,10 +20,10 @@ export default function ImageCheckbox({
         <img
           src="/imge/checkBox.svg"
           alt="checked"
-          className="w-[40px] h-[40px]"
+          className="w-[60px] h-[60px]"
         />
       ) : (
-        <div className="w-[30px] h-[30px] min-w-[30px] min-h-[30px] border border-gray-400 rounded-md" />
+        <div className="w-[30px] h-[30px] mx-[18px] min-w-[30px] min-h-[30px] border border-gray-400 rounded-md" />
       )}
     </label>
   );

@@ -5,7 +5,10 @@ import { NextIntlClientProvider } from "next-intl";
 //import {getRequestConfig} from 'next-intl/server';
 import { Montserrat } from "next/font/google";
 import { Cairo } from "next/font/google";
-
+import AosProvider from "./componnt/AosProvider";
+import Navbar from "./parts/Header";
+import Footer from "./parts/Fooer";
+import { cookies } from "next/headers";
 const montserrat = Montserrat({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -35,10 +38,24 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
 
-  return (
+
+
+  const cookieStore = await cookies();
+  const step = cookieStore.get("agreementStep")?.value;
+
+const hideLayout =
+  !step || step === "reseller";  return (
     <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
-      <body className={`${inter.variable} ${montserrat.variable} ${cairo.variable}`}>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+      <body
+        className={` text-[#fff] ${locale === "ar" ? "font-cairo" : ""}   ${inter.variable} ${montserrat.variable} ${cairo.variable}`}
+      >
+        <NextIntlClientProvider>
+          <AosProvider>
+            {!hideLayout && <Navbar />}
+            {children}
+            {!hideLayout && <Footer />}
+          </AosProvider>
+        </NextIntlClientProvider>
       </body>
     </html>
   );

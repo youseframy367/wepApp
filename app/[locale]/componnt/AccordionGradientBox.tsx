@@ -64,10 +64,10 @@ export default function AccordionGradientBox({
       dir={isRTL ? "rtl" : "ltr"}
       className={`relative flex flex-col sm:flex-row sm:items-center min-[425px]:py-3.75 py-4.5 min-[425px]:pl-7.5 pl-5 sm:pr-15 pr-5 gap-2.5 sm:gap-6 ${className ?? ""}`}
     >
-      <div className="flex sm:contents items-center space-x-2.5">
-        <img src={icon} alt={iconAlt} className={`shrink-0 ${iconClassName}`} />
+      <div className="flex sm:contents items-center space-x-2.5" >
+        <img src={icon} alt={iconAlt} className={`shrink-0 ${iconClassName}`} data-aos="fade-up"/>
 
-        <h3 className={`sm:hidden flex-1 min-w-0 ${titleClassName}`}>
+        <h3 className={`sm:hidden flex-1 min-w-0 ${titleClassName}`} data-aos="fade-up">
           {title}
         </h3>
 
@@ -94,6 +94,7 @@ export default function AccordionGradientBox({
               ? "font-cairo text-[22px] font-[500] leading-[40px]"
               : "font-inter"
           }`}
+          data-aos="fade-up"
         >
           {title}
         </h3>
@@ -107,6 +108,8 @@ export default function AccordionGradientBox({
         >
           <div ref={contentRef}>
             <div
+             data-aos="fade-up"
+
               ref={paragraphRef}
               className={`${paragraphClassName} ${
                 local === "ar"

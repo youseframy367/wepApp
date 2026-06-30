@@ -4,16 +4,16 @@ import Image from "next/image";
 import { useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
-import ContactIcon from "../componnt/contactIcon"
+import ContactIcon from "../componnt/contactIcon";
 export default function Header() {
   const [activeIndex, setActiveIndex] = useState(0);
   const [open, setOpen] = useState(false);
   const [langImgError, setLangImgError] = useState(false);
   const [contactHovered, setContactHovered] = useState(false);
-
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
+  const currentPath = pathname.replace(/^\/(ar|en)/, "") || "/";
 
   const t = useTranslations("Header");
 
@@ -27,9 +27,9 @@ export default function Header() {
   };
 
   const hidingOfHeader = [
-    { title: t("home") },
-    { title: t("managePlaylist") },
-    { title: t("legalPolicy") },
+    { title: t("home"), navigate: "/" },
+    { title: t("managePlaylist"), navigate: "/manageBlayList" },
+    { title: t("legalPolicy") ,navigate:"/Legal&Policy"},
     { title: t("downloadWatching") },
     { title: t("dashboard") },
     { title: t("faq") },
@@ -38,7 +38,6 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 w-full h-[106px] bg-black z-50">
       <div className="flex items-center justify-between px-4 md:px-[15px] h-full">
-
         {/* Logo */}
         <Image
           src="/imge/header/logoHeader.svg"
@@ -53,9 +52,14 @@ export default function Header() {
           {hidingOfHeader.map((item, i) => (
             <li
               key={i}
-              onClick={() => setActiveIndex(i)}
+              onClick={() => {
+                currentPath === item.navigate;
+                if (item.navigate) {
+                  router.push(item.navigate);
+                }
+              }}
               className={`cursor-pointer font-[500] text-[18px] transition-all duration-300 ${
-                activeIndex === i
+                currentPath === item.navigate
                   ? "text-primary-animated"
                   : "text-white hover:text-primary-animated"
               }`}
@@ -65,48 +69,42 @@ export default function Header() {
           ))}
         </ul>
 
-
-
-
-       
         <div className="hidden md:flex items-center gap-[20px]">
-
-
-           <a
-          href="https://mail.google.com/mail/?view=cm&fs=1&to=info@exclusivemoviess.com"
-          target="_blank"
-          rel="noreferrer"
-          onClick={() => {
-            setIsOpen(false);
-          }}
-          onMouseEnter={() => setContactHovered(true)}
-          onMouseLeave={() => setContactHovered(false)}
-          className="hidden min-[1000px]:block"
-
-        >
-
-          <div className="relative 3xl:w-62.5! 3xl:h-15! w-39 h-9.5 3xl:rounded-[40px] rounded-[20px] 3xl:p-0.5 p-px overflow-hidden">
-            <div
-              className={`contact-border-billboard transition-opacity duration-300 ${contactHovered ? "opacity-0" : "opacity-100"}`}
-            />
-            <div
-              className={`absolute inset-0 bg-primary transition-opacity duration-300 ${contactHovered ? "opacity-100" : "opacity-0"}`}
-            />
-            <div
-              className={`relative z-10 h-full 3xl:rounded-[38px] rounded-[19px] flex items-center justify-center space-x-2.5 transition-colors duration-300 ${contactHovered ? "bg-transparent" : "bg-[#0a0a0a]"}`}
-            >
-              <span
-                className={`font-inter font-semibold 3xl:text-2xl! text-base ${contactHovered ? "text-basic-white" : "text-primary"}`}
-              >
-                Contact Us
-              </span>
-              <ContactIcon
-                color={contactHovered ? "#ffffff" : "var(--color-primary-dark)"}
-                className="3xl:w-7! 3xl:h-7! w-5 h-5"
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=info@exclusivemoviess.com"
+            target="_blank"
+            rel="noreferrer"
+            onClick={() => {
+              setIsOpen(false);
+            }}
+            onMouseEnter={() => setContactHovered(true)}
+            onMouseLeave={() => setContactHovered(false)}
+            className="hidden min-[1000px]:block"
+          >
+            <div className="relative 3xl:w-62.5! 3xl:h-15! w-39 h-9.5 3xl:rounded-[40px] rounded-[20px] 3xl:p-0.5 p-px overflow-hidden">
+              <div
+                className={`contact-border-billboard transition-opacity duration-300 ${contactHovered ? "opacity-0" : "opacity-100"}`}
               />
+              <div
+                className={`absolute inset-0 bg-primary transition-opacity duration-300 ${contactHovered ? "opacity-100" : "opacity-0"}`}
+              />
+              <div
+                className={`relative z-10 h-full 3xl:rounded-[38px] rounded-[19px] flex items-center justify-center space-x-2.5 transition-colors duration-300 ${contactHovered ? "bg-transparent" : "bg-[#0a0a0a]"}`}
+              >
+                <span
+                  className={`${locale === "en" ? "font-inter" : "font-cairo font-[400] text-[18px] tracking-[-0.25px]"} font-semibold 3xl:text-2xl! text-base ${contactHovered ? "text-basic-white" : "text-primary"}`}
+                >
+                  {locale === "en" ? "Contact Us" : "اتصل بنا "}
+                </span>
+                <ContactIcon
+                  color={
+                    contactHovered ? "#ffffff" : "var(--color-primary-dark)"
+                  }
+                  className="3xl:w-7! 3xl:h-7! w-5 h-5"
+                />
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
 
           {/* Language Switch */}
           {!langImgError ? (
@@ -131,7 +129,6 @@ export default function Header() {
           )}
         </div>
 
-
         {/* Mobile Menu Button */}
         <button
           onClick={() => setOpen(!open)}
@@ -141,30 +138,23 @@ export default function Header() {
           <span className="w-6 h-0.5 bg-[#DAAA6C]" />
           <span className="w-6 h-0.5 bg-[#DAAA6C]" />
         </button>
-
-
-{/*}
-
- <div className="w-full h-[3.5px] absolute left-0 bottom-0 flex items-center justify-center">
-        <div className="absolute left-0 w-full h-[1.5px] bottom-0 z-1 bg-ternary" />
-        <div className="absolute left-0 w-full h-[1.5px] bottom-0 z-2 bg-navbar-shimmer backdrop-blur-[5px]" />
-        <div className="relative z-3 w-4.75 h-[3.5px] bg-ternary blur-[9.5px]" />
-      </div>
-
-*/}
       </div>
 
       {/* Mobile Menu */}
       {open && (
         <div className="md:hidden bg-black border-t border-white/10 flex flex-col items-center px-4 py-4 space-y-4 text-white">
-
           {hidingOfHeader.map((item, i) => (
             <div
               key={i}
               onClick={() => {
                 setActiveIndex(i);
                 setOpen(false);
+                currentPath === item.navigate;
+                if (item.navigate) {
+                  router.push(item.navigate);
+                }
               }}
+             
               className={`cursor-pointer font-[500] text-[18px] transition-all duration-300 ${
                 activeIndex === i
                   ? "text-primary-animated"
@@ -175,13 +165,7 @@ export default function Header() {
             </div>
           ))}
 
-
-
-
-
-
-
- <a
+          <a
             href="https://mail.google.com/mail/?view=cm&fs=1&to=info@exclusivemoviess.com"
             target="_blank"
             rel="noreferrer"
@@ -193,24 +177,28 @@ export default function Header() {
           >
             <div className="relative w-39 h-9.5 rounded-[20px] p-px overflow-hidden">
               <div
-                className={`contact-border-billboard transition-opacity duration-300 ${contactHovered ? "opacity-0" : "opacity-100"
-                  }`}
+                className={`contact-border-billboard transition-opacity duration-300 ${
+                  contactHovered ? "opacity-0" : "opacity-100"
+                }`}
               />
 
               <div
-                className={`absolute inset-0 bg-primary transition-opacity duration-300 ${contactHovered ? "opacity-100" : "opacity-0"
-                  }`}
+                className={`absolute inset-0 bg-primary transition-opacity duration-300 ${
+                  contactHovered ? "opacity-100" : "opacity-0"
+                }`}
               />
 
               <div
-                className={`relative z-10 h-full rounded-[19px] flex items-center justify-center space-x-2.5 transition-colors duration-300 ${contactHovered ? "bg-transparent" : "bg-[#0a0a0a]"
-                  }`}
+                className={`relative z-10 h-full rounded-[19px] flex items-center justify-center space-x-2.5 transition-colors duration-300 ${
+                  contactHovered ? "bg-transparent" : "bg-[#0a0a0a]"
+                }`}
               >
                 <span
-                  className={`font-inter font-semibold text-base ${contactHovered ? "text-basic-white" : "text-primary"
-                    }`}
+                  className={`font-inter font-semibold text-base ${
+                    contactHovered ? "text-basic-white" : "text-primary"
+                  }`}
                 >
-                 {t("contactUs")}
+                  {t("contactUs")}
                 </span>
 
                 <ContactIcon
@@ -221,24 +209,15 @@ export default function Header() {
                   height={20}
                 />
               </div>
-              
             </div>
           </a>
-
-
-
-
-
-
-
-
-
-
-       
         </div>
       )}
-
-      <div className="w-[80%] h-[1.5px] mx-auto bg-gradient-to-r from-transparent via-[#DFC082] to-transparent" />
+      <div className="w-full h-[3.5px] absolute left-0 bottom-0 flex items-center justify-center">
+        <div className="absolute left-0 w-full h-[1.5px] bottom-0 z-1 bg-ternary" />
+        <div className="absolute left-0 w-full h-[1.5px] bottom-0 z-2 bg-navbar-shimmer backdrop-blur-[5px]" />
+        <div className="relative z-3 w-4.75 h-[3.5px] bg-ternary blur-[9.5px]" />
+      </div>
     </header>
   );
 }

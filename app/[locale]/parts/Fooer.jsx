@@ -4,23 +4,12 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Fragment } from "react";
 import Image from "next/image";
-
-import Container from "./contaner";
-//import {
-//  logo,
-//  mail,
-//  phone,
-//  facebook,
-// instagram,
-//x,
-//tiktok,
-//youtube,
-//linkedin,
-//} from "/imge/footer";
+import { useLocale } from "next-intl";
+import Container from "../componnt/contaner";
 
 export default function Footer() {
   const pathname = usePathname();
-
+  const local = useLocale();
   const smoothTop = () => {
     window.scrollTo({
       top: 0,
@@ -53,10 +42,16 @@ export default function Footer() {
             </h2>
           </Link>
           <p className="text-basic-white font-medium 3xl:text-2xl! sm:text-base min-[425px]:text-sm text-xs leading-5 mb-2.5 text-center">
-            A Leading Digital Media, Streaming & AI-Powered Technology Company
+            {local === "en"
+              ? " A Leading Digital Media, Streaming & AI-Powered Technology Company"
+              : "شركة رائدة في مجال الإعلام الرقمي، البث، وتقنيات الذكاء الاصطناعي"}
           </p>
-          <p className="text-basic-white font-inter font-light italic 3xl:text-2xl! sm:text-base min-[425px]:text-sm text-xs leading-5 tracking-[-0.25px] text-center">
-            “Streaming the Future with Intelligence and Security.”
+          <p
+            className={`text-basic-white ${local === "en" ? "font-inter" : "font-cairo"} font-light italic 3xl:text-2xl! sm:text-base min-[425px]:text-sm text-xs leading-5 tracking-[-0.25px] text-center`}
+          >
+            {local === "en"
+              ? "“Streaming the Future with Intelligence and Security.”"
+              : "“بث المستقبل بذكاء وأمان.”"}
           </p>
           <div className="flex justify-center items-center md:w-175 sm:w-137.5 min-[425px]:w-87.5 w-65 h-[3.5px] mt-5 mb-5">
             <div className="relative w-full h-full flex items-center justify-center">
@@ -104,11 +99,11 @@ export default function Footer() {
                 link: "https://www.instagram.com/exclusivemoviesofficial",
                 alt: "Instagram",
               },
-              { 
+              {
                 icon: "/imge/footer/social/x.svg",
                 link: "https://x.com/ExclusiveMovies",
-                 alt: "X"
-               },
+                alt: "X",
+              },
               {
                 icon: "/imge/footer/social/tiktok.svg",
                 link: "https://www.tiktok.com/@exclusivemoviesofficial",
@@ -141,67 +136,83 @@ export default function Footer() {
             ))}
           </div>
           <p className="text-basic-white font-medium 3xl:text-3xl! sm:text-base min-[425px]:text-sm text-xs leading-5 3xl:mb-5! mb-2.5 text-center">
-            &copy; 2026 Exclusive Movies LTD. All Rights Reserved
+            {local === "en"
+              ? "© 2026 Exclusive Movies LTD. All Rights Reserved"
+              : "© 2026 شركة Exclusive Movies LTD. جميع الحقوق محفوظة"}
           </p>
-          <div className="flex items-center justify-center gap-2.5 sm:flex-nowrap flex-wrap">
-            {[
-              {
-                title: "Home",
-                link: "/",
-              },
-              {
-                title: "About Us",
-                link: "/about-us",
-              },
-              {
-                title: "Refund Policy",
-                link: "/refund-policy",
-              },
-              {
-                title: "Terms of Service",
-                link: "/terms-of-service",
-              },
-              {
-                title: "Privacy & Cookies Policy",
-                link: "/privacy-and-cookies-policy",
-              },
-            ].map(({ title, link }, index, arr) => (
-              <Fragment key={title}>
-                <div
-                  className={`${index === 4 ? "w-auto min-[425px]:w-full sm:w-auto justify-center" : ""} flex items-center space-x-2.5`}
-                >
-                  <Link
-                    href={link}
-                    onClick={() => handleNav(link)}
-                    className={`font-inter 3xl:text-2xl! min-[425px]:text-sm text-[13px] tracking-[-0.25px]
-    ${
-      pathname === link
-        ? "text-primary-animated font-bold"
-        : "text-primary font-normal"
-    }
-  `}
-                  >
-                    {title}
-                  </Link>
+       <div className="flex items-center justify-center gap-2.5 sm:flex-nowrap flex-wrap">
+  {[
+    {
+      titleEn: "Home",
+      titleAr: "الرئيسية",
+      link: "/",
+    },
+    {
+      titleEn: "About Us",
+      titleAr: "لوحة التحكم",
+      link: "/about-us",
+    },
+    {
+      titleEn: "Refund Policy",
+      titleAr: "التحميل والمشاهدة",
+      link: "/refund-policy",
+    },
+    {
+      titleEn: "Terms of Service",
+      titleAr: "القانون والسياسات",
+      link: "/terms-of-service",
+    },
+    {
+      titleEn: "Playlist Management",
+      titleAr: "إدارة قائمة التشغيل",
+      link: "/playlist-management",
+    },
+    {
+      titleEn: "FAQ",
+      titleAr: "الأسئلة الشائعة",
+      link: "/faq",
+    },
+  ].map(({ titleEn, titleAr, link }, index, arr) => (
+    <Fragment key={index}>
+      <div
+        className={`${
+          index === 4
+            ? "w-auto min-[425px]:w-full sm:w-auto justify-center"
+            : ""
+        } flex items-center space-x-2.5`}
+      >
+        <Link
+          href={link}
+          onClick={() => handleNav(link)}
+          className={`${local==="en"?"font-inter":"font-cairo"} 3xl:text-2xl! min-[425px]:text-sm text-[13px] tracking-[-0.25px]
+            ${
+              pathname === link
+                ? "text-primary-animated font-bold"
+                : "text-primary font-normal"
+            }`}
+        >
+          {local === "ar" ? titleAr : titleEn}
+        </Link>
 
-                  {index < arr.length - 1 && (
-                    <div
-                      className={`-separator h-6 opacity-70 ${
-                        index === 2
-                          ? "max-[425px]:hidden"
-                          : index === 3
-                            ? "flex min-[425px]:hidden sm:flex"
-                            : ""
-                      }`}
-                    />
-                  )}
-                </div>
-                {index === 2 && (
-                  <div className="min-[425px]:hidden w-full h-0" />
-                )}
-              </Fragment>
-            ))}
-          </div>
+        {index < arr.length - 1 && (
+          <div
+            className={`-separator h-6 opacity-70 ${
+              index === 2
+                ? "max-[425px]:hidden"
+                : index === 3
+                ? "flex min-[425px]:hidden sm:flex"
+                : ""
+            }`}
+          />
+        )}
+      </div>
+
+      {index === 2 && (
+        <div className="min-[425px]:hidden w-full h-0" />
+      )}
+    </Fragment>
+  ))}
+</div>
         </div>
       </Container>
     </section>

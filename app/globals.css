@@ -294,3 +294,18 @@ body {
 .animate-borderMove {
   animation: borderMove 3s linear infinite;
 }
+
+/* Chrome, Safari, Edge */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox */
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+/* IE و Edge القديم */
+.no-scrollbar {
+  -ms-overflow-style: none;
+}

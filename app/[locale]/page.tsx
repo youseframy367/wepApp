@@ -1,20 +1,30 @@
-import Navbar from "./parts/Header";
-import Footer from "./parts/Fooer";
+
 //import LoadingScreen from "./parts/loding"
-
+import { cookies } from "next/headers";
+import HomeBage from "./home/page";
 import AgreementCustomer from "./agreement/customer/page";
-//import AgreementReseller from "./agreement/reseller/page"
+import AgreementReseller from "./agreement/reseller/page"
 import "../globals.css";
-export default function Home() {
-  return (
-    <div className="flex flex-col w-[100%] ">
-      {/* <Navbar/>
-     <Footer/>
- <AgreementCustomer />
+export default async  function Home() {
+  const cookieStore = await cookies();
 
-        */}
-                          <AgreementReseller/>
- 
+ const step = cookieStore.get("agreementStep")?.value;
+
+if (!step) {
+  return <AgreementCustomer  />;
+}
+
+if (step === "reseller") {
+  return <AgreementReseller />;
+}
+
+  return (
+    <div>
+       
+        <HomeBage/>
+
+
+
     </div>
   );
 }

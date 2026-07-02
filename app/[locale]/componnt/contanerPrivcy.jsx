@@ -1,18 +1,22 @@
+"use client";
+
 import GradientBorderBox from "../componnt/GradiantBox";
 import { useLocale } from "next-intl";
-
+import { useRouter } from "next/navigation";
 export default function PrivcyComponnt({
-    className="data",
-    classNameP="",
-    data="",
-
+  className = "data",
+  classNameP = "",
+  data = "",
+  positionEffect = "25%",
+  urlEffect = "/imge/effectTwo.svg",
 }) {
   const local = useLocale();
+  const router = useRouter();
   return (
     <div className={`w-[90%] mx-auto relative  ${className} `}>
       <img
-        src="/imge/effectTwo.svg"
-        className="absolute top-[25%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"
+        src={urlEffect}
+        className={`absolute top-[${positionEffect}] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none`}
         alt="effect"
       />
 
@@ -32,12 +36,13 @@ export default function PrivcyComponnt({
                   {local === "en" ? item.titleEn : item.titleAr}
                 </h3>
                 <p
-                  className={`font-[400]  min-h-[90px] md:mt-[10px] mt-[10px] md:pl-[10px] ${classNameP}  md:text-[14px] text-[12px] ${local === "en" ? "font-inter" : " tracking-[-.25px] font-cairo md:text-[14px] text-[12px] font-[500] pl-[10px] md:leading-[22px] leading-[20px]"}`}
+                  className={`font-[400]  md:mt-[10px] mt-[10px] md:pl-[10px] ${classNameP}  md:text-[14px] text-[12px] ${local === "en" ? "font-inter" : " tracking-[-.25px] font-cairo md:text-[14px] text-[12px] font-[500] pl-[10px] md:leading-[22px] leading-[20px]"}`}
                 >
                   {local === "en" ? item.descriptionEn : item.descriptionAr}
                 </p>
                 <button
                   className={` md:w-[135px] w-[110px] md:h-[45px] h-[40px] border-[1px] border-[#FCD570] tracking-[-0.25px] text-[#000000] font-[600] md:mt-[-5px] mt-[10px] md:text-[16px] text-[15px] ${local === "ar" ? " font-cairo md:font-[700] font-[500]" : "font-inter "} flex justify-center items-center bg-primary rounded-[6px] `}
+                  onClick={() => router.push("/Legal&Policy/privacyPolicy")}
                 >
                   {local === "en" ? "Read Policy" : "قراءة السياسة"}
                 </button>

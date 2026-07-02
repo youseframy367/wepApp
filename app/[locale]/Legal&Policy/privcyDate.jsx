@@ -7,49 +7,81 @@ export const DeteGoToBage =[
         descriptionEn:
             "Enjoy a refined dark-gold theme with rich posters, smooth transitions, and layouts.",
         descriptionAr:
-            "تتوافق هذه الخدمة مع اللائحة العامة لحماية البيانات (GDPR) وUK GDPR. قد تتم معالجة بيانات تقنية محدودة (مثل الجهاز، المتصفح، واللغة) فقط لأغراض الأمان، ومنع الاحتيال، والامتثال القانوني.",
+           ' استمتع بواجهة أنيقة بتصميم داكن مع لمسات ذهبية، وبوسترات غنية، وانتقالات سلسة، وتخطيطات مصممة بعناية.',
         navigate:""
     },
     {
         img:"/imge/agreement/customer/trems.svg",
         titleEn:"Terms & Conditions",
-        titleAr:'شروط الخدمة',
+        titleAr:'الشروط والاحكام',
         descriptionEn:
             "Enjoy a refined dark-gold theme with rich posters, smooth transitions, and layouts.",
         descriptionAr:
-            "توفر شركة ExPro UK برامج مشغل وسائط وحلول تقنية رقمية فقط. نحن لا نقوم باستضافة أو ترخيص أو توزيع أو بث أي محتوى سمعي بصري.",
+           " استمتع بواجهة أنيقة بتصميم داكن مع لمسات ذهبية، وبوسترات غنية، وانتقالات سلسة، وتخطيطات مصممة بعناية.",
         navigate:""
 
     },
     {
         img:"/imge/agreement/customer/refund.svg",
         titleEn:"Refund Policy",
-        titleAr:"إخلاء مسؤولية المحتوى",
+        titleAr:"سياسة الإرجاع والاسترداد",
         descriptionEn:
             "Enjoy a refined dark-gold theme with rich posters, smooth transitions, and layouts.",
         descriptionAr:
-            "تعمل شركة ExPro UK حصريًا كمنصة تشغيل وسائط (Media Player). نحن لا نقوم باستضافة أو تخزين أو توزيع أو تنسيق أي محتوى. ويتحمل المستخدمون وحدهم المسؤولية الكاملة عن أي محتوى يتم الوصول إليه أو استخدامه.",
+           " استمتع بواجهة أنيقة بتصميم داكن مع لمسات ذهبية، وبوسترات غنية، وانتقالات سلسة، وتخطيطات مصممة بعناية.",
         navigate:""
 
     },
     {
         img:"/imge/policy/endUserAgreement.svg",
         titleEn:"End User License Agreement",
-        titleAr:"",
+        titleAr:"ترخيص المستخدم (EULA)",
         descriptionEn:"Enjoy a refined dark-gold theme with rich posters, smooth transitions, and layouts.",
-        descriptionAr:"",
+        descriptionAr:"استمتع بواجهة أنيقة بتصميم داكن مع لمسات ذهبية، وبوسترات غنية، وانتقالات سلسة، وتخطيطات مصممة بعناية.",
         navigate:""
     },
     {
         img:"/imge/agreement/customer/Disclaimer.svg",
         titleEn:'Disclaimer of Content',
-        titleAr:"سياسة الاسترداد",
+        titleAr:"إخلاء مسؤولية المحتوى",
         descriptionEn:
             "Enjoy a refined dark-gold theme with rich posters, smooth transitions, and layouts.",
         descriptionAr:
-            "نظرًا للطبيعة الفورية وغير القابلة للإرجاع لتفعيل الخدمات الرقمية، لا تتوفر عمليات استرداد بعد منح الوصول، إلا في الحالات التي يفرضها قانون حماية المستهلك المعمول به.",
+           " استمتع بواجهة أنيقة بتصميم داكن مع لمسات ذهبية، وبوسترات غنية، وانتقالات سلسة، وتخطيطات مصممة بعناية.",
         navigate:""
 
-    
+    },
+    {
+        img:"/imge/policy/notsellOrsheer.svg",
+        titleEn:"Do Not Sell or Share",
+        titleAr:"عدم بيع أو مشاركة البيانات",
+        descriptionEn:"Enjoy a refined dark-gold theme with rich posters, smooth transitions, and layouts.",
+        descriptionAr:"استمتع بواجهة أنيقة بتصميم داكن مع لمسات ذهبية، وبوسترات غنية، وانتقالات سلسة، وتخطيطات مصممة بعناية."
     }
 ]
+
+export const aboutUs =[
+    {
+        img:"/imge/policy/OurMission.svg",
+        titleEn:"Our Mission",
+        titleAr:"الرسالة",
+        descriptionEn:"Enjoy a refined dark-gold theme with rich posters",
+        descriptionAr:"استمتع بواجهة أنيقة بتصميم داكن مع لمسات ذهبية وبوسترات غنية.",
+    },
+    {
+        img:"/imge/policy/companyInfo.svg",
+        titleEn:"Company Info",
+        titleAr:"عن الشركة",
+        descriptionEn:'Enjoy a refined dark-gold theme with rich posters',
+        descriptionAr:"استمتع بواجهة أنيقة بتصميم داكن مع لمسات ذهبية وبوسترات غنية."
+    },
+    {
+        img:"/imge/policy/GlobalCompliance.svg",
+        titleEn:"Global Compliance",
+        titleAr:"الالتزام العالمي",
+        descriptionEn:"Enjoy a refined dark-gold theme with rich posters",
+        descriptionAr:"استمتع بواجهة أنيقة بتصميم داكن مع لمسات ذهبية وبوسترات غنية.",
+    }
+]
+
+

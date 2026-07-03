@@ -42,7 +42,7 @@ export default function PrivcyComponnt({
                 </p>
                 <button
                   className={` md:w-[135px] w-[110px] md:h-[45px] h-[40px] border-[1px] border-[#FCD570] tracking-[-0.25px] text-[#000000] font-[600] md:mt-[-5px] mt-[10px] md:text-[16px] text-[15px] ${local === "ar" ? " font-cairo md:font-[700] font-[500]" : "font-inter "} flex justify-center items-center bg-primary rounded-[6px] `}
-                  onClick={() => router.push("/Legal&Policy/privacyPolicy")}
+                  onClick={() => router.push(item.navigate)}
                 >
                   {local === "en" ? "Read Policy" : "قراءة السياسة"}
                 </button>

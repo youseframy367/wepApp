@@ -9,11 +9,10 @@ export const notes = {
   ],
 
   notesEn: [
-    "No refunds, reversals, credits, or chargebacks after activation (except where required by law).",
-    "Internal wallet credits are final and irreversible.",
-    "Payments must go through approved gateways (Stripe, Paymob).",
-    "Any payment bypass or dispute may result in permanent suspension.",
-    "Resellers are responsible for account, device, and MAC address security.",
+    "Egyptian Personal Data Protection Law No. 151 of 2020",
+    "UK GDPR (General Data Protection Regulation)",
+    "CCPA (California Consumer Privacy Act) – for users in California, USA",
+    "Google Play User Data Policy & Apple App Store Guidelines",
   ],
 };
 
@@ -481,7 +480,7 @@ The application does not modify, delete, or upload any files, and no additional 
   img: "/imge/policy/fileConcat.svg",
 
   titleAr: "17. ملفات تعريف الارتباط",
-  titleEn: "17. Cookies",
+  titleEn: "17. Consent & Cookies. ",
 
   descriptionAr:
     "يجب على المستخدمين تقديم موافقة لاستخدام ملفات تعريف الارتباط الخاصة بالتحليلات أو الأغراض الإعلانية.",
@@ -508,7 +507,7 @@ The application does not modify, delete, or upload any files, and no additional 
   img: "/imge/policy/segalNezam.svg",
 
   titleAr: "18. سجلات النظام",
-  titleEn: "18. System Logs",
+  titleEn: "18. Log Files",
 
   descriptionAr: "قد تتضمن السجلات القياسية ما يلي:",
   descriptionEn: "Standard system logs may include:",
@@ -540,7 +539,7 @@ The application does not modify, delete, or upload any files, and no additional 
   img: "/imge/policy/changeSbichial.svg",
 
   titleAr: "19. تغييرات سياسة الخصوصية",
-  titleEn: "19. Changes to This Privacy Policy",
+  titleEn: "19. Changes Privacy Policy",
 
   descriptionAr:
     "قد نقوم بتحديث هذه السياسة في أي وقت. سيتم الإعلان عن التغييرات المهمة داخل التطبيق أو عبر موقعنا الرسمي.",

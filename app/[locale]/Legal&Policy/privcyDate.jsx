@@ -1,4 +1,5 @@
-
+import { useLocation } from "react-router-dom"
+//const local=useLocation()
 export const DeteGoToBage =[
     {
         img:"/imge/agreement/customer/privacyPolicy.svg",
@@ -8,8 +9,8 @@ export const DeteGoToBage =[
             "Enjoy a refined dark-gold theme with rich posters, smooth transitions, and layouts.",
         descriptionAr:
            ' استمتع بواجهة أنيقة بتصميم داكن مع لمسات ذهبية، وبوسترات غنية، وانتقالات سلسة، وتخطيطات مصممة بعناية.',
-        navigate:""
-    },
+        navigate: `/Legal&Policy/privacyPolicy`
+        },
     {
         img:"/imge/agreement/customer/trems.svg",
         titleEn:"Terms & Conditions",
@@ -18,7 +19,7 @@ export const DeteGoToBage =[
             "Enjoy a refined dark-gold theme with rich posters, smooth transitions, and layouts.",
         descriptionAr:
            " استمتع بواجهة أنيقة بتصميم داكن مع لمسات ذهبية، وبوسترات غنية، وانتقالات سلسة، وتخطيطات مصممة بعناية.",
-        navigate:""
+        navigate:"/Legal&Policy/TermsAndConditions"
 
     },
     {

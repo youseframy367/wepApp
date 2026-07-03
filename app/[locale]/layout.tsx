@@ -8,6 +8,7 @@ import { Cairo } from "next/font/google";
 import AosProvider from "./componnt/AosProvider";
 import Navbar from "./parts/Header";
 import Footer from "./parts/Fooer";
+import LoadingScreen from "./parts/loding";
 import { cookies } from "next/headers";
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -38,13 +39,11 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
 
-
-
   const cookieStore = await cookies();
   const step = cookieStore.get("agreementStep")?.value;
 
-const hideLayout =
-  !step || step === "reseller";  return (
+  const hideLayout = !step || step === "reseller";
+  return (
     <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
       <body
         className={` text-[#fff] ${locale === "ar" ? "font-cairo" : ""}   ${inter.variable} ${montserrat.variable} ${cairo.variable}`}
@@ -52,7 +51,7 @@ const hideLayout =
         <NextIntlClientProvider>
           <AosProvider>
             {!hideLayout && <Navbar />}
-            {children}
+            <main className={!hideLayout ? "mt-[100px]" : ""}>{children || <LoadingScreen/>}</main>
             {!hideLayout && <Footer />}
           </AosProvider>
         </NextIntlClientProvider>

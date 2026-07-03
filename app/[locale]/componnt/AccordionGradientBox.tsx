@@ -1,7 +1,6 @@
 "use client";
 
 import { useLayoutEffect, useRef, useState, ReactNode } from "react";
-import { plus, minus } from "../../assets/images";
 import GradientBorderBox from "./GradiantBox";
 import { useLocale } from "next-intl";
 

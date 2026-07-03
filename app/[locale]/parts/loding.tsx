@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect, useState } from "react";
 import { navBg } from "../../assets/images";
 import mainBgUrl from "../../assets/images/constants/mainBg.webp";
@@ -46,7 +48,7 @@ export default function LoadingScreen() {
 
   return (
     <div
-      className={`fixed inset-0 z-9999 flex items-center justify-center bg-cover transition-opacity duration-500 ${
+      className={`fixed inset-0 z-9999999 flex items-center justify-center bg-cover transition-opacity duration-500 ${
         hiding ? "opacity-0 pointer-events-none" : "opacity-100"
       }`}
       style={{ backgroundImage: `url(${navBg})` }}

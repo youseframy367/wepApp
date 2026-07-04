@@ -24,7 +24,7 @@ export default function TermsAndConditions() {
 By downloading, accessing, or using the App, you agree to be bound by these Terms. If you do not agree, you must not use the App."
         pragrafAr="مرحبًا بك في Ex Pro، وهو تطبيق مشغل وسائط مملوك ومدار بواسطة شركة Exclusive Movies Ltd (“الشركة”، “نحن”، “لنا”). تحكم هذه الشروط والأحكام (“الشروط”) وصولك إلى تطبيق Ex Pro (“التطبيق”) واستخدامك له من خلال تنزيل أو الوصول إلى التطبيق أو استخدامه، فإنك توافق على الالتزام بهذه الشروط. إذا كنت لا توافق، يجب عليك عدم استخدام التطبيق."
       />
-      <div className="w-[90%] mx-auto relative  mt-[10px]">
+      <div className="w-[90%] mx-auto relative  mt-[30px]">
         <img
           src="/imge/effectTwo.svg"
           className="absolute md:top-[30%] top-[30%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"

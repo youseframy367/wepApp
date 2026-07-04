@@ -30,7 +30,7 @@ export const DeteGoToBage =[
             "Enjoy a refined dark-gold theme with rich posters, smooth transitions, and layouts.",
         descriptionAr:
            " استمتع بواجهة أنيقة بتصميم داكن مع لمسات ذهبية، وبوسترات غنية، وانتقالات سلسة، وتخطيطات مصممة بعناية.",
-        navigate:""
+        navigate:"/Legal&Policy/RefundPolicy"
 
     },
     {

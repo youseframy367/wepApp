@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { Fragment } from "react";
 import Image from "next/image";
 import { useLocale } from "next-intl";
-import Container from "../componnt/contaner";
+import Container from "../componnt/Contaner";
 
 export default function Footer() {
   const pathname = usePathname();
@@ -140,79 +140,79 @@ export default function Footer() {
               ? "© 2026 Exclusive Movies LTD. All Rights Reserved"
               : "© 2026 شركة Exclusive Movies LTD. جميع الحقوق محفوظة"}
           </p>
-       <div className="flex items-center justify-center gap-2.5 sm:flex-nowrap flex-wrap">
-  {[
-    {
-      titleEn: "Home",
-      titleAr: "الرئيسية",
-      link: "/",
-    },
-    {
-      titleEn: "About Us",
-      titleAr: "لوحة التحكم",
-      link: "/about-us",
-    },
-    {
-      titleEn: "Refund Policy",
-      titleAr: "التحميل والمشاهدة",
-      link: "/refund-policy",
-    },
-    {
-      titleEn: "Terms of Service",
-      titleAr: "القانون والسياسات",
-      link: "/terms-of-service",
-    },
-    {
-      titleEn: "Playlist Management",
-      titleAr: "إدارة قائمة التشغيل",
-      link: "/playlist-management",
-    },
-    {
-      titleEn: "FAQ",
-      titleAr: "الأسئلة الشائعة",
-      link: "/faq",
-    },
-  ].map(({ titleEn, titleAr, link }, index, arr) => (
-    <Fragment key={index}>
-      <div
-        className={`${
-          index === 4
-            ? "w-auto min-[425px]:w-full sm:w-auto justify-center"
-            : ""
-        } flex items-center space-x-2.5`}
-      >
-        <Link
-          href={link}
-          onClick={() => handleNav(link)}
-          className={`${local==="en"?"font-inter":"font-cairo"} 3xl:text-2xl! min-[425px]:text-sm text-[13px] tracking-[-0.25px]
+          <div className="flex items-center justify-center gap-2.5 sm:flex-nowrap flex-wrap">
+            {[
+              {
+                titleEn: "Home",
+                titleAr: "الرئيسية",
+                link: "/",
+              },
+              {
+                titleEn: "About Us",
+                titleAr: "لوحة التحكم",
+                link: "/about-us",
+              },
+              {
+                titleEn: "Refund Policy",
+                titleAr: "التحميل والمشاهدة",
+                link: "/refund-policy",
+              },
+              {
+                titleEn: "Terms of Service",
+                titleAr: "القانون والسياسات",
+                link: "/terms-of-service",
+              },
+              {
+                titleEn: "Playlist Management",
+                titleAr: "إدارة قائمة التشغيل",
+                link: "/playlist-management",
+              },
+              {
+                titleEn: "FAQ",
+                titleAr: "الأسئلة الشائعة",
+                link: "/faq",
+              },
+            ].map(({ titleEn, titleAr, link }, index, arr) => (
+              <Fragment key={index}>
+                <div
+                  className={`${
+                    index === 4
+                      ? "w-auto min-[425px]:w-full sm:w-auto justify-center"
+                      : ""
+                  } flex items-center space-x-2.5`}
+                >
+                  <Link
+                    href={link}
+                    onClick={() => handleNav(link)}
+                    className={`${local === "en" ? "font-inter" : "font-cairo"} 3xl:text-2xl! min-[425px]:text-sm text-[13px] tracking-[-0.25px]
             ${
               pathname === link
                 ? "text-primary-animated font-bold"
                 : "text-primary font-normal"
             }`}
-        >
-          {local === "ar" ? titleAr : titleEn}
-        </Link>
+                  >
+                    {local === "ar" ? titleAr : titleEn}
+                  </Link>
 
-        {index < arr.length - 1 && (
-          <div
-            className={`-separator h-6 opacity-70 ${
-              index === 2
-                ? "max-[425px]:hidden"
-                : index === 3
-                ? "flex min-[425px]:hidden sm:flex"
-                : ""
-            }`}
-          />
-        )}
-      </div>
+                  {index < arr.length - 1 && (
+                    <div
+                      className={`-separator h-6 opacity-70 ${
+                        index === 2
+                          ? "max-[425px]:hidden"
+                          : index === 3
+                            ? "flex min-[425px]:hidden sm:flex"
+                            : ""
+                      }`}
+                    />
+                  )}
+                </div>
 
-      {index === 2 && (
-        <div className="min-[425px]:hidden w-full h-0" />
-      )}
-    </Fragment>
-  ))}
-</div>
+                {index === 2 && (
+                  <div className="min-[425px]:hidden w-full h-0" />
+                )}
+              </Fragment>
+            ))}
+          </div>
         </div>
       </Container>
     </section>

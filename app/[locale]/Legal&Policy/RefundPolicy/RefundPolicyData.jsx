@@ -78,59 +78,59 @@ export const PlatformSpecificRefundNotes=[
     {
         img:"/imge/policy/refundPolicy/bag.svg",
         textEn:"For purchases made through Google Play or the Apple App Store, refunds must be requested directly through those platforms, in accordance with their respective policies.",
-        textAr:""
+        textAr:"بالنسبة للمشتريات التي تتم عبر Google Play أو Apple App Store، يجب تقديم طلبات الاسترداد مباشرة من خلال تلك المنصات، وفقًا لسياساتها الخاصة."
     },
     {
         img:"/imge/policy/refundPolicy/setting.svg",
         textEn:"This Refund Policy applies primarily to direct purchases made via our website or authorized channels (e.g., using Stripe or Paymob).",
-        textAr:""
+        textAr:"تنطبق سياسة الاسترداد هذه بشكل أساسي على المشتريات المباشرة التي تتم عبر موقعنا الإلكتروني أو القنوات المعتمدة (مثل Stripe أو Paymob)."
     }
 ]
 export const LegalGroundsForNoRefundSiven=[
     {
         img:"/imge/policy/refundPolicy/bag.svg",
         textEn:"This policy and all related transactions are legally binding. It is governed by and construed in accordance with the laws of England and Wales, Where personal data is processed in connection with a purchase or refund request.",
-        textAr:"",
+        textAr:"هذه السياسة وجميع المعاملات المرتبطة بها ملزمة قانونيًا. وتخضع وتُفسَّر وفقًا لقوانين إنجلترا وويلز. وفي حال معالجة البيانات الشخصية فيما يتعلق بعملية شراء أو طلب استرداد.",
     },
     {
         img:"/imge/policy/refundPolicy/adl.svg",
         textEn:"such processing shall comply with our Privacy Policy and applicable data protection laws, including the Egyptian Personal Data Protection Law No. 151 of 2020, EU GDPR, and UK GDPR.",
-        textAr:"",
+        textAr:"تتم هذه المعالجة وفقًا لسياسة الخصوصية الخاصة بنا والقوانين المعمول بها لحماية البيانات، بما في ذلك قانون حماية البيانات الشخصية المصري رقم 151 لسنة 2020، واللائحة العامة لحماية البيانات في الاتحاد الأوروبي (EU GDPR)، واللائحة العامة لحماية البيانات في المملكة المتحدة (UK GDPR).",
     },
     {
         img:"/imge/policy/refundPolicy/se.svg",
         textEn:"Any dispute arising from or related to this policy shall be subject to the exclusive jurisdiction of the courts of London, United Kingdom, to the fullest extent permitted by applicable law.",
-        textAr:""
+        textAr:"أي نزاع ينشأ عن هذه السياسة أو يتعلق بها يخضع للاختصاص القضائي الحصري لمحاكم لندن، المملكة المتحدة، إلى أقصى حد يسمح به القانون المعمول به."
     }
 ]
 export const ContactBeforePurchase =[
     {
         img:"/imge/policy/refundPolicy/serves.svg",
         textEn:"Our support team is available to answer any pre-purchase questions to ensure you fully understand the service. If you have any inquiries, please contact us at:",
-        textAr:""
+        textAr:"فريق الدعم لدينا متاح للإجابة على أي أسئلة قبل الشراء لضمان فهمك الكامل للخدمة. إذا كانت لديك أي استفسارات، يُرجى التواصل معنا عبر:"
     },
     {
         img:"/imge/policy/refundPolicy/contactUs.svg",
         titleEn:"Contact Us",
-        titleAr:"",
+        titleAr:"تواصل معنا",
         textEn:"For any inquires or request, email us at info@exclusivemoviess.com",
-        textAr:""
+        textAr:"لأي استفسارات أو طلبات، يُرجى مراسلتنا عبر البريد الإلكتروني : info@exclusivemoviess.com"
     },
     {
         img:"/imge/policy/refundPolicy/location.svg",
         titleEn:"Location",
-        titleAr:"",
+        titleAr:"الموقع",
         textEn:"Registered Address: 71–75 Shelton Street, Covent Garden, London, United Kingdom, WC2H 9JQ",
-        textAr:""
+        textAr:"71–75 شارع شيلتون، كوفنت غاردن، لندن، المملكة المتحدة، WC2H 9JQ"
     },
     {
         img:"/imge/policy/refundPolicy/mon.svg",
         textEn:"We encourage you to seek full clarification prior to purchase, as no exceptions, refunds, or modifications will be granted after payment and activation.",
-        textAr:"",
+        textAr:"نحن نشجعك على طلب توضيح كامل قبل الشراء، حيث لن يتم منح أي استثناءات أو استردادات أو تعديلات بعد إتمام الدفع وتفعيل الخدمة.",
     },
     {
         img:"/imge/policy/refundPolicy/worning.svg",
         textEn:"By purchasing, downloading, or using Ex Pro, you acknowledge that you have read, understood, and agreed to this Refund Policy in full.",
-        textAr:""
+        textAr:"من خلال الشراء أو تنزيل أو استخدام Ex Pro، فإنك تقر بأنك قد قرأت وفهمت ووافقت على سياسة الاسترداد هذه بالكامل."
     }
 ]

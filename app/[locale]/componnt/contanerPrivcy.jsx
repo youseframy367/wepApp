@@ -1,6 +1,6 @@
 "use client";
 
-import GradientBorderBox from "../componnt/GradiantBox";
+import GradientBorderBox from "./GradiantBox";
 import { useLocale } from "next-intl";
 import { useRouter } from "next/navigation";
 export default function PrivcyComponnt({

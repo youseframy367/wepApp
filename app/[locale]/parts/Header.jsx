@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
-import ContactIcon from "../componnt/contactIcon";
+import ContactIcon from "../componnt/ContactIcon";
 export default function Header() {
   const [activeIndex, setActiveIndex] = useState(0);
   const [open, setOpen] = useState(false);

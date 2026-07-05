@@ -1,14 +1,11 @@
 import GradientBorderBox from "../../componnt/GradiantBox";
 import { notes } from "./AgreementResellerData";
 import { useLocale } from "next-intl";
-import Container from "../../componnt/contaner";
-import { LegalTermsOfTheContract } from "./AgreementResellerData";
+import { LegalTermsOfTheContract, choicesAdd } from "./AgreementResellerData";
 import AccordionGradientBox from "../../componnt/AccordionGradientBox";
-import { choicesAdd } from "./AgreementResellerData";
-import CheckAgreemnt from "../../componnt/checkAgreement";
-import Worning from "../../componnt/wrning";
-import FirstPoint from "../../componnt/firstPoint";
-
+import CheckAgreemnt from "../../componnt/CheckAgreement";
+import Worning from "../../componnt/warning";
+import FirstPoint from "../../componnt/FirstPoint";
 
 export default function InfoOnBox() {
   const local = useLocale();
@@ -50,17 +47,19 @@ export default function InfoOnBox() {
           </span>
         </p>
       </GradientBorderBox>
-  
+
       <Worning
-      className="mt-[30px]"
-      textAr='بالضغط على "أوافق"، فإنك تقبل قانونيًا جميع الشروط الواردة أدناه حتى إذا لم تقم بقراءتها.'
-      textEn= ' By clicking "I Agree", you legally accept all terms below even if you do not read them. '/>
-      
-              <FirstPoint 
-              titleAr="1. اتفاقية مُلزمة قانونيًا"
-              titleEn="1. LEGALLY BINDING AGREEMENT"
-              pragrafAr='من خلال الوصول إلى لوحة البائع أو التسجيل فيها أو استخدامها ("المنصة")، فإنك تقر وتوافق على أن هذه الاتفاقية تُعد عقدًا مُلزمًا قانونيًا بينك ("البائع") وبين شركة Exclusive Movies LTD ("الشركة" أو "نحن"). إذا كنت لا توافق على جميع الشروط، يجب عليك التوقف فورًا عن أي وصول أو استخدام.'
-              pragrafEn="By accessing, registering, or using the Reseller Panel (“Platform”), you acknowledge and agree that this Agreement is a legally binding contract between you (“Reseller”) and Exclusive Movies LTD (“Company”, “we”, “our”, or “us”). If you do not agree to all terms, you must immediately discontinue all access and use."/>
+        className="mt-[30px]"
+        textAr='بالضغط على "أوافق"، فإنك تقبل قانونيًا جميع الشروط الواردة أدناه حتى إذا لم تقم بقراءتها.'
+        textEn=' By clicking "I Agree", you legally accept all terms below even if you do not read them. '
+      />
+
+      <FirstPoint
+        titleAr="1. اتفاقية مُلزمة قانونيًا"
+        titleEn="1. LEGALLY BINDING AGREEMENT"
+        pragrafAr='من خلال الوصول إلى لوحة البائع أو التسجيل فيها أو استخدامها ("المنصة")، فإنك تقر وتوافق على أن هذه الاتفاقية تُعد عقدًا مُلزمًا قانونيًا بينك ("البائع") وبين شركة Exclusive Movies LTD ("الشركة" أو "نحن"). إذا كنت لا توافق على جميع الشروط، يجب عليك التوقف فورًا عن أي وصول أو استخدام.'
+        pragrafEn="By accessing, registering, or using the Reseller Panel (“Platform”), you acknowledge and agree that this Agreement is a legally binding contract between you (“Reseller”) and Exclusive Movies LTD (“Company”, “we”, “our”, or “us”). If you do not agree to all terms, you must immediately discontinue all access and use."
+      />
       <div className="w-[90%] mx-auto relative md:-mt-[100px] -mt-[50px]">
         <img
           src="/imge/effectTwo.svg"
@@ -139,9 +138,18 @@ export default function InfoOnBox() {
               key={index}
               className="flex md:gap-[10px] gap-[10px] md:h-[143px] h-auto p-[20px]"
             >
-              <img src={item.img} alt={item.titleAr} width="114px" className="md:w-[114px] w-[90px]" data-aos="fade-up"/>
+              <img
+                src={item.img}
+                alt={item.titleAr}
+                width="114px"
+                className="md:w-[114px] w-[90px]"
+                data-aos="fade-up"
+              />
 
-              <div className="flex flex-col md:gap-[15px] gap-[5px]"  data-aos="fade-up">
+              <div
+                className="flex flex-col md:gap-[15px] gap-[5px]"
+                data-aos="fade-up"
+              >
                 <h2
                   className={` text-primary font-[500] md:text-[30px] text-[20px] md:leading-[40px] leading-[25px] ${local === "ar" ? "font-cairo  " : "font-montserrat"}`}
                 >

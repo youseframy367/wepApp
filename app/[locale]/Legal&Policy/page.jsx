@@ -1,12 +1,10 @@
-import BanerCommponnt from "../componnt/baner";
-import PrivcyComponnt from "../componnt/contanerPrivcy";
-import { DeteGoToBage } from "./privcyDate";
+import BanerCommponnt from "../componnt/Baner";
+import PrivcyComponnt from "../componnt/ContanerPrivcy";
 import GradientBorderBox from "../componnt/GradiantBox";
-import { aboutUs } from "./privcyDate";
+import { aboutUs , DeteGoToBage } from "./PrivcyData";
 import { useLocale } from "next-intl";
 export default function Bolicy() {
-  const DataPrivcy = DeteGoToBage;
-  const DataAboutUs = aboutUs;
+ 
   const local = useLocale();
   return (
     <div>
@@ -21,7 +19,7 @@ export default function Bolicy() {
         pragrafEn="Issued By: Exclusive LTD.  I  Website: exclusivemovies.com"
       ></BanerCommponnt>
       <PrivcyComponnt
-        data={DataPrivcy}
+        data={DeteGoToBage}
         className="md:mt-[90px] mt-[140px]"
         classNameP="md:h-[70px] h-[80px]"
         positionEffect="90%"
@@ -48,7 +46,7 @@ export default function Bolicy() {
         </p>
       </div>
       <div className="flex md:flex-row flex-col md:gap-[0px] gap-[20px] w-[90%] mx-auto md:justify-between">
-        {DataAboutUs.map((item, index) => (
+        {aboutUs.map((item, index) => (
           <GradientBorderBox
             key={index}
             className="flex gap-[15px] p-[20px] md:w-[31%] w-[100%] h-[169px]"

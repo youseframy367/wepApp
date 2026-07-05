@@ -23,10 +23,10 @@ export const PrivacyPolicyData = [
   titleAr: "2. مشغل وسائط فقط",
   titleEn: "2. Media Player Only",
 
-  descriptionAr:
+  DescriptionAr:
     "Ex Pro هو مجرد مشغل وسائط بشكل صارم. لا يتضمن أي قنوات مدمجة أو قوائم تشغيل أو أفلام أو مسلسلات أو أي محتوى محمي بحقوق الملكية. المستخدمون مسؤولون بالكامل عن إضافة مصادر الوسائط الخاصة بهم.",
 
-  descriptionEn:
+  DescriptionEn:
     "Ex Pro is strictly a media player. It does not include any built-in channels, playlists, movies, TV shows, or copyrighted content. Users are solely responsible for adding their own media sources.",
 
   ulAr: [
@@ -59,11 +59,11 @@ export const PrivacyPolicyData = [
   titleAr: "3. أمان بيانات المنصة",
   titleEn: "3. Platform Data Security",
 
-  descriptionAr: `للامتثال لسياسات المنصات، نقدم شفافية كاملة بشأن البيانات التي يتم جمعها بواسطة Ex Pro.
+  DescriptionAr: `للامتثال لسياسات المنصات، نقدم شفافية كاملة بشأن البيانات التي يتم جمعها بواسطة Ex Pro.
 
 نحن لا نشارك بيانات المستخدم مع أي طرف ثالث باستثناء مزودي الخدمات المعتمدين مثل خدمات التحليلات ومعالجي الدفع، وذلك فقط ضمن اتفاقيات سرية صارمة.`,
 
-  descriptionEn: `To comply with platform policies, Ex Pro provides complete transparency regarding the data it collects.
+ DescriptionEn: `To comply with platform policies, Ex Pro provides complete transparency regarding the data it collects.
 
 We do not share user data with any third party except trusted service providers, such as analytics providers and payment processors, and only under strict confidentiality agreements.`,
 
@@ -112,11 +112,11 @@ We do not share user data with any third party except trusted service providers,
     titleAr: "4. الأذونات المستخدمة",
     titleEn: "4. Permissions Used",
 
-    descriptionAr: `يتطلب تطبيق Ex Pro فقط الحد الأدنى من الأذونات اللازمة للعمل.
+    DescriptionAr: `يتطلب تطبيق Ex Pro فقط الحد الأدنى من الأذونات اللازمة للعمل.
 
 ولا يقوم التطبيق بتعديل أو حذف أو رفع أي ملفات، ولا يتطلب أي أذونات أخرى للوظائف الأساسية.`,
 
-    descriptionEn: `Ex Pro only requests the minimum permissions required for its functionality.
+    DescriptionEn: `Ex Pro only requests the minimum permissions required for its functionality.
 
 The application does not modify, delete, or upload any files, and no additional permissions are required for its core features.`,
 
@@ -141,10 +141,10 @@ The application does not modify, delete, or upload any files, and no additional 
   titleAr: "5. سياسة المحتوى الذي ينشئه المستخدم (UGC)",
   titleEn: "5. User-Generated Content (UGC) Policy",
 
-  descriptionAr:
+  DescriptionAr:
     "يسمح Ex Pro للمستخدمين بإضافة مصادر وسائط خارجية. نحن لا نستضيف أو نتحكم أو نوزع أو نوصي أو نفهرس أي محتوى تابع لأطراف ثالثة، كما أن التطبيق لا يروّج لأي محتوى مقرصن أو غير مرخّص.",
 
-  descriptionEn:
+  DescriptionEn:
     "Ex Pro allows users to add external media sources. We do not host, control, distribute, recommend, or index any third-party content, and the application does not promote pirated or unauthorized content.",
 
   ulAr: [
@@ -170,9 +170,9 @@ The application does not modify, delete, or upload any files, and no additional 
   titleAr: "6. المعلومات التي نجمعها",
   titleEn: "6. Information We Collect",
 
-  descriptionAr: `يجمع تطبيق Ex Pro بعض المعلومات اللازمة لتقديم الخدمات وتحسين تجربة المستخدم.`,
+  DescriptionAr: `يجمع تطبيق Ex Pro بعض المعلومات اللازمة لتقديم الخدمات وتحسين تجربة المستخدم.`,
 
-  descriptionEn: `Ex Pro collects certain information required to provide its services and improve the user experience.`,
+  DescriptionEn: `Ex Pro collects certain information required to provide its services and improve the user experience.`,
 
   ulAr: [
     {
@@ -225,8 +225,8 @@ The application does not modify, delete, or upload any files, and no additional 
   titleAr: "7. كيفية استخدام المعلومات",
   titleEn: "7. How We Use Information",
 
-  descriptionAr: "قد يتم استخدام معلوماتك من أجل:",
-  descriptionEn: "Your information may be used for:",
+  DescriptionAr: "قد يتم استخدام معلوماتك من أجل:",
+  DescriptionEn: "Your information may be used for:",
 
   ulAr: [
     {
@@ -257,8 +257,8 @@ The application does not modify, delete, or upload any files, and no additional 
   titleAr: "8. الأساس القانوني للمعالجة",
   titleEn: "8. Legal Basis for Processing",
 
-  descriptionAr: "نقوم بمعالجة بياناتك بناءً على:",
-  descriptionEn: "We process your data based on:",
+  DescriptionAr: "نقوم بمعالجة بياناتك بناءً على:",
+  DescriptionEn: "We process your data based on:",
 
   ulAr: [
     {
@@ -285,8 +285,8 @@ The application does not modify, delete, or upload any files, and no additional 
   titleAr: "9. مشاركة معلوماتك",
   titleEn: "9. Sharing Your Information",
 
-  descriptionAr: "قد تتم مشاركة بياناتك فقط مع:",
-  descriptionEn: "Your data may only be shared with:",
+  DescriptionAr: "قد تتم مشاركة بياناتك فقط مع:",
+  DescriptionEn: "Your data may only be shared with:",
 
   ulAr: [
     {
@@ -315,8 +315,8 @@ The application does not modify, delete, or upload any files, and no additional 
   titleAr: "10. نقل البيانات دوليًا",
   titleEn: "10. International Data Transfers",
 
-  descriptionAr: "قد يتم تخزين بياناتك أو معالجتها خارج بلدك. نحن نطبق الإجراءات التالية:",
-  descriptionEn: "Your data may be stored or processed outside your country. We apply the following safeguards:",
+  DescriptionAr: "قد يتم تخزين بياناتك أو معالجتها خارج بلدك. نحن نطبق الإجراءات التالية:",
+  DescriptionEn: "Your data may be stored or processed outside your country. We apply the following safeguards:",
 
   ulAr: [
     {
@@ -341,8 +341,8 @@ The application does not modify, delete, or upload any files, and no additional 
   titleAr: "11. الاحتفاظ بالبيانات",
   titleEn: "11. Data Retention",
 
-  descriptionAr: "نحتفظ ببياناتك فقط للمدة اللازمة من أجل:",
-  descriptionEn: "We retain your data only for as long as necessary to:",
+  DescriptionAr: "نحتفظ ببياناتك فقط للمدة اللازمة من أجل:",
+  DescriptionEn: "We retain your data only for as long as necessary to:",
 
   ulAr: [
     {
@@ -369,8 +369,8 @@ The application does not modify, delete, or upload any files, and no additional 
   titleAr: "12. حقوقك المتعلقة بالبيانات",
   titleEn: "12. Your Data Rights",
 
-  descriptionAr: "اعتمادًا على الولاية القضائية، يمكنك:",
-  descriptionEn: "Depending on your jurisdiction, you may have the right to:",
+  DescriptionAr: "اعتمادًا على الولاية القضائية، يمكنك:",
+  DescriptionEn: "Depending on your jurisdiction, you may have the right to:",
 
   ulAr: [
     {
@@ -415,8 +415,8 @@ The application does not modify, delete, or upload any files, and no additional 
   titleAr: "13. أمان البيانات",
   titleEn: "13. Data Security",
 
-  descriptionAr: "نستخدم إجراءات قياسية في الصناعة تشمل:",
-  descriptionEn: "We implement industry-standard security measures, including:",
+  DescriptionAr: "نستخدم إجراءات قياسية في الصناعة تشمل:",
+  DescriptionEn: "We implement industry-standard security measures, including:",
 
   ulAr: [
     {
@@ -446,10 +446,10 @@ The application does not modify, delete, or upload any files, and no additional 
   titleAr: "14. خصوصية الأطفال",
   titleEn: "14. Children's Privacy",
 
-  descriptionAr:
+  DescriptionAr:
     "Ex Pro غير مخصص للأشخاص الذين تقل أعمارهم عن 18 عامًا. نحن لا نقوم عن قصد بجمع بيانات من القُصّر.",
 
-  descriptionEn:
+  DescriptionEn:
     "Ex Pro is not intended for individuals under the age of 18. We do not knowingly collect personal data from minors.",
 },
 {
@@ -458,10 +458,10 @@ The application does not modify, delete, or upload any files, and no additional 
   titleAr: "15. الروابط الخارجية",
   titleEn: "15. External Links",
 
-  descriptionAr:
+ DescriptionAr:
     "الروابط الخارجية أو الإعلانات تقع خارج نطاق سيطرتنا. نحن لسنا مسؤولين عن أمانها أو ممارسات الخصوصية الخاصة بها.",
 
-  descriptionEn:
+ DescriptionEn:
     "External links or advertisements are outside our control. We are not responsible for their security or privacy practices.",
 },
 {
@@ -470,10 +470,10 @@ The application does not modify, delete, or upload any files, and no additional 
   titleAr: "16. إعلانات Google",
   titleEn: "16. Google Advertising",
 
-  descriptionAr:
+  DescriptionAr:
     "قد تستخدم Google ومورّدو الطرف الثالث ملفات تعريف الارتباط (Cookies) لتخصيص الإعلانات. يمكن للمستخدمين إلغاء الاشتراك عبر: https://policies.google.com/technologies/ads\n\nلا تستطيع شركة Exclusive Movies Ltd الوصول إلى بيانات التتبع الخاصة بأطراف ثالثة أو التحكم فيها.",
 
-  descriptionEn:
+  DescriptionEn:
     "Google and its third-party vendors may use cookies to personalize advertisements. Users can opt out by visiting: https://policies.google.com/technologies/ads\n\nExclusive Movies Ltd does not have access to or control over third-party tracking data.",
 },
 {
@@ -482,10 +482,10 @@ The application does not modify, delete, or upload any files, and no additional 
   titleAr: "17. ملفات تعريف الارتباط",
   titleEn: "17. Consent & Cookies. ",
 
-  descriptionAr:
+  DescriptionAr:
     "يجب على المستخدمين تقديم موافقة لاستخدام ملفات تعريف الارتباط الخاصة بالتحليلات أو الأغراض الإعلانية.",
 
-  descriptionEn:
+  DescriptionEn:
     "Users must provide consent before analytics or advertising cookies are used.",
 
   ulAr: [
@@ -509,8 +509,8 @@ The application does not modify, delete, or upload any files, and no additional 
   titleAr: "18. سجلات النظام",
   titleEn: "18. Log Files",
 
-  descriptionAr: "قد تتضمن السجلات القياسية ما يلي:",
-  descriptionEn: "Standard system logs may include:",
+  DescriptionAr: "قد تتضمن السجلات القياسية ما يلي:",
+  DescriptionEn: "Standard system logs may include:",
 
   ulAr: [
     {
@@ -541,10 +541,10 @@ The application does not modify, delete, or upload any files, and no additional 
   titleAr: "19. تغييرات سياسة الخصوصية",
   titleEn: "19. Changes Privacy Policy",
 
-  descriptionAr:
+ DescriptionAr:
     "قد نقوم بتحديث هذه السياسة في أي وقت. سيتم الإعلان عن التغييرات المهمة داخل التطبيق أو عبر موقعنا الرسمي.",
 
-  descriptionEn:
+  DescriptionEn:
     "We may update this Privacy Policy at any time. Any significant changes will be announced within the application or on our official website.",
 },
 ]

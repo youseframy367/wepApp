@@ -1,4 +1,4 @@
-import Container from "../componnt/contaner";
+import Container from "./Contaner";
 import { useLocale } from "next-intl";
 export default function BanerCommponnt({
   imgUrl = "",

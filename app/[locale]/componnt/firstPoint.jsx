@@ -1,5 +1,5 @@
 import { useLocale } from "next-intl";
-import Container from "./contaner";
+import Container from "./Contaner";
 
 export default function FirstPoint({
   urlImg = "/imge/agreement/reseller/i.svg",
@@ -7,13 +7,16 @@ export default function FirstPoint({
   titleEn = "",
   pragrafAr = "",
   pragrafEn = "",
-  withContainer = true, 
-  className=""
+  withContainer = true,
+  className = "",
 }) {
   const local = useLocale();
 
   const content = (
-    <div data-aos="fade-up" className={`relative ${withContainer == false ? "w-[90%] mx-auto":""} ${className} `}>
+    <div
+      data-aos="fade-up"
+      className={`relative ${withContainer == false ? "w-[90%] mx-auto" : ""} ${className} `}
+    >
       <div className="flex gap-[10px] text-[#fff] items-center">
         <img src={urlImg} alt="i" />
         <p

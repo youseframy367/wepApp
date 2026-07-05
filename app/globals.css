@@ -24,6 +24,7 @@
 body {
   background-image: url("./assets/images/constants/mainBg.webp");
   background-size: 100%;
+  overflow-x: hidden;
 }
 [dir="rtl"] {
   font-family: var(--font-cairo);

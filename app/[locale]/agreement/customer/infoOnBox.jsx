@@ -1,25 +1,23 @@
 "use client";
 import { useLocale } from "next-intl";
-import Container from "../../componnt/contaner";
 import GradientBorderBox from "../../componnt/GradiantBox";
 import DateAgreementCustomer from "./AgreementCustomerDate";
 import AccordionGradientBox from "../../componnt/AccordionGradientBox";
 import { DeteGoToBage } from "./AgreementCustomerDate";
-import ImageCheckbox from "../../componnt/GradiantBox";
-import { useState } from "react";
-import CheckAgreemnt from "../../componnt/checkAgreement"
-import Worning from "../../componnt/wrning"
-import PrivcyComponnt from "../../componnt/contanerPrivcy";
+
+import CheckAgreemnt from "../../componnt/CheckAgreement";
+import Worning from "../../componnt/warning";
+import PrivcyComponnt from "../../componnt/ContanerPrivcy";
+
 export default function InfoOnBox() {
   const local = useLocale();
-  const data =  DeteGoToBage;
+  const data = DeteGoToBage;
 
   return (
     <div className="md:h-auto md:min-h-[200px] ">
-    
-      <Worning 
-      textEn=' By clicking "I Agree", you legally accept all terms below even if you do not read them. '
-      textAr='بالضغط على "أوافق"، فإنك تقبل قانونيًا جميع الشروط الواردة أدناه حتى إذا لم تقم بقراءتها.'
+      <Worning
+        textEn=' By clicking "I Agree", you legally accept all terms below even if you do not read them. '
+        textAr='بالضغط على "أوافق"، فإنك تقبل قانونيًا جميع الشروط الواردة أدناه حتى إذا لم تقم بقراءتها.'
       />
 
       <div className="w-[90%] mx-auto relative mt-[40px]">
@@ -71,10 +69,14 @@ export default function InfoOnBox() {
 
       <GradientBorderBox className="w-[90%] my-[40px] mx-[auto] md:h-[143px] h-[155px] flex gap-[24px] items-center px-[20px]">
         <div
-        data-aos="fade-up"
+          data-aos="fade-up"
           className={`${local === "ar" ? "font-cairo " : ""} flex md:gap-[20px] gap-[10px]`}
         >
-          <img src="/imge/agreement/customer/about.svg" alt="aboutIcon" className="w-auto md:w-[120px]"></img>
+          <img
+            src="/imge/agreement/customer/about.svg"
+            alt="aboutIcon"
+            className="w-auto md:w-[120px]"
+          ></img>
           <div className=" flex flex-col md:gap-[10px] gap-[5px]">
             <h2
               className={`${local === "ar" ? "font-cairo md:text-[30px] md:font-[500] text-[20px] font-[400]" : "md:font-[500] text-[20px] mb-[-5px]"} text-start text-primary font-medium md:text-[26px] min-[425px]:text-xl text-base`}
@@ -92,13 +94,9 @@ export default function InfoOnBox() {
         </div>
       </GradientBorderBox>
 
- 
+      <PrivcyComponnt data={data} classNameP="md:h-[110px]" />
 
-
-<PrivcyComponnt data={data} classNameP="md:h-[110px]"/>
-    
-
-      <CheckAgreemnt  agreementType="customer"  />
+      <CheckAgreemnt agreementType="customer" />
     </div>
   );
 }

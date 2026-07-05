@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { setAgreementStep } from "../actions";
 import { useState } from "react";
 import GradientBorderBox from "./GradiantBox";
-import ImageCheckbox from "./checkBox";
+import ImageCheckbox from "./CheckBox";
 import { useLocale } from "next-intl";
 
 type Props = {

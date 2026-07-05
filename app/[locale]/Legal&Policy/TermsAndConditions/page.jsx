@@ -1,11 +1,9 @@
-import BanerCommponnt from "../../componnt/baner";
-import FirstPoint from "../../componnt/firstPoint";
-import AccordionGradientBox from "../../componnt/AccordionGradientBox";
+import BanerCommponnt from "../../componnt/Baner";
+import FirstPoint from "../../componnt/FirstPoint";
 import { TremsData } from "./TermsAndConditionsData";
-import { useLocale } from "next-intl";
+import MapOfAccorditionGradientBox from "../../componnt/MapOfAccordionGradientBox";
+
 export default function TermsAndConditions() {
-  const tremsAndCondtion = TremsData;
-  const local = useLocale();
   return (
     <div>
       <BanerCommponnt
@@ -24,51 +22,12 @@ export default function TermsAndConditions() {
 By downloading, accessing, or using the App, you agree to be bound by these Terms. If you do not agree, you must not use the App."
         pragrafAr="مرحبًا بك في Ex Pro، وهو تطبيق مشغل وسائط مملوك ومدار بواسطة شركة Exclusive Movies Ltd (“الشركة”، “نحن”، “لنا”). تحكم هذه الشروط والأحكام (“الشروط”) وصولك إلى تطبيق Ex Pro (“التطبيق”) واستخدامك له من خلال تنزيل أو الوصول إلى التطبيق أو استخدامه، فإنك توافق على الالتزام بهذه الشروط. إذا كنت لا توافق، يجب عليك عدم استخدام التطبيق."
       />
-      <div className="w-[90%] mx-auto relative  mt-[30px]">
-        <img
-          src="/imge/effectTwo.svg"
-          className="absolute md:top-[30%] top-[30%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"
-          alt="effect"
-        />
 
-        <img
-          src="/imge/effect.png"
-          className="absolute top-[50%] 
-                                md:hidden
-                                left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"
-          alt="effect"
-        />
-        <img
-          src="/imge/effectTwo.svg"
-          className="absolute 
-                                md:hidden 
-                                top-[67%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"
-          alt="effect"
-        />
-
-        <img
-          src="/imge/effectThree.svg"
-          className="absolute md:top-[90%] top-[90%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"
-          alt="effect"
-        />
-        <div className="grid grid-cols-1 gap-6 relative z-10">
-          {tremsAndCondtion.map((item, index) => (
-            <AccordionGradientBox
-              key={index}
-              icon={item.img}
-              title={local === "en" ? item.titleEn : item.titleAr}
-              paragraph={
-                <div>
-                  <p className="whitespace-pre-line">
-                    {local === "en" ? item.descriptionEn : item.descriptionAr}
-                  </p>
-                </div>
-              }
-              visibleLines={1}
-            />
-          ))}
-        </div>
-      </div>
+      <MapOfAccorditionGradientBox
+        parentClassName="mt-[30px]"
+        data={TremsData}
+        visibleLines={1}
+      />
     </div>
   );
 }

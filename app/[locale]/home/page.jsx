@@ -1,6 +1,6 @@
 
-import BlatformSupport from "./suportedBlatForm"
-import Baner from "./baner"
+import BlatformSupport from "./SuportedBlatForm"
+import Baner from "./Baner"
 import WhatIsExpro from "./WhatIsEXPRO"
 export default function HomeBage (){
     return(

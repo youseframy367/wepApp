@@ -7,5 +7,9 @@
     "dashboard": "Dashboard",
     "faq": "FAQ's",
     "contactUs": "Contact Us"
+  },
+  "agreementConfirmation": {
+    "checkbox": "I confirm that I have legal capacity and agree to all terms above.",
+    "button": "I Agree & Proceed"
   }
 }

@@ -1,0 +1,32 @@
+{
+  "managePlaylist": {
+    "title": "Manage Your Playlist",
+    "description": "Enter your Device ID and Device Key to activate your device.",
+
+    "form": {
+      "deviceId": {
+        "label": "Device ID",
+        "placeholder": "125 : 584 : 2584 125 : 584 : 2584"
+      },
+      "deviceKey": {
+        "label": "Device Key",
+        "placeholder": "125 : 584 : 2584 125 : 584 : 2584"
+      },
+      "captcha": {
+        "label": "Captcha",
+        "placeholder": "Enter the text shown"
+      }
+    },
+
+    "button": {
+      "login": "Login",
+      "loading": "Loading..."
+    },
+
+    "messages": {
+      "success": "Login successful",
+      "serverError": "Server Error",
+      "somethingWrong": "Something went wrong"
+    }
+  }
+}

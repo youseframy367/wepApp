@@ -1,0 +1,115 @@
+{
+  "termsAndConditions": {
+    "banner": {
+      "title": "Terms & Conditions",
+      "subtitle": "Effective Date: February 20, 2026",
+      "description": "Issued by: Exclusive LTD. | Website: exclusivemovies.com"
+    },
+    "firstPoint": {
+      "title": "1. Introduction",
+      "description": "Welcome to Ex Pro, a media player application owned and operated by Exclusive Movies Ltd (the “Company”, “we”, “us”, or “our”). These Terms & Conditions (“Terms”) govern your access to and use of the Ex Pro application (“App”). By downloading, accessing, or using the App, you agree to be bound by these Terms. If you do not agree, you must not use the App."
+    },
+
+    "license": {
+      "title": "2. License",
+      "description": "We grant you a limited, non-exclusive, non-transferable, revocable license to download and use the App for your personal, non-commercial use strictly in accordance with these Terms. You may not modify, copy, distribute, sell, sublicense, reverse engineer, or otherwise exploit any part of the App or its source code."
+    },
+
+    "disclaimer": {
+      "title": "3. Disclaimer of Content",
+      "description": "Ex Pro is strictly a media player and does not include any built-in channels, movies, series, or playlists. Users are solely responsible for adding their own legal media sources. Exclusive Movies Ltd and its developers do not host, store, or provide any audiovisual content, are not responsible for any content streamed, shared, or accessed by users through the App, and are not liable for any copyright infringement or unauthorized content added by users."
+    },
+
+    "user_obligations": {
+      "title": "4. User Obligations",
+      "description": "By using the App, you agree to:",
+      "list": [
+        "Not use the App for any unlawful or prohibited purpose.",
+        "Not infringe or violate any third-party intellectual property rights.",
+        "Not upload, share, or stream any illegal, pirated, or copyrighted content without proper authorization.",
+        "Comply with all applicable local, national, and international laws.",
+        "Ensure that any content you access or add through the App is obtained legally."
+      ]
+    },
+    "age_requirement": {
+      "title": "5. Age Requirement",
+      "description": "You must be at least 18 years old to use this Application. If you are under 18, you must have parental or guardian consent to provide any personal data or use premium features. By using the App, you confirm that you meet this age requirement."
+    },
+
+    "privacy": {
+      "title": "6. Privacy & Data Protection",
+      "description": "We respect your privacy. Any personal data collected or processed by the App will be handled in accordance with our Privacy Policy, available on our official website. By using the App, you consent to the processing of your data as described in that policy."
+    },
+
+    "intellectual_property": {
+      "title": "7. Intellectual Property",
+      "description": "All trademarks, logos, graphics, interface designs, and other intellectual property rights related to the App are owned by or licensed to Exclusive Movies Ltd. Nothing in these Terms grants you any rights to our intellectual property except as expressly stated in these Terms."
+    },
+
+    "payments": {
+      "title": "8. Payments & Subscriptions",
+      "description": "If you choose to purchase a subscription or premium features within the App, you agree to:",
+      "list": [
+        "Provide accurate and up-to-date payment information.",
+        "Pay all applicable fees as they become due.",
+        "Understand that subscriptions may renew automatically unless canceled in accordance with the platform's rules (e.g., Google Play or the App Store).",
+        "Understand that all purchases are final and non-refundable, except where required by applicable consumer protection laws."
+      ]
+    },
+
+    "service_availability": {
+      "title": "9. Service Availability and Updates",
+      "description": "We may update, modify, or temporarily suspend the App for maintenance, improvements, or security purposes at any time without prior notice. We are not liable for any interruption, delay, or loss of data resulting from such updates or maintenance."
+    },
+    "liability": {
+      "title": "10. Limitation of Liability",
+      "description": "To the fullest extent permitted by law:",
+      "list": [
+        "The App is provided \"as is\" and \"as available\" without any warranties of any kind.",
+        "We do not guarantee that the App will be uninterrupted, secure, error-free, or virus-free.",
+        "Under no circumstances shall Exclusive Movies Ltd be liable for any indirect, incidental, consequential, special, or punitive damages arising from or related to your use of the App."
+      ]
+    },
+
+    "termination": {
+      "title": "11. Termination",
+      "description": "We reserve the right to suspend or terminate your access to the App at our sole discretion, without notice, if you violate these Terms or any applicable law. Upon termination, your right to use the App will cease immediately."
+    },
+
+    "governing_law": {
+      "title": "12. Governing Law & Jurisdiction",
+      "description": "These Terms shall be governed by and construed in accordance with the laws of England and Wales. However, nothing in these Terms shall limit any mandatory rights you may have under the laws of your country of residence, including but not limited to consumer protection laws in Egypt, the European Union, or California. Any dispute arising under or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts of London, United Kingdom, or your local courts if required by law."
+    },
+
+    "dispute_resolution": {
+      "title": "13. Dispute Resolution",
+      "description": "Where possible, we will first attempt to resolve disputes amicably through direct communication or mediation before resorting to formal legal proceedings."
+    },
+
+    "amendments": {
+      "title": "14. Amendments",
+      "description": "We may update or amend these Terms from time to time. Any changes will take effect once published within the App or on our website. By continuing to use the App after such updates, you acknowledge and accept the revised Terms."
+    },
+
+    "about_us": {
+      "title": "15. What About Us?",
+      "description": "The App may display advertisements served by third parties, including Google AdMob.",
+      "list": [
+        "These advertisements are controlled solely by the advertising partners.",
+        "Exclusive Movies Ltd does not determine the content, targeting, or delivery of such advertisements.",
+        "By using the App, you acknowledge and accept the display of third-party advertisements in accordance with the Privacy Policy.",
+        "Note: Even if you opt out of personalized advertising, you may still see non-personalized advertisements based on general factors such as your region, device type, or the time of day."
+      ]
+    },
+
+    "contact": {
+      "title": "Contact Us",
+      "description": "If you have any questions, concerns, or comments regarding these Terms & Conditions, please contact us at:",
+      "list": [
+        "Exclusive Movies Ltd",
+        "📧 Email: info@exclusivemoviess.com",
+        "🏢 Registered Address: 71–75 Shelton Street, Covent Garden, London, United Kingdom, WC2H 9JQ"
+      ]
+    }
+  }
+}

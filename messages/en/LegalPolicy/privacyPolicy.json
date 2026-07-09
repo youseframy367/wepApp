@@ -1,0 +1,229 @@
+{
+  "privacyPolicy": {
+    "banner": {
+      "title": "Privacy Policy",
+      "subtitle": "Effective Date: 20 February 2026",
+      "description": "Issued By: Exclusive LTD. | Website: exclusivemovies.com"
+    },
+    "firstPoint": {
+      "title": "1. Introduction",
+      "description": "At Exclusive Movies Ltd, we value your privacy and are fully committed to protecting your personal data. This Privacy Policy explains how we collect, process, store, disclose, and safeguard your information when using Ex Pro, our media player application. Our data practices strictly comply with:"
+    },
+    "notes": [
+      "Egyptian Personal Data Protection Law No. 151 of 2020",
+      "UK GDPR (General Data Protection Regulation)",
+      "CCPA (California Consumer Privacy Act) – for users in California, USA",
+      "Google Play User Data Policy & Apple App Store Guidelines"
+    ],
+    "agreement": "By downloading or using Ex Pro, you confirm that you have read, understood, and agreed to this Policy.",
+    "note": {
+      "text": "If you are under 18 years old, you must obtain parental or guardian consent to use our services at Exclusive Movies LTD."
+    },
+    "disclaimer": {
+      "title": "Disclaimer – Media Player Only (No Content Provided)",
+      "description": "Ex Pro is strictly a media player. It does not include any built-in channels, playlists, movies, series, or copyrighted content. Users are solely responsible for adding their own media sources. Exclusive Movies Ltd and its developers are not responsible for any third-party media sources added by users, any content accessed, streamed, or uploaded through the app, any copyright violations committed by users, or any unauthorized links, illegal content, or infringement activities. Use of third-party links is entirely at the user's own risk."
+    },
+
+    "mediaPlayerOnly": {
+      "title": "2. Media Player Only",
+      "description": "Ex Pro is strictly a media player. It does not include any built-in channels, playlists, movies, TV shows, or copyrighted content. Users are solely responsible for adding their own media sources.",
+      "list": [
+        "Exclusive Movies Ltd and its developers are not responsible for:",
+        "Any third-party media sources added by users.",
+        "Any content accessed, streamed, or uploaded through the application.",
+        "Any copyright infringements committed by users.",
+        "Any unauthorized links, illegal content, or unlawful activities.",
+        "The use of third-party links or media sources is entirely at the user's own risk."
+      ]
+    },
+
+    "platformDataSecurity": {
+      "title": "3. Platform Data Security",
+      "description": "To comply with platform policies, Ex Pro provides complete transparency regarding the data it collects.\n\nWe do not share user data with any third party except trusted service providers, such as analytics providers and payment processors, and only under strict confidentiality agreements.",
+      "list": [
+        "Data We May Collect:",
+        "Device information (device model, operating system version, and unique identifiers).",
+        "Country or region based on the IP address.",
+        "Application usage analytics, crash logs, and diagnostic data.",
+        "",
+        "Data We Do Not Collect:",
+        "Background location.",
+        "SMS messages, contacts, or call history.",
+        "Photo gallery without permission.",
+        "Sensitive personal data.",
+        "Biometric information."
+      ]
+    },
+
+    "permissionsUsed": {
+      "title": "4. Permissions Used",
+      "description": "Ex Pro only requests the minimum permissions required for its functionality.\n\nThe application does not modify, delete, or upload any files, and no additional permissions are required for its core features.",
+      "list": [
+        "Storage Permission (Optional) – Used only for:",
+        "Reading local media files stored on the device.",
+        "Playing the user's video or audio files."
+      ]
+    },
+    "userGeneratedContent": {
+      "title": "5. User-Generated Content (UGC) Policy",
+      "description": "Ex Pro allows users to add external media sources. We do not host, control, distribute, recommend, or index any third-party content, and the application does not promote pirated or unauthorized content.",
+      "list": [
+        "Users may only add media sources that they legally own or are authorized to access.",
+        "Any misuse of the application for illegal streaming is strictly prohibited."
+      ]
+    },
+    "informationWeCollect": {
+      "title": "6. Information We Collect",
+      "description": "Ex Pro collects certain information required to provide its services and improve the user experience.",
+      "list": [
+        "A. Personal Information (Collected only when purchasing paid features):",
+        "Name.",
+        "Email address.",
+        "Payment information (processed securely through third-party payment processors such as Stripe or Paymob).",
+        "",
+        "B. Technical and Usage Data:",
+        "Device model, operating system, and unique identifiers.",
+        "IP address and region.",
+        "User interaction patterns with the application.",
+        "Crash reports and diagnostic data.",
+        "",
+        "C. Cookies and Tracking Technologies:",
+        "Used for analytics, load balancing, and performance optimization.",
+        "Collected only with the user's consent."
+      ]
+    },
+    "howWeUseInformation": {
+      "title": "7. How We Use Information",
+      "description": "Your information may be used for:",
+      "list": [
+        "Providing application functionality and updates.",
+        "Processing payments and verifying subscriptions.",
+        "Improving performance and user experience.",
+        "Preventing fraud and misuse.",
+        "Complying with legal obligations.",
+        "We never sell or rent your personal data."
+      ]
+    },
+
+    "legalBasisForProcessing": {
+      "title": "8. Legal Basis for Processing",
+      "description": "We process your data based on:",
+      "list": [
+        "Your explicit consent.",
+        "Contractual necessity.",
+        "Legal obligations.",
+        "Legitimate business interests."
+      ]
+    },
+
+    "sharingYourInformation": {
+      "title": "9. Sharing Your Information",
+      "description": "Your data may only be shared with:",
+      "list": [
+        "Authorized third-party service providers (such as payment processors, analytics services, and hosting providers).",
+        "Stripe and Paymob act as data processors under our instructions and in accordance with Data Processing Agreements (DPAs) that comply with GDPR, UK GDPR, and the Egyptian Data Protection Law.",
+        "Legal authorities when required by applicable law.",
+        "Google Ads services on connected devices: When Google infers interests across devices or households (such as smart TVs), it operates under its own Privacy Policy and the Privacy Sandbox framework. Exclusive Movies Ltd does not share any personally identifiable information with Google for this purpose.",
+        "All partners operate under strict data protection agreements."
+      ]
+    },
+    "internationalDataTransfers": {
+      "title": "10. International Data Transfers",
+      "description": "Your data may be stored or processed outside your country. We apply the following safeguards:",
+      "list": [
+        "UK GDPR safeguards.",
+        "Standard Contractual Clauses (SCCs).",
+        "Data minimization and encryption."
+      ]
+    },
+
+    "dataRetention": {
+      "title": "11. Data Retention",
+      "description": "We retain your data only for as long as necessary to:",
+      "list": [
+        "Provide the service.",
+        "Comply with regulatory requirements.",
+        "Prevent fraud.",
+        "Once the data is no longer required, it is permanently deleted or anonymized."
+      ]
+    },
+
+    "yourDataRights": {
+      "title": "12. Your Data Rights",
+      "description": "Depending on your jurisdiction, you may have the right to:",
+      "list": [
+        "Access, correct, or delete your personal data.",
+        "Restrict or object to processing.",
+        "Request a copy of your data.",
+        "Withdraw consent at any time.",
+        "File a complaint with a data protection authority.",
+        "California Residents (CCPA/CPRA):",
+        "You have the right to opt out of the sale or sharing of your personal information.",
+        "Sharing includes identifiers such as Advertising ID for personalized ads.",
+        "To opt out, visit: Do Not Sell or Share My Personal Information.",
+        "Contact: info@exclusivemoviess.com for requests."
+      ]
+    },
+
+    "dataSecurity": {
+      "title": "13. Data Security",
+      "description": "We implement industry-standard security measures, including:",
+      "list": [
+        "Encryption.",
+        "Firewall protection.",
+        "Access controls.",
+        "Secure storage protocols.",
+        "No system is 100% secure, but we apply strong protections."
+      ]
+    },
+
+    "childrenPrivacy": {
+      "title": "14. Children's Privacy",
+      "description": "Ex Pro is not intended for individuals under the age of 18. We do not knowingly collect personal data from minors."
+    },
+
+    "externalLinks": {
+      "title": "15. External Links",
+      "description": "External links or advertisements are outside our control. We are not responsible for their security or privacy practices."
+    },
+
+    "googleAdvertising": {
+      "title": "16. Google Advertising",
+      "description": "Google and its third-party vendors may use cookies to personalize advertisements.\n\nUsers can opt out via: https://policies.google.com/technologies/ads\n\nExclusive Movies Ltd does not access or control third-party tracking data."
+    },
+
+    "consentCookies": {
+      "title": "17. Consent & Cookies",
+      "description": "Users must provide consent before analytics or advertising cookies are used.",
+      "list": [
+        "Consent can be withdrawn at any time through the application or device settings.",
+        "Non-essential cookies will not be stored without prior explicit consent."
+      ]
+    },
+
+    "logFiles": {
+      "title": "18. Log Files",
+      "description": "We automatically collect standard log data for diagnostics and system improvement.",
+      "list": [
+        "IP address.",
+        "Device and browser information.",
+        "Internet Service Provider (ISP).",
+        "Timestamps.",
+        "Pages or features accessed.",
+        "This data is used only for debugging, analytics, and performance optimization."
+      ]
+    },
+
+    "privacyPolicyChanges": {
+      "title": "19. Privacy Policy Changes",
+      "description": "We may update this Privacy Policy from time to time. Significant changes will be announced within the app or on our official website."
+    },
+
+    "contact": {
+      "title": "20. Contact Us",
+      "description": "For inquiries, concerns, or data-access requests: Exclusive Movies Ltd",
+      "email": "Email: info@exclusivemoviess.com",
+      "address": "Address: 71–75 Shelton Street, Covent Garden, London, UK, WC2H 9JQ"
+    }
+  }
+}

@@ -1,6 +1,7 @@
 import Worning from "../componnt/warning";
-import { useLocale } from "next-intl";
+import { useLocale , useTranslations } from "next-intl";
 export default function Baner() {
+  const t = useTranslations("HomeBanner");
   const local = useLocale();
   return (
     <div className="md:mt-[180px] mt-[150px] relative">
@@ -21,37 +22,31 @@ export default function Baner() {
             data-aos="fade-up"
             className={`md:font-[700] font-[500] md:text-[56px] text-[35px] md:mx-0 mx-auto  md:w-[100%] w-[90%] text-primary ${local === "ar" ? "font-montserrat " : ""}`}
           >
-            EX PRO Player
+            {t("title")}
           </h1>
           <h2
             data-aos="fade-up"
             className={`${local === "en" ? "font-inter " : "font-cairo"} font-[600] mt-[-10px] md:text-[32px] text-[30px] md:w-[100%] w-[90%] md:mx-0 mx-auto  text-primary leading-[42px]`}
           >
-            {local === "en"
-              ? "Premium Media Playback. Designed for the Big Screen."
-              : "تشغيل وسائط مميز، مصمم خصيصًا للشاشة الكبيرة"}
+            {t("subtitle")}
           </h2>
           <p
             data-aos="fade-up"
             className={`${local === "en" ? "font-inter" : "font-cairo font-[600] leading-[25px]"} md:font-[500] font-[300]  md:w-[100%] w-[90%] md:mx-0 mx-auto  md:text-[16px] text-[12px] leading-[22px] tracking-[-0.25px]`}
           >
-            {local === "en"
-              ? `EX PRO Player is a modern media player application built for Smart TVs and supported devices. It delivers smooth playback, elegant visuals, and effortless navigation—so you can enjoy your own legally obtained media sources in one refined interface.`
-              : `EX PRO Player هو تطبيق مشغل وسائط حديث تم تصميمه لأجهزة التلفزيون الذكية والأجهزة المدعومة. يوفّر تشغيلًا سلسًا، وواجهة بصرية أنيقة، وتنقلًا سهلًا، لتتمكن من الاستمتاع بمصادر الوسائط الخاصة بك التي تم الحصول عليها بشكل قانوني ضمن واجهة متكاملة وراقية.`}
+            {t("description")}
           </p>
           <button
             data-aos="fade-up"
             className={`md:w-[305px] w-[250px] md:h-[63px] h-[50px] md:mx-0 mx-[5%] flex justify-center items-center bg-primary text-[#000000] ${local === "en" ? "font-inter md:font-[600] font-[500]  " : "font-cairo md:font-[700] font-[600]"}  md:text-[24px] text-[20px] leading-[40px] tracking-[-0.25px] rounded-[10px] border-[1px] border-[#FCD570]`}
           >
-            {local === "en" ? "Activate Your Device" : "تفعيل الوصول على جهازك"}
+            {t("button")}
           </button>
           <p
             data-aos="fade-up"
             className={`${local === "en" ? "font-inter font-[400]" : "font-cairo font-[700]"} md:mx-0 mx-[5%]   md:text-[14px] text-[12px] leading-[42px]`}
           >
-            {local === "en"
-              ? "7-day free trial · then XX/year per device"
-              : "تجربة مجانية لمدة 7 أيام XX سنويًا لكل جهاز"}
+            {t("trial")}
           </p>
         </div>
         <img
@@ -63,11 +58,9 @@ export default function Baner() {
       </div>
 
       <Worning
-        textSpanEn="Important Notice:"
-        className="md:mt-[40px] mt-[20px] "
-        textSpanAr="ملاحظه هامه "
-        textAr="  هذا التطبيق هو مشغل وسائط مستقل فقط. لا يوفّر أو يستضيف أو يبيع أو يتضمن أي محتوى أو قنوات أو اشتراكات. ويتحمل المستخدم مسؤولية إضافة وإدارة مصادر الوسائط الخاصة به التي تم الحصول عليها بشكل قانوني"
-        textEn=" EX PRO Player is a standalone media player only. It does not provide, host, sell, or include any media content, channels, or subscriptions. Users are responsible for adding and managing their own legally obtained media sources."
+        className="md:mt-[40px] mt-[20px]"
+        title={t("warning.title")}
+        text={t("warning.text")}
       />
     </div>
   );

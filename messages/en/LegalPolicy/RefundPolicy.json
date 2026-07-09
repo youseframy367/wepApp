@@ -1,0 +1,144 @@
+{
+  "refundPolicy": {
+    "banner": {
+      "title": "Refund Policy",
+      "subtitle": "Effective Date: 20 August 2026",
+      "description": "Issued By: Exclusive Movies LTD. | Website: exclusivemoviess.com"
+    },
+    "firstPoint": {
+      "title": "1. Nature of Our Service",
+      "description": "This Refund Policy applies to all purchases made through Ex Pro or any affiliated digital platforms owned and operated by Exclusive Movies Ltd. By completing a purchase or activating a trial, the customer expressly acknowledges and agrees to the following:"
+    },
+
+    "acknowledgement": {
+      "title": "I acknowledge and agree that:"
+    },
+    "acknowledges": {
+      "items": [
+        "Ex Pro is a digital media player developed and owned by Exclusive Movies Ltd. All premium features and subscriptions are intangible digital services that are activated immediately upon payment confirmation. Once activated and access is granted, the service is deemed fully delivered, and refunds are not available except where required by applicable law or in cases of technical failure preventing access.",
+        "Ex Pro does not provide, host, or distribute any copyrighted content. The application functions solely as a media player, and users are entirely responsible for adding and managing their own media sources.",
+        "Pre-Purchase Notice: Please read carefully. By completing your purchase, you acknowledge that Ex Pro subscriptions are digital services activated instantly, and refunds are only available where required by law or in cases of technical failure preventing access to the service. For purchases made through Google Play or the Apple App Store, refund requests must be submitted directly through the respective platform."
+      ]
+    },
+    "purchasesAndPayments": {
+      "title": "2. Purchases and Payments",
+      "description": "View and track your orders and payment details easily."
+    },
+
+    "PurchasesAndPaymentsBox": {
+      "securePayments": {
+        "title": "Secure Payments",
+        "text": "All payments are processed securely through authorized third-party payment gateways such as Stripe and Paymob, both compliant with PCI DSS international security standards. Exclusive Movies Ltd does not store or have access to your full payment details (e.g., complete credit-card numbers)."
+      },
+      "purchaseAuthorization": {
+        "title": "Payment Authorization",
+        "text": "By completing a purchase, you authorize us (via the payment provider) to charge your selected payment method for the total amount displayed at checkout. All transactions are final once processed and access is granted."
+      }
+    },
+    "LegalGroundsForNoRefund": {
+      "instantDigitalServices": {
+        "title": "Instant Digital Services",
+        "text": "Due to the instant nature of digital service delivery, refunds or cancellations cannot be issued once service access has been granted, except as required by applicable law. This policy is supported by the following legal frameworks."
+      },
+      "ukAndEuLaw": {
+        "title": "UK & EU Law",
+        "text": "UK Consumer Contracts Regulations 2013 (Reg. 28(b)) – Consumers lose cancellation rights when consenting to immediate performance of a digital service. EU Directive 2011/83/EU (Article 16(e)) – Excludes digital content supplied immediately with consumer consent from the right of withdrawal."
+      },
+      "egyptianLaw": {
+        "title": "Egyptian Law",
+        "text": "Egyptian Consumer Protection Law No. 181 of 2018 (Article 12) – Excludes instantly delivered digital services from refund or cancellation rights. This policy reflects the irreversible and non-returnable nature of instantly delivered digital access."
+      }
+    },
+    "NoRefundsOrCancellationsApplyTo": {
+      "activatedServices": {
+        "title": "Activated Services",
+        "text": "Any activated or partially used subscription or service. Services already rendered, in progress, or accessed. User-added content or third-party media sources (Ex Pro provides no built-in movies, series, or channels)."
+      },
+      "chargebacksAndRenewals": {
+        "title": "Chargebacks & Automatic Renewals",
+        "text": "Chargebacks, payment disputes, or claims initiated after service activation. Subscriptions renew automatically based on the selected plan unless cancelled before the renewal date. Cancelling automatic renewal only stops future charges and does not entitle you to a refund of past payments."
+      }
+    },
+    "PlatformSpecificRefund": {
+      "appStorePurchases": {
+        "title": "App Store Purchases",
+        "text": "For purchases made through Google Play or the Apple App Store, refunds must be requested directly through those platforms, in accordance with their respective policies."
+      },
+      "directPurchases": {
+        "title": "Direct Purchases",
+        "text": "This Refund Policy applies primarily to direct purchases made via our website or authorized channels (e.g., using Stripe or Paymob)."
+      }
+    },
+    "LegalGroundsForNoRefundSiven": {
+      "governingLaw": {
+        "title": "Governing Law",
+        "text": "This policy and all related transactions are legally binding. It is governed by and construed in accordance with the laws of England and Wales. Where personal data is processed in connection with a purchase or refund request."
+      },
+      "dataProtectionLaws": {
+        "title": "Data Protection Laws",
+        "text": "Such processing shall comply with our Privacy Policy and applicable data protection laws, including the Egyptian Personal Data Protection Law No. 151 of 2020, the EU GDPR, and the UK GDPR."
+      },
+      "jurisdiction": {
+        "title": "Jurisdiction",
+        "text": "Any dispute arising from or related to this policy shall be subject to the exclusive jurisdiction of the courts of London, United Kingdom, to the fullest extent permitted by applicable law."
+      }
+    },
+
+    "ContactBeforePurchase": {
+      "supportTeam": {
+        "text": "Our support team is available to answer any pre-purchase questions to ensure you fully understand the service. If you have any inquiries, please contact us at:"
+      },
+      "contactUs": {
+        "title": "Contact Us",
+        "text": "For any inquires or request, email us at info@exclusivemoviess.com"
+      },
+      "location": {
+        "title": "Location",
+        "text": "Registered Address: 71–75 Shelton Street, Covent Garden, London, United Kingdom, WC2H 9JQ"
+      },
+      "purchaseClarification": {
+        "text": "We encourage you to seek full clarification prior to purchase, as no exceptions, refunds, or modifications will be granted after payment and activation."
+      },
+      "acknowledgement": {
+        "text": "By purchasing, downloading, or using Ex Pro, you acknowledge that you have read, understood, and agreed to this Refund Policy in full."
+      }
+    },
+
+    "ChargebacksAndFraudulentDisputes": {
+      "list": [
+        "If you initiate a chargeback or payment dispute after receiving or activating the service, we reserve the right to:",
+        "Suspend or terminate your access to Ex Pro.",
+        "Dispute the chargeback with your payment provider.",
+        "Report fraudulent activity to the relevant authorities.",
+        "Unauthorized or unfounded chargebacks may be treated as fraudulent activity and may result in action being taken against your account.",
+        "We encourage customers to contact our support team first to resolve any billing or access issues."
+      ]
+    },
+
+    "LegalGrounds": {
+      "title": "3. Legal Grounds for No Refund",
+      "description": "Refunds are not available under the following legal conditions."
+    },
+
+    "NoRefundsOrCancellationsApplyTo": {
+      "title": "4. No Refunds or Cancellations Apply To",
+      "description": "The following items and services are not eligible for refunds or cancellations."
+    },
+    "ChargebacksAndFraudulent": {
+      "title": "5. Chargebacks and Fraudulent Disputes",
+      "description": "Initiating fraudulent chargebacks is considered a violation of our terms and may result in permanent account termination."
+    },
+    "PlatformSpecificRefundNotes": {
+      "title": "6. Platform-Specific Refund Notes",
+      "description": "Refund policies may vary depending on the platform used for purchase."
+    },
+    "legalGroundsForNoRefund": {
+      "title": "7. Legal Grounds for No Refund",
+      "description": "No refunds will be granted based on these legal grounds."
+    },
+    "contactBeforePurchase": {
+      "title": "8. Contact Before Purchase",
+      "description": "We recommend contacting support prior to purchase for clarification."
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "banner": {
+    "title": "Legal & Policy",
+    "subtitle": "Effective Date: 20 February 2026",
+    "description": "Issued By: Exclusive LTD. | Website: exclusivemovies.com"
+  },
+
+  "legalPolicy": {
+    "cards": {
+      "privacyPolicy": {
+        "title": "Privacy Policy",
+        "description": "Enjoy a refined dark-gold theme with rich posters, smooth transitions, and layouts."
+      },
+      "termsAndConditions": {
+        "title": "Terms & Conditions",
+        "description": "Enjoy a refined dark-gold theme with rich posters, smooth transitions, and layouts."
+      },
+      "refundPolicy": {
+        "title": "Refund Policy",
+        "description": "Enjoy a refined dark-gold theme with rich posters, smooth transitions, and layouts."
+      },
+      "eula": {
+        "title": "End User License Agreement",
+        "description": "Enjoy a refined dark-gold theme with rich posters, smooth transitions, and layouts."
+      },
+      "disclaimerOfContent": {
+        "title": "Disclaimer of Content",
+        "description": "Enjoy a refined dark-gold theme with rich posters, smooth transitions, and layouts."
+      },
+      "notSellOrShare": {
+        "title": "Do Not Sell or Share",
+        "description": "Enjoy a refined dark-gold theme with rich posters, smooth transitions, and layouts."
+      }
+    }
+  },
+  "aboutUs": {
+    "title": "About Us - Exclusive Movies LTD",
+    "subtitle": "Secure. Scalable. Compliant. Innovators of trusted media Player Technology.",
+    "button": "Learn More",
+    "cards": {
+      "ourMission": {
+        "title": "Our Mission",
+        "description": "Enjoy a refined dark-gold theme with rich posters."
+      },
+      "companyInfo": {
+        "title": "Company Info",
+        "description": "Enjoy a refined dark-gold theme with rich posters."
+      },
+      "globalCompliance": {
+        "title": "Global Compliance",
+        "description": "Enjoy a refined dark-gold theme with rich posters."
+      }
+    }
+  }
+}

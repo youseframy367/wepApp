@@ -1,24 +1,21 @@
 import Container from "./Contaner";
 import { useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
 export default function BanerCommponnt({
   imgUrl = "",
-  titleAr = "",
-  titleEn = "",
-  subTitleAr = "",
-  subtitleEn = "",
-  pragrafAr = "",
-  pragrafEn = "",
   classNameContainer = "",
   classNameImg = "",
+  namespace,
 }) {
   const local = useLocale();
+  const t = useTranslations(namespace);
   return (
     <Container
       className={` md:h-[400px] h-[270px]  w-[100%]  md:bg-cover md:mt-[-90px] mt-[-70px] ${classNameContainer}`}
     >
       <div className="w-[100%] h-[115px] flex flex-col gap-[15px] justify-center items-center md:mt-[100px] mt-[90px]">
         {imgUrl && (
-          <img src={imgUrl} className={classNameImg} alt={titleAr || titleEn} />
+          <img src={imgUrl} className={classNameImg} alt={t("title")} />
         )}{" "}
         <h1
           className={`font-[500] text-center px-auto
@@ -29,8 +26,7 @@ export default function BanerCommponnt({
                 
                 `}
         >
-          {" "}
-          {local === "en" ? titleEn : titleAr}
+          {t("title")}
         </h1>
         <p
           className={`font-[500] text-[19px] md:text-[22px] ${local === "ar" ? "font-cairo" : "font-inter "}
@@ -38,7 +34,7 @@ export default function BanerCommponnt({
                     bg-clip-text text-transparent  leading-[20px]
                 `}
         >
-          {local === "en" ? subtitleEn : subTitleAr}
+          {t("subtitle")}
         </p>
         <p
           className={`${local === "ar" ? "font-cairo" : "font-inter "} font-[500] text-[10px] md:text-[14px]
@@ -46,7 +42,7 @@ export default function BanerCommponnt({
                     bg-clip-text text-transparent  leading-[20px]
                 `}
         >
-          {local === "en" ? pragrafEn : pragrafAr}
+          {t("description")}
         </p>
         {imgUrl && (
           <div className="relative md:w-[600px] w-[90%] h-[3.5px] mt-2 flex items-center justify-center">

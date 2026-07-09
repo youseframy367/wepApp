@@ -1,0 +1,43 @@
+{
+  "disclaimerOfContent": {
+    "banner": {
+      "title": "Disclaimer of Content",
+      "subtitle": "Effective Date: 20 February 2026",
+      "description": "Issued By: Exclusive LTD. | Website: exclusivemovies.com"
+    },
+    "natureOfService": {
+      "title": "1. Nature of Service",
+      "description": "ExPro UK operates strictly as a media player and digital technology service platform. We do not host, store, distribute, or curate any audiovisual content. All content accessed through the Platform is provided by third-party sources."
+    },
+    "sections": {
+      "userResponsibility": {
+        "title": "2. User Responsibility",
+        "description": "By using ExPro UK, you acknowledge and agree that you are solely responsible for verifying the legality, appropriateness, and safety of all content accessed, complying with all applicable local laws, regulations, and intellectual property rights, and maintaining device security and account integrity."
+      },
+      "noWarranty": {
+        "title": "3. No Warranty",
+        "description": "ExPro UK provides the Platform \"as is\" without warranties of any kind, whether express, implied, statutory, or otherwise. This includes, without limitation, the accuracy, reliability, or completeness of third-party content, compatibility with user devices or software, and availability, uptime, or uninterrupted service."
+      },
+      "limitationOfLiability": {
+        "title": "4. Limitation of Liability",
+        "description": "To the fullest extent permitted by law, ExPro UK and its affiliates shall not be liable for any indirect, incidental, consequential, punitive, or special damages, including but not limited to loss of revenue, data, or content, legal claims arising from third-party content, or device malfunctions and service interruptions. The total liability, if any, is strictly limited to the amount paid by the user for the specific service in question."
+      },
+      "thirdPartyContent": {
+        "title": "5. Third-Party Content",
+        "description": "ExPro UK does not control or endorse any third-party content. Users are responsible for any interaction with such content, including streaming, downloading, or accessing material from external sources and complying with copyright, licensing, or usage restrictions imposed by third parties."
+      },
+      "indemnification": {
+        "title": "6. Indemnification",
+        "description": "You agree to indemnify, defend, and hold harmless ExPro UK, its officers, directors, employees, and affiliates from any claims, damages, liabilities, losses, or expenses arising from your use of the Platform, violation of laws, regulations, or third-party rights, or any actions or disputes related to content accessed via the Platform."
+      },
+      "governingLaw": {
+        "title": "7. Governing Law",
+        "description": "This Disclaimer is governed by the laws of England and Wales. Any disputes arising shall be subject to the exclusive jurisdiction of the courts of England and Wales."
+      }
+    },
+    "acceptance": {
+      "title": "8. Acceptance",
+      "description": "By accessing or using the ExPro UK Platform, you acknowledge that you have read, understood, and agree to this Disclaimer. Your use of the Platform constitutes acceptance of these terms."
+    }
+  }
+}

@@ -1,6 +1,8 @@
+
+
 import { useLocale } from "next-intl";
 import Container from "./Contaner";
-
+import { useTranslations } from "next-intl";
 export default function FirstPoint({
   urlImg = "/imge/agreement/reseller/i.svg",
   titleAr = "",
@@ -9,9 +11,10 @@ export default function FirstPoint({
   pragrafEn = "",
   withContainer = true,
   className = "",
+  namespace
 }) {
   const local = useLocale();
-
+  const t =useTranslations(namespace)
   const content = (
     <div
       data-aos="fade-up"
@@ -20,11 +23,11 @@ export default function FirstPoint({
       <div className="flex gap-[10px] text-[#fff] items-center">
         <img src={urlImg} alt="i" />
         <p
-          className={`text-primary md:font-[500] font-[400] md:text-[30px] text-[20px] md:leading-[40px] leading-[25px]  ${
+          className={`text-primary md:font-[500] font-[300] md:text-[30px] text-[20px] md:leading-[40px] leading-[25px]  ${
             local === "ar" ? "font-cairo" : "font-Montserrat"
           }`}
         >
-          {local === "ar" ? titleAr : titleEn}
+          {t("title")}
         </p>
       </div>
 
@@ -35,7 +38,7 @@ export default function FirstPoint({
             : "font-inter md:text-[16px] text-[15px]"
         }`}
       >
-        {local === "ar" ? pragrafAr : pragrafEn}
+        {t("description")}
       </p>
     </div>
   );

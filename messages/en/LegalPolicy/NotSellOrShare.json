@@ -1,0 +1,104 @@
+{
+  "doNotSellOrShare": {
+    "banner": {
+      "title": "Do Not Sell or Share",
+      "subtitle": "Effective Date: 20 February 2026",
+      "description": "Issued By: Exclusive LTD. | Website: exclusivemovies.com"
+    },
+
+    "Policy": {
+      "companyTitle": "Exclusive Movies Ltd",
+      "description": "Exclusive Movies Ltd is a legally registered and licensed software and digital media technology company. We are committed to protecting users’ privacy and complying with applicable data protection laws, including:",
+      "laws": {
+        "ccpa": "California Consumer Privacy Act (CCPA)",
+        "cpra": "California Privacy Rights Act (CPRA)",
+        "gdpr": "General Data Protection Regulation (GDPR – EU & UK)",
+        "egypt": "Egyptian Personal Data Protection Law No. 151 of 2020"
+      },
+      "footer": "This page explains your rights regarding the “sale” or “sharing” of personal information under California privacy laws."
+    },
+    "titles": {
+      "importantLegalNotice": "1. Important Legal Notice",
+      "sharingLegalDefinition": "2. Clarification of “Sharing” (Legal Definition)",
+      "optOutRights": "3. Opt-Out Rights (California Residents)",
+      "globalPrivacyControl": "4. Global Privacy Control (GPC)",
+      "nonDiscrimination": "5. Non-Discrimination",
+      "relationshipWithPrivacyLaws": "6. Relationship with Other Privacy Laws",
+      "contactInformation": "7. Contact Information & Company Details"
+    },
+
+    "warning": {
+      "text": "Exclusive Movies Ltd does not sell personal information for monetary consideration or commercial resale."
+    },
+
+    "legalDefinition": {
+      "items": [
+        "Under CCPA and CPRA, the term \"sharing\" may include limited disclosures of personal information for cross-context behavioral advertising, even when no money is exchanged.",
+        "Within our services, this may involve:",
+        "Pseudonymous or temporary device identifiers (such as Advertising ID), technical signals required to display, limit, or measure advertisements, and advertising services provided by regulated third-party partners, including Google AdMob.",
+        "Exclusive Movies Ltd:",
+        "Does not share directly identifiable personal data (such as name, email address, or payment information) with advertisers.",
+        "Does not authorize third parties to independently collect personal data outside their contractual obligations.",
+        "Uses advertising technologies only within lawful, consent-based, and policy-compliant frameworks."
+      ]
+    },
+    "optOutRights": {
+      "googleOption": {
+        "title": " ",
+        "description": "If you are a California resident, you have the right to opt out of the \"sale\" or \"sharing\" of your personal information for personalized or targeted advertising purposes.",
+        "list": [
+          "Option 1: Manage your advertising preferences through Google.",
+          "You can control ad personalization through your Google Account: https://myadcenter.google.com/",
+          "On supported devices (including Android TV), advertising preferences can also be managed through your device or account settings.",
+          "Note: If the Google preferences page does not load, this may be due to browser privacy settings, network restrictions, or ad blockers. In that case, you may use the second option described below."
+        ]
+      },
+
+      "directRequest": {
+        "title": "",
+        "description": "Option 2: Submit a Direct Request to Exclusive Movies Ltd.",
+        "list": [
+          "You may submit your opt-out request directly to us.",
+          "Email: info@exclusivemoviess.com",
+          "Subject: Do Not Sell or Share – Privacy Request.",
+          "Your request will be acknowledged and processed within 45 days, in accordance with the response requirements of the CCPA, CPRA, and GDPR."
+        ]
+      }
+    },
+    "globalPrivacyControl": {
+      "items": [
+        "Where technically supported, Exclusive Movies Ltd honors the Global Privacy Control (GPC) signal.",
+        "If your browser or device sends a valid Global Privacy Control (GPC) signal, it will be treated as a request to opt out of the \"sale\" or \"sharing\" of personal information where applicable."
+      ]
+    },
+
+    "nonDiscrimination": {
+      "description": "Exclusive Movies Ltd will not discriminate against users for exercising their privacy rights.",
+      "list": [
+        "Opting out will not result in:",
+        "Reduced quality of service.",
+        "Restricted features.",
+        "Higher prices.",
+        "Denial of access to the application."
+      ]
+    },
+    "relationshipWithPrivacy": {
+      "title": "",
+      "descrption": "",
+      "list": [
+        "This page specifically addresses rights under California privacy laws.",
+        "Users in other jurisdictions (including the European Union, the United Kingdom, and Egypt) may exercise their rights in accordance with the applicable data protection laws, as described in our Privacy Policy."
+      ]
+    },
+    "contactInformation": {
+      "contactUs": {
+        "title": "Contact Us",
+        "description": "For any questions or requests, please contact us via email: info@exclusivemoviess.com"
+      },
+      "registeredAddress": {
+        "title": "Registered Address",
+        "description": "71–75 Shelton Street, Covent Garden, London, United Kingdom, WC2H 9JQ"
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "agreementCustomer": {
+    "banner": {
+      "title": "Agreement Customer",
+      "subtitle": "Effective Date: 20 February 2026",
+      "description": "Issued By: Exclusive LTD. | Website: exclusivemovies.com"
+    },
+    "warning": {
+      "text": "By clicking \"I Agree\", you legally accept all terms below even if you do not read them."
+    },
+    "agreementCustomerSectiones": {
+      "sections": {
+        "acceptanceOfTerms": {
+          "title": "1. ACCEPTANCE OF TERMS",
+          "description": "By downloading, installing, registering, or using the Exclusive Movies Platform (\"Platform\"), you expressly acknowledge and agree that these Terms of Service constitute a legally binding contract between you and Exclusive Movies LTD. If you do not agree to these Terms in full, you must immediately discontinue all access, use, and installation of the Platform."
+        },
+        "natureOfService": {
+          "title": "2. NATURE OF SERVICE",
+          "description": "The Platform provides digital services delivered electronically. Activation of any subscription, device, or MAC address constitutes full performance and irrevocable delivery of the service. Clarification: The Platform functions as a media player and service platform. Exclusive Movies LTD does not host, distribute, or provide any copyrighted video content. Users are solely responsible for the content they access or add."
+        },
+        "absoluteNoRefundPolicy": {
+          "title": "3. ABSOLUTE NO REFUND POLICY",
+          "description": "All payments and activations are final. No refunds, reversals, credits, or chargebacks. Legal exceptions only if mandated by law."
+        },
+        "paymentStructure": {
+          "title": "4. PAYMENT STRUCTURE",
+          "description": "Internal Resellers: Manual wallet credits are final. Public Users & Resellers: Payments via approved gateways (Stripe, Paymob). Any bypass may result in account suspension."
+        },
+        "accountAndDeviceResponsibility": {
+          "title": "5. ACCOUNT AND DEVICE RESPONSIBILITY",
+          "description": "Users are fully responsible for account security, device compatibility, MAC addresses, and all actions performed under their credentials."
+        },
+        "enforcementAndTermination": {
+          "title": "6. ENFORCEMENT AND TERMINATION",
+          "description": "Exclusive Movies LTD may suspend, restrict, or terminate accounts without notice in cases of fraud, abuse, or rule violations."
+        },
+        "limitationOfLiability": {
+          "title": "7. LIMITATION OF LIABILITY",
+          "description": "Exclusive Movies LTD is not liable for indirect, incidental, or consequential damages. Total liability is limited to the amount paid for the affected service."
+        },
+        "privacyAndDataProtection": {
+          "title": "8. PRIVACY AND DATA PROTECTION",
+          "description": "Data is handled in accordance with GDPR, UK GDPR, CCPA/CPRA, and Egyptian Personal Data Protection Law No. 151 of 2020."
+        },
+        "agreementVersioning": {
+          "title": "9. AGREEMENT VERSIONING",
+          "description": "Users must accept the latest version of this Agreement to continue using the Platform."
+        },
+        "governingLawAndJurisdiction": {
+          "title": "10. GOVERNING LAW AND JURISDICTION",
+          "description": "This Agreement is governed by the laws of England and Wales. The courts of England and Wales shall have exclusive jurisdiction over any disputes arising from or relating to this Agreement."
+        },
+        "finalAcceptance": {
+          "title": "11. FINAL ACCEPTANCE",
+          "description": "Clicking \"I Agree\" confirms that you have read, understood, and accepted all of these Terms."
+        },
+        "severability": {
+          "title": "12. SEVERABILITY",
+          "description": "If any provision of this Agreement is held to be invalid or unenforceable, the remaining provisions shall remain in full force and effect."
+        }
+      }
+    },
+    "aboutUs": {
+      "title": "About US",
+      "description": "This service complies with GDPR and UK GDPR. Limited technical data (device, browser, language) may be processed solely for security, fraud prevention, and legal compliance."
+    },
+   "cards": {
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "description": "This service complies with GDPR and UK GDPR. Limited technical data (device, browser, language) may be processed solely for security, fraud prevention, and legal compliance.",
+    "list": []
+  },
+  "termsOfService": {
+    "title": "Terms of Service",
+    "description": "ExPro UK provides media player software and digital technology solutions only. We do not host, license, distribute, or stream any audiovisual content.",
+    "list": []
+  },
+  "refundPolicy": {
+    "title": "Refund C. Policy",
+    "description": "Due to the instant and irreversible nature of digital service activation, refunds are not available once access is granted, except where required by applicable consumer protection laws.",
+    "list": []
+  },
+  "disclaimerOfContent": {
+    "title": "Disclaimer of Content",
+    "description": "ExPro UK operates strictly as a media player platform. We do not host, store, distribute, or curate content. Users are solely responsible for any content accessed or used.",
+    "list": []
+  }
+}
+  }
+}

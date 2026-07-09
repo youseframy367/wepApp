@@ -2,25 +2,25 @@ import { supportedBlatform } from "./HomeData";
 import GradientBorderBox from "../componnt/GradiantBox";
 import BlackBox from "../componnt/BlackBox";
 import { useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
 export default function BlatformSupport() {
+  const t = useTranslations("platformSupport");
   const local = useLocale();
   const blatformData = supportedBlatform;
   return (
     <div className="w-[90%] mx-auto my-[40px]">
       <div className="flex flex-col gap-[14px] items-center">
         <h1
-         data-aos="fade-up"
+          data-aos="fade-up"
           className={`md:text-[40px] text-[30px] ${local === "en" ? "font-inter" : "font-cairo"} font-[600] leading-[42px] text-primary`}
         >
-          {local === "en" ? " Supported Platforms " : "المنصات المدعومة"}
+          {t("title")}
         </h1>
         <p
           data-aos="fade-up"
           className={` md:text-start text-center ${local === "en" ? "font-inter font-[500] md:text-[14px] tex-[12px]" : "font-cairo font-[600] md:text-[16px] text-[14px]"} leading-[22px] tracking-[-0.25px] `}
         >
-          {local === "en"
-            ? "EX PRO Player is available on a wide range of compatible devices, including:"
-            : "EX PRO Player متاح على مجموعة واسعة من الأجهزة المتوافقة، بما في ذلك:"}
+          {t("description")}
         </p>
       </div>
       <div className="flex flex-col items-center  relative">
@@ -32,42 +32,41 @@ export default function BlatformSupport() {
         <div
           className={`flex overflow-x-auto md:overflow-x-visible no-scrollbar overflow-y-visible gap-[12px] md:w-[90%] w-[110%]   ${local === "ar" ? "mr-[-5%]" : "ml-[-5%]"} md:mx-auto mx-auto md:my-[70px] my-[40px]`}
         >
-          {blatformData.map((item, index) => (
+          {blatformData.map((item) => (
             <GradientBorderBox
-              key={index}
+              key={item.key}
               className="flex-1 basis-0 h-[140px] md:overflow-none overflow-visible"
             >
               <div className="flex flex-col items-center md:gap-[14px] gap-[8px] pt-[50px] md:mt-[-100px] mt-[-40px] px-[15px]">
                 <img
-                data-aos="fade-out"
+                  data-aos="fade-out"
                   src={item.img}
-                  alt={item.titleEn}
+                  alt={t(`cards.${item.key}.title`)}
                   className="relative z-20 md:w-auto w-[80px]"
                 />
 
                 <h2
-             data-aos="fade-up"
+                  data-aos="fade-up"
                   className={` font-[700] ${local === "en" ? "md:text-[18px] text-[16px] font-montserrat leading-[18px]" : "font-cairo leading-[23px] md:text-[16px] whitespace-nowrap md:whitespace-normal text-[14px]"} text-primary  text-center`}
                 >
-                  {local === "en" ? item.titleEn : item.titleAr}
+                  {t(`cards.${item.key}.title`)}
                 </h2>
 
-                <p 
-                 data-aos="fade-up"
-                className="font-[600] font-montserrat text-[12px] leading-[18px]  whitespace-nowrap text-center">
-                  {local === "en" ? item.textEn : item.textAr}
+                <p
+                  data-aos="fade-up"
+                  className="font-[600] font-montserrat text-[12px] leading-[18px]  whitespace-nowrap text-center"
+                >
+                  {t(`cards.${item.key}.text`)}
                 </p>
               </div>
             </GradientBorderBox>
           ))}
         </div>
         <p
-         data-aos="fade-up"
+          data-aos="fade-up"
           className={`${local === "en" ? "font-inter" : "font-cairo"} md:mt-[-40px] mt-[-20px] md:text-start text-center font-[700] tracking-[-0.25px] flex items-center text-primary`}
         >
-          {local === "en"
-            ? "Availability may vary depending on device model, operating system version, and app store policies."
-            : "قد يختلف التوفر حسب طراز الجهاز، وإصدار نظام التشغيل، وسياسات متجر التطبيقات."}
+          {t("availability")}
         </p>
       </div>
 
@@ -76,7 +75,7 @@ export default function BlatformSupport() {
           data-aos="fade-up"
           className={`${local === "en" ? "font-inter" : "font-cairo"} font-[600] md:text-[40px] text-[30px] leading-[42px] text-primary `}
         >
-          {local === "en" ? "How to Activate ?" : "كيفية التفعيل؟"}
+          {t("activation.title")}
         </h1>
         <div className="w-[100%] md:my-[50px] my-[30px] flex md:flex-row flex-col md:gap-[10px] gap-[15px] relative">
           <img
@@ -86,91 +85,81 @@ export default function BlatformSupport() {
           />
           <BlackBox className="flex flex-col  justify-center items-center md:w-[33%] w-[100%] h-[175px]">
             <h1
-            data-aos="fade-out"
+              data-aos="fade-out"
               className={`${local === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] md:text-[60px] text-[70px] mt-[-10px]  text-primary`}
             >
               01
             </h1>
             <h2
-                data-aos="fade-up"
+              data-aos="fade-up"
               className={`${local === "en" ? "font-montserrat" : "font-cairo"}  font-[500] text-[20px] text-primary mt-[-15px]`}
             >
-              {local === "en" ? "Install the App" : "قم بتثبيت التطبيق"}
+              {t("activation.step1.title")}
             </h2>
             <p
-                data-aos="fade-up"
+              data-aos="fade-up"
               className={`w-[170px] mt-[10px] ${local === "ar" ? "font-montserrat font-[400]" : "font-cairo font-[500]"} text-[10px] leading-[14px] text-center`}
             >
-              {local === "en"
-                ? "Download and install EX PRO Player from the official app store on your device."
-                : "قم بتنزيل وتثبيت EX PRO Player من متجر التطبيقات الرسمي على جهازك."}
+              {t("activation.step1.text")}
             </p>
           </BlackBox>
           <BlackBox className="flex flex-col  justify-center items-center md:w-[33%] w-[100%] h-[175px]">
             <h1
-                data-aos="fade-out"
+              data-aos="fade-out"
               className={`${local === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] md:text-[60px] text-[70px] mt-[-10px]  text-primary`}
             >
               02
             </h1>
             <h2
-                 data-aos="fade-up"
+              data-aos="fade-up"
               className={`${local === "en" ? "font-montserrat" : "font-cairo"}  font-[500] text-[20px] text-primary mt-[-15px]`}
             >
-              {local === "en"
-                ? "Get Your Device Details"
-                : "احصل على بيانات جهازك"}
+              {t("activation.step2.title")}
             </h2>
             <p
               data-aos="fade-up"
               className={`w-[157px] mt-[10px] ${local === "ar" ? "font-montserrat font-[400]" : "font-cairo font-[500]"} text-[10px] leading-[14px] text-center`}
             >
-              {local === "en"
-                ? "Open the app to view your Device MAC address and Device Key."
-                : "افتح التطبيق لعرض عنوان MAC الخاص بجهازك ومفتاح الجهاز."}
+              {t("activation.step1.text")}
             </p>
           </BlackBox>
-          <BlackBox className="flex flex-col  justify-center items-center md:w-[33%] w-[100%] h-[175px]">
+          <BlackBox className="flex flex-col justify-center items-center md:w-[33%] w-[100%] h-[175px]">
             <h1
-             data-aos="fade-out"
-              className={`${local === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] md:text-[60px] text-[70px] mt-[-10px]  text-primary`}
+              data-aos="fade-out"
+              className={`${local === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] md:text-[60px] text-[70px] mt-[-10px] text-primary`}
             >
               03
             </h1>
+
             <h2
-                data-aos="fade-up"
-              className={`${local === "en" ? "font-montserrat" : "font-cairo"}  font-[500] text-[20px] text-primary mt-[-15px]`}
+              data-aos="fade-up"
+              className={`${local === "en" ? "font-montserrat" : "font-cairo"} font-[500] text-[20px] text-primary mt-[-15px]`}
             >
-              {local === "en" ? "Activate Online" : "التفعيل عبر الإنترنت"}
+              {t("activation.step3.title")}
             </h2>
-            {local === "en" ? (
-              <p
-                  data-aos="fade-up"
-              className="w-[241px] mt-[10px] font-montserrat font-[400] text-[10px] leading-[14px] text-center">
-                Visit <span className="text-primary">activate.expro.uk </span> ,
-                enter your MAC and Key, choose a plan, complete payment, and
-                your device will be activated instantly.
-              </p>
-            ) : (
-              <p 
-                    data-aos="fade-up"
-              className="w-[241px] mt-[10px] font-montserrat font-[400] text-[10px] leading-[14px] text-center">
-                قم بزيارة{" "}
-                <span className="text-primary">activate.expro.uk </span> ، ثم
-                أدخل عنوان MAC ومفتاح الجهاز، واختر الباقة المناسبة، وأكمل عملية
-                الدفع، وسيتم تفعيل جهازك فورًا.
-              </p>
-            )}
+
+            <p
+              data-aos="fade-up"
+              className={`w-[241px] mt-[10px] ${
+                local === "en" ? "font-montserrat" : "font-cairo"
+              } font-[400] text-[10px] leading-[14px] text-center`}
+            >
+              {t("activation.step3.text1")}
+              <span className="text-primary">
+                {t("activation.step3.website")}
+              </span>
+              {t("activation.step3.text2")}
+            </p>
           </BlackBox>
         </div>
       </div>
       <div></div>
       <div className="w-[90%] flex flex-col items-center mx-auto md:mt-[60px] mt-[20px]">
         <h1
-        data-aos="fade-up"
+          data-aos="fade-up"
           className={`${local === "en" ? "font-inter" : "font-cairo"} font-[600] md:text-[40px] text-[30px]  leading-[42px] text-primary `}
         >
-          {local === "en" ? "Simple Activation Plans" : "خطط تفعيل بسيطة"}
+          {t("plans.title")}
         </h1>
         <div className="w-[100%] md:my-[50px] my-[20px] flex md:flex-row flex-col md:justify-between md:gap-[10px] gap-[15px] relative">
           <img
@@ -180,7 +169,7 @@ export default function BlatformSupport() {
           />
           <BlackBox className="flex md:w-[45%] w-[100%] px-[15px] items-center gap-[15px] h-[102px] ">
             <img
-               data-aos="fade-out"
+              data-aos="fade-out"
               src="/imge/home/4$.svg"
               alt="$4"
               width="67px"
@@ -188,35 +177,29 @@ export default function BlatformSupport() {
             ></img>
             <div>
               <h2
-               data-aos="fade-up"
+                data-aos="fade-up"
                 className={`${local === "en" ? "font-montserrat " : "font-cairo"}md:font-[500] font-[600] md:text-[24px] text-[16px] text-primary`}
               >
-                {local === "en"
-                  ? "6-Month Subscription"
-                  : "اشتراك لمدة 12 أشهر"}
+                {t("plans.yearly.title")}
               </h2>
-              {local === "en" ? (
-                <p 
-                 data-aos="fade-up"
-                className="font-montserrat font-[600] text-[12px]">
-                  Activate EX PRO Player on one device for{" "}
-                  <span className="font-[900]">
-                    6-Months. One-time payment{" "}
-                  </span>
-                </p>
-              ) : (
-                <p
-                 data-aos="fade-up"
-                className="font-cairo font-[500] text-[14px]">
-                  قم بتفعيل EX PRO Player على جهاز واحد.{" "}
-                  <span className="font-[800]">لمدة 12 شهرًا بدفعة واحد</span>
-                </p>
-              )}
+              <p
+                data-aos="fade-up"
+                className={`${
+                  local === "en"
+                    ? "font-montserrat font-[600] text-[12px]"
+                    : "font-cairo font-[500] text-[14px]"
+                }`}
+              >
+                {t("plans.yearly.text")}{" "}
+                <span className={local === "en" ? "font-[900]" : "font-[800]"}>
+                  {t("plans.yearly.highlight")}
+                </span>
+              </p>
             </div>
           </BlackBox>
           <BlackBox className="flex md:w-[45%] w-[100%] px-[15px] items-center gap-[15px] h-[102px] ">
             <img
-             data-aos="fade-out"
+              data-aos="fade-out"
               src="/imge/home/6$.svg"
               alt="$4"
               width="67px"
@@ -224,28 +207,24 @@ export default function BlatformSupport() {
             ></img>
             <div>
               <h2
-               data-aos="fade-up"
+                data-aos="fade-up"
                 className={`${local === "en" ? "font-montserrat " : "font-cairo"}md:font-[500] font-[600] md:text-[24px] text-[16px] text-primary`}
               >
-                {local === "en" ? "6-Month Subscription" : "اشتراك لمدة 6 أشهر"}
+                {t("plans.halfYear.title")}
               </h2>
-              {local === "en" ? (
-                <p 
-                 data-aos="fade-up"
-                className="font-montserrat font-[600] md:text-[12px] text-[10px]">
-                  Activate EX PRO Player on one device for{" "}
-                  <span className="font-[900]">
-                    6-Months. One-time payment{" "}
-                  </span>
-                </p>
-              ) : (
-                <p 
-                 data-aos="fade-up"
-                className="font-cairo font-[500] text-[14px]">
-                  قم بتفعيل EX PRO Player على جهاز واحد .{" "}
-                  <span className="font-[800]"> لمدة 6 أشهر بدفعة واحده </span>
-                </p>
-              )}
+              <p
+                data-aos="fade-up"
+                className={`${
+                  local === "en"
+                    ? "font-montserrat font-[600] text-[12px]"
+                    : "font-cairo font-[500] text-[14px]"
+                }`}
+              >
+                {t("plans.halfYear.text")}{" "}
+                <span className={local === "en" ? "font-[900]" : "font-[800]"}>
+                  {t("plans.halfYear.highlight")}
+                </span>
+              </p>
             </div>
           </BlackBox>
         </div>

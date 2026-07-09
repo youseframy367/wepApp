@@ -5,7 +5,7 @@ import { setAgreementStep } from "../actions";
 import { useState } from "react";
 import GradientBorderBox from "./GradiantBox";
 import ImageCheckbox from "./CheckBox";
-import { useLocale } from "next-intl";
+import { useLocale , useTranslations} from "next-intl";
 
 type Props = {
   agreementType: "customer" | "reseller";
@@ -16,7 +16,7 @@ export default function CheckAgreement({ agreementType }: Props) {
   const [agree, setAgree] = useState(false);
   const router = useRouter();
   const [pending, startTransition] = useTransition();
-
+const t = useTranslations("agreementConfirmation");
   const handleAccept = () => {
     if (!agree) return;
 
@@ -44,9 +44,7 @@ export default function CheckAgreement({ agreementType }: Props) {
           <p
             className={`text-[#fff] font-[400] md:text-[16px] text-[14px] ${local === "en" ? "font-inter ml-[-15px] " : " font-cairo font-[400] md:text-[19px] text-[15px] tracking-[-0.25px] mr-[-15px]"}`}
           >
-            {local === "en"
-              ? "I confirm that I have legal capacity and agree to all terms above"
-              : "أؤكد أنني أتمتع بالأهلية القانونية وأوافق على جميع الشروط المذكورة أعلاه."}
+             {t("checkbox")}
           </p>
         </div>
       </GradientBorderBox>
@@ -58,7 +56,7 @@ export default function CheckAgreement({ agreementType }: Props) {
                    ${local === "ar" ? "font-cairo md:text-[22px] text-[19px] leading-[40px] md:font-[600] font-[500]" : ""}
                   ${agree ? "bg-gradient-to-r from-[#DB9D39] via-[#FCD570] to-[#DB9D39] font-[600]  text-[20px] text-[#000000] font-Montserrat" : "bg-[rgba(223,196,134,0.76)] text-[#494747]"}  `}
       >
-        {local === "en" ? "I Agree & Proceed" : "أوافق وأتابع"}
+        {t("button")}
       </button>
     </div>
   );

@@ -1,5 +1,4 @@
 import BanerCommponnt from "../../componnt/Baner";
-import GradientBorderBox from "../../componnt/GradiantBox";
 import Worning from "../../componnt/warning";
 import { useLocale, useTranslations } from "next-intl";
 import FirstPoint from "../../componnt/FirstPoint";
@@ -7,44 +6,15 @@ import { LegalTermsOfTheContract } from "./AgreementResellerData";
 import MapOfAccorditionGradientBox from "../../componnt/MapOfAccordionGradientBox";
 import { choicesAdd } from "./AgreementResellerData";
 import CheckAgreemnt from "../../componnt/CheckAgreement";
+import Agreement from "../../componnt/Agreement";
 export default function AgreementReseller() {
   const local = useLocale();
   const t = useTranslations("AgreementReseller");
-  const notes = t.raw("notes.list");
 
   return (
     <section>
       <BanerCommponnt namespace="AgreementReseller.banner" />
-      <GradientBorderBox className="w-[90%] mx-auto py-[10px] md:px-[50px] px-[10px] md:h-[237px] h-auto text-[#fff] flex flex-col justify-around">
-        {notes.map((item, index) => (
-          <div
-            data-aos="fade-up"
-            key={index}
-            className={"flex items-center md:gap-[10px] gap-[7px] "}
-          >
-            <img
-              src="/imge/checkBox.svg"
-              alt="icon"
-              width="30px"
-              height="30px"
-            ></img>
-            <div className="flex flex-col gap-[16px]">
-              <p
-                className={`  md:font-[400] font-[300] md:text-[18px] text-[16px]  tracking-[-0.25px]${local === "ar" ? "  font-cairo  " : "font-inter"} `}
-              >
-                {item}
-              </p>
-            </div>
-          </div>
-        ))}
-        <p
-          data-aos="fade-up"
-          className={` md:px-[40px] px-[40px] md:font-[400] font-[300] md:text-[18px] text-[16px] tracking-[-0.25px]  ${local === "ar" ? "  font-cairo  " : "font-inter "} `}
-        >
-          {t("notes.footer.text")}
-          <span className=" text-[#DB9D39]">{t("notes.footer.highlight")}</span>
-        </p>
-      </GradientBorderBox>
+      <Agreement nameSpace="AgreementReseller" />
 
       <Worning className="mt-[30px]" text={t("warning.text")} />
       <FirstPoint namespace="AgreementReseller.firstPoint" />

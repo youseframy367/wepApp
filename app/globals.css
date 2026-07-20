@@ -5,7 +5,7 @@
   --breakpoint-3xl: 2200px;
   --breakpoint-4xl: 4000px;
 
-  --font-sans: "Montserrat", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
   --font-inter: "Inter", sans-serif;
   --font-cairo: var(--font-cairo);
 
@@ -79,9 +79,15 @@ body {
   );
 
   --six-gradient: linear-gradient(90deg, #f0dfc5 0%, #dab377 100%);
+  --HeaderChat-gradient : linear-gradient(90deg ,#FCD570,#DB9D39, #FFFFFF ,#DB9D39  )
+  --border-gradient : linear-gradient(90deg ,#DB9D39 , #FFFFFF )
 }
 
 /* Utilities */
+@utility gradient-border {
+  border: var(--border-gradient);
+  
+}
 
 @utility bg-primary {
   background: var(--primary-gradient);

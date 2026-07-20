@@ -120,7 +120,7 @@
       "description": "Refunds are not available under the following legal conditions."
     },
 
-    "NoRefundsOrCancellationsApplyTo": {
+    "NoRefundsOrCancellationsApplyToSection": {
       "title": "4. No Refunds or Cancellations Apply To",
       "description": "The following items and services are not eligible for refunds or cancellations."
     },

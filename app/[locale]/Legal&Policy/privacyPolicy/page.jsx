@@ -4,40 +4,20 @@ import Worning from "../../componnt/warning";
 import { useLocale, useTranslations } from "next-intl";
 import { PrivacyPolicyData } from "./PrivacyPolicyDate";
 import FirstPoint from "../../componnt/FirstPoint";
+import Agreement from "../../componnt/Agreement"
 import AccordionGradientBox from "../../componnt/AccordionGradientBox";
 import MapOfAccorditionGradientBox from "../../componnt/MapOfAccordionGradientBox";
 export default function PrivacyPolicy() {
   const local = useLocale();
   const t = useTranslations("privacyPolicy");
-  const notes = t.raw("notes");
-  return (
+    return (
     <div>
       <BanerCommponnt namespace="privacyPolicy.banner" />
 
       <FirstPoint withContainer={false} namespace="privacyPolicy.firstPoint" />
+      <Agreement nameSpace="privacyPolicy" />
 
-      <GradientBorderBox className="w-[90%] mx-auto py-[10px] md:px-[50px] px-[10px] md:h-[237px] h-auto mt-[20px] text-[#fff] flex flex-col justify-around">
-        {notes.map((item, index) => (
-          <div
-            key={index}
-            data-aos="fade-up"
-            className="flex items-center md:gap-[10px] gap-[7px]"
-          >
-            <img src="/imge/checkBox.svg" alt="icon" width="30" height="30" />
-
-            <p className="md:font-[400] font-[300] md:text-[18px] text-[16px] tracking-[-0.25px]">
-              {item}
-            </p>
-          </div>
-        ))}
-
-        <p
-          data-aos="fade-up"
-          className="md:font-[400] font-[300] md:text-[18px] text-[16px] tracking-[-0.25px]"
-        >
-          {t("agreement")}
-        </p>
-      </GradientBorderBox>
+  
       <Worning text={t("note.text")} className="my-[20px]" />
       <FirstPoint
         className={`${local === "en" ? "mt-[-56px] md:mt-0 " : ""}`}

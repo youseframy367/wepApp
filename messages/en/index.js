@@ -10,6 +10,10 @@ import NotSellOrShare from "./LegalPolicy/NotSellOrShare.json";
 import disclaimerOfContent from "./LegalPolicy/disclaimerOfContent.json";
 import agreementCustomer from "./agreement/AgreementCustomer.json";
 import AgreementReseller from "./agreement/AgreementReseller.json";
+import OurMission from "./LegalPolicy/OurMission.json";
+import companyInfo from "./LegalPolicy/companyInfo.json";
+import GlobalCompliance from "./LegalPolicy/GlobalCompliance.json";
+import DownloadAndWatching from "./DownloadAndWatching/home.json"
 export default {
   ...Component,
   ...Home,
@@ -22,5 +26,9 @@ export default {
   ...NotSellOrShare,
   ...disclaimerOfContent,
   ...agreementCustomer,
-  ...AgreementReseller
+  ...AgreementReseller,
+  ...OurMission,
+  ...companyInfo,
+  ...GlobalCompliance,
+  ...DownloadAndWatching
 };

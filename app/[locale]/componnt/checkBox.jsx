@@ -1,9 +1,10 @@
 "use client";
 
 export default function ImageCheckbox({
-  checked,
-  onChange,
+  checked = false,
+  onChange = () => {},
   name,
+  imgClassName = "w-5 h-5", 
   className = "",
 }) {
   return (
@@ -20,10 +21,12 @@ export default function ImageCheckbox({
         <img
           src="/imge/checkBox.svg"
           alt="checked"
-          className="md:w-[60px] md:h-[60px] w-[70px] h-[70px] "
+          className={imgClassName}
         />
       ) : (
-        <div className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] md:mx-[18px] mx-[10px] border border-gray-400 rounded-md" />
+        <div
+          className={`${imgClassName} border border-gray-400 rounded-[3px]`}
+        />
       )}
     </label>
   );

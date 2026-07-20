@@ -53,7 +53,7 @@ const local=useLocale()
       {/* Bottom */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 w-4.75 min-h-[15.5px] max-h-[15.5px] bg-fourth blur-[9.5px] z-10 pointer-events-none" />
       {/* Left */}
-      <div className="absolute left-0 top-1/2 -translate-x-1/2 -translate-y-1/2 min-w-[15.5px] max-w-[15.5px] h-4.75 bg-fourth blur-[9.5px] z-10 pointer-events-none" />
+      <div className="  absolute left-0 top-1/2 -translate-x-1/2 -translate-y-1/2 min-w-[15.5px] max-w-[15.5px] h-4.75 bg-fourth blur-[9.5px] z-10 pointer-events-none" />
       {/* Right */}
       <div className="absolute right-0 top-1/2 translate-x-1/2 -translate-y-1/2 min-w-[15.5px] max-w-[15.5px] h-4.75 bg-fourth blur-[9.5px] z-10 pointer-events-none" />
 

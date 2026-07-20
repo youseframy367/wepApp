@@ -118,11 +118,11 @@
       "title": "3. الأسس القانونية لعدم الاسترداد",
       "description": "لا تتوفر عمليات الاسترداد في الحالات القانونية التالية:"
     },
-    "NoRefundsOrCancellationsApplyTo": {
+    "NoRefundsOrCancellationsApplyToSection": {
       "title": "4. لا تنطبق عمليات الاسترداد أو الإلغاء على",
       "description": "العناصر والخدمات التالية غير مؤهلة للاسترداد أو الإلغاء:"
     },
-    "ChargebacksAndFraudulentDisputes": {
+    "ChargebacksAndFraudulent": {
       "title": "5. عمليات استرجاع المبالغ والنزاعات الاحتيالية",
       "description": "يُعتبر تقديم طلبات استرجاع مبالغ احتيالية (Chargebacks) انتهاكًا لهذه الشروط، وقد يؤدي إلى الإنهاء الدائم للحساب."
     },

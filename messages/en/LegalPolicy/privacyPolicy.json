@@ -9,13 +9,18 @@
       "title": "1. Introduction",
       "description": "At Exclusive Movies Ltd, we value your privacy and are fully committed to protecting your personal data. This Privacy Policy explains how we collect, process, store, disclose, and safeguard your information when using Ex Pro, our media player application. Our data practices strictly comply with:"
     },
-    "notes": [
-      "Egyptian Personal Data Protection Law No. 151 of 2020",
-      "UK GDPR (General Data Protection Regulation)",
-      "CCPA (California Consumer Privacy Act) – for users in California, USA",
-      "Google Play User Data Policy & Apple App Store Guidelines"
-    ],
-    "agreement": "By downloading or using Ex Pro, you confirm that you have read, understood, and agreed to this Policy.",
+    "notes": {
+      "list": [
+        "Egyptian Personal Data Protection Law No. 151 of 2020",
+        "UK GDPR (General Data Protection Regulation)",
+        "CCPA (California Consumer Privacy Act) – for users in California, USA",
+        "Google Play User Data Policy & Apple App Store Guidelines"
+      ],
+      "footer": {
+        "text": "By downloading or using Ex Pro, you confirm that you have read, understood, and agreed to this Policy.",
+        "highlight": ""
+      }
+    },
     "note": {
       "text": "If you are under 18 years old, you must obtain parental or guardian consent to use our services at Exclusive Movies LTD."
     },

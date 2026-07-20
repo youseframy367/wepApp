@@ -7,7 +7,7 @@ export default function MapOfAccorditionGradientBox({
   visibleLines = 2,
   parentClassName,
   CuntEffect = 3,
-  namespace
+  namespace,
 }) {
   const t = useTranslations(namespace);
 
@@ -16,33 +16,35 @@ export default function MapOfAccorditionGradientBox({
       <img
         src="/imge/effect.png"
         className={`absolute md:top-[20%] top-[10%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none ${
-          CuntEffect === 1 || CuntEffect === 2 || CuntEffect === 0 ? "hidden" : "block"
+          CuntEffect === 1 || CuntEffect === 2 || CuntEffect === 0
+            ? "hidden"
+            : "block"
         }`}
         alt="effect"
       />
 
       <img
         src="/imge/effectTwo.svg"
-        className={` ${ CuntEffect === 0 ? "hidden":""} absolute md:top-[50%] top-[30%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none`}
+        className={` ${CuntEffect === 0 ? "hidden" : ""} absolute md:top-[50%] top-[30%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none`}
         alt="effect"
       />
 
       <img
         src="/imge/effect.png"
-        className={` ${ CuntEffect === 0 ? "hidden":""} absolute top-[50%] md:hidden left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none`}
+        className={` ${CuntEffect === 0 ? "hidden" : ""} absolute top-[50%] md:hidden left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none`}
         alt="effect"
       />
 
       <img
         src="/imge/effectTwo.svg"
-        className={` ${ CuntEffect === 0 ? "hidden":""} absolute md:hidden top-[67%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none`}
+        className={` ${CuntEffect === 0 ? "hidden" : ""} absolute md:hidden top-[67%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none`}
         alt="effect"
       />
 
       <img
         src="/imge/effectThree.svg"
         className={`absolute md:top-[93%] top-[90%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none ${
-          CuntEffect === 1 || CuntEffect ===0 ? "hidden" : "block"
+          CuntEffect === 1 || CuntEffect === 0 ? "hidden" : "block"
         }`}
         alt="effect"
       />
@@ -52,8 +54,9 @@ export default function MapOfAccorditionGradientBox({
       >
         {data.map((item) => {
           const description = t.raw(`${item.key}.description`);
-          const list = t.raw(`${item.key}.list`);
-
+          const list = t.has(`${item.key}.list`)
+            ? t.raw(`${item.key}.list`)
+            : [];
           return (
             <AccordionGradientBox
               key={item.key}
@@ -62,9 +65,7 @@ export default function MapOfAccorditionGradientBox({
               visibleLines={visibleLines}
               paragraph={
                 <div>
-                  {typeof description === "string" && (
-                    <p>{description}</p>
-                  )}
+                  {typeof description === "string" && <p>{description}</p>}
 
                   {Array.isArray(description) && (
                     <ul className="list-disc pr-5 space-y-1">

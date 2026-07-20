@@ -8,8 +8,10 @@ import { Cairo } from "next/font/google";
 import AosProvider from "./componnt/AosProvider";
 import Navbar from "./parts/Header";
 import Footer from "./parts/Fooer";
+import { ActiveSectionProvider } from "./context/ActiveSectionContext"
 import LoadingScreen from "./parts/loding";
 import { cookies } from "next/headers";
+import StructuredData from "@/components/StructuredData";
 const montserrat = Montserrat({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -26,8 +28,19 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Exclusive Movies",
-  description: "Exclusive Movies LTD",
+  metadataBase: new URL("https://exclusivemovies.com"),
+
+  title: {
+    default: "Exclusive Movies",
+    template: "%s | Exclusive Movies",
+  },
+
+  description:
+    "Exclusive Movies provides secure, privacy-focused digital media solutions through Ex Pro Media Player.",
+
+  alternates: {
+    canonical: "https://exclusivemovies.com",
+  },
 };
 
 export default async function LocaleLayout({
@@ -51,7 +64,12 @@ export default async function LocaleLayout({
         <NextIntlClientProvider>
           <AosProvider>
             {!hideLayout && <Navbar />}
-            <main className={!hideLayout ? "mt-[100px]" : ""}>{children || <LoadingScreen/>}</main>
+            <main className={!hideLayout ? "mt-[100px]" : ""}>
+              <StructuredData />{" "}
+              <ActiveSectionProvider>
+                {children || <LoadingScreen />}
+              </ActiveSectionProvider>
+            </main>
             {!hideLayout && <Footer />}
           </AosProvider>
         </NextIntlClientProvider>

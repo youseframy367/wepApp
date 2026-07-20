@@ -13,12 +13,12 @@ import {
   ContactBeforePurchase,
   acknowledges,
 } from "./RefundPolicyData";
-
-import ComponntBox from "./BoxComponent";
+import PolicyNote from "../../componnt/PolicyNote";
+import ComponntBox from "../../componnt/BoxComponent";
 export default function RefundPolicy() {
   const local = useLocale();
   const t = useTranslations("refundPolicy");
-  const DataChargebacks = t.raw("ChargebacksAndFraudulentDisputes.list");
+  // const DataChargebacks = t.raw("ChargebacksAndFraudulentDisputes.list");
   return (
     <div>
       <BanerCommponnt namespace="refundPolicy.banner" />
@@ -68,7 +68,7 @@ export default function RefundPolicy() {
         withContainer={false}
         className="my-[30px]"
         urlImg="/imge/policy/refundPolicy/NoRefunde.svg"
-        namespace="refundPolicy.NoRefundsOrCancellationsApplyTo"
+        namespace="refundPolicy.NoRefundsOrCancellationsApplyToSection"
       />
 
       <ComponntBox
@@ -81,28 +81,11 @@ export default function RefundPolicy() {
         urlImg="/imge/policy/refundPolicy/mony.svg"
         namespace="refundPolicy.ChargebacksAndFraudulent"
       />
+      <PolicyNote
+        NameParentSpace="refundPolicy"
+        className="md:mt-[-120px] mt-[-190px]"
+      />
 
-      <GradientBorderBox className="w-[90%] p-[20px] md:mt-[-120px] mt-[-190px] mx-auto flex flex-col gap-[5px]">
-        {DataChargebacks.map((item, index) => (
-          <div
-            key={index}
-            className="flex gap-[20px] items-center"
-            data-aos="fade-up"
-          >
-            <img src="/imge/policy/refundPolicy/point.svg" alt="point" />
-
-            <p
-              className={`md:font-[600] font-[500] ${
-                local === "en"
-                  ? "font-inter md:text-[18px] text-[16px]"
-                  : "font-cairo md:text-[19px] text-[15px]"
-              } tracking-[-0.25px]`}
-            >
-              {item}
-            </p>
-          </div>
-        ))}
-      </GradientBorderBox>
       <FirstPoint
         className="md:mt-[0px] mt-[-40px]"
         urlImg="/imge/policy/refundPolicy/platform.svg"
@@ -141,7 +124,7 @@ export default function RefundPolicy() {
         titleEn="8. Contact Before Purchase"
         pragrafAr="نوصي بالتواصل مع الدعم قبل إتمام عملية الشراء للحصول على أي توضيحات."
         pragrafEn="We recommend contacting support prior to purchase for clarification."
-        namespace='refundPolicy.contactBeforePurchase'
+        namespace="refundPolicy.contactBeforePurchase"
       />
       <div className=" relative">
         <img

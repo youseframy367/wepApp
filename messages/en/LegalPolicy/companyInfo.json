@@ -1,0 +1,160 @@
+{
+  "CompanyInfo": {
+    "Banner": {
+      "title": "Company Info",
+      "subtitle": "Effective Date: 20 February 2026",
+      "description": "Issued By: Exclusive LTD.  I  Website: exclusivemovies.com"
+    },
+    "Policy": {
+      "companyTitle": "Origin & Background",
+      "description": "Founded in Cairo, Egypt, in February 2020, Exclusive Movies Ltd launched its flagship product — Ex Pro Media Player — to empower users across the MENA region with a secure, privacy-first media player designed exclusively for personal digital content.\n\nFueled by strong regional demand and a vision for international scalability, the company expanded its legal and operational footprint to the United Kingdom in 2021, establishing a dual-jurisdiction presence that bridges local innovation with global compliance standards.\n\nToday, Exclusive Movies Ltd operates under the rigorous frameworks of both UK corporate law and Egyptian digital regulations, serving users and partners with integrity, transparency, and technical excellence."
+    },
+
+    "OurMission": {
+      "title": "Our Mission",
+      "description": "To empower users and content providers with innovative, privacy-focused, cross-platform media solutions — prioritizing security, performance, and seamless usability across all devices and ecosystems."
+    },
+    "WhatWeOffer": {
+      "title": "What We Offer ?"
+    },
+    "ComplianceLegality": {
+      "title": "Compliance & Legality",
+      "description": "Exclusive Movies Ltd operates in full compliance with:"
+    },
+    "KeyStrengths": {
+      "title": "Key Strengths & Differentiators"
+    },
+
+    "Offer": {
+      "items": [
+        "Premium subscription-based media applications (e.g., Ex Pro)",
+        "Per-device subscription model — each device requires an individual subscription; multi-device support refers to compatibility across platforms, not shared access",
+        "Multi-platform playback engines with adaptive bitrate streaming",
+        "Custom OTT & digital platform development for B2B clients",
+        "Privacy-by-design data architectures, compliant with:",
+        "EU GDPR & UK GDPR",
+        "Egyptian Data Protection Law No. 151 of 2020",
+        "CCPA (for California residents, where applicable)",
+        "Secure-by-default systems featuring end-to-end encryption, robust authentication, and regular third-party security audits",
+        "Legally binding Data Processing Agreements (DPAs) with all subprocessors — including Stripe and Paymob — ensuring full accountability under applicable data protection regimes"
+      ]
+    },
+    "notes": {
+      "list": [
+        "UK Company Law",
+        "EU GDPR and UK GDPR",
+        "Egyptian Data Protection Law No. 151 of 2020"
+      ]
+    },
+    "ImportantLegalNotice": {
+      "mediaPlayer": {
+        "text": "Ex Pro is a media-player application only. It does not host, store, transmit, distribute, or provide any built-in media content — licensed or otherwise."
+      },
+      "mediaSources": {
+        "text": "All media sources, URLs, or streams added by the user are entirely user-provided and user-managed. Responsibility for the legality, ownership, or copyright status of such content rests solely with the end user."
+      },
+      "dataProcessing": {
+        "text": "All data processing, payment handling, and refund procedures strictly adhere to our Public Privacy Policy and relevant consumer protection laws in the user’s jurisdiction."
+      }
+    },
+    "Headquarters": {
+      "title": "Headquarters",
+      "uk": {
+        "title": "Registered Office (UK):",
+        "description": "71–75 Shelton Street, Covent Garden, London, WC2H 9JQ, United Kingdom (Registered with Companies House)"
+      },
+      "eg": {
+        "title": "Founding Office (EG):",
+        "description": "Cairo, Arab Republic of Egypt (Registered with the Egyptian Investment Authority – Est. 21 December 2020)"
+      },
+      "images": {
+        "ukAlt": "Registered Office (UK)",
+        "egAlt": "Founding Office (EG)",
+        "mapAlt": "Headquarters Map"
+      }
+    },
+    "ContactUs": {
+      "title": "Contact Us",
+      "description": "For business development, media partnerships, technical integrations, or compliance inquiries, please reach out to our official corporate channel: info@exclusivemoviess.com"
+    },
+    "Differentiators": {
+      "ClearLegalSeparation": {
+        "title": "Clear legal separation",
+        "description": "Our software is a neutral tool — we do not supply, curate, or profit from user-added content."
+      },
+      "Dual-jurisdiction": {
+        "title": "Dual-jurisdiction foundation",
+        "description": "Egyptian innovation, UK governance — optimized for MENA and global scalability."
+      },
+      "Multi-regime": {
+        "title": "Multi-regime Compliance",
+        "description": "Validated alignment with GDPR, UK GDPR, Egyptian Law 151/2020, and CCPA."
+      },
+      "FullCorporate": {
+        "title": "Full corporate Transparency",
+        "description": "Public registration, physical addresses, verification links, and legally enforceable DPAs."
+      },
+      "Technology-first": {
+        "title": "Technology-first focus",
+        "description": "We build secure media infrastructure — not content libraries."
+      },
+      "AdLiability": {
+        "title": "Ad liability protection",
+        "description": "All advertising is served via authorized third parties (e.g., Google AdMob). We do not engage in cross-device tracking, household profiling, or behavioral targeting."
+      }
+    },
+    "UXEnhancement": {
+      "title": "UX Enhancement",
+      "subtitle": "Pre-Purchase Notice (Recommended for App Stores & Website)",
+      "notice": "Ex Pro subscriptions are digital services activated instantly upon payment. Refunds are not available except where mandated by local law or in cases of verified technical failure that prevents access to the service. For purchases made through Google Play or the Apple App Store, refund requests must be submitted directly through the respective platform.",
+      "footer": "This notice enhances user transparency, minimizes support disputes, and aligns with the commercial policies of Google, Apple, Stripe, and global e-commerce best practices."
+    },
+    "EvaluationSummary": {
+      "title": "Evaluation Summary",
+      "subtitle": "Criterion Rating",
+      "criteria": [
+        {
+          "title": "Global B2B/B2C Readiness",
+          "rating": "⭐⭐⭐⭐⭐"
+        },
+        {
+          "title": "Institutional Clarity",
+          "rating": "⭐⭐⭐⭐⭐"
+        },
+        {
+          "title": "Legal & Regulatory Compliance",
+          "rating": "⭐⭐⭐⭐⭐"
+        },
+        {
+          "title": "Protection from Content/Ad Liability",
+          "rating": "⭐⭐⭐⭐⭐"
+        },
+        {
+          "title": "Professionalism & Market Positioning",
+          "rating": "⭐⭐⭐⭐⭐"
+        }
+      ]
+    },
+    "FinalConclusion": {
+      "title": "Final Conclusion",
+      "subtitle": "This About Us page is fully optimized for",
+      "description": "It positions Exclusive Movies Ltd not as a content provider — but as a trusted, compliance-driven technology enabler with Egyptian roots, UK registration, and global ambition.",
+      "highlight": "Exactly what regulators, partners, and privacy-conscious users expect from a next-generation digital media company."
+    }
+  },
+
+  "agrrmant": {
+    "notes": {
+      "list": [
+        "Official website publication",
+        "Investor & partner due diligence packs",
+        "App Store compliance documentation",
+        "Corporate governance & legal verification"
+      ]
+    }
+  },
+  "titles": {
+    "ImportantLegalNotice": "Important Legal Notice",
+    "Pre-PurchaseNotice": "Pre-Purchase Notice"
+  }
+}

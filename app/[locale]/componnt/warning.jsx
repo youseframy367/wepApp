@@ -4,6 +4,8 @@ export default function Worning({
   title,
   text,
   className,
+  classNamep,
+  reverse = false,
   img = "/imge/agreement/worning.svg",
 }) {
   const local = useLocale();
@@ -14,14 +16,21 @@ export default function Worning({
       <img src={img} data-aos="fade-up" />
 
       <p
-        data-aos="fade-up"
-        className={`${local === "en"
-          ? "font-inter md:font-[400]"
-          : "font-cairo md:font-[500] md:text-[20px] text-[17px]"
+        className={`${classNamep} ${
+          local === "en"
+            ? "font-inter md:font-[400]"
+            : "font-cairo md:font-[500] md:text-[20px] text-[17px]"
         } py-[10px] font-[300] text-[16px] text-[#fff]`}
       >
-        <span className="text-primary">{title}</span>
-        {text}
+        {reverse ? (
+          <>
+            {text} <span className="text-primary">{title}</span>
+          </>
+        ) : (
+          <>
+            <span className="text-primary">{title}</span> {text}
+          </>
+        )}
       </p>
     </GradientBorderBox>
   );

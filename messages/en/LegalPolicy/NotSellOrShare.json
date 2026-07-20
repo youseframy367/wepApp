@@ -17,15 +17,7 @@
       },
       "footer": "This page explains your rights regarding the “sale” or “sharing” of personal information under California privacy laws."
     },
-    "titles": {
-      "importantLegalNotice": "1. Important Legal Notice",
-      "sharingLegalDefinition": "2. Clarification of “Sharing” (Legal Definition)",
-      "optOutRights": "3. Opt-Out Rights (California Residents)",
-      "globalPrivacyControl": "4. Global Privacy Control (GPC)",
-      "nonDiscrimination": "5. Non-Discrimination",
-      "relationshipWithPrivacyLaws": "6. Relationship with Other Privacy Laws",
-      "contactInformation": "7. Contact Information & Company Details"
-    },
+   
 
     "warning": {
       "text": "Exclusive Movies Ltd does not sell personal information for monetary consideration or commercial resale."
@@ -71,9 +63,9 @@
         "If your browser or device sends a valid Global Privacy Control (GPC) signal, it will be treated as a request to opt out of the \"sale\" or \"sharing\" of personal information where applicable."
       ]
     },
+    "text": "Exclusive Movies Ltd will not discriminate against users for exercising their privacy rights.",
 
-    "nonDiscrimination": {
-      "description": "Exclusive Movies Ltd will not discriminate against users for exercising their privacy rights.",
+    "notes": {
       "list": [
         "Opting out will not result in:",
         "Reduced quality of service.",
@@ -100,5 +92,14 @@
         "description": "71–75 Shelton Street, Covent Garden, London, United Kingdom, WC2H 9JQ"
       }
     }
-  }
+  },
+   "titles": {
+      "importantLegalNotice": "1. Important Legal Notice",
+      "sharingLegalDefinition": "2. Clarification of “Sharing” (Legal Definition)",
+      "optOutRights": "3. Opt-Out Rights (California Residents)",
+      "globalPrivacyControl": "4. Global Privacy Control (GPC)",
+      "nonDiscrimination": "5. Non-Discrimination",
+      "relationshipWithPrivacyLaws": "6. Relationship with Other Privacy Laws",
+      "contactInformation": "7. Contact Information & Company Details"
+    }
 }

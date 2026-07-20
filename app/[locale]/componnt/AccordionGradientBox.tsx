@@ -37,10 +37,10 @@ export default function AccordionGradientBox({
 
   const local = useLocale();
   const isRTL = local !== "en";
-  const hasTitle =
-    typeof title === "string"
-      ? title.trim() !== "" && !title.includes("MISSING_MESSAGE")
-      : !!title;
+const hasTitle =
+  title !== null &&
+  title !== undefined &&
+  !(typeof title === "string" && title.trim() === "");
   useLayoutEffect(() => {
     const recalculate = () => {
       const p = paragraphRef.current;

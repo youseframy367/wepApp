@@ -28,5 +28,78 @@
       "serverError": "Server Error",
       "somethingWrong": "Something went wrong"
     }
+  },
+  "AddBlayList": {
+    "title": "Add Playlist",
+    "description": "Add your favorite movies and series in one place",
+    "form": {
+      "PlaylistName": {
+        "label": "Playlist Name",
+        "placeholder": "enter your Playlist Name"
+      },
+      "PlaylistURL": {
+        "label": "Playlist URL (.M3U or.M3u8)",
+        "placeholder": "enter your URL"
+      },
+      "XMLTV": {
+        "label": "XMLTV EPG URL (Optional)",
+        "placeholder": "enter your URL"
+      }
+    },
+    "button": {
+      "login": "Login",
+      "loading": "Loading..."
+    },
+    "formDrwer": {
+      "PIN": {
+        "label": "PIN",
+        "placeholder": "enter your PIN"
+      },
+      "confirmPIN": {
+        "label": "Confirm PIN",
+        "placeholder": "enter your PIN"
+      }
+    }
+  },
+
+  "AddXCBlayList": {
+    "title": "Add XC Playlist",
+    "description": "Add your favorite movies and series in one place",
+    "form": {
+      "PlaylistName": {
+        "label": "Playlist Name",
+        "placeholder": "enter your Playlist Name"
+      },
+      "UserNme": {
+        "label": "User Nme",
+        "placeholder": "enter your URL"
+      },
+      "Host": {
+        "label": "Host",
+        "placeholder": "enter your URL"
+      },
+      "Password": {
+        "label": "Password",
+        "placeholder": "enter your Password"
+      },
+      "XMLTV": {
+        "label": "XMLTV EPG URL (Optional)",
+        "placeholder": "enter your PIN"
+      }
+    },
+    "button": {
+      "login": "Login",
+      "loading": "Loading..."
+    },
+    "formDrwer": {
+      "PIN": {
+        "label": "PIN",
+        "placeholder": "enter your PIN"
+      },
+      "confirmPIN": {
+        "label": "Confirm PIN",
+        "placeholder": "enter your PIN"
+      }
+    }
   }
 }

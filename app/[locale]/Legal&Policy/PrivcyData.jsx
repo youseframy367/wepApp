@@ -34,14 +34,17 @@ export const aboutUs = [
   {
     key: "ourMission",
     img: "/imge/policy/OurMission.svg",
+    navigate :"/Legal&Policy/OurMission"
   },
   {
     key: "companyInfo",
     img: "/imge/policy/companyInfo.svg",
+    navigate:"/Legal&Policy/CompanyInfo"
   },
   {
     key: "globalCompliance",
     img: "/imge/policy/GlobalCompliance.svg",
+    navigate:"/Legal&Policy/GlobalCompliance"
   },
 ];
 

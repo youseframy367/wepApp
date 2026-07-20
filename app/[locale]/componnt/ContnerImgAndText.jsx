@@ -1,17 +1,22 @@
 import GradientBorderBox from "./GradiantBox";
-import { useLocale , useTranslations } from "next-intl";
-export default function ContanerTextAndImg({namespace, img, ul = false ,positionEffect="50%"}) {
+import { useLocale, useTranslations } from "next-intl";
+export default function ContanerTextAndImg({
+  namespace,
+  img,
+  ul = false,
+  effect = "/imge/effect.png",
+  positionEffect = "50%",
+}) {
   const local = useLocale();
-  const t =useTranslations(namespace);
-  const items = t.raw("items") ;
+  const t = useTranslations(namespace);
+  const items = t.raw("items");
 
   return (
     <div className=" relative">
       <img
-        src="/imge/effect.png"
-        className={`absolute top-[${positionEffect}] 
-                
-                  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none`}
+        src={effect}
+         style={{ top: positionEffect }}
+        className={`absolute left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none`}
         alt="effect"
       />
       <GradientBorderBox className="flex md:flex-row flex-col items-center relative gap-[20px] w-[90%] mx-auto md:p-[20px] p-[10px] my-[5px]">

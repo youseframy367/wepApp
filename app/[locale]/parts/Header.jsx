@@ -28,15 +28,15 @@ export default function Header() {
 
   const hidingOfHeader = [
     { title: t("home"), navigate: "/" },
-    { title: t("managePlaylist"), navigate: "/manageBlayList" },
+    { title: t("managePlaylist"), navigate: "/logInManageBlayList" },
     { title: t("legalPolicy") ,navigate:"/Legal&Policy"},
-    { title: t("downloadWatching") },
+    { title: t("downloadWatching") , navigate :"/DownloadAndWatching" },
     { title: t("dashboard") },
     { title: t("faq") },
   ];
 
   return (
-    <header className="fixed top-0 left-0 w-full h-[106px] bg-black z-50">
+    <header className="fixed top-0 left-0 w-full h-[106px] bg-black z-[999]">
       <div className="flex items-center justify-between px-4 md:px-[15px] h-full">
         {/* Logo */}
         <Image

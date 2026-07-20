@@ -1,11 +1,15 @@
+"use client";
+
+import { useRouter } from "next/navigation";
 import BanerCommponnt from "../componnt/Baner";
 import PrivcyComponnt from "../componnt/ContanerPrivcy";
 import GradientBorderBox from "../componnt/GradiantBox";
 import { aboutUs, DeteGoToBage } from "./PrivcyData";
-import { useLocale , useTranslations} from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 export default function Bolicy() {
   const t = useTranslations("aboutUs");
   const local = useLocale();
+  const router =useRouter()
   return (
     <div>
       <BanerCommponnt
@@ -60,7 +64,8 @@ export default function Bolicy() {
                 {t(`cards.${item.key}.description`)}
               </p>
               <button
-                className={`w-[136px] h-[29px] rounded-[4px] border-primary tracking-[-0.25px] flex justify-center items-center text-[#000] font-[600] text-[14px] ${local === "en" ? "font-inter" : "font-cairo"} bg-primary`}
+                className={`w-[136px] h-[29px] rounded-[4px] cursor-pointer border-primary tracking-[-0.25px] flex justify-center items-center text-[#000] font-[600] text-[14px] ${local === "en" ? "font-inter" : "font-cairo"} bg-primary`}
+                onClick={() => router.push(item.navigate)}
               >
                 {t("button")}
               </button>

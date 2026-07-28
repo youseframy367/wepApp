@@ -1,11 +1,16 @@
 "use client";
-
+import ParentPIN from "../ParentPIN";
 import SliderManageBlayList from "./slider";
 import { useActiveSection } from "../../context/ActiveSectionContext";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+import TransferDevice from "../TransferDevice";
 import ManagePlaylists from "./ManagePlaylists";
+import Activation from "../Activation";
+import DeviceKey from "../DeviceKey";
+import UsersStatus from "../UsersStatus";
 export default function ManageBlayList() {
   const local = useLocale();
+  const t = useTranslations("ManagePlaylist.playlist");
   const { activeSection } = useActiveSection();
   return (
     <div className="min-h-[100vh] relative">
@@ -16,12 +21,19 @@ export default function ManageBlayList() {
       />
       <img
         src="/imge/effect.png"
-        className="absolute top-[90%]   left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"
+        className="absolute top-[92%]   left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"
         alt="effect"
       />
       <SliderManageBlayList />
-      <div className={` ${local === "en" ?"md:ml-[25%] ml-[5%]":"md:mr-[25%] mr-[5%]"} md:w-[70%] md:w-[90%] w-[95%]  md:mt-[10vh] mt-[8vh] `}>
-        {activeSection === "Manage Playlists" && <ManagePlaylists />}
+      <div
+        className={` ${local === "en" ? "md:ml-[25%] ml-[5%]" : "md:mr-[25%] mr-[5%]"} md:w-[70%]  w-[95%]  md:mt-[10vh] mt-[8vh] `}
+      >
+        {activeSection === "manage-playlists" && <ManagePlaylists />}
+        {activeSection === "activation" && <Activation />}
+        {activeSection === "transfer-device" && <TransferDevice />}
+        {activeSection === "users-status" && <UsersStatus />}
+        {activeSection === "parent-pin" && <ParentPIN />}
+        {activeSection === "device-key" && <DeviceKey />}
       </div>
     </div>
   );

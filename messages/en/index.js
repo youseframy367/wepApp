@@ -1,6 +1,6 @@
 import Component from "./Component.json";
 import Home from "./home/home.json";
-import ManagePlaylist from "./ManagePlaylist/managePlaylist.json";
+import managePlaylistLogin from "./ManagePlaylist/managePlaylistLogin.json";
 import LegalPolicy from "./LegalPolicy/LegalPolicy.json";
 import TermsAndConditions from "./LegalPolicy/TermsAndConditions.json";
 import PrivcyPolicy from "./LegalPolicy/privacyPolicy.json";
@@ -13,11 +13,19 @@ import AgreementReseller from "./agreement/AgreementReseller.json";
 import OurMission from "./LegalPolicy/OurMission.json";
 import companyInfo from "./LegalPolicy/companyInfo.json";
 import GlobalCompliance from "./LegalPolicy/GlobalCompliance.json";
-import DownloadAndWatching from "./DownloadAndWatching/home.json"
+import DownloadAndWatching from "./DownloadAndWatching/home.json";
+import Activation from "./ManagePlaylist/Activation.json";
+import TransferDevice from "./ManagePlaylist/TransferDevice.json"
+import UsersStatus from "./ManagePlaylist/UsersStatus.json";
+import DeviceKey from "./ManagePlaylist/DeviceKey.json";
+import ParentPIN from "./ManagePlaylist/ParentPIN.json"
+import ManagePlaylist from "./ManagePlaylist/managePlaylist.json";
+import Dashboard from "./Dashboard/Dashboard.json"
+import FAQ from "./FAQ/FAQ.json"
 export default {
   ...Component,
   ...Home,
-  ...ManagePlaylist,
+  ...managePlaylistLogin,
   ...LegalPolicy,
   ...TermsAndConditions,
   ...PrivcyPolicy,
@@ -30,5 +38,13 @@ export default {
   ...OurMission,
   ...companyInfo,
   ...GlobalCompliance,
-  ...DownloadAndWatching
+  ...DownloadAndWatching,
+  ...Activation,
+  ...TransferDevice,
+  ...UsersStatus,
+  ...DeviceKey,
+  ...ParentPIN,
+  ...ManagePlaylist,
+  ...Dashboard,
+  ...FAQ
 };

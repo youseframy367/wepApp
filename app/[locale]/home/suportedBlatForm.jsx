@@ -164,7 +164,7 @@ export default function BlatformSupport() {
         <div className="w-[100%] md:my-[50px] my-[20px] flex md:flex-row flex-col md:justify-between md:gap-[10px] gap-[15px] relative">
           <img
             src="/imge/effect.png"
-            className="absolute md:top-[0%] top-[10%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"
+            className="absolute md:top-[0%] top-[10%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"  
             alt="effect"
           />
           <BlackBox className="flex md:w-[45%] w-[100%] px-[15px] items-center gap-[15px] h-[102px] ">

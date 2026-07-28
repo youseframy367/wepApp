@@ -1,0 +1,11 @@
+{
+  "TransferDevice": {
+    "title": "Device ID",
+    "subtitle": "New Transfer Device (Max length: 17)",
+    "description": "Transfer your activation and playlists to another device MAC Address. Please note that you can switch activation only one time.",
+    "placeholder": "Enter New Device ID",
+    "button": "Transfer",
+    "WordNot":" NOTE :",
+    "note": "Your device login information, playlists, and activation period shall be transferred to this new device MAC address. Your old MAC address device will no longer be attached to this account."
+  }
+}

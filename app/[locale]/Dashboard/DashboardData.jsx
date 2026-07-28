@@ -1,0 +1,26 @@
+export const DashboardData =[
+    {
+        img:"/imge/Dashbord/Cinematic.svg",
+        key:"Cinematic"
+    },
+    {
+        img:'/imge/Dashbord/Features.svg',
+        key:"Features"
+    },
+    {
+        img:"/imge/Dashbord/Controls.svg",
+        key:'Controls'
+    },
+    {
+        img:"/imge/Dashbord/Reliable.svg",
+        key:"Reliable"
+    },
+    {
+        img:"/imge/Dashbord/SupportedPlatforms.svg",
+        key:'SupportedPlatforms'
+    },
+    {
+        img:"/imge/Dashbord/ExpertSupport.svg",
+        key:'ExpertSupport'
+    }
+]

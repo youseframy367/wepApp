@@ -29,10 +29,10 @@ export default function Header() {
   const hidingOfHeader = [
     { title: t("home"), navigate: "/" },
     { title: t("managePlaylist"), navigate: "/logInManageBlayList" },
-    { title: t("legalPolicy") ,navigate:"/Legal&Policy"},
-    { title: t("downloadWatching") , navigate :"/DownloadAndWatching" },
-    { title: t("dashboard") },
-    { title: t("faq") },
+    { title: t("legalPolicy"), navigate: "/Legal&Policy" },
+    { title: t("downloadWatching"), navigate: "/DownloadAndWatching" },
+    { title: t("dashboard"), navigate: "/Dashboard" },
+    { title: t("faq") , navigate:"/FAQ" },
   ];
 
   return (
@@ -154,7 +154,6 @@ export default function Header() {
                   router.push(item.navigate);
                 }
               }}
-             
               className={`cursor-pointer font-[500] text-[18px] transition-all duration-300 ${
                 activeIndex === i
                   ? "text-primary-animated"

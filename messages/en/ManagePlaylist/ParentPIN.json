@@ -1,0 +1,9 @@
+{
+  "ParentPIN": {
+    "parentPinTitle": "Reset the Parental Verification Code",
+    "parentPinPlaceholder": "Enter the new parental verification code.",
+    "confirm": "Confirm",
+    "note": "NOTE :",
+    "parentPinNote": "If you forgot your parent PIN in the app, you can change it here."
+  }
+}

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import axios from "axios";
 import GradientBorderBox from "../../../componnt/GradiantBox";
 import { useLocale, useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
@@ -9,6 +10,34 @@ export default function ManagBlayList() {
   const local = useLocale();
   const t = useTranslations("AddBlayList");
   const router = useRouter();
+  const [formData, setFormData] = useState({
+    playlistName: "",
+    playlistUrl: "",
+    xmltv: "",
+    pin: "",
+    confirmPin: "",
+  });
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const { data } = await axios.post("/api/playlist", formData);
+
+      console.log(data);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
   const form = [
     {
       key: "PlaylistName",
@@ -41,9 +70,11 @@ export default function ManagBlayList() {
   ];
 
   const [loading, setLoading] = useState(false);
-  const [openDrwer,setOpenDrwer] =useState(false)
+  const [openDrwer, setOpenDrwer] = useState(false);
   return (
-    <div className={` ${openDrwer ? "mt-[150px]" :"mt-[100px]"} flex flex-col justify-center items-center md:min-h-[110vh] min-h-[70vh]`}>
+    <div
+      className={` ${openDrwer ? "mt-[150px]" : "mt-[100px]"} flex flex-col justify-center items-center md:min-h-[110vh] min-h-[70vh]`}
+    >
       <img
         src="/imge/effect.png"
         className="absolute md:top-[0%] top-[10%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"
@@ -69,7 +100,7 @@ export default function ManagBlayList() {
       </p>
 
       <GradientBorderBox className="md:w-[667px] w-[94%] mx-auto my-[20px] flex flex-col md:p-[20px] p-[15px]">
-        <form className="flex flex-col gap-[19px]">
+        <form onSubmit={handleSubmit} className="flex flex-col gap-[19px]">
           {form.map((item) => (
             <div key={item.key} className="flex flex-col gap-[10px] mt-[10px]">
               <label
@@ -88,18 +119,34 @@ export default function ManagBlayList() {
 
                   <input
                     type={item.type}
+                    name={
+                      item.key === "PlaylistName"
+                        ? "playlistName"
+                        : item.key === "PlaylistURL"
+                          ? "playlistUrl"
+                          : "xmltv"
+                    }
+                    value={
+                      item.key === "PlaylistName"
+                        ? formData.playlistName
+                        : item.key === "PlaylistURL"
+                          ? formData.playlistUrl
+                          : formData.xmltv
+                    }
+                    onChange={handleChange}
                     placeholder={t(`form.${item.key}.placeholder`)}
                     className="font-[500] font-[inter] md:text-[12px] text-[10px] text-[#ffffff83] border-none outline-none bg-transparent w-full"
                   />
                 </div>
-
-             
               </GradientBorderBox>
             </div>
           ))}
 
           {formDrwer.map((item) => (
-            <div key={item.key} className={` ${openDrwer ? "block" :"hidden"} flex flex-col gap-[10px] mt-[10px]`}>
+            <div
+              key={item.key}
+              className={` ${openDrwer ? "block" : "hidden"} flex flex-col gap-[10px] mt-[10px]`}
+            >
               <label
                 className={`font-[600] ${
                   local === "ar" ? "font-cairo" : "font-inter"
@@ -116,20 +163,26 @@ export default function ManagBlayList() {
 
                   <input
                     type={item.type}
+                    name={item.key === "PIN" ? "pin" : "confirmPin"}
+                    value={
+                      item.key === "PIN" ? formData.pin : formData.confirmPin
+                    }
+                    onChange={handleChange}
                     placeholder={t(`formDrwer.${item.key}.placeholder`)}
                     className="font-[500] font-[inter] md:text-[12px] text-[10px] text-[#ffffff83] border-none outline-none bg-transparent w-full"
                   />
                 </div>
-
-              
               </GradientBorderBox>
             </div>
           ))}
 
           <div className="flex items-center gap-[10px]">
-            <ImageCheckbox onChange={()=>{
-                setOpenDrwer(!openDrwer)
-            }}/>
+            <ImageCheckbox
+              checked={openDrwer}
+              onChange={() => {
+                setOpenDrwer(!openDrwer);
+              }}
+            />
             <div>
               <p className="font-[600] text-[10px] font-inter tracking[-0.25px]">
                 Protect this playlist

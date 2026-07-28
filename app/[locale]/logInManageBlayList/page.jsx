@@ -1,13 +1,14 @@
 "use client";
 
 import { useState } from "react";
+
 import GradientBorderBox from "../componnt/GradiantBox";
 import { useLocale , useTranslations } from "next-intl";
 import Chat from "../chat/ComponentParent"
 import { useRouter } from "next/navigation";
 export default function ManagBlayList() {
   const local = useLocale();
-  const t = useTranslations("managePlaylist");
+  const t = useTranslations("managePlaylistLogin");
   const router =useRouter()
  const form = [
   {

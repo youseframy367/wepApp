@@ -1,106 +1,41 @@
 {
-  "managePlaylist": {
-    "title": "إدارة قائمة التشغيل الخاصة بك",
-    "description": "أدخل معرّف الجهاز (Device ID) ومفتاح الجهاز (Device Key) لتفعيل جهازك.",
+  "ManagePlaylist": {
+    "search": "بحث",
+    "addPlaylist": "إضافة قائمة تشغيل",
+    "addXCPlaylist": "إضافة قائمة XC",
 
-    "form": {
-      "deviceId": {
-        "label": "معرّف الجهاز",
-        "placeholder": "125 : 584 : 2584 125 : 584 : 2584"
-      },
-      "deviceKey": {
-        "label": "مفتاح الجهاز",
-        "placeholder": "125 : 584 : 2584 125 : 584 : 2584"
-      },
-      "captcha": {
-        "label": "رمز التحقق",
-        "placeholder": "أدخل رمز التحقق"
-      }
+    "table": {
+      "playlistName": "اسم قائمة التشغيل",
+      "subscription": "مدة الاشتراك",
+      "activationDate": "تاريخ التفعيل",
+      "expirationDate": "تاريخ الانتهاء",
+      "renew": "تجديد",
+      "status": "الحالة",
+      "edit": "تعديل",
+      "delete": "حذف"
     },
 
-    "button": {
-      "login": "تسجيل الدخول",
-      "loading": "جارٍ التحميل..."
+    "subscription": {
+      "yearly": "اشتراك لمدة 12 شهرًا"
     },
 
-    "messages": {
-      "success": "تم تسجيل الدخول بنجاح",
-      "serverError": "خطأ في الخادم",
-      "somethingWrong": "حدث خطأ ما"
-    }
-  },
+    "status": {
+      "active": "نشط",
+      "inactive": "غير نشط"
+    },
 
-  "AddBlayList": {
-    "title": "إضافة قائمة تشغيل",
-    "description": "أضف أفلامك ومسلسلاتك المفضلة في مكان واحد",
-    "form": {
-      "PlaylistName": {
-        "label": "اسم قائمة التشغيل",
-        "placeholder": "أدخل اسم قائمة التشغيل"
-      },
-      "PlaylistURL": {
-        "label": "رابط قائمة التشغيل (.M3U أو .M3U8)",
-        "placeholder": "أدخل الرابط"
-      },
-      "XMLTV": {
-        "label": "رابط XMLTV EPG (اختياري)",
-        "placeholder": "أدخل الرابط"
-      }
+    "popup": {
+      "deletePlaylist": "أدخل رمز PIN لحذف قائمة التشغيل"
     },
-    "button": {
-      "login": "تسجيل الدخول",
-      "loading": "جارٍ التحميل..."
-    },
-    "formDrwer": {
-      "PIN": {
-        "label": "رمز PIN",
-        "placeholder": "أدخل رمز PIN"
-      },
-      "confirmPIN": {
-        "label": "تأكيد رمز PIN",
-        "placeholder": "أعد إدخال رمز PIN"
-      }
-    }
-  },
-
-  "AddXCBlayList": {
-    "title": "إضافة قائمة تشغيل XC",
-    "description": "أضف أفلامك ومسلسلاتك المفضلة في مكان واحد",
-    "form": {
-      "PlaylistName": {
-        "label": "اسم قائمة التشغيل",
-        "placeholder": "أدخل اسم قائمة التشغيل"
-      },
-      "UserNme": {
-        "label": "اسم المستخدم",
-        "placeholder": "أدخل اسم المستخدم"
-      },
-      "Host": {
-        "label": "المضيف (Host)",
-        "placeholder": "أدخل عنوان المضيف"
-      },
-      "Password": {
-        "label": "كلمة المرور",
-        "placeholder": "أدخل كلمة المرور"
-      },
-      "XMLTV": {
-        "label": "رابط XMLTV EPG (اختياري)",
-        "placeholder": "أدخل رابط XMLTV"
-      }
-    },
-    "button": {
-      "login": "تسجيل الدخول",
-      "loading": "جارٍ التحميل..."
-    },
-    "formDrwer": {
-      "PIN": {
-        "label": "رمز PIN",
-        "placeholder": "أدخل رمز PIN"
-      },
-      "confirmPIN": {
-        "label": "تأكيد رمز PIN",
-        "placeholder": "أعد إدخال رمز PIN"
-      }
-    }
+   
+  "playlist": {
+    "managePlaylists": "إدارة القوائم",
+    "activation": "التفعيل",
+    "transferDevice": "نقل الجهاز",
+    "usersStatus": "حالة المستخدمين",
+    "parentPin": "الرقم السري للأب",
+    "deviceKey": "مفتاح الجهاز",
+    "logout": "تسجيل الخروج"
   }
 }
+  }

@@ -5,14 +5,14 @@ import { createContext, useContext, useEffect, useState } from "react";
 const ActiveSectionContext = createContext();
 
 export function ActiveSectionProvider({ children }) {
-  const [activeSection, setActiveSection] = useState("Manage Playlists");
-
-  useEffect(() => {
-    const saved = sessionStorage.getItem("activeSection");
-    if (saved) {
-      setActiveSection(saved);
+  const [activeSection, setActiveSection] = useState(() => {
+    if (typeof window !== "undefined") {
+      return (
+        sessionStorage.getItem("activeSection") || "manage-playlists"
+      );
     }
-  }, []);
+    return "manage-playlists";
+  });
 
   useEffect(() => {
     sessionStorage.setItem("activeSection", activeSection);

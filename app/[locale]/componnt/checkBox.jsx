@@ -4,7 +4,7 @@ export default function ImageCheckbox({
   checked = false,
   onChange = () => {},
   name,
-  imgClassName = "w-5 h-5", 
+  imgClassName = "w-[25px] h-[25px]", 
   className = "",
 }) {
   return (

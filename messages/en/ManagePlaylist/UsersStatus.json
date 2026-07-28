@@ -1,0 +1,10 @@
+{
+  "UsersStatus": {
+    "macAddress": "Mac Address",
+    "status": "Status",
+    "creationDate": "Creation Date",
+    "expirationDate": "Expiration Date",
+    "active": "Active",
+    "inactive": "Inactive"
+  }
+}

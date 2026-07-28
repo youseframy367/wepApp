@@ -1,0 +1,40 @@
+{
+  "Dashboard": {
+    "title": "EX PRO",
+    "subtitle": "Premium Media Playback",
+    "tagline": "Designed for the Big Screen.",
+    "description": "EX PRO Player is a modern media player application built for Smart TVs and supported devices. It delivers smooth playback, elegant visuals, and effortless navigation so you can enjoy your own legally obtained media sources in one refined interface.",
+    "enterDashboard": "Enter Dashboard",
+    "secureAccess": "Secure Access.",
+    "secureText": "Fast. Reliable. Premium Experience",
+
+    "Cinematic": {
+      "title": "A Cinematic, Easy-to-Use Interface",
+      "text": "A Cinematic, Easy-to-Use Interface Enjoy a refined dark-gold theme with rich posters, smooth transitions, and layouts designed specifically for the living-room experience."
+    },
+    "Features": {
+      "title": "Core Features",
+      "text": "Core Features Fast loading and smooth playback. Movies and series details with posters and metadata. Optimized for all remotes and devices."
+    },
+    "Controls": {
+      "title": "Built-In Parental Controls",
+      "text": "Built-In Parental Controls EX PRO Player includes parental control options to help families manage access to content categories and create a safer viewing environment."
+    },
+    "Reliable": {
+      "title": "Reliable, Secure Playback",
+      "text": "Reliable, Secure Playback Stability is at the core of EX PRO Player. The application is engineered for consistent performance across a wide range of devices."
+    },
+    "SupportedPlatforms": {
+      "title": "Supported Platforms",
+      "text": "Supported Platforms Smart TVs, Android Devices, Apple Devices, PCs & Laptops, Linux. One application — everywhere."
+    },
+    "ExpertSupport": {
+      "title": "Expert Support",
+      "text": "Expert Support Our support team is available 24/7 to help you with any questions or technical assistance you need."
+    },
+    "notice": {
+      "title": "Important Notice",
+      "text": "EX PRO Player is a standalone media player only. It does not provide, host, sell, or include any media content, channels, or subscriptions. Users are responsible for adding and managing their own legally obtained media sources."
+    }
+  }
+}

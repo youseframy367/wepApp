@@ -19,5 +19,5 @@ export default function BlackBox({
     );
   }
 
-  return <div className={`${classes} bg-black/70 border-[1px] border-primary`}>{children}</div>;
+  return <div className={`${classes} bg-black/70 border-[.6px] border-primary-dark`}>{children}</div>;
 }

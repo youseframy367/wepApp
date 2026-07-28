@@ -1,0 +1,9 @@
+{
+  "TransferDevice": {
+    "deviceKeyTitle": "New device Key (Max Length : 6)",
+    "placeholder": "Enter the new parental verification code.",
+    "confirm": "Confirm",
+    "note": "NOTE :",
+    "noteDescription": "If you forget your device key, you can still view it on your device."
+  }
+}

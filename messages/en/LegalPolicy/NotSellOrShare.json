@@ -76,7 +76,7 @@
     },
     "relationshipWithPrivacy": {
       "title": "",
-      "descrption": "",
+      "description": "",
       "list": [
         "This page specifically addresses rights under California privacy laws.",
         "Users in other jurisdictions (including the European Union, the United Kingdom, and Egypt) may exercise their rights in accordance with the applicable data protection laws, as described in our Privacy Policy."
@@ -92,6 +92,7 @@
         "description": "71–75 Shelton Street, Covent Garden, London, United Kingdom, WC2H 9JQ"
       }
     }
+    
   },
    "titles": {
       "importantLegalNotice": "1. Important Legal Notice",

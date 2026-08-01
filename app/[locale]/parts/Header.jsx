@@ -6,7 +6,6 @@ import { useTranslations, useLocale } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
 import ContactIcon from "../componnt/ContactIcon";
 export default function Header() {
-  const [activeIndex, setActiveIndex] = useState(0);
   const [open, setOpen] = useState(false);
   const [langImgError, setLangImgError] = useState(false);
   const [contactHovered, setContactHovered] = useState(false);
@@ -75,7 +74,7 @@ export default function Header() {
             target="_blank"
             rel="noreferrer"
             onClick={() => {
-              setIsOpen(false);
+              setOpen(false);
             }}
             onMouseEnter={() => setContactHovered(true)}
             onMouseLeave={() => setContactHovered(false)}
@@ -146,19 +145,17 @@ export default function Header() {
           {hidingOfHeader.map((item, i) => (
             <div
               key={i}
-              onClick={() => {
-                setActiveIndex(i);
-                setOpen(false);
-                currentPath === item.navigate;
-                if (item.navigate) {
-                  router.push(item.navigate);
-                }
-              }}
-              className={`cursor-pointer font-[500] text-[18px] transition-all duration-300 ${
-                activeIndex === i
-                  ? "text-primary-animated"
-                  : "text-white hover:text-primary-animated"
-              }`}
+             onClick={() => {
+  setOpen(false);
+  if (item.navigate) {
+    router.push(item.navigate);
+  }
+}}
+            className={`cursor-pointer font-[500] text-[18px] transition-all duration-300 ${
+  currentPath === item.navigate
+    ? "text-primary-animated"
+    : "text-white hover:text-primary-animated"
+}`}
             >
               {item.title}
             </div>
@@ -169,7 +166,7 @@ export default function Header() {
             target="_blank"
             rel="noreferrer"
             onClick={() => {
-              setIsOpen(false);
+              setOpen(false);
             }}
             onMouseEnter={() => setContactHovered(true)}
             onMouseLeave={() => setContactHovered(false)}
@@ -210,8 +207,47 @@ export default function Header() {
               </div>
             </div>
           </a>
-        </div>
+        
+
+
+
+<div className=" flex justify-center items-center">
+  {!langImgError ? (
+    <img
+      src={
+        locale === "ar"
+          ? "/imge/header/EnLang.svg"
+          : "/imge/header/arLang.svg"
+      }
+      alt="Language"
+      className="cursor-pointer w-[50px]  object-contain"
+      onClick={() => {
+        changeLanguage();
+        setOpen(false);
+      }}
+      onError={() => setLangImgError(true)}
+    />
+  ) : (
+    <button
+      onClick={() => {
+        changeLanguage();
+        setOpen(false);
+      }}
+      className="w-full h-full text-white border border-white/30 rounded-[20px]"
+    >
+      {locale === "ar" ? "EN" : "AR"}
+    </button>
+  )}
+</div>
+</div>
+
       )}
+
+
+
+
+
+
       <div className="w-full h-[3.5px] absolute left-0 bottom-0 flex items-center justify-center">
         <div className="absolute left-0 w-full h-[1.5px] bottom-0 z-1 bg-ternary" />
         <div className="absolute left-0 w-full h-[1.5px] bottom-0 z-2 bg-navbar-shimmer backdrop-blur-[5px]" />

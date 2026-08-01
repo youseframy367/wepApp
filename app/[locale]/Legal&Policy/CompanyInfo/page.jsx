@@ -15,7 +15,7 @@ import MapOfAccorditionGradientBox from "../../componnt/MapOfAccordionGradientBo
 import AccordionGradientBox from "../../componnt/AccordionGradientBox";
 export default function CompanyInfo() {
   const t = useTranslations("CompanyInfo");
-  const local = useLocale();
+  const locale = useLocale();
   return (
     <div>
       <BanerCommponnt
@@ -47,7 +47,7 @@ export default function CompanyInfo() {
           </h2>
           <p
             data-aos="fade-up"
-            className={`${local === "en" ? "font-[400]" : "font-[500] text-[18px] leading-[32px]"} tracking-[-0.25px] md:w-[742px]`}
+            className={`${locale === "en" ? "font-[400]" : "font-[500] text-[18px] leading-[32px]"} tracking-[-0.25px] md:w-[742px]`}
           >
             {t("OurMission.description")}
           </p>

@@ -8,8 +8,9 @@ import { aboutUs, DeteGoToBage } from "./PrivcyData";
 import { useLocale, useTranslations } from "next-intl";
 export default function Bolicy() {
   const t = useTranslations("aboutUs");
-  const local = useLocale();
-  const router =useRouter()
+  const locale = useLocale();
+  const fontClass = locale === "ar" ? "font-cairo" : "font-inter";
+  const router = useRouter();
   return (
     <div>
       <BanerCommponnt
@@ -30,12 +31,12 @@ export default function Bolicy() {
         className="flex flex-col mb-[40px] mt-[60px] items-center"
       >
         <h2
-          className={`font-[600] md:text-[36px] text-[22px] text-primary ${local === "ar" ? "font-cairo" : "font-montserrat"} `}
+          className={`font-[600] md:text-[36px] text-[22px] text-primary ${locale === "ar" ? "font-cairo" : "font-montserrat"} `}
         >
           {t("title")}
         </h2>
         <p
-          className={`${local === "ar" ? "font-cairo" : "font-inter"} font-[500] md:text-[20px] text-[16px] text-center md:text-start`}
+          className={`${fontClass} font-[500] md:text-[20px] text-[16px] text-center md:text-start`}
         >
           {t("subtitle")}
         </p>
@@ -54,17 +55,17 @@ export default function Bolicy() {
             />
             <div data-aos="fade-up" className="flex flex-col gap-[10px]">
               <h1
-                className={`font-[700] text-[22px] ${local === "en" ? " font-montserrat" : "font-cairo"} text-primary`}
+                className={`font-[700] text-[22px] ${locale === "en" ? " font-montserrat" : "font-cairo"} text-primary`}
               >
                 {t(`cards.${item.key}.title`)}
               </h1>
               <p
-                className={`${local === "en" ? "font-inter" : "font-cairo"} font-[400] w-[95%] text-[14px] tracking-[-0.25px]`}
+                className={`${fontClass} font-[400] w-[95%] text-[14px] tracking-[-0.25px]`}
               >
                 {t(`cards.${item.key}.description`)}
               </p>
               <button
-                className={`w-[136px] h-[29px] rounded-[4px] cursor-pointer border-primary tracking-[-0.25px] flex justify-center items-center text-[#000] font-[600] text-[14px] ${local === "en" ? "font-inter" : "font-cairo"} bg-primary`}
+                className={`w-[136px] h-[29px] rounded-[4px] cursor-pointer border-primary tracking-[-0.25px] flex justify-center items-center text-[#000] font-[600] text-[14px] ${fontClass} bg-primary`}
                 onClick={() => router.push(item.navigate)}
               >
                 {t("button")}

@@ -2,7 +2,7 @@ import Agreement from "../../componnt/Agreement";
 import { useTranslations ,useLocale } from "next-intl";
 export default function FinalConclusion() {
   const t=useTranslations("CompanyInfo.FinalConclusion")
-  const local=useLocale()
+  const locale=useLocale()
   return (
     <div>
       <div className="flex flex-col items-center mt-[40px] ">
@@ -10,7 +10,7 @@ export default function FinalConclusion() {
           {t("title")}
         </h1>
 
-        <p className={`${local === "en"?"font-[400] font-inter":"font-[500] font-cairo"} md:text-[16px] text-[14px]  tracking-[-0.25px]`}>
+        <p className={`${locale === "en"?"font-[400] font-inter":"font-[500] font-cairo"} md:text-[16px] text-[14px]  tracking-[-0.25px]`}>
           {t("subtitle")}
         </p>
       </div>
@@ -21,7 +21,7 @@ export default function FinalConclusion() {
         imgTwo="/imge/policy/GlobalCompliance/rr.svg"
         imgThree="/imge/policy/GlobalCompliance/world.svg"
       />
-      <p className={`${local === "en" ?"font-inter":"font-cairo md:font-[500] font-[400] md:text-[16px] text-[12px]"} font-[400] md:text-[12px] text-[10px] md:w-auto w-[90%] mx-auto tracking-[-0.25px] text-center`}>
+      <p className={`${locale === "en" ?"font-inter":"font-cairo md:font-[500] font-[400] md:text-[16px] text-[12px]"} font-[400] md:text-[12px] text-[10px] md:w-auto w-[90%] mx-auto tracking-[-0.25px] text-center`}>
         {t("description")}
        <br/> <span className="md:font-[700] font-[600]">
         {t("highlight")}

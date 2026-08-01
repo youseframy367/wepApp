@@ -75,11 +75,31 @@ export const LegalCompliance =[
 ]
 export const DeviceManagement =[
     {
-    img:"",
-    key:""
+    img:"/imge/FAQ/devicescanIuse.svg",
+    key:"deviceLimit"
     },
      {
-    img:"",
-    key:""
+    img:"/imge/FAQ/manageDevices.svg",
+    key:"deviceManagement"
     },
+]
+export const Payment =[
+    {
+        img:"/imge/FAQ/paymentMethods.svg",
+        key:"paymentMethods"
+    },
+    {
+        img:'/imge/FAQ/offerRefunds.svg',
+        key:'refundPolicy'
+    }
+]
+export const Travel =[
+    {
+        img:"/imge/FAQ/whileTraveling.svg",
+        key:'travelUsage'
+    },
+    {
+        img:'/imge/FAQ/chargedExtra.svg',
+        key:"additionalCharges"
+    }
 ]

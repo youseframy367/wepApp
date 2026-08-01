@@ -16,9 +16,8 @@ import {
 import PolicyNote from "../../componnt/PolicyNote";
 import ComponntBox from "../../componnt/BoxComponent";
 export default function RefundPolicy() {
-  const local = useLocale();
+  const locale = useLocale();
   const t = useTranslations("refundPolicy");
-  // const DataChargebacks = t.raw("ChargebacksAndFraudulentDisputes.list");
   return (
     <div>
       <BanerCommponnt namespace="refundPolicy.banner" />
@@ -31,7 +30,7 @@ export default function RefundPolicy() {
       <div className="flex gap-[20px] items-center w-[90%] mx-auto mt-[20px] ">
         <img src="/imge/policy/todo.svg" alt="todo" width="40px" />
         <h2
-          className={`${local === "en" ? "font-inter md:font-[700] font-[600] " : "font-cairo md:font-[600] font-[500]"} tracking-[-0.25px] md:text-[18px] text-[16px]`}
+          className={`${locale === "en" ? "font-inter md:font-[700] font-[600] " : "font-cairo md:font-[600] font-[500]"} tracking-[-0.25px] md:text-[18px] text-[16px]`}
         >
           {t("acknowledgement.title")}
         </h2>
@@ -120,10 +119,6 @@ export default function RefundPolicy() {
         withContainer={false}
         className="my-[30px]"
         urlImg="/imge/policy/refundPolicy/contact.svg"
-        titleAr="8. التواصل قبل الشراء"
-        titleEn="8. Contact Before Purchase"
-        pragrafAr="نوصي بالتواصل مع الدعم قبل إتمام عملية الشراء للحصول على أي توضيحات."
-        pragrafEn="We recommend contacting support prior to purchase for clarification."
         namespace="refundPolicy.contactBeforePurchase"
       />
       <div className=" relative">

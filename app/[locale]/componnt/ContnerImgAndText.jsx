@@ -7,7 +7,7 @@ export default function ContanerTextAndImg({
   effect = "/imge/effect.png",
   positionEffect = "50%",
 }) {
-  const local = useLocale();
+  const locale = useLocale();
   const t = useTranslations(namespace);
   const items = t.raw("items");
 
@@ -27,14 +27,14 @@ export default function ContanerTextAndImg({
           className="md:mx-0 mx-auto md:my-0  my-[20px]"
         ></img>
         <ul
-          className={`${ul ? "list-disc" : ""} ${local === "ar" ? "pr-6" : "pl-6"} `}
+          className={`${ul ? "list-disc" : ""} ${locale === "ar" ? "pr-6" : "pl-6"} `}
         >
           {Array.isArray(items) &&
             items.map((item, index) => (
               <li
                 key={index}
                 data-aos="fade-up"
-                className={` ${local === "en" ? "font-inter font-[400]" : "font-cairo font-[500]"} text-[16px] leading-[30px] tracking-[-0.25px]`}
+                className={` ${locale === "en" ? "font-inter font-[400]" : "font-cairo font-[500]"} text-[16px] leading-[30px] tracking-[-0.25px]`}
               >
                 {item}
               </li>

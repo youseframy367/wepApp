@@ -12,12 +12,12 @@ export default function GradientBorderBox({
   ...props
 }: GradientBorderBoxProps) {
 
-const local=useLocale()
+const locale=useLocale()
 
   return (
     <div    {...props}
   className={`relative rounded-xl ${className ?? ""}`}
-  dir={local === "ar" ? "rtl" : "ltr"}
+  dir={locale === "ar" ? "rtl" : "ltr"}
   >
       <div
         className="absolute inset-0 pointer-events-none z-9"

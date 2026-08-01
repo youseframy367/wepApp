@@ -12,7 +12,7 @@ import PrivacyPolicyHero from "../../componnt/PrivacyPolicyHero.tsx"
 import ContanerTextAndImg from "../../componnt/ContnerImgAndText";
 import MapOfAccorditionGradientBox from "../../componnt/MapOfAccordionGradientBox";
 export default function NotSellOrSheer() {
-  const local = useLocale();
+  const locale = useLocale();
   const t = useTranslations("doNotSellOrShare");
   return (
     <div>
@@ -44,7 +44,7 @@ export default function NotSellOrSheer() {
       />
       <Title titleKey="nonDiscrimination" />
       <p
-        className={`${local === "ar" ? "font-cairo" : ""} font-[500] mx-[5%] mt-[-10px] mb-[17px]`}
+        className={`${locale === "ar" ? "font-cairo" : ""} font-[500] mx-[5%] mt-[-10px] mb-[17px]`}
       >
         {t("text")}
       </p>

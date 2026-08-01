@@ -5,15 +5,12 @@ import Container from "./Contaner";
 import { useTranslations } from "next-intl";
 export default function FirstPoint({
   urlImg = "/imge/agreement/reseller/i.svg",
-  titleAr = "",
-  titleEn = "",
-  pragrafAr = "",
-  pragrafEn = "",
+ 
   withContainer = true,
   className = "",
   namespace
 }) {
-  const local = useLocale();
+  const locale = useLocale();
   const t =useTranslations(namespace)
   const content = (
     <div
@@ -23,8 +20,8 @@ export default function FirstPoint({
       <div className="flex gap-[10px] text-[#fff] items-center">
         <img src={urlImg} alt="i" />
         <p
-          className={`text-primary md:font-[500] font-[300] md:text-[30px] text-[20px] md:leading-[40px] leading-[25px]  ${
-            local === "ar" ? "font-cairo" : "font-Montserrat"
+          className={`text-primary-animated md:font-[500] font-[300] md:text-[30px] text-[20px] md:leading-[40px] leading-[25px]  ${
+            locale === "ar" ? "font-cairo" : "font-Montserrat"
           }`}
         >
           {t("title")}
@@ -33,7 +30,7 @@ export default function FirstPoint({
 
       <p
         className={`my-[10px] text-[#fff] md:font-[500] h-auto font-[400] tracking-[-0.25px] ${
-          local === "ar"
+          locale === "ar"
             ? "font-cairo md:leading-[33px] md:text-[18px] text-[16px]"
             : "font-inter md:text-[16px] text-[15px]"
         }`}

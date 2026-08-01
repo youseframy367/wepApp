@@ -2,10 +2,9 @@ import BanerCommponnt from "../../componnt/Baner";
 import FirstPoint from "../../componnt/FirstPoint";
 import MapOfAccorditionGradientBox from "../../componnt/MapOfAccordionGradientBox";
 import AccordionGradientBox from "../../componnt/AccordionGradientBox";
-import { useLocale, useTranslations } from "next-intl";
+import {  useTranslations } from "next-intl";
 import { sections } from "./DisclaimerData";
 export default function DisclaimerContent() {
-  const local = useLocale();
   const t = useTranslations("disclaimerOfContent");
 
   return (
@@ -27,12 +26,12 @@ export default function DisclaimerContent() {
       />
 
       <AccordionGradientBox
-  className="w-[90%] mx-auto my-[30px]"
-  icon="/imge/policy/DisclaimerOfContent/ACCEPTANCE.svg"
-  title={t("acceptance.title")}
-  paragraph={<p>{t("acceptance.description")}</p>}
-  visibleLines={2}
-/>
+        className="w-[90%] mx-auto my-[30px]"
+        icon="/imge/policy/DisclaimerOfContent/ACCEPTANCE.svg"
+        title={t("acceptance.title")}
+        paragraph={<p>{t("acceptance.description")}</p>}
+        visibleLines={2}
+      />
     </div>
   );
 }

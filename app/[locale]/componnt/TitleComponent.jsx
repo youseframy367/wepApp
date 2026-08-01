@@ -14,7 +14,7 @@ export default function Title({ titleKey , urlImg="/imge/policy/DoNotSellOrShare
       <h1
         className={`${
           locale === "en" ? "font-montserrat" : "font-cairo"
-        } md:text-[30px] text-[20px] text-primary`}
+        } md:text-[30px] text-[20px] text-primary-animated`}
       >
         {t(titleKey)}
       </h1>

@@ -9,6 +9,22 @@
       "title": "Critical Disclaimer",
       "description": "Ex Pro is a media player application only. It does not include, host, store, or provide any movies, series, TV channels, or video content. All media sources (files, streams, URLs) must be added by you, the user. Exclusive Movies Ltd is not responsible for the legality, quality, or safety of any third-party content played through the app."
     },
+
+    "sections": {
+      "GeneralInformation": "General Information",
+      "DataProtection": "Privacy & Data Protection",
+      "Travel": "International Access",
+      "AccountRegistration": "Account & Registration",
+      "LegalCompliance": "Legal & Compliance",
+      "Subscription": "Subscription & Billing",
+      "DeviceManagement": "Device Management",
+      "TechnicalSupport": "Technical Support",
+      "Payment": "Payment & Refunds"
+    },
+ 
+
+
+
     "GeneralInformation": {
       "WhatisExPro": {
         "title": "1. What is Ex Pro?",
@@ -146,6 +162,50 @@
         "We enforce these measures to protect our software and comply with the law."
       ]
     }
+  },
+
+  "DeviceManagement": {
+    "deviceLimit": {
+      "title": "1. How many devices can I use?",
+      "description": "Each subscription is valid for use on one registered device only. To use Ex Pro on an additional device, a separate subscription is required."
+    },
+    "deviceManagement": {
+      "title": "2. How do I manage devices?",
+      "description": "Go to Account Settings > Security > Manage Devices to view, rename, or remotely sign out your devices."
+    }
+  },
+   "Payment": {
+    "paymentMethods": {
+      "title": "1. What payment methods do you accept?",
+      "description": "We accept the following payment methods:",
+      "list": [
+        "Credit/Debit Cards via Stripe.",
+        "Mobile Wallets (Vodafone Cash, etc.) via Paymob in Egypt.",
+        "Payments are processed by PCI DSS Level 1 compliant payment providers.",
+        "Exclusive Movies Ltd does not process or store card details."
+      ]
+    },
+    "refundPolicy": {
+      "title": "2. Do you offer refunds?",
+      "description": "All sales are final. Ex Pro is a digital software service that activates instantly upon purchase. By completing payment, you consent to the immediate commencement of the service and waive the right to cancel or receive a refund in accordance with:",
+      "list": [
+        "UK Consumer Contracts Regulations 2013, Regulation 28(b).",
+        "EU Directive 2011/83/EU, Article 16(e).",
+        "Egyptian Consumer Protection Law No. 181 of 2018, Article 12.",
+        "No exceptions are made for change of mind, technical issues with third-party content, or user error."
+      ]
+    }
+  },
+
+  "Travel": {
+    "travelUsage": {
+      "title": "1. Can I use Ex Pro while traveling?",
+      "description": "Yes. Ex Pro works globally. However, your use of any media content must comply with the local copyright laws in your current location."
+    },
+    "additionalCharges": {
+      "title": "2. Will I be charged extra?",
+      "description": "Your subscription price is fixed in your home currency. However, your bank may apply foreign transaction fees. We recommend using Wi-Fi to avoid mobile data roaming charges."
+    }
   }
 
 
@@ -158,6 +218,7 @@
     "TechnicalSupport":"4. Technical Support",
     "DataProtection":"5. Privacy & Data Protection",
     "LegalCompliance":"6. Legal & Compliance",
-    "DeviceManagement":"7. Device Management"
+    "DeviceManagement":"7. Device Management",
+    "Payment":"8. Payment & Refunds"
   }
 }

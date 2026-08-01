@@ -1,5 +1,4 @@
 import { ReactNode, CSSProperties } from "react";
-//import { effect } from "../../assets/images";
 interface ContainerProps {
   children: ReactNode;
   className?: string;

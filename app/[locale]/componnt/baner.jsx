@@ -8,9 +8,9 @@ export default function BanerCommponnt({
   namespace,
   withContainer = true,
 }) {
-  const local = useLocale();
+  const locale = useLocale();
   const t = useTranslations(namespace);
-
+  const fontClass=locale === "ar" ? "font-cairo" : "font-inter"
   const content = (
     <div className="w-[100%] h-[115px] flex flex-col gap-[15px] justify-center items-center md:mt-[100px] mt-[90px]">
       {imgUrl && (
@@ -18,25 +18,21 @@ export default function BanerCommponnt({
       )}
 
       <h1
-        className={`font-[500] text-center md:text-[46px] text-[30px] ${
-          local === "ar" ? "font-cairo" : "font-Montserrat"
-        } bg-gradient-to-r from-[#FCD570] via-[#DB9D39] via-[#FEF2B4] via-[#F5C35E] via-[#F5C35E] to-[#FCD570] bg-clip-text text-transparent`}
+        className={`font-[500] text-center md:text-[46px] text-[30px]  text-primary-animated ${
+          locale === "ar" ? "font-cairo" : "font-Montserrat"
+        }`}
       >
         {t("title")}
       </h1>
 
       <p
-        className={`font-[500] text-[19px] md:text-[22px] ${
-          local === "ar" ? "font-cairo" : "font-inter"
-        } bg-gradient-to-r from-[#F0DFC5] to-[#DAB377] bg-clip-text text-transparent leading-[20px]`}
+        className={`font-[500] text-[19px] md:text-[22px] ${fontClass} bg-gradient-to-r from-[#F0DFC5] to-[#DAB377] bg-clip-text text-transparent leading-[20px]`}
       >
         {t("subtitle")}
       </p>
 
       <p
-        className={`font-[500] text-[10px] md:text-[14px] ${
-          local === "ar" ? "font-cairo" : "font-inter"
-        } bg-gradient-to-r from-[#FCD570] via-[#DB9D39] via-[#FEF2B4] via-[#F5C35E] via-[#F5C35E] to-[#FCD570] bg-clip-text text-transparent leading-[20px]`}
+        className={`font-[500] text-[10px] md:text-[14px] ${fontClass} bg-gradient-to-r from-[#FCD570] via-[#DB9D39] via-[#FEF2B4] via-[#F5C35E] via-[#F5C35E] to-[#FCD570] bg-clip-text text-transparent leading-[20px]`}
       >
         {t("description")}
       </p>

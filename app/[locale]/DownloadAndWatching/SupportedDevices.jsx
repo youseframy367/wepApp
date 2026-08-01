@@ -21,7 +21,7 @@ export default function SupportedDevices() {
         alt="effect"
       />
 
-      <h1 className="text-primary text-[24px] md:text-[40px] my-10 font-semibold text-center relative z-10">
+      <h1 className="text-primary text-[24px] md:text-[40px] my-10 font-semibold text-center relative z-10" data-aos="fade-up">
         {t("SupportedDevicesTitle")}
       </h1>
 
@@ -31,6 +31,7 @@ export default function SupportedDevices() {
             <React.Fragment key={device.name}>
               <div className="flex justify-center flex-1 min-w-[90px]">
                 <img
+                data-aos="fade-out"
                   src={`/imge/policy/DownloadAndWatching/${device.name}.svg`}
                   alt={device.alt}
                   className="w-[80px] md:w-[120px] lg:w-[130px] object-contain"

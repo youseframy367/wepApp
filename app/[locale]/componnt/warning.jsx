@@ -8,7 +8,7 @@ export default function Worning({
   reverse = false,
   img = "/imge/agreement/worning.svg",
 }) {
-  const local = useLocale();
+  const locale = useLocale();
   return (
     <GradientBorderBox
       className={`${className} w-[90%] mx-auto md:h-[68px] h-auto flex md:gap-[24px] gap-[15px] items-center px-[20px]`}
@@ -17,7 +17,7 @@ export default function Worning({
 
       <p
         className={`${classNamep} ${
-          local === "en"
+          locale === "en"
             ? "font-inter md:font-[400]"
             : "font-cairo md:font-[500] md:text-[20px] text-[17px]"
         } py-[10px] font-[300] text-[16px] text-[#fff]`}

@@ -5,19 +5,20 @@ import MapOfAccorditionGradientBox from "../../componnt/MapOfAccordionGradientBo
 export default function EULA() {
   return (
     <div>
-      <BanerCommponnt
-      
-        namespace="EULA.banner"
-      />
+      <BanerCommponnt namespace="EULA.banner" />
 
       <FirstPoint
-      namespace="EULA.firstPoint"
-      className="md:mt-[0px] mt-[20px]"
+        namespace="EULA.firstPoint"
+        className="md:mt-[0px] mt-[20px]"
         withContainer={false}
-
       />
 
-      <MapOfAccorditionGradientBox data={DataEULA} visibleLines={2} namespace="EULABox" parentClassName="mt-[20px]"/>
+      <MapOfAccorditionGradientBox
+        data={DataEULA}
+        visibleLines={2}
+        namespace="EULABox"
+        parentClassName="mt-[20px]"
+      />
     </div>
   );
 }

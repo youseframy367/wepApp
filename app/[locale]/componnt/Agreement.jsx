@@ -7,7 +7,7 @@ export default function Agreement({ nameSpace, className, imgOne, imgTwo ,imgThr
   const locale = useLocale();
 
   const notes = t.raw("notes.list");
-
+  const fontClass =locale === "ar" ? "font-cairo" : "font-inter"
   const hasFooterText = t.has("notes.footer.text");
   const hasFooterHighlight = t.has("notes.footer.highlight");
 
@@ -25,28 +25,22 @@ export default function Agreement({ nameSpace, className, imgOne, imgTwo ,imgThr
           <div
             data-aos="fade-up"
             key={index}
-            className="flex items-center md:gap-[20px] gap-[7px]"
+            className="flex items-center md:gap-[30px] gap-[7px]"
           >
-            <img src="/imge/checkBox.svg" alt="icon" width="30" height="30" />
+            <img src="/imge/checkBox.svg" alt="icon" width="22" height="22" />
 
-            <div className="flex flex-col gap-[16px]">
               <p
-                className={`md:font-[400] font-[300] md:text-[18px] text-[16px] tracking-[-0.25px] ${
-                  locale === "ar" ? "font-cairo" : "font-inter"
-                }`}
+                className={`md:font-[400] font-[300] md:text-[18px] text-[16px] tracking-[-0.25px] ${fontClass}`}
               >
                 {item}
               </p>
-            </div>
           </div>
         ))}
 
         {(hasFooterText || hasFooterHighlight) && (
           <p
             data-aos="fade-up"
-            className={`md:px-[40px] px-[40px] md:font-[400] font-[300] md:text-[18px] text-[16px] tracking-[-0.25px] ${
-              locale === "ar" ? "font-cairo" : "font-inter"
-            }`}
+            className={`md:px-[40px] px-[40px] md:font-[400] font-[300] md:text-[18px] text-[16px] tracking-[-0.25px] ${fontClass}`}
           >
             {hasFooterText && t("notes.footer.text")}
             {hasFooterHighlight && (

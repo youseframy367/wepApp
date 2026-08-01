@@ -2,10 +2,10 @@ import { useTranslations ,useLocale } from "next-intl";
 
 export default function Headquarters() {
   const t = useTranslations("CompanyInfo.Headquarters");
-  const local =useLocale()
+  const locale =useLocale()
   return (
     <div className="w-[90%] mx-auto my-[30px]">
-      <h1 data-aos="fade-up" className={`md:text-[60px] text-[30px] md:font-[600] font-[500] ${local === "en" ?"font-montserrat":"font-cairo"} text-primary text-center`}>
+      <h1 data-aos="fade-up" className={`md:text-[60px] text-[30px] md:font-[600] font-[500] ${locale === "en" ?"font-montserrat":"font-cairo"} text-primary text-center`}>
         {t("title")}
       </h1>
 
@@ -20,11 +20,11 @@ export default function Headquarters() {
             />
 
             <div className="flex flex-col gap-[16px]">
-              <h2 data-aos="fade-up" className={`md:font-[600] font-[500] md:text-[24px] text-[20px] ${local === "en" ?"font-inter":"font-cairo"} text-primary tracking-[-0.25px]`}>
+              <h2 data-aos="fade-up" className={`md:font-[600] font-[500] md:text-[24px] text-[20px] ${locale === "en" ?"font-inter":"font-cairo"} text-primary tracking-[-0.25px]`}>
                 {t("uk.title")}
               </h2>
 
-              <p data-aos="fade-up" className={`font-[400] md:text-[16px] text-[14px] tracking-[-0.25px] ${local === "en"?"font-inter":"font-cairo md:font-[500] font-[400] md:text-[18px] text-[16px]"} md:w-[432px]`}>
+              <p data-aos="fade-up" className={`font-[400] md:text-[16px] text-[14px] tracking-[-0.25px] ${locale === "en"?"font-inter":"font-cairo md:font-[500] font-[400] md:text-[18px] text-[16px]"} md:w-[432px]`}>
                 {t("uk.description")}
               </p>
             </div>
@@ -39,11 +39,11 @@ export default function Headquarters() {
             />
 
             <div className="flex flex-col gap-[16px]">
-              <h2 data-aos="fade-up" className={`md:font-[600] font-[500] md:text-[24px] text-[20px] ${local === "en" ?"font-inter":"font-cairo"} text-primary tracking-[-0.25px]`}>
+              <h2 data-aos="fade-up" className={`md:font-[600] font-[500] md:text-[24px] text-[20px] ${locale === "en" ?"font-inter":"font-cairo"} text-primary tracking-[-0.25px]`}>
                 {t("eg.title")}
               </h2>
 
-              <p data-aos="fade-up" className={`font-[400] md:text-[16px] text-[14px] tracking-[-0.25px] ${local === "en"?"font-inter":"font-cairo md:font-[500] font-[400] md:text-[18px] text-[16px]"} md:w-[432px]`}>
+              <p data-aos="fade-up" className={`font-[400] md:text-[16px] text-[14px] tracking-[-0.25px] ${locale === "en"?"font-inter":"font-cairo md:font-[500] font-[400] md:text-[18px] text-[16px]"} md:w-[432px]`}>
                 {t("eg.description")}
               </p>
             </div>

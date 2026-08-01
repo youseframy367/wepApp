@@ -8,7 +8,7 @@ import { LegalCompliance } from "./GlobalComplianceData";
 import MapOfAccorditionGradientBox from "../../componnt/MapOfAccordionGradientBox";
 export default function GlobalCompliance() {
   const t = useTranslations("GlobalCompliance");
-  const local = useLocale();
+  const locale = useLocale();
   return (
     <div>
       <BanerCommponnt
@@ -27,7 +27,7 @@ export default function GlobalCompliance() {
       <div className="flex gap-[20px] items-center w-[90%] mx-auto mt-[20px] ">
         <img src="/imge/policy/todo.svg" alt="todo" width="40px" />
         <h2
-          className={`${local === "en" ? "font-inter md:font-[700] font-[600] " : "font-cairo md:font-[600] font-[500]"} tracking-[-0.25px] md:text-[18px] text-[16px]`}
+          className={`${locale === "en" ? "font-inter md:font-[700] font-[600] " : "font-cairo md:font-[600] font-[500]"} tracking-[-0.25px] md:text-[18px] text-[16px]`}
         >
           {t("acknowledgement.title")}
         </h2>
@@ -52,7 +52,7 @@ export default function GlobalCompliance() {
         data={LegalCompliance}
         namespace="GlobalCompliance.LegalCompliance"
         CuntEffect={1}
-        visibleLines={local === "en" ? 3 : 2}
+        visibleLines={locale === "en" ? 3 : 2}
       />
     </div>
   );

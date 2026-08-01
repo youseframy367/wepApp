@@ -4,9 +4,9 @@ import { useState } from "react";
 import api from "@/app/services/api";
 export default function ParentPIN() {
   const [parentPin, setParentPin] = useState("");
-
+  const fontClass =locale === "en" ? "font-inter" : "font-cairo"
   const t = useTranslations("ParentPIN");
-  const local = useLocale();
+  const locale = useLocale();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -26,10 +26,10 @@ export default function ParentPIN() {
 
   return (
     <div
-      className={`flex flex-col gap-[15px] ${local === "en" ? "font-inter" : "font-cairo"}`}
+      className={`flex flex-col gap-[15px] ${fontClass}`}
     >
       <h2
-        className={`${local === "en" ? "font-inter" : "font-cairo font-[600] text-[18px]"} text-primary`}
+        className={`${locale === "en" ? "font-inter" : "font-cairo font-[600] text-[18px]"} text-primary`}
       >
         {t("parentPinTitle")}
       </h2>
@@ -44,13 +44,13 @@ export default function ParentPIN() {
             value={parentPin}
             onChange={(e) => setParentPin(e.target.value)}
             placeholder={t("parentPinPlaceholder")}
-            className={`flex-1 bg-transparent outline-none text-primary placeholder:text-primary/60 text-[8px] font-[500] ${local === "en" ? "font-inter" : "font-cairo"}`}
+            className={`flex-1 bg-transparent outline-none text-primary placeholder:text-primary/60 text-[8px] font-[500] ${fontClass}`}
           />
         </GradientBorderBox>
 
         <button
           type="submit"
-          className={`font-[600] text-[12px] ${local === "en" ? "font-inter" : "font-cairo font-[700]"} flex justify-center items-center bg-primary text-[#000000] tracking-[-0.25px] w-[141px] h-[30px] rounded-[6px]`}
+          className={`font-[600] text-[12px] ${locale === "en" ? "font-inter" : "font-cairo font-[700]"} flex justify-center items-center bg-primary text-[#000000] tracking-[-0.25px] w-[141px] h-[30px] rounded-[6px]`}
         >
           {t("confirm")}
         </button>
@@ -58,13 +58,13 @@ export default function ParentPIN() {
 
       <div className="flex items-center gap-[5px] tracking-[-0.25px]">
         <p
-          className={`${local === "en" ? "font-inter" : "font-cairo"} font-[500] whitespace-nowrap text-[10px] text-primary`}
+          className={`${fontClass} font-[500] whitespace-nowrap text-[10px] text-primary`}
         >
           {t("note")}
         </p>
 
         <p
-          className={`w-[535px] font-[500] ${local === "en" ? "font-inter" : "font-cairo"} text-[10px] `}
+          className={`w-[535px] font-[500] ${fontClass} text-[10px] `}
         >
           {t("parentPinNote")}
         </p>

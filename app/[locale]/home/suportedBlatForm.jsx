@@ -5,20 +5,20 @@ import { useLocale } from "next-intl";
 import { useTranslations } from "next-intl";
 export default function BlatformSupport() {
   const t = useTranslations("platformSupport");
-  const local = useLocale();
+  const locale = useLocale();
   const blatformData = supportedBlatform;
   return (
     <div className="w-[90%] mx-auto my-[40px]">
       <div className="flex flex-col gap-[14px] items-center">
         <h1
           data-aos="fade-up"
-          className={`md:text-[40px] text-[30px] ${local === "en" ? "font-inter" : "font-cairo"} font-[600] leading-[42px] text-primary`}
+          className={`md:text-[40px] text-[30px] ${locale === "en" ? "font-inter" : "font-cairo"} font-[600] leading-[42px] text-primary`}
         >
           {t("title")}
         </h1>
         <p
           data-aos="fade-up"
-          className={` md:text-start text-center ${local === "en" ? "font-inter font-[500] md:text-[14px] tex-[12px]" : "font-cairo font-[600] md:text-[16px] text-[14px]"} leading-[22px] tracking-[-0.25px] `}
+          className={` md:text-start text-center ${locale === "en" ? "font-inter font-[500] md:text-[14px] tex-[12px]" : "font-cairo font-[600] md:text-[16px] text-[14px]"} leading-[22px] tracking-[-0.25px] `}
         >
           {t("description")}
         </p>
@@ -30,7 +30,7 @@ export default function BlatformSupport() {
           alt="effect"
         />
         <div
-          className={`flex overflow-x-auto md:overflow-x-visible no-scrollbar overflow-y-visible gap-[12px] md:w-[90%] w-[110%]   ${local === "ar" ? "mr-[-5%]" : "ml-[-5%]"} md:mx-auto mx-auto md:my-[70px] my-[40px]`}
+          className={`flex overflow-x-auto md:overflow-x-visible no-scrollbar overflow-y-visible gap-[12px] md:w-[90%] w-[110%]   ${locale === "ar" ? "mr-[-5%]" : "ml-[-5%]"} md:mx-auto mx-auto md:my-[70px] my-[40px]`}
         >
           {blatformData.map((item) => (
             <GradientBorderBox
@@ -47,7 +47,7 @@ export default function BlatformSupport() {
 
                 <h2
                   data-aos="fade-up"
-                  className={` font-[700] ${local === "en" ? "md:text-[18px] text-[16px] font-montserrat leading-[18px]" : "font-cairo leading-[23px] md:text-[16px] whitespace-nowrap md:whitespace-normal text-[14px]"} text-primary  text-center`}
+                  className={` font-[700] ${locale === "en" ? "md:text-[18px] text-[16px] font-montserrat leading-[18px]" : "font-cairo leading-[23px] md:text-[16px] whitespace-nowrap md:whitespace-normal text-[14px]"} text-primary  text-center`}
                 >
                   {t(`cards.${item.key}.title`)}
                 </h2>
@@ -83,7 +83,7 @@ export default function BlatformSupport() {
             className="absolute md:top-[20%] top-[10%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"
             alt="effect"
           />
-          <BlackBox className="flex flex-col  justify-center items-center md:w-[33%] w-[100%] h-[175px]">
+          <BlackBox  borderEfect={false} className="flex flex-col  justify-center items-center md:w-[33%] w-[100%] h-[175px]">
             <h1
               data-aos="fade-out"
               className={`${local === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] md:text-[60px] text-[70px] mt-[-10px]  text-primary`}
@@ -103,7 +103,7 @@ export default function BlatformSupport() {
               {t("activation.step1.text")}
             </p>
           </BlackBox>
-          <BlackBox className="flex flex-col  justify-center items-center md:w-[33%] w-[100%] h-[175px]">
+          <BlackBox  borderEfect={false}  className="flex flex-col  justify-center items-center md:w-[33%] w-[100%] h-[175px]">
             <h1
               data-aos="fade-out"
               className={`${local === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] md:text-[60px] text-[70px] mt-[-10px]  text-primary`}
@@ -123,7 +123,7 @@ export default function BlatformSupport() {
               {t("activation.step1.text")}
             </p>
           </BlackBox>
-          <BlackBox className="flex flex-col justify-center items-center md:w-[33%] w-[100%] h-[175px]">
+          <BlackBox  borderEfect={false}  className="flex flex-col justify-center items-center md:w-[33%] w-[100%] h-[175px]">
             <h1
               data-aos="fade-out"
               className={`${local === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] md:text-[60px] text-[70px] mt-[-10px] text-primary`}
@@ -167,7 +167,7 @@ export default function BlatformSupport() {
             className="absolute md:top-[0%] top-[10%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"  
             alt="effect"
           />
-          <BlackBox className="flex md:w-[45%] w-[100%] px-[15px] items-center gap-[15px] h-[102px] ">
+          <BlackBox  borderEfect={false}  className="flex md:w-[45%] w-[100%] px-[15px] items-center gap-[15px] h-[102px] ">
             <img
               data-aos="fade-out"
               src="/imge/home/4$.svg"
@@ -197,7 +197,7 @@ export default function BlatformSupport() {
               </p>
             </div>
           </BlackBox>
-          <BlackBox className="flex md:w-[45%] w-[100%] px-[15px] items-center gap-[15px] h-[102px] ">
+          <BlackBox  borderEfect={false}  className="flex md:w-[45%] w-[100%] px-[15px] items-center gap-[15px] h-[102px] ">
             <img
               data-aos="fade-out"
               src="/imge/home/6$.svg"

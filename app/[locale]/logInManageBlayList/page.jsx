@@ -7,7 +7,7 @@ import { useLocale , useTranslations } from "next-intl";
 import Chat from "../chat/ComponentParent"
 import { useRouter } from "next/navigation";
 export default function ManagBlayList() {
-  const local = useLocale();
+  const locale = useLocale();
   const t = useTranslations("managePlaylistLogin");
   const router =useRouter()
  const form = [
@@ -93,8 +93,8 @@ export default function ManagBlayList() {
   />
 
   <h1
-    className={`text-primary tracking-[-0.25px] font-[500] md:font-[700] ${
-      local === "ar"
+    className={`text-primary-animated tracking-[-0.25px] font-[500] md:font-[700] ${
+      locale === "ar"
         ? "font-cairo md:text-[50px] text-[30px]"
         : "font-inter md:text-[60px] text-[35px]"
     }`}
@@ -104,7 +104,7 @@ export default function ManagBlayList() {
 
   <p
     className={`font-[600] md:text-[16px] text-center text-[14px] ${
-      local === "ar" ? "font-cairo" : "font-montserrat"
+      locale === "ar" ? "font-cairo" : "font-montserrat"
     } tracking-[-0.25px]`}
   >
     {t("description")}
@@ -116,7 +116,7 @@ export default function ManagBlayList() {
         <div key={item.key} className="flex flex-col gap-[10px] mt-[10px]">
           <label
             className={`font-[600] ${
-              local === "ar" ? "font-cairo" : "font-inter"
+              locale === "ar" ? "font-cairo" : "font-inter"
             } tracking-[-0.25px] text-[14px]`}
           >
             {t(`form.${item.key}.label`)}
@@ -170,7 +170,7 @@ export default function ManagBlayList() {
         type="submit"
         disabled={loading}
         className={`h-[38px] mt-[20px] text-[#000000] rounded-[6px] font-[600] ${
-          local === "ar"
+          locale === "ar"
             ? "font-cairo text-[16px]"
             : "font-inter text-[14px]"
         } flex justify-center items-center bg-primary border-[2px] border-[#FCD570]`}

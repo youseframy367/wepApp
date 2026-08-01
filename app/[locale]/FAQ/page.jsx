@@ -8,42 +8,57 @@ import {
   Subscription,
   TechnicalSupport,
   DataProtection,
-  LegalCompliance
+  LegalCompliance,
+  DeviceManagement,
+  Payment,
+  Travel,
 } from "./FAQData";
 import MapOfAccorditionGradientBox from "../componnt/MapOfAccordionGradientBox";
+import { useTranslations, useLocale } from "next-intl";
 export default function FAQ() {
-  const map = [
-    "General Information",
-    "privacy &Data Protection",
-    "International Access",
-    "Account & Registration",
-    "Legal & Compliance",
-    "",
-    "Subscription & Billing",
-    "Device Management",
-    "",
-    "Technical Support",
-    "Payment & Refunds",
+  const locale = useLocale();
+  const sections = [
+    "GeneralInformation",
+    "DataProtection",
+    "Travel",
+    "AccountRegistration",
+    "LegalCompliance",
+    null,
+    "Subscription",
+    "DeviceManagement",
+    null,
+    "TechnicalSupport",
+    "Payment",
   ];
+  const t = useTranslations("FAQ.sections");
+
   return (
     <div>
       <BanerCommponnt namespace="FAQ.Banner" />
-      <FirstPoint withContainer={false} namespace="FAQ.firstPoint" />
+      <FirstPoint
+        withContainer={false}
+        namespace="FAQ.firstPoint"
+        className="md:mt-0 mt-[20px]"
+      />
       <GradientBorderBox className="grid md:grid-cols-3 grid-cols-1 w-[90%] gap-[20px] p-[30px] mx-auto my-[20px]">
-        {map.map((item, index) => (
-          <div key={index} className="flex items-center gap-[10px] ">
-            {item !== "" && (
+        {sections.map((item, index) =>
+          item ? (
+            <div key={index} className="flex items-center gap-[10px]">
               <img
                 src="/imge/checkBox.svg"
-                icon="check Box"
+                alt="check"
                 className="w-[25px] h-[25px]"
               />
-            )}
-            <p className="font-[400] font-inter text-[18px] tracking-[-0.25px] underline">
-              {item}
-            </p>
-          </div>
-        ))}
+              <p
+                className={`${locale === "en" ? "font-inter" : "font-cairo font-[400]"} text-[18px] underline`}
+              >
+                {t(item)}
+              </p>
+            </div>
+          ) : (
+            <div key={index} />
+          ),
+        )}
       </GradientBorderBox>
       <Title
         urlImg="/imge/agreement/reseller/i.svg"
@@ -91,7 +106,7 @@ export default function FAQ() {
         urlImg="/imge/agreement/reseller/i.svg"
         titleKey="LegalCompliance"
       />
-       <MapOfAccorditionGradientBox
+      <MapOfAccorditionGradientBox
         CuntEffect={1}
         data={LegalCompliance}
         namespace="FAQ.LegalCompliance"
@@ -100,10 +115,22 @@ export default function FAQ() {
         urlImg="/imge/agreement/reseller/i.svg"
         titleKey="DeviceManagement"
       />
-       <MapOfAccorditionGradientBox
+      <MapOfAccorditionGradientBox
         CuntEffect={1}
-        data={LegalCompliance}
-        namespace="FAQ.LegalCompliance"
+        data={DeviceManagement}
+        namespace="FAQ.DeviceManagement"
+      />
+      <Title urlImg="/imge/agreement/reseller/i.svg" titleKey="Payment" />
+      <MapOfAccorditionGradientBox
+        CuntEffect={1}
+        data={Payment}
+        namespace="FAQ.Payment"
+      />
+      <Title urlImg="/imge/agreement/reseller/i.svg" titleKey="Payment" />
+      <MapOfAccorditionGradientBox
+        CuntEffect={1}
+        data={Travel}
+        namespace="FAQ.Travel"
       />
     </div>
   );

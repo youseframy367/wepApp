@@ -12,7 +12,7 @@ type Props = {
 };
 
 export default function CheckAgreement({ agreementType }: Props) {
-  const local = useLocale();
+  const locale = useLocale();
   const [agree, setAgree] = useState(false);
   const router = useRouter();
   const [pending, startTransition] = useTransition();
@@ -23,13 +23,13 @@ const t = useTranslations("agreementConfirmation");
     startTransition(async () => {
       if (agreementType === "customer") {
         await setAgreementStep("reseller");
-        router.push(`/${local}/agreement/reseller`);
+        router.push(`/${locale}/agreement/reseller`);
         return;
       }
 
       // agreementType === "reseller"
       await setAgreementStep("done");
-      router.push(`/${local}`);
+      router.push(`/${locale}`);
       router.refresh();
     });
   };
@@ -42,7 +42,7 @@ const t = useTranslations("agreementConfirmation");
         >
           <ImageCheckbox checked={agree} onChange={setAgree} name="agree" />
           <p
-            className={`text-[#fff] font-[400] md:text-[16px] text-[14px] ${local === "en" ? "font-inter ml-[-15px] " : " font-cairo font-[400] md:text-[19px] text-[15px] tracking-[-0.25px] mr-[-15px]"}`}
+            className={`text-[#fff] font-[400] md:text-[16px] text-[14px] ${locale === "en" ? "font-inter ml-[-15px] " : " font-cairo font-[400] md:text-[19px] text-[15px] tracking-[-0.25px] mr-[-15px]"}`}
           >
              {t("checkbox")}
           </p>
@@ -53,7 +53,7 @@ const t = useTranslations("agreementConfirmation");
         disabled={!agree || pending}
         onClick={handleAccept}
         className={` w-[90%] md:h-[65px] h-[60px] rounded-[15px] flex justify-center items-center mx-auto leading-[40px] mb-[30px] shadow-[0px_4px_4px_0px_#00000040]
-                   ${local === "ar" ? "font-cairo md:text-[22px] text-[19px] leading-[40px] md:font-[600] font-[500]" : ""}
+                   ${locale === "ar" ? "font-cairo md:text-[22px] text-[19px] leading-[40px] md:font-[600] font-[500]" : ""}
                   ${agree ? "bg-gradient-to-r from-[#DB9D39] via-[#FCD570] to-[#DB9D39] font-[600]  text-[20px] text-[#000000] font-Montserrat" : "bg-[rgba(223,196,134,0.76)] text-[#494747]"}  `}
       >
         {t("button")}

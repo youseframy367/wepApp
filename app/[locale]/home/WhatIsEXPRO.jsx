@@ -10,7 +10,7 @@ export default function WhatIsExpro() {
   return (
     <div className="flex flex-col">
       <div className="flex md:flex-row flex-col  w-[90%] mx-auto md:justify-between my-[70px] items-center">
-        <img src="/imge/home/WhatIsEXPRO.svg" alt="WhatIsExPro"  data-aos="fade-out"></img>
+        <img src="/imge/home/WhatIsEXPRO.png" alt="WhatIsExPro"  data-aos="fade-out"></img>
 
         <div className="flex items-center flex-col gap-[14px] md:w-[520px] w-[100%] items-start">
           <h1
@@ -59,7 +59,7 @@ export default function WhatIsExpro() {
             <img
               src={item.img}
               alt={item.titleAr}
-              className="md:w-[90px] md:mt-[-60px] mt-[-50px] w-[80px]"
+              className="md:w-[90px] mt-[10px] mt-[-50px] w-[80px] h-[80px]"
               data-aos="fade-up"
             />
 
@@ -68,12 +68,12 @@ export default function WhatIsExpro() {
               data-aos="fade-up"
             >
               <h2
-                className={` text-primary font-[600] md:text-[24px] text-[20px] md:leading-[30px] leading-[20px] ${local === "ar" ? "font-cairo  " : "font-montserrat"}`}
+                className={` text-primary md:w-[80%] font-[600] md:text-[24px] text-[20px] md:leading-[30px] leading-[20px] ${locale === "ar" ? "font-cairo  " : "font-montserrat"}`}
               >
                 {t(`cards.${item.key}.title`)}
               </h2>
               <p
-                className={` text-[#fff]  tracking-[-0.25px] ${local === "ar" ? "font-cairo font-[500px] text-[14px] md:text-[17px] leading-[24px] pl-[20px]" : "font-[400] md:text-[14px] text-[12px] font-inter"}`}
+                className={` text-[#fff] md:w-[90%]  tracking-[-0.25px] ${locale === "ar" ? "font-cairo font-[500px] text-[14px] md:text-[17px] leading-[24px] pl-[20px]" : "font-[400] md:text-[14px] text-[12px] font-inter"}`}
               >
                {t(`cards.${item.key}.text`)}
               </p>

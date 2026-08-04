@@ -1,75 +1,75 @@
 export const PrivacyPolicyData = [
   {
     key: "mediaPlayerOnly",
-    img: "/imge/policy/logo.svg",
+    img: "/imge/policy/privacyPolicy/logo.png",
   },
   {
     key: "platformDataSecurity",
-    img: "/imge/policy/worning.svg",
+    img: "/imge/policy/privacyPolicy/worning.png",
   },
   {
     key: "permissionsUsed",
-    img: "/imge/policy/lesning.svg",
+    img: "/imge/policy/privacyPolicy/lesning.png",
   },
   {
     key: "userGeneratedContent",
-    img: "/imge/policy/visa.svg",
+    img: "/imge/policy/privacyPolicy/visa.png",
   },
   {
     key: "informationWeCollect",
-    img: "/imge/policy/info.svg",
+    img: "/imge/policy/privacyPolicy/info.png",
   },
   {
     key: "howWeUseInformation",
-    img: "/imge/policy/HowUsInfo.svg",
+    img: "/imge/policy/privacyPolicy/HowUsInfo.png",
   },
   {
     key: "legalBasisForProcessing",
-    img: "/imge/policy/todo.svg",
+    img: "/imge/policy/privacyPolicy/todo.png",
   },
   {
     key: "sharingYourInformation",
-    img: "/imge/policy/sherInfo.svg",
+    img: "/imge/policy/privacyPolicy/sherInfo.png",
   },
   {
     key: "internationalDataTransfers",
-    img: "/imge/policy/translateInfo.svg",
+    img: "/imge/policy/privacyPolicy/translateInfo.png",
   },
   {
     key: "dataRetention",
-    img: "/imge/policy/seftiInfo.svg",
+    img: "/imge/policy/privacyPolicy/seftiInfo.png",
   },
   {
     key: "yourDataRights",
-    img: "/imge/policy/seveData.svg",
+    img: "/imge/policy/privacyPolicy/seveData.png",
   },
   {
     key: "dataSecurity",
-    img: "/imge/policy/sefteOfdata.svg",
+    img: "/imge/policy/privacyPolicy/sefteOfdata.png",
   },
 
   {
     key: "childrenPrivacy",
-    img: "/imge/policy/sohibleKeds.svg",
+    img: "/imge/policy/privacyPolicy/sohibleKeds.png",
   },
   {
     key: "externalLinks",
-    img: "/imge/policy/outputUrl.svg",
+    img: "/imge/policy/privacyPolicy/outputUrl.png",
   },
   {
     key: "googleAdvertising",
-    img: "/imge/policy/gogelSeting.svg",
+    img: "/imge/policy/privacyPolicy/gogelSeting.png",
   },
   {
     key: "consentCookies",
-    img: "/imge/policy/fileConcat.svg",
+    img: "/imge/policy/privacyPolicy/fileConcat.png",
   },
   {
     key: "logFiles",
-    img: "/imge/policy/segalNezam.svg",
+    img: "/imge/policy/privacyPolicy/segalNezam.png",
   },
   {
     key: "privacyPolicyChanges",
-    img: "/imge/policy/changeSbichial.svg",
+    img: "/imge/policy/privacyPolicy/changeSbichial.png",
   },
 ];

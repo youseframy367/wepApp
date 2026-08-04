@@ -1,18 +1,18 @@
 export const WhatIsEXPRO = [
   {
-    img: "/imge/home/easeToUse.svg",
+    img: "/imge/home/easeToUse.png",
     key: "easeToUse"
   },
   {
-    img: "/imge/home/core.svg",
+    img: "/imge/home/core.png",
     key: "coreFeatures"
   },
   {
-    img: "/imge/home/prantalControl.svg",
+    img: "/imge/home/prantalControl.png",
     key: "parentalControls"
   },
   {
-    img: "/imge/home/secur.svg",
+    img: "/imge/home/secur.png",
     key: "securePlayback"
   }
 ];
@@ -20,18 +20,18 @@ export const WhatIsEXPRO = [
 export const supportedBlatform = [
   {
     key: "smartTv",
-    img: "/imge/home/exproSmartTV.svg",
+    img: "/imge/home/exproSmartTV.png",
   },
   {
     key: "androidDevices",
-    img: "/imge/home/androidDevice.svg",
+    img: "/imge/home/androidDevice.png",
   },
   {
     key: "appleDevices",
-    img: "/imge/home/abbDevices.svg",
+    img: "/imge/home/abbDevices.png",
   },
   {
     key: "pcAndLaptop",
-    img: "/imge/home/pcAndLabtop.svg",
+    img: "/imge/home/pcAndLabtop.png",
   },
 ];

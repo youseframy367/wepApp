@@ -8,6 +8,7 @@ import { useTranslations , useLocale } from "next-intl";
 import PrivcyComponnt from "../../componnt/ContanerPrivcy";
 import { DeteGoToBage } from "./AgreementCustomerDate";
 import CheckAgreement from "../../componnt/CheckAgreement";
+
 export default function AgreementCustomer() {
   const t = useTranslations("agreementCustomer");
   const local = useLocale();
@@ -28,7 +29,7 @@ export default function AgreementCustomer() {
           className={`${local === "ar" ? "font-cairo " : ""} flex md:gap-[20px] gap-[10px]`}
         >
           <img
-            src="/imge/agreement/customer/about.svg"
+            src="/imge/agreement/customer/about.png"
             alt="aboutIcon"
             className="w-auto md:w-[120px]"
           ></img>

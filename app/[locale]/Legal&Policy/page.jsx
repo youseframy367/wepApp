@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import BanerCommponnt from "../componnt/Baner";
 import PrivcyComponnt from "../componnt/ContanerPrivcy";
@@ -47,11 +47,13 @@ export default function Bolicy() {
             key={item.key}
             className="flex gap-[15px] p-[20px] md:w-[31%] w-[100%] h-[169px]"
           >
-            <img
+            <Image
               data-aos="fade-out"
               src={item.img}
               alt={t(`cards.${item.key}.title`)}
-              width="68px"
+              width={68}
+              height={68}
+              className="md:mt-[5px] w-[70px] h-[70px]"
             />
             <div data-aos="fade-up" className="flex flex-col gap-[10px]">
               <h1

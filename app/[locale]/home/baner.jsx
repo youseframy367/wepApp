@@ -51,7 +51,7 @@ export default function Baner() {
         </div>
         <img
           data-aos="fade-out"
-          src="/imge/home/EXBRO.svg"
+          src="/imge/home/EXBRO.png"
           alt="EX-PRO"
           className="z-5 mx-auto md:mx-0"
         ></img>

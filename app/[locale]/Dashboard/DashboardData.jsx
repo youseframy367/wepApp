@@ -1,26 +1,26 @@
 export const DashboardData =[
     {
-        img:"/imge/Dashbord/Cinematic.svg",
+        img:"/imge/Dashbord/Cinematic.png",
         key:"Cinematic"
     },
     {
-        img:'/imge/Dashbord/Features.svg',
+        img:'/imge/Dashbord/Features.png',
         key:"Features"
     },
     {
-        img:"/imge/Dashbord/Controls.svg",
+        img:"/imge/Dashbord/Controls.png",
         key:'Controls'
     },
     {
-        img:"/imge/Dashbord/Reliable.svg",
+        img:"/imge/Dashbord/Reliable.png",
         key:"Reliable"
     },
     {
-        img:"/imge/Dashbord/SupportedPlatforms.svg",
+        img:"/imge/Dashbord/SupportedPlatforms.png",
         key:'SupportedPlatforms'
     },
     {
-        img:"/imge/Dashbord/ExpertSupport.svg",
+        img:"/imge/Dashbord/ExpertSupport.png",
         key:'ExpertSupport'
     }
 ]

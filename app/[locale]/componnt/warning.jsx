@@ -6,7 +6,7 @@ export default function Worning({
   className,
   classNamep,
   reverse = false,
-  img = "/imge/agreement/worning.svg",
+  img = "/imge/worning.png",
 }) {
   const locale = useLocale();
   return (

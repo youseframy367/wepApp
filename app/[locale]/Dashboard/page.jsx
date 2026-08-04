@@ -36,7 +36,7 @@ export default function Dashboard() {
       </p>
       <img
         data-aos="fade-out"
-        src="/imge/home/EXBRO.svg"
+        src="/imge/home/EXBRO.png"
         alt="EX-PRO"
         className="z-5 mx-auto  md:w-[560px] w-[90%]"
       ></img>
@@ -102,7 +102,7 @@ export default function Dashboard() {
         borderEfect={false}
         className="flex gap-[15px] items-center w-[100%] py-[20px] px-[30px] w-[90%] mx-auto text-start my-[20px]"
       >
-        <img src="/imge/agreement/worning.svg" alt="Notice" data-aos="fade-out" />
+        <img src="/imge/worning.png" alt="Notice" data-aos="fade-out" />
         <div className="flex flex-col gap-[10px]" data-aos="fade-up">
           <h2
             className={`font-[500] ${locale === "en" ? "font-montserrat" : "font-cairo"} md:text-[20px] text-[18px] text-primary-dark`}

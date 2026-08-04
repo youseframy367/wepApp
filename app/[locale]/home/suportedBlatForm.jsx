@@ -1,8 +1,7 @@
 import { supportedBlatform } from "./HomeData";
 import GradientBorderBox from "../componnt/GradiantBox";
 import BlackBox from "../componnt/BlackBox";
-import { useLocale } from "next-intl";
-import { useTranslations } from "next-intl";
+import { useTranslations , useLocale} from "next-intl";
 export default function BlatformSupport() {
   const t = useTranslations("platformSupport");
   const locale = useLocale();
@@ -64,7 +63,7 @@ export default function BlatformSupport() {
         </div>
         <p
           data-aos="fade-up"
-          className={`${local === "en" ? "font-inter" : "font-cairo"} md:mt-[-40px] mt-[-20px] md:text-start text-center font-[700] tracking-[-0.25px] flex items-center text-primary`}
+          className={`${locale === "en" ? "font-inter" : "font-cairo"} md:mt-[-40px] mt-[-20px] md:text-start text-center font-[700] tracking-[-0.25px] flex items-center text-primary`}
         >
           {t("availability")}
         </p>
@@ -73,7 +72,7 @@ export default function BlatformSupport() {
       <div className="w-[90%] flex flex-col items-center mx-auto my-[60px]">
         <h1
           data-aos="fade-up"
-          className={`${local === "en" ? "font-inter" : "font-cairo"} font-[600] md:text-[40px] text-[30px] leading-[42px] text-primary `}
+          className={`${locale === "en" ? "font-inter" : "font-cairo"} font-[600] md:text-[40px] text-[30px] leading-[42px] text-primary `}
         >
           {t("activation.title")}
         </h1>
@@ -86,19 +85,19 @@ export default function BlatformSupport() {
           <BlackBox  borderEfect={false} className="flex flex-col  justify-center items-center md:w-[33%] w-[100%] h-[175px]">
             <h1
               data-aos="fade-out"
-              className={`${local === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] md:text-[60px] text-[70px] mt-[-10px]  text-primary`}
+              className={`${locale === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] md:text-[60px] text-[70px] mt-[-10px]  text-primary`}
             >
               01
             </h1>
             <h2
               data-aos="fade-up"
-              className={`${local === "en" ? "font-montserrat" : "font-cairo"}  font-[500] text-[20px] text-primary mt-[-15px]`}
+              className={`${locale === "en" ? "font-montserrat" : "font-cairo"}  font-[500] text-[20px] text-primary mt-[-15px]`}
             >
               {t("activation.step1.title")}
             </h2>
             <p
               data-aos="fade-up"
-              className={`w-[170px] mt-[10px] ${local === "ar" ? "font-montserrat font-[400]" : "font-cairo font-[500]"} text-[10px] leading-[14px] text-center`}
+              className={`w-[170px] mt-[10px] ${locale === "ar" ? "font-montserrat font-[400]" : "font-cairo font-[500]"} text-[10px] leading-[14px] text-center`}
             >
               {t("activation.step1.text")}
             </p>
@@ -106,19 +105,19 @@ export default function BlatformSupport() {
           <BlackBox  borderEfect={false}  className="flex flex-col  justify-center items-center md:w-[33%] w-[100%] h-[175px]">
             <h1
               data-aos="fade-out"
-              className={`${local === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] md:text-[60px] text-[70px] mt-[-10px]  text-primary`}
+              className={`${locale === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] md:text-[60px] text-[70px] mt-[-10px]  text-primary`}
             >
               02
             </h1>
             <h2
               data-aos="fade-up"
-              className={`${local === "en" ? "font-montserrat" : "font-cairo"}  font-[500] text-[20px] text-primary mt-[-15px]`}
+              className={`${locale === "en" ? "font-montserrat" : "font-cairo"}  font-[500] text-[20px] text-primary mt-[-15px]`}
             >
               {t("activation.step2.title")}
             </h2>
             <p
               data-aos="fade-up"
-              className={`w-[157px] mt-[10px] ${local === "ar" ? "font-montserrat font-[400]" : "font-cairo font-[500]"} text-[10px] leading-[14px] text-center`}
+              className={`w-[157px] mt-[10px] ${locale === "ar" ? "font-montserrat font-[400]" : "font-cairo font-[500]"} text-[10px] leading-[14px] text-center`}
             >
               {t("activation.step1.text")}
             </p>
@@ -126,14 +125,14 @@ export default function BlatformSupport() {
           <BlackBox  borderEfect={false}  className="flex flex-col justify-center items-center md:w-[33%] w-[100%] h-[175px]">
             <h1
               data-aos="fade-out"
-              className={`${local === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] md:text-[60px] text-[70px] mt-[-10px] text-primary`}
+              className={`${locale === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] md:text-[60px] text-[70px] mt-[-10px] text-primary`}
             >
               03
             </h1>
 
             <h2
               data-aos="fade-up"
-              className={`${local === "en" ? "font-montserrat" : "font-cairo"} font-[500] text-[20px] text-primary mt-[-15px]`}
+              className={`${locale === "en" ? "font-montserrat" : "font-cairo"} font-[500] text-[20px] text-primary mt-[-15px]`}
             >
               {t("activation.step3.title")}
             </h2>
@@ -141,7 +140,7 @@ export default function BlatformSupport() {
             <p
               data-aos="fade-up"
               className={`w-[241px] mt-[10px] ${
-                local === "en" ? "font-montserrat" : "font-cairo"
+                locale === "en" ? "font-montserrat" : "font-cairo"
               } font-[400] text-[10px] leading-[14px] text-center`}
             >
               {t("activation.step3.text1")}
@@ -157,7 +156,7 @@ export default function BlatformSupport() {
       <div className="w-[90%] flex flex-col items-center mx-auto md:mt-[60px] mt-[20px]">
         <h1
           data-aos="fade-up"
-          className={`${local === "en" ? "font-inter" : "font-cairo"} font-[600] md:text-[40px] text-[30px]  leading-[42px] text-primary `}
+          className={`${locale === "en" ? "font-inter" : "font-cairo"} font-[600] md:text-[40px] text-[30px]  leading-[42px] text-primary `}
         >
           {t("plans.title")}
         </h1>
@@ -178,20 +177,20 @@ export default function BlatformSupport() {
             <div>
               <h2
                 data-aos="fade-up"
-                className={`${local === "en" ? "font-montserrat " : "font-cairo"}md:font-[500] font-[600] md:text-[24px] text-[16px] text-primary`}
+                className={`${locale === "en" ? "font-montserrat " : "font-cairo"}md:font-[500] font-[600] md:text-[24px] text-[16px] text-primary`}
               >
                 {t("plans.yearly.title")}
               </h2>
               <p
                 data-aos="fade-up"
                 className={`${
-                  local === "en"
+                  locale === "en"
                     ? "font-montserrat font-[600] text-[12px]"
                     : "font-cairo font-[500] text-[14px]"
                 }`}
               >
                 {t("plans.yearly.text")}{" "}
-                <span className={local === "en" ? "font-[900]" : "font-[800]"}>
+                <span className={locale === "en" ? "font-[900]" : "font-[800]"}>
                   {t("plans.yearly.highlight")}
                 </span>
               </p>
@@ -208,20 +207,20 @@ export default function BlatformSupport() {
             <div>
               <h2
                 data-aos="fade-up"
-                className={`${local === "en" ? "font-montserrat " : "font-cairo"}md:font-[500] font-[600] md:text-[24px] text-[16px] text-primary`}
+                className={`${locale === "en" ? "font-montserrat " : "font-cairo"}md:font-[500] font-[600] md:text-[24px] text-[16px] text-primary`}
               >
                 {t("plans.halfYear.title")}
               </h2>
               <p
                 data-aos="fade-up"
                 className={`${
-                  local === "en"
+                  locale === "en"
                     ? "font-montserrat font-[600] text-[12px]"
                     : "font-cairo font-[500] text-[14px]"
                 }`}
               >
                 {t("plans.halfYear.text")}{" "}
-                <span className={local === "en" ? "font-[900]" : "font-[800]"}>
+                <span className={locale === "en" ? "font-[900]" : "font-[800]"}>
                   {t("plans.halfYear.highlight")}
                 </span>
               </p>

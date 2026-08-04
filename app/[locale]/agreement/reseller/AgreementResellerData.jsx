@@ -18,53 +18,53 @@ export const notes = {
 };
 export const LegalTermsOfTheContract = [
   {
-    img: "/imge/agreement/reseller/logo.svg",
+    img: "/imge/agreement/logo.png",
     key: "natureOfService",
   },
   {
-    img: "/imge/agreement/reseller/worning.svg",
+    img: "/imge/agreement/worning.png",
     key: "noRefundPolicy",
   },
   {
-    img: "/imge/agreement/reseller/servesClint.svg",
+    img: "/imge/agreement/contact.png",
     key: "paymentStructure",
   },
   {
-    img: "/imge/agreement/reseller/acount.svg",
+    img: "/imge/agreement/PAYMENT.png",
     key: "accountAndDeviceResponsibility",
   },
   {
-    img: "/imge/agreement/reseller/Implementation.svg",
+    img: "/imge/agreement/accunt.png",
     key: "enforcementAndTermination",
   },
   {
-    img: "/imge/agreement/reseller/LimitationOfLiability.svg",
+    img: "/imge/agreement/Layer 3 27.png",
     key: "limitationOfLiability",
   },
   {
-    img: "/imge/agreement/reseller/esdarat.svg",
+    img: "/imge/agreement/LIMITATION.png",
     key: "agreementVersioning",
   },
   {
-    img: "/imge/agreement/reseller/canon.svg",
+    img: "/imge/agreement/privcy.png",
     key: "governingLaw",
   },
   {
-    img: "/imge/agreement/reseller/faslEnd.svg",
+    img: "/imge/agreement/AGREEMENT.png",
     key: "finalAcceptance",
   },
   {
-    img: "/imge/agreement/reseller/fasl.svg",
+    img: "/imge/agreement/serverBolicy.png",
     key: "severability",
   },
 ];
 export const choicesAdd = [
   {
-    img: "/imge/agreement/reseller/imgScurty.svg",
+    img: "/imge/agreement/reseller/imgScurty.png",
     key: "internalResellers",
   },
   {
-    img: "/imge/agreement/reseller/imgTodo.svg",
+    img: "/imge/agreement/reseller/imgTodo.png",
     key: "publicUsersAndResellers",
   },
 ];

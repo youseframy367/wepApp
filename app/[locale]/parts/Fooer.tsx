@@ -7,17 +7,18 @@ import Image from "next/image";
 import { useLocale } from "next-intl";
 import Container from "../componnt/Contaner";
 
+
 export default function Footer() {
   const pathname = usePathname();
   const local = useLocale();
-  const smoothTop = () => {
+  const smoothTop = (): void => {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
     });
   };
 
-  const handleNav = (to) => {
+  const handleNav = (to: string): void => {
     if (pathname === to) {
       smoothTop();
     }
@@ -175,34 +176,31 @@ export default function Footer() {
             ].map(({ titleEn, titleAr, link }, index, arr) => (
               <Fragment key={index}>
                 <div
-                  className={`${
-                    index === 4
+                  className={`${index === 4
                       ? "w-auto min-[425px]:w-full sm:w-auto justify-center"
                       : ""
-                  } flex items-center space-x-2.5`}
+                    } flex items-center space-x-2.5`}
                 >
                   <Link
                     href={link}
                     onClick={() => handleNav(link)}
                     className={`${local === "en" ? "font-inter" : "font-cairo"} 3xl:text-2xl! min-[425px]:text-sm text-[13px] tracking-[-0.25px]
-            ${
-              pathname === link
-                ? "text-primary-animated font-bold"
-                : "text-primary font-normal"
-            }`}
+            ${pathname === link
+                        ? "text-primary-animated font-bold"
+                        : "text-primary font-normal"
+                      }`}
                   >
                     {local === "ar" ? titleAr : titleEn}
                   </Link>
 
                   {index < arr.length - 1 && (
                     <div
-                      className={`-separator h-6 opacity-70 ${
-                        index === 2
+                      className={`-separator h-6 opacity-70 ${index === 2
                           ? "max-[425px]:hidden"
                           : index === 3
                             ? "flex min-[425px]:hidden sm:flex"
                             : ""
-                      }`}
+                        }`}
                     />
                   )}
                 </div>

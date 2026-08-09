@@ -5,6 +5,9 @@ import { useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
 import ContactIcon from "../componnt/ContactIcon";
+
+interface HeaderItem { title: string; navigate: string; }
+
 export default function Header() {
   const [open, setOpen] = useState(false);
   const [langImgError, setLangImgError] = useState(false);
@@ -16,7 +19,7 @@ export default function Header() {
 
   const t = useTranslations("Header");
 
-  const changeLanguage = () => {
+  const changeLanguage = (): void => {
     const newLocale = locale === "ar" ? "en" : "ar";
 
     const segments = pathname.split("/");
@@ -25,7 +28,7 @@ export default function Header() {
     router.push(segments.join("/"));
   };
 
-  const hidingOfHeader = [
+  const hidingOfHeader: HeaderItem[] = [
     { title: t("home"), navigate: "/" },
     { title: t("managePlaylist"), navigate: "/logInManageBlayList" },
     { title: t("legalPolicy"), navigate: "/Legal&Policy" },

@@ -2,12 +2,13 @@ import GradientBorderBox from "../componnt/GradiantBox";
 import { useTranslations, useLocale } from "next-intl";
 import { useState } from "react";
 import api from "@/app/services/api";
+import axios from "axios";
 export default function TransferDevice() {
   const t = useTranslations("TransferDevice");
   const locale = useLocale();
   const fontClass = locale === "en" ? "font-inter" : "font-cairo";
-  const [deviceMac, setDeviceMac] = useState("");
-  const handleSubmit = async (e) => {
+  const [deviceMac, setDeviceMac] = useState<string>("");
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>): Promise<void> => {
     e.preventDefault();
 
     try {
@@ -18,9 +19,11 @@ export default function TransferDevice() {
       console.log(data);
 
       setDeviceMac("");
-    } catch (error) {
-      console.error(error.response?.data || error.message);
-    }
+    }catch (error: unknown) {
+  if (axios.isAxiosError(error)) {
+    console.error(error.response?.data || error.message);
+  }
+}
   };
   return (
     <div className="flex flex-col gap-[15px]">

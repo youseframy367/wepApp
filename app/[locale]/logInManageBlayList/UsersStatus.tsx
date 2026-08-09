@@ -1,9 +1,16 @@
-import { useTranslations ,useLocale } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
+
+interface UserStatusData {
+  MacAddress: string;
+  Status: "Active" | "Inactive";
+  CreationDate: string;
+  ExpirationDate: string;
+}
 
 export default function UsersStatus() {
   const t = useTranslations("UsersStatus");
-  const locale =useLocale()
-  const data = {
+  const locale = useLocale()
+  const data: UserStatusData = {
     MacAddress: "da:42:67:14:ed:60",
     Status: "Inactive",
     CreationDate: "21 Feb. 2026",
@@ -13,7 +20,7 @@ export default function UsersStatus() {
   const style = "flex justify-between items-center my-[20px] text-start";
 
   return (
-    <div className={`font-[700] ${locale === "en"?"font-inter":"font-cairo"} md:text-[14px] text-[12px] tracking-[-0.25px]  md:mx-[1%]`}>
+    <div className={`font-[700] ${locale === "en" ? "font-inter" : "font-cairo"} md:text-[14px] text-[12px] tracking-[-0.25px]  md:mx-[1%]`}>
       <div className={`${style} text-primary `}>
         <p>{t("macAddress")}:</p>
         <p>{data.MacAddress}</p>

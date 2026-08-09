@@ -6,10 +6,10 @@ import { useLocale } from "next-intl";
 
 interface AccordionGradientBoxProps {
   icon: string;
-  iconAlt: string;
+  iconAlt?: string;
   title: ReactNode;
   paragraph: ReactNode;
-  visibleLines: 2 | 3;
+  visibleLines?: 2 | 3;
   children?: ReactNode;
   className?: string;
   iconClassName?: string;

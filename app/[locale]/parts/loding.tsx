@@ -7,6 +7,7 @@ import mainBgUrl from "../../assets/images/constants/mainBg.webp";
 export default function LoadingScreen() {
   const [hiding, setHiding] = useState(false);
   const [hidden, setHidden] = useState(false);
+  
 
   useEffect(() => {
     let done = false;

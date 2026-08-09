@@ -4,7 +4,7 @@ import { useLocale } from "next-intl";
 import { useTranslations } from "next-intl";
 export default function WhatIsExpro() {
   const locale = useLocale();
-  const ExPro = WhatIsEXPRO;
+ // const ExPro = WhatIsEXPRO;
   const t=useTranslations("whatIsExpro")
 
   return (
@@ -51,7 +51,7 @@ export default function WhatIsExpro() {
           className="absolute md:hidden block top-[60%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"
           alt="effect"
         />
-        {ExPro.map((item, index) => (
+        {WhatIsEXPRO.map((item, index) => (
           <GradientBorderBox
             key={index}
             className="flex md:gap-[15px] gap-[10px] md:h-[181px] h-auto p-[20px]"

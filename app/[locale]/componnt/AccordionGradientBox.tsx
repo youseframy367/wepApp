@@ -1,6 +1,6 @@
 "use client";
 
-import { useLayoutEffect, useRef, useState, ReactNode } from "react";
+import { useLayoutEffect, useRef, useState, useEffect, ReactNode } from "react";
 import GradientBorderBox from "./GradiantBox";
 import { useLocale } from "next-intl";
 
@@ -22,7 +22,7 @@ export default function AccordionGradientBox({
   iconAlt,
   title,
   paragraph,
-  visibleLines,
+  visibleLines = 2,
   children,
   className,
   iconClassName = "3xl:min-w-30! lg:w-21 md:w-18 sm:w-16 w-12 mx-0 aspect-square object-contain",
@@ -33,14 +33,16 @@ export default function AccordionGradientBox({
   const paragraphRef = useRef<HTMLDivElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
   const [collapsedHeight, setCollapsedHeight] = useState(26 * visibleLines);
+  const [expandedHeight, setExpandedHeight] = useState<number>(26 * visibleLines);
   const [hasOverflow, setHasOverflow] = useState(false);
 
   const local = useLocale();
   const isRTL = local !== "en";
-const hasTitle =
-  title !== null &&
-  title !== undefined &&
-  !(typeof title === "string" && title.trim() === "");
+  const hasTitle =
+    title !== null &&
+    title !== undefined &&
+    !(typeof title === "string" && title.trim() === "");
+
   useLayoutEffect(() => {
     const recalculate = () => {
       const p = paragraphRef.current;
@@ -58,8 +60,19 @@ const hasTitle =
     return () => window.removeEventListener("resize", recalculate);
   }, [visibleLines]);
 
+  useEffect(() => {
+    const recalculateExpanded = () => {
+      if (contentRef.current) {
+        setExpandedHeight(contentRef.current.scrollHeight);
+      }
+    };
+
+    recalculateExpanded();
+    window.addEventListener("resize", recalculateExpanded);
+    return () => window.removeEventListener("resize", recalculateExpanded);
+  }, [children, paragraph, open]);
+
   const showToggle = hasOverflow || !!children;
-  const expandedHeight = contentRef.current?.scrollHeight ?? collapsedHeight;
 
   return (
     <GradientBorderBox

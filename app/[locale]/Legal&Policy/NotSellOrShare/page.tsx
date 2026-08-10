@@ -7,7 +7,7 @@ import {
   relationshipWithPrivacy,
   contact,
 } from "./NotSellOrSheraData";
-import Agreement from "../../componnt/Agreement.jsx"
+import Agreement from "../../componnt/Agreement"
 import PrivacyPolicyHero from "../../componnt/PrivacyPolicyHero"
 import ContanerTextAndImg from "../../componnt/ContnerImgAndText";
 import MapOfAccorditionGradientBox from "../../componnt/MapOfAccordionGradientBox";

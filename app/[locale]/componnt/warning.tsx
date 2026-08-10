@@ -2,7 +2,7 @@ import { useLocale } from "next-intl";
 import GradientBorderBox from "./GradiantBox";
 
 interface WorningProps {
-  title: string;
+  title?: string;
   text: string;
   className?: string;
   classNamep?: string;

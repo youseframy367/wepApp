@@ -2,6 +2,7 @@
 import { useLocale } from "next-intl";
 import Container from "./Contaner";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 interface FirstPointProps {
   urlImg?: string;
@@ -14,7 +15,7 @@ export default function FirstPoint({
   withContainer = true,
   className = "",
   namespace
-}:FirstPointProps) {
+}: FirstPointProps) {
   const locale = useLocale();
   const t = useTranslations(namespace)
   const content = (
@@ -23,7 +24,12 @@ export default function FirstPoint({
       className={`relative ${withContainer == false ? "w-[90%] mx-auto" : ""} ${className} `}
     >
       <div className="flex gap-[10px] text-[#fff] items-center">
-        <img src={urlImg} alt="i" />
+        <Image
+          src={urlImg}
+          alt="i"
+          width={40}
+          height={40}
+        />
         <p
           className={`text-primary-animated md:font-[500] font-[300] md:text-[30px] text-[20px] md:leading-[40px] leading-[25px]  ${locale === "ar" ? "font-cairo" : "font-Montserrat"
             }`}

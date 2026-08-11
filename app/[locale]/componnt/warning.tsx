@@ -1,5 +1,6 @@
 import { useLocale } from "next-intl";
 import GradientBorderBox from "./GradiantBox";
+import Image from "next/image";
 
 interface WorningProps {
   title?: string;
@@ -22,12 +23,17 @@ export default function Worning({
     <GradientBorderBox
       className={`${className} w-[90%] mx-auto md:h-[68px] h-auto flex md:gap-[24px] gap-[15px] items-center px-[20px]`}
     >
-      <img src={img} data-aos="fade-up" />
-
+      <Image
+        src={img}
+        alt="Worning"
+        width={40}
+        height={40}
+        data-aos="fade-up"
+      />
       <p
         className={`${classNamep} ${locale === "en"
-            ? "font-inter md:font-[400]"
-            : "font-cairo md:font-[500] md:text-[20px] text-[17px]"
+          ? "font-inter md:font-[400]"
+          : "font-cairo md:font-[500] md:text-[20px] text-[17px]"
           } py-[10px] font-[300] text-[16px] text-[#fff]`}
       >
         {reverse ? (

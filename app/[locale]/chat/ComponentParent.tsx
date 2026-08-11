@@ -4,7 +4,7 @@ import Header from "./HeaderChat";
 import TypeChat from './typeChat';
 import Maseg from "./form";
 export default function Chat() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
     <>

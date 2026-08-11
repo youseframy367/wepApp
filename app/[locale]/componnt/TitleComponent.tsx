@@ -1,19 +1,22 @@
 import { useLocale, useTranslations } from "next-intl";
+import Image from "next/image";
 
 interface TitleProps {
   titleKey: string;
   urlImg?: string;
 }
 
-export default function Title({ titleKey, urlImg = "/imge/policy/DoNotSellOrShare/iconworning.svg" }:TitleProps) {
+export default function Title({ titleKey, urlImg = "/imge/policy/DoNotSellOrShare/iconworning.svg" }: TitleProps) {
   const locale = useLocale();
   const t = useTranslations("titles");
 
   return (
     <div className="flex gap-[15px] items-center w-[90%] mx-auto my-[30px]" data-aos="fade-up">
-      <img
+      <Image
         src={urlImg}
         alt={t(titleKey)}
+        width={40}
+        height={40}
       />
 
       <h1

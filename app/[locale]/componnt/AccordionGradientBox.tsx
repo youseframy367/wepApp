@@ -3,6 +3,7 @@
 import { useLayoutEffect, useRef, useState, useEffect, ReactNode } from "react";
 import GradientBorderBox from "./GradiantBox";
 import { useLocale } from "next-intl";
+import Image from "next/image";
 
 interface AccordionGradientBoxProps {
   icon: string;
@@ -80,9 +81,11 @@ export default function AccordionGradientBox({
       className={`relative flex flex-col sm:flex-row sm:items-center min-[425px]:py-3.75 py-4.5 min-[425px]:pl-7.5 pl-5 sm:pr-15 pr-5 gap-2.5 sm:gap-6 ${className ?? ""}`}
     >
       <div className="flex sm:contents items-center space-x-2.5">
-        <img
+        <Image
           src={icon}
-          alt={iconAlt}
+          alt={iconAlt??""}
+          width={24}
+          height={24}
           className={`shrink-0 ${iconClassName}`}
           data-aos="fade-up"
         />
@@ -102,9 +105,11 @@ export default function AccordionGradientBox({
             aria-expanded={open}
             aria-label={open ? "Collapse" : "Expand"}
           >
-            <img
+            <Image
               src={open ? "/imge/mins.svg" : "/imge/plus.svg"}
               alt={open ? "Collapse" : "Expand"}
+              width={32}
+              height={32}
               className="3xl:w-8! md:w-6 w-5"
             />
           </button>
@@ -114,11 +119,10 @@ export default function AccordionGradientBox({
       <div className="flex-1 min-w-0">
         {hasTitle && (
           <h3
-            className={`hidden sm:block ${titleClassName} ${
-              local === "ar"
-                ? "font-cairo text-[22px] font-[500] leading-[40px]"
-                : "font-inter"
-            }`}
+            className={`hidden sm:block ${titleClassName} ${local === "ar"
+              ? "font-cairo text-[22px] font-[500] leading-[40px]"
+              : "font-inter"
+              }`}
             data-aos="fade-up"
           >
             {title}
@@ -135,11 +139,10 @@ export default function AccordionGradientBox({
             <div
               data-aos="fade-up"
               ref={paragraphRef}
-              className={`${paragraphClassName} ${
-                local === "ar"
-                  ? "font-cairo text-[14px] font-[500]"
-                  : "font-inter"
-              }`}
+              className={`${paragraphClassName} ${local === "ar"
+                ? "font-cairo text-[14px] font-[500]"
+                : "font-inter"
+                }`}
             >
               {paragraph}
             </div>
@@ -152,15 +155,16 @@ export default function AccordionGradientBox({
       {showToggle && (
         <button
           onClick={() => setOpen((prev) => !prev)}
-          className={`hidden sm:block absolute ${
-            isRTL ? "left-5" : "right-5"
-          } top-5 cursor-pointer`}
+          className={`hidden sm:block absolute ${isRTL ? "left-5" : "right-5"
+            } top-5 cursor-pointer`}
           aria-expanded={open}
           aria-label={open ? "Collapse" : "Expand"}
         >
-          <img
+          <Image
             src={open ? "/imge/mins.svg" : "/imge/plus.svg"}
             alt={open ? "Collapse" : "Expand"}
+            width={24}
+            height={24}
             className="3xl:w-8! w-6"
           />
         </button>

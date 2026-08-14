@@ -34,8 +34,9 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
-    "**/*.mts"
-  ],
+    "**/*.mts",
+    "app/[locale]/Legal&Policy/TermsAndConditions/page.jsx"
+, "app/[locale]/chat/form.jsx", "app/[locale]/chat/HeaderChat.jsx"  ],
   "exclude": [
     "node_modules"
   ]

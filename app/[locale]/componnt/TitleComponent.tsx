@@ -9,13 +9,13 @@ interface TitleProps {
 export default function Title({ titleKey, urlImg = "/imge/policy/DoNotSellOrShare/iconworning.svg" }: TitleProps) {
   const locale = useLocale();
   const t = useTranslations("titles");
-
+  const safeTitleKey = titleKey ?? "";
   return (
     <div className="flex gap-[15px] items-center w-[90%] mx-auto my-[30px]" data-aos="fade-up">
       <Image
         src={urlImg}
-        alt={t(titleKey)}
-        width={40}
+        alt={t.has(safeTitleKey) ? t(safeTitleKey) : safeTitleKey}
+         width={40}
         height={40}
       />
 

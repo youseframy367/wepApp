@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap');
+
 @import "tailwindcss";
 
 /* Design Tokens */
@@ -7,7 +9,7 @@
 
   --font-montserrat: "Montserrat", sans-serif;
   --font-inter: "Inter", sans-serif;
-  --font-cairo: var(--font-cairo);
+  --font-cairo: "Cairo", sans-serif;
 
   --color-basic-white: #ffffff;
   --color-basic-black: #000000;
@@ -15,7 +17,7 @@
   --color-primary-light: #fef2b4;
   --color-primary-base: #fcd570;
   --color-primary-mid: #f5c35e;
-  --color-primary-dark: #db9d39; 
+  --color-primary-dark: #db9d39;
 
   --color-secondary-light: #f0dfc5;
   --color-secondary-dark: #dab377;
@@ -26,67 +28,59 @@ body {
   background-size: 100%;
   overflow-x: hidden;
 }
-[dir="rtl"] {
-  font-family: var(--font-cairo);
+
+[dir="rtl"],
+html[lang="ar"] body {
+  font-family: var(--font-cairo) !important;
 }
+
 :root {
-  --primary-gradient: linear-gradient(
-    270.01deg,
-    #fcd570 0.01%,
-    #db9d39 23.56%,
-    #fef2b4 49.52%,
-    #f5c35e 71.63%,
-    #fcd570 99.03%
-  );
+  --primary-gradient: linear-gradient(270.01deg,
+      #fcd570 0.01%,
+      #db9d39 23.56%,
+      #fef2b4 49.52%,
+      #f5c35e 71.63%,
+      #fcd570 99.03%);
   --secondary-gradient: linear-gradient(90deg, #f0dfc5 0%, #dab377 100%);
 
-  --ternary-gradient: linear-gradient(
-    270.01deg,
-    rgba(248, 229, 189, 0.04) 0.01%,
-    #dfc082 23.56%,
-    #a97a39 49.52%,
-    #dfc082 71.63%,
-    rgba(243, 220, 168, 0.04) 99.03%
-  );
+  --ternary-gradient: linear-gradient(270.01deg,
+      rgba(248, 229, 189, 0.04) 0.01%,
+      #dfc082 23.56%,
+      #a97a39 49.52%,
+      #dfc082 71.63%,
+      rgba(243, 220, 168, 0.04) 99.03%);
 
-  --fourth-gradient: linear-gradient(
-    180deg,
-    rgba(248, 229, 189, 0.02) 0.01%,
-    rgba(223, 192, 130, 0.64) 23.56%,
-    #a97a39 49.52%,
-    rgba(223, 192, 130, 0.61) 71.63%,
-    rgba(243, 220, 168, 0.02) 99.03%
-  );
+  --fourth-gradient: linear-gradient(180deg,
+      rgba(248, 229, 189, 0.02) 0.01%,
+      rgba(223, 192, 130, 0.64) 23.56%,
+      #a97a39 49.52%,
+      rgba(223, 192, 130, 0.61) 71.63%,
+      rgba(243, 220, 168, 0.02) 99.03%);
 
-  --fourth-h-gradient: linear-gradient(
-    90deg,
-    rgba(248, 229, 189, 0.02) 0.01%,
-    rgba(223, 192, 130, 0.64) 23.56%,
-    #a97a39 49.52%,
-    rgba(223, 192, 130, 0.61) 71.63%,
-    rgba(243, 220, 168, 0.02) 99.03%
-  );
+  --fourth-h-gradient: linear-gradient(90deg,
+      rgba(248, 229, 189, 0.02) 0.01%,
+      rgba(223, 192, 130, 0.64) 23.56%,
+      #a97a39 49.52%,
+      rgba(223, 192, 130, 0.61) 71.63%,
+      rgba(243, 220, 168, 0.02) 99.03%);
 
   --fifth-gradient: linear-gradient(290.07deg, #0b0b0b 23.68%, #1a1a1a 76.32%);
 
-  --glow-gradient: linear-gradient(
-    270.01deg,
-    #f8e5bd 0.01%,
-    #e1c684 23.56%,
-    #d8b46b 49.52%,
-    #dfc082 71.63%,
-    #f3dca8 99.03%
-  );
+  --glow-gradient: linear-gradient(270.01deg,
+      #f8e5bd 0.01%,
+      #e1c684 23.56%,
+      #d8b46b 49.52%,
+      #dfc082 71.63%,
+      #f3dca8 99.03%);
 
   --six-gradient: linear-gradient(90deg, #f0dfc5 0%, #dab377 100%);
-  --HeaderChat-gradient : linear-gradient(90deg ,#FCD570,#DB9D39, #FFFFFF ,#DB9D39  )
-  --border-gradient : linear-gradient(90deg ,#DB9D39 , #FFFFFF )
+  --HeaderChat-gradient: linear-gradient(90deg, #FCD570, #DB9D39, #FFFFFF, #DB9D39) --border-gradient: linear-gradient(90deg, #DB9D39, #FFFFFF)
 }
 
 /* Utilities */
 @utility gradient-border {
   border: var(--border-gradient);
-  
+
 }
 
 @utility bg-primary {
@@ -147,6 +141,7 @@ body {
 @utility border-primary {
   position: relative;
   background: transparent;
+
   &::before {
     content: "";
     position: absolute;
@@ -166,6 +161,7 @@ body {
   from {
     transform: translate(-50%, -50%) rotate(0deg);
   }
+
   to {
     transform: translate(-50%, -50%) rotate(360deg);
   }
@@ -175,6 +171,7 @@ body {
   0% {
     background-position: 0% center;
   }
+
   100% {
     background-position: 200% center;
   }
@@ -184,6 +181,7 @@ body {
   0% {
     background-position: 100% 100%;
   }
+
   100% {
     background-position: 0% 0%;
   }
@@ -193,22 +191,21 @@ body {
   0% {
     background-position: 100% center;
   }
+
   100% {
     background-position: 0% center;
   }
 }
 
 @utility text-primary-animated {
-  background: linear-gradient(
-    270deg,
-    #fcd570,
-    #db9d39,
-    #fef2b4,
-    #f5c35e,
-    #fcd570,
-    #db9d39,
-    #fef2b4
-  );
+  background: linear-gradient(270deg,
+      #fcd570,
+      #db9d39,
+      #fef2b4,
+      #f5c35e,
+      #fcd570,
+      #db9d39,
+      #fef2b4);
   background-size: 200% auto;
   -webkit-background-clip: text;
   background-clip: text;
@@ -218,47 +215,39 @@ body {
 }
 
 @utility bg-navbar-shimmer {
-  background: linear-gradient(
-    90deg,
-    transparent 0%,
-    transparent 44%,
-    rgba(255, 255, 255, 0.65) 50%,
-    transparent 56%,
-    transparent 100%
-  );
+  background: linear-gradient(90deg,
+      transparent 0%,
+      transparent 44%,
+      rgba(255, 255, 255, 0.65) 50%,
+      transparent 56%,
+      transparent 100%);
   background-size: 200% auto;
-  -webkit-mask: linear-gradient(
-    90deg,
-    transparent 0%,
-    transparent 20%,
-    white 28%,
-    white 72%,
-    transparent 80%,
-    transparent 100%
-  );
-  mask: linear-gradient(
-    90deg,
-    transparent 0%,
-    transparent 20%,
-    white 28%,
-    white 72%,
-    transparent 80%,
-    transparent 100%
-  );
+  -webkit-mask: linear-gradient(90deg,
+      transparent 0%,
+      transparent 20%,
+      white 28%,
+      white 72%,
+      transparent 80%,
+      transparent 100%);
+  mask: linear-gradient(90deg,
+      transparent 0%,
+      transparent 20%,
+      white 28%,
+      white 72%,
+      transparent 80%,
+      transparent 100%);
   animation: navbar-border-shimmer 2s linear infinite;
 }
 
 @utility text-hero-animated {
-  background: linear-gradient(
-    135deg,
-    #db9d39 0%,
-    #db9d39 35%,
-    #fcd570 43%,
-    #ffffff 50%,
-    #fcd570 57%,
-    #db9d39 65%,
-    #db9d39 100%
-  );
+  background: linear-gradient(135deg,
+      #db9d39 0%,
+      #db9d39 35%,
+      #fcd570 43%,
+      #ffffff 50%,
+      #fcd570 57%,
+      #db9d39 65%,
+      #db9d39 100%);
   background-size: 300% 300%;
   -webkit-background-clip: text;
   background-clip: text;
@@ -274,16 +263,14 @@ body {
   width: 200%;
   aspect-ratio: 1 / 1;
   background: var(--primary-gradient);
-  background: conic-gradient(
-    from 0deg,
-    #daaa6c 0deg,
-    #daaa6c 190deg,
-    rgba(231, 194, 79, 0.81) 230deg,
-    #fcd570 260deg,
-    #ffffff 290deg,
-    #fcd570 320deg,
-    #daaa6c 360deg
-  );
+  background: conic-gradient(from 0deg,
+      #daaa6c 0deg,
+      #daaa6c 190deg,
+      rgba(231, 194, 79, 0.81) 230deg,
+      #fcd570 260deg,
+      #ffffff 290deg,
+      #fcd570 320deg,
+      #daaa6c 360deg);
   animation: contact-billboard 2.5s linear infinite;
 }
 

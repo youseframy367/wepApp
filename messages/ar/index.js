@@ -24,6 +24,7 @@ import Dashboard from "./Dashboard/Dashboard.json"
 import FAQ from "./FAQ/FAQ.json"
 import Seo from "./Seo.json"
 export default {
+  ...Seo,
   ...Component,
   ...Home,
   ...managePlaylistLogin,
@@ -48,5 +49,4 @@ export default {
   ...ManagePlaylist,
   ...Dashboard,
   ...FAQ,
-  ...Seo
 };

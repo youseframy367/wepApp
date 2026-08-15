@@ -10,5 +10,10 @@ export default getRequestConfig(async ({ requestLocale }) => {
   return {
     locale,
     messages,
+    onError: (error) => {
+      if (error.code === "MISSING_MESSAGE") {
+        void console.log(error.message);
+      }
+    },
   };
 });

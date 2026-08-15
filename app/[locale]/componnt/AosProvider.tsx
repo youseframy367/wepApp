@@ -10,10 +10,18 @@ export default function AosProvider({
   children: React.ReactNode;
 }) {
   useEffect(() => {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      return;
+    }
     AOS.init({
       duration: 1000,
-      once: false,
+      once: true,
+      disable: "mobile",
     });
+
+    return () => {
+      AOS.refreshHard();
+    };
   }, []);
 
   return <>{children}</>;

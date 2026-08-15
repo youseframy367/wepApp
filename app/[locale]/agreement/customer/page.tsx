@@ -7,7 +7,7 @@ import MapOfAccorditionGradientBox from "../../componnt/MapOfAccordionGradientBo
 import { useTranslations , useLocale } from "next-intl";
 import PrivcyComponnt from "../../componnt/ContanerPrivcy";
 import { DeteGoToBage } from "./AgreementCustomerDate";
-import CheckAgreement from "../../componnt/CheckAgreement";
+import CheckAgreement from "../../componnt/checkAgreement";
 
 export default function AgreementCustomer(){
   const t = useTranslations("agreementCustomer");

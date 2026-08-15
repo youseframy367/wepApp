@@ -22,6 +22,7 @@ import ParentPIN from "./ManagePlaylist/ParentPIN.json"
 import ManagePlaylist from "./ManagePlaylist/managePlaylist.json";
 import Dashboard from "./Dashboard/Dashboard.json"
 import FAQ from "./FAQ/FAQ.json"
+import Seo from "./Seo.json"
 export default {
   ...Component,
   ...Home,
@@ -46,5 +47,6 @@ export default {
   ...ParentPIN,
   ...ManagePlaylist,
   ...Dashboard,
-  ...FAQ
+  ...FAQ,
+  ...Seo
 };

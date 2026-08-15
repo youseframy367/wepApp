@@ -1,6 +1,6 @@
 
 import { useLocale } from "next-intl";
-import Container from "./Contaner";
+import Container from "./contaner";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
@@ -21,7 +21,7 @@ export default function FirstPoint({
   const content = (
     <div
       data-aos="fade-up"
-      className={`relative ${withContainer == false ? "w-[90%] mx-auto" : ""} ${className} `}
+      className={`relative ${withContainer === false ? "w-[90%] mx-auto" : ""} ${className}`}
     >
       <div className="flex gap-[10px] text-[#fff] items-center">
         <Image
@@ -39,7 +39,7 @@ export default function FirstPoint({
       </div>
 
       <p
-        className={`my-[10px] text-[#fff] md:font-[500] h-auto font-[400] tracking-[-0.25px] ${locale === "ar"
+        className={`my-[10px] text-[#fff] h-auto font-[400] tracking-[-0.25px] ${locale === "ar"
           ? "font-cairo md:leading-[33px] md:text-[18px] text-[16px]"
           : "font-inter md:text-[16px] text-[15px]"
           }`}

@@ -126,7 +126,7 @@ export default function FAQ() {
         data={Payment}
         namespace="FAQ.Payment"
       />
-      <Title urlImg="/imge/agreement/reseller/i.svg" titleKey="Payment" />
+      <Title urlImg="/imge/agreement/reseller/i.svg" titleKey="Travel" />
       <MapOfAccorditionGradientBox
         CuntEffect={1}
         data={Travel}

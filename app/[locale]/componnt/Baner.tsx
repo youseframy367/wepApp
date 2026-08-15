@@ -1,4 +1,4 @@
-import Container from "./Contaner";
+import Container from "./contaner";
 import { useLocale, useTranslations } from "next-intl";
 
 interface BanerCommponntProps {

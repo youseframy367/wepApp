@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import Maseg from "./form";
 
 type ChatType = { id: string; title: string; iconActive: string; icon: string; };
 

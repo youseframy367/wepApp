@@ -68,7 +68,7 @@ export default function Bolicy() {
               </p>
               <button
                 className={`w-[136px] h-[29px] rounded-[4px] cursor-pointer border-primary tracking-[-0.25px] flex justify-center items-center text-[#000] font-[600] text-[14px] ${fontClass} bg-primary`}
-                onClick={() => router.push(item.navigate)}
+                onClick={() => router.push(`/${locale}${item.navigate}`)}
               >
                 {t("button")}
               </button>

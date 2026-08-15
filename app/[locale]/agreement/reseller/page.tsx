@@ -5,7 +5,7 @@ import FirstPoint from "../../componnt/FirstPoint";
 import { LegalTermsOfTheContract } from "./AgreementResellerData";
 import MapOfAccorditionGradientBox from "../../componnt/MapOfAccordionGradientBox";
 import { choicesAdd } from "./AgreementResellerData";
-import CheckAgreemnt from "../../componnt/CheckAgreement";
+import CheckAgreement from "../../componnt/checkAgreement";
 import Agreement from "../../componnt/Agreement";
 export default function AgreementReseller() {
   const local = useLocale();
@@ -43,7 +43,7 @@ export default function AgreementReseller() {
         CuntEffect={1}
       />
 
-      <CheckAgreemnt agreementType="reseller" />
+      <CheckAgreement agreementType="reseller" />
     </section>
   );
 }

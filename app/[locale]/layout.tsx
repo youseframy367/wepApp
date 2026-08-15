@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import "../globals.css";
+import "../assets/fonts.css";
 import { NextIntlClientProvider } from "next-intl";
 import AosProvider from "./componnt/AosProvider";
 import Navbar from "./parts/Header";
 import Footer from "./parts/Fooer";
 import { ActiveSectionProvider } from "./context/ActiveSectionContext";
-import LoadingScreen from "./parts/loding";
 import { cookies } from "next/headers";
 import StructuredData from "@/components/StructuredData";
 
@@ -46,7 +46,7 @@ export default async function LocaleLayout({
             <main className={!hideLayout ? "mt-[100px]" : ""}>
               <StructuredData />
               <ActiveSectionProvider>
-                {children || <LoadingScreen />}
+                {children}
               </ActiveSectionProvider>
             </main>
             {!hideLayout && <Footer />}

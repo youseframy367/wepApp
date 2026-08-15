@@ -1,10 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import axios from "axios";
+import api from "../../../../services/api";
 import GradientBorderBox from "../../../componnt/GradiantBox";
 import { useLocale, useTranslations } from "next-intl";
-import { useRouter } from "next/navigation";
 import ImageCheckbox from "../../../componnt/CheckBox";
 
 interface FormData {
@@ -25,7 +24,8 @@ interface FormData {
 export default function ManagBlayList() {
   const local = useLocale();
   const t = useTranslations("AddXCBlayList");
-  const router = useRouter();
+  const [error, setError] = useState("");
+  const [success, setSuccess] = useState("");
   const form: FormItem[] = [
     {
       key: "PlaylistName",
@@ -91,14 +91,31 @@ export default function ManagBlayList() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
+    setError("");
+    setSuccess("");
+
+    if (formData.pin !== formData.confirmPin) {
+      setError(local === "ar" ? "رمز PIN غير متطابق" : "PIN codes do not match");
+      return;
+    }
+
     try {
       setLoading(true);
 
-      const { data } = await axios.post("/api/playlist", formData);
+      const { data } = await api.post("/api/playlist", formData);
 
-      console.log("Response:", data);
-    } catch (error) {
-      console.error("Error:", error);
+      setSuccess(data.message || "Success");
+    } catch (err) {
+      const axiosErr = err as unknown as {
+        response?: { data?: { message?: unknown } };
+      };
+      setError(
+        axiosErr?.response?.data?.message
+          ? String(axiosErr.response.data.message)
+          : local === "ar"
+            ? "حدث خطأ في الخادم"
+            : "Server error"
+      );
     } finally {
       setLoading(false);
     }
@@ -229,6 +246,14 @@ export default function ManagBlayList() {
               </p>
             </div>
           </div>
+
+          {error && (
+            <p className="text-red-400 text-[12px] font-[500] text-center">{error}</p>
+          )}
+
+          {success && (
+            <p className="text-primary text-[12px] font-[500] text-center">{success}</p>
+          )}
 
           <button
             type="submit"

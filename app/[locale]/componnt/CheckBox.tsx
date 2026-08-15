@@ -1,5 +1,4 @@
 "use client";
-import type { ChangeEvent } from "react";
 interface ImageCheckboxProps {
   checked?: boolean;
   onChange?: (checked: boolean) => void;

@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
-import ContactIcon from "../componnt/ContactIcon";
+import ContactIcon from "../componnt/contactIcon";
 
 interface HeaderItem { title: string; navigate: string; }
 
@@ -25,7 +25,11 @@ export default function Header() {
     const segments = pathname.split("/");
     segments[1] = newLocale;
 
-    router.push(segments.join("/"));
+    router.push(segments.join("/") || "/");
+  };
+
+  const navigateWithLocale = (path: string): void => {
+    router.push(`/${locale}${path}`);
   };
 
   const hidingOfHeader: HeaderItem[] = [
@@ -55,9 +59,8 @@ export default function Header() {
             <li
               key={i}
               onClick={() => {
-                currentPath === item.navigate;
                 if (item.navigate) {
-                  router.push(item.navigate);
+                  navigateWithLocale(item.navigate);
                 }
               }}
               className={`cursor-pointer font-[500] text-[18px] transition-all duration-300 ${
@@ -73,7 +76,7 @@ export default function Header() {
 
         <div className="hidden md:flex items-center gap-[20px]">
           <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=info@exclusivemoviess.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=info@exclusivemovies.com"
             target="_blank"
             rel="noreferrer"
             onClick={() => {
@@ -151,7 +154,7 @@ export default function Header() {
              onClick={() => {
   setOpen(false);
   if (item.navigate) {
-    router.push(item.navigate);
+    navigateWithLocale(item.navigate);
   }
 }}
             className={`cursor-pointer font-[500] text-[18px] transition-all duration-300 ${
@@ -165,7 +168,7 @@ export default function Header() {
           ))}
 
           <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=info@exclusivemoviess.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=info@exclusivemovies.com"
             target="_blank"
             rel="noreferrer"
             onClick={() => {

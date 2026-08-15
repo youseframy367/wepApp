@@ -3,9 +3,8 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Fragment } from "react";
-import Image from "next/image";
 import { useLocale } from "next-intl";
-import Container from "../componnt/Contaner";
+import Container from "../componnt/contaner";
 
 
 export default function Footer() {
@@ -23,6 +22,39 @@ export default function Footer() {
       smoothTop();
     }
   };
+
+  const footerNav: { titleEn: string; titleAr: string; link: string }[] = [
+    {
+      titleEn: "Home",
+      titleAr: "الرئيسية",
+      link: "/",
+    },
+    {
+      titleEn: "Dashboard",
+      titleAr: "لوحة التحكم",
+      link: "/Dashboard",
+    },
+    {
+      titleEn: "Refund Policy",
+      titleAr: "التحميل والمشاهدة",
+      link: "/DownloadAndWatching",
+    },
+    {
+      titleEn: "Terms of Service",
+      titleAr: "القانون والسياسات",
+      link: "/Legal&Policy",
+    },
+    {
+      titleEn: "Playlist Management",
+      titleAr: "إدارة قائمة التشغيل",
+      link: "/logInManageBlayList",
+    },
+    {
+      titleEn: "FAQ",
+      titleAr: "الأسئلة الشائعة",
+      link: "/FAQ",
+    },
+  ];
 
   return (
     <section>
@@ -68,11 +100,11 @@ export default function Footer() {
             <img
               className="3xl:size-12! size-6"
               src="/imge/footer/mail.svg"
-              alt="info@exclusivemoviess.com"
+              alt="info@exclusivemovies.com"
             />
-            <a href="mailto:info@exclusivemoviess.com">
+            <a href="mailto:info@exclusivemovies.com">
               <p className="text-primary font-inter 3xl:text-3xl! sm:text-base text-sm tracking-[-0.25px]">
-                info@exclusivemoviess.com
+                info@exclusivemovies.com
               </p>
             </a>
           </div>
@@ -142,38 +174,7 @@ export default function Footer() {
               : "© 2026 شركة Exclusive Movies LTD. جميع الحقوق محفوظة"}
           </p>
           <div className="flex items-center justify-center gap-2.5 sm:flex-nowrap flex-wrap">
-            {[
-              {
-                titleEn: "Home",
-                titleAr: "الرئيسية",
-                link: "/",
-              },
-              {
-                titleEn: "About Us",
-                titleAr: "لوحة التحكم",
-                link: "/about-us",
-              },
-              {
-                titleEn: "Refund Policy",
-                titleAr: "التحميل والمشاهدة",
-                link: "/refund-policy",
-              },
-              {
-                titleEn: "Terms of Service",
-                titleAr: "القانون والسياسات",
-                link: "/terms-of-service",
-              },
-              {
-                titleEn: "Playlist Management",
-                titleAr: "إدارة قائمة التشغيل",
-                link: "/playlist-management",
-              },
-              {
-                titleEn: "FAQ",
-                titleAr: "الأسئلة الشائعة",
-                link: "/faq",
-              },
-            ].map(({ titleEn, titleAr, link }, index, arr) => (
+            {footerNav.map(({ titleEn, titleAr, link }, index, arr) => (
               <Fragment key={index}>
                 <div
                   className={`${index === 4
@@ -182,10 +183,10 @@ export default function Footer() {
                     } flex items-center space-x-2.5`}
                 >
                   <Link
-                    href={link}
-                    onClick={() => handleNav(link)}
+                    href={`/${local}${link}`}
+                    onClick={() => handleNav(`/${local}${link}`)}
                     className={`${local === "en" ? "font-inter" : "font-cairo"} 3xl:text-2xl! min-[425px]:text-sm text-[13px] tracking-[-0.25px]
-            ${pathname === link
+            ${pathname === `/${local}${link}`
                         ? "text-primary-animated font-bold"
                         : "text-primary font-normal"
                       }`}

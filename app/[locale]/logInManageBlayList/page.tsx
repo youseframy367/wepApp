@@ -5,7 +5,7 @@ import { useState } from "react";
 import GradientBorderBox from "../componnt/GradiantBox";
 import { useLocale, useTranslations } from "next-intl";
 import Chat from "../chat/ComponentParent"
-import { useRouter } from "next/navigation";
+import api from "../../services/api";
 type FormFieldName = "device_id" | "device_key" | "captcha";
 
 interface FormField {
@@ -28,8 +28,7 @@ interface LoginResponse {
 export default function ManagBlayList() {
   const locale = useLocale();
   const t = useTranslations("managePlaylistLogin");
-  const router = useRouter()
-  const form : FormField[]= [
+  const form: FormField[] = [
     {
       name: "device_id",
       key: "deviceId",
@@ -70,41 +69,38 @@ export default function ManagBlayList() {
     setSuccess("");
 
     try {
-      const response = await fetch(
-        "http://127.0.0.1:8000/api/device/login",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            Accept: "application/json",
-          },
-          body: JSON.stringify(formData),
-        }
+      const response = await api.post<LoginResponse>(
+        "/api/device/login",
+        formData
       );
 
-      const data: LoginResponse = await response.json();
+      const data = response.data;
 
-      if (response.ok) {
+      if (response.status >= 200 && response.status < 300) {
         setSuccess(data.message || "Success");
 
         if (data.token) {
           localStorage.setItem("token", data.token);
         }
-
-        console.log(data);
       } else {
         setError(data.message || "Something went wrong");
       }
     } catch (err) {
-      setError("Server Error");
-      console.log(err);
+      const axiosError = err as unknown as {
+        response?: { data?: { message?: unknown } };
+      };
+      const message =
+        axiosError?.response?.data?.message
+          ? String(axiosError.response.data.message)
+          : "Server Error";
+      setError(message);
     }
 
     setLoading(false);
   };
 
   return (
-    <div className="mt-[100px] flex flex-col justify-center items-center md:min-h-[110vh] min-h-[70vh]">
+    <div className="flex flex-col justify-center items-center md:min-h-[110vh] min-h-[70vh]">
       <img
         src="/imge/effect.png"
         className="absolute md:top-[0%] top-[10%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"
@@ -189,9 +185,6 @@ export default function ManagBlayList() {
               ? "font-cairo text-[16px]"
               : "font-inter text-[14px]"
               } flex justify-center items-center bg-primary border-[2px] border-[#FCD570]`}
-            onClick={() => {
-              router.push("./")
-            }}
           >
             {loading ? t("button.loading") : t("button.login")}
           </button>

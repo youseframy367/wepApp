@@ -4,8 +4,16 @@ import type { NextConfig } from "next";
 const withNextIntl = createNextIntlPlugin();
 
 const nextConfig: NextConfig = {
+  compress: true,
+  poweredByHeader: false,
+  experimental: {
+    staleTimes: {
+      dynamic: 60,
+    },
+  },
   images: {
-    unoptimized: true,
+    formats: ["image/avif", "image/webp"],
+    unoptimized: false,
   },
 };
 

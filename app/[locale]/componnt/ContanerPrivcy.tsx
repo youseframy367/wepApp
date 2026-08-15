@@ -33,7 +33,8 @@ export default function PrivcyComponnt({
     <div className={`w-[90%] mx-auto relative  ${className} `}>
       <img
         src={urlEffect}
-        className={`absolute top-[${positionEffect}] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none`}
+        style={{ top: positionEffect }}
+        className={`absolute left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none`}
         alt="effect"
       />
 
@@ -59,7 +60,7 @@ export default function PrivcyComponnt({
                 </p>
                 <button
                   className={` md:w-[135px] w-[110px] md:h-[45px] h-[40px] border-[1px] border-[#FCD570] tracking-[-0.25px] text-[#000000] font-[600] md:mt-[-5px] mt-[10px] md:text-[16px] text-[15px] ${locale === "ar" ? " font-cairo md:font-[700] font-[500]" : "font-inter "} flex justify-center items-center bg-primary rounded-[6px] `}
-                  onClick={() => router.push(item.navigate)}
+                  onClick={() => router.push(`/${locale}${item.navigate}`)}
                 >
                   {locale === "en" ? "Read Policy" : "قراءة السياسة"}
                 </button>

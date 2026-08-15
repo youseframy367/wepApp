@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap');
-
 @import "tailwindcss";
 
 /* Design Tokens */
@@ -27,6 +25,7 @@ body {
   background-image: url("./assets/images/constants/mainBg.webp");
   background-size: 100%;
   overflow-x: hidden;
+  font-display: swap;
 }
 
 [dir="rtl"],
@@ -74,7 +73,8 @@ html[lang="ar"] body {
       #f3dca8 99.03%);
 
   --six-gradient: linear-gradient(90deg, #f0dfc5 0%, #dab377 100%);
-  --HeaderChat-gradient: linear-gradient(90deg, #FCD570, #DB9D39, #FFFFFF, #DB9D39) --border-gradient: linear-gradient(90deg, #DB9D39, #FFFFFF)
+  --HeaderChat-gradient: linear-gradient(90deg, #FCD570, #DB9D39, #FFFFFF, #DB9D39);
+  --border-gradient: linear-gradient(90deg, #DB9D39, #FFFFFF);
 }
 
 /* Utilities */

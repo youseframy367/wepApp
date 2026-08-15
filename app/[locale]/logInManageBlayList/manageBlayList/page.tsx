@@ -2,7 +2,7 @@
 import ParentPIN from "../ParentPIN";
 import SliderManageBlayList from "./slider";
 import { useActiveSection } from "../../context/ActiveSectionContext";
-import { useLocale, useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 import TransferDevice from "../TransferDevice";
 import ManagePlaylists from "./ManagePlaylists";
 import Activation from "../Activation";
@@ -10,7 +10,6 @@ import DeviceKey from "../DeviceKey";
 import UsersStatus from "../UsersStatus";
 export default function ManageBlayList() {
   const local = useLocale();
-  const t = useTranslations("ManagePlaylist.playlist");
   const { activeSection } = useActiveSection();
   return (
     <div className="min-h-[100vh] relative">

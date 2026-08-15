@@ -15,7 +15,7 @@ export default function Title({ titleKey, urlImg = "/imge/policy/DoNotSellOrShar
       <Image
         src={urlImg}
         alt={t.has(safeTitleKey) ? t(safeTitleKey) : safeTitleKey}
-         width={40}
+        width={40}
         height={40}
       />
 
@@ -23,7 +23,7 @@ export default function Title({ titleKey, urlImg = "/imge/policy/DoNotSellOrShar
         className={`${locale === "en" ? "font-montserrat" : "font-cairo"
           } md:text-[30px] text-[20px] text-primary-animated`}
       >
-        {t(titleKey)}
+        {t.has(safeTitleKey) ? t(safeTitleKey) : safeTitleKey}
       </h1>
     </div>
   );

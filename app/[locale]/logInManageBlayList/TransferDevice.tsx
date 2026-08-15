@@ -33,11 +33,11 @@ export default function TransferDevice() {
         {t("title")}
       </h1>
       <p
-        className={`font-[500] ${fontClass} text-[10px] tracking-[-0.25px] text-primary`}
+        className={`font-[500] ${fontClass} text-[12px] tracking-[-0.25px] text-primary`}
       >
         {t("subtitle")}
       </p>
-      <p className={`${fontClass} font-[500] text-[10px] tracking-[-0.25px]`}>
+      <p className={`${fontClass} font-[500] text-[12px] tracking-[-0.25px]`}>
         {t("description")}
       </p>
       <form
@@ -50,7 +50,7 @@ export default function TransferDevice() {
             value={deviceMac}
             onChange={(e) => setDeviceMac(e.target.value)}
             placeholder={t("placeholder")}
-            className={`flex-1 bg-transparent outline-none text-primary placeholder:text-primary/60 text-[8px] font-[500] ${locale === "en" ? "font-inter" : "font-cairo"}`}
+            className={`flex-1 bg-transparent outline-none text-primary placeholder:text-primary/60 text-[11px] font-[500] ${locale === "en" ? "font-inter" : "font-cairo"}`}
           />
         </GradientBorderBox>
         <button
@@ -61,8 +61,8 @@ export default function TransferDevice() {
         </button>
       </form>
       <div className={` ${fontClass} flex items-center gap-[5px] `}>
-        <p className=" font-[500] text-[10px] text-primary">{t("WordNot")}</p>
-        <p className="w-[535px] font-[500]  text-[10px] tracking-[-0.25px]">
+        <p className=" font-[500] text-[12px] text-primary">{t("WordNot")}</p>
+        <p className="w-[535px] font-[500]  text-[12px] tracking-[-0.25px]">
           {t("note")}
         </p>
       </div>

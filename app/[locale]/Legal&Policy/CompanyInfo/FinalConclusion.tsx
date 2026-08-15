@@ -21,7 +21,7 @@ export default function FinalConclusion() {
         imgTwo="/imge/policy/GlobalCompliance/rr.svg"
         imgThree="/imge/policy/GlobalCompliance/world.svg"
       />
-      <p className={`${locale === "en" ?"font-inter":"font-cairo md:font-[500] font-[400] md:text-[16px] text-[12px]"} font-[400] md:text-[12px] text-[10px] md:w-auto w-[90%] mx-auto tracking-[-0.25px] text-center`}>
+      <p className={`${locale === "en" ?"font-inter":"font-cairo md:font-[500] font-[400] md:text-[16px] text-[12px]"} font-[400] md:text-[12px] text-[12px] md:w-auto w-[90%] mx-auto tracking-[-0.25px] text-center`}>
         {t("description")}
        <br/> <span className="md:font-[700] font-[600]">
         {t("highlight")}

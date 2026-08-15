@@ -171,7 +171,7 @@ export default function ManagBlayList() {
                     }
                     onChange={handleChange}
                     placeholder={t(`form.${item.key}.placeholder`)}
-                    className="font-[500] font-[inter] md:text-[12px] text-[10px] text-[#ffffff83] border-none outline-none bg-transparent w-full"
+                    className="font-[500] font-[inter] md:text-[12px] text-[12px] text-[#ffffff83] border-none outline-none bg-transparent w-full"
                   />
                 </div>
               </GradientBorderBox>
@@ -204,7 +204,7 @@ export default function ManagBlayList() {
                     }
                     onChange={handleChange}
                     placeholder={t(`formDrwer.${item.key}.placeholder`)}
-                    className="font-[500] font-[inter] md:text-[12px] text-[10px] text-[#ffffff83] border-none outline-none bg-transparent w-full"
+                    className="font-[500] font-[inter] md:text-[12px] text-[12px] text-[#ffffff83] border-none outline-none bg-transparent w-full"
                   />
                 </div>
               </GradientBorderBox>
@@ -219,10 +219,10 @@ export default function ManagBlayList() {
               }}
             />
             <div>
-              <p className="font-[600] text-[10px] font-inter tracking[-0.25px]">
+              <p className="font-[600] text-[12px] font-inter tracking[-0.25px]">
                 Protect this playlist
               </p>
-              <p className="font-[500] font-inter text-[8px] tracking-[-0.25px]">
+              <p className="font-[500] font-inter text-[11px] tracking-[-0.25px]">
                 <span className="text-primary">NOTE :</span> Protected playlists
                 will not be viewed or modified without entering PIN
               </p>

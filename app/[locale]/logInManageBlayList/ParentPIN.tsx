@@ -31,7 +31,7 @@ const handleSubmit = async ( e: React.FormEvent<HTMLFormElement> ): Promise<void
             value={parentPin}
             onChange={(e) => setParentPin(e.target.value)}
             placeholder={t("parentPinPlaceholder")}
-            className={`flex-1 bg-transparent outline-none text-primary placeholder:text-primary/60 text-[8px] font-[500] ${fontClass}`}
+            className={`flex-1 bg-transparent outline-none text-primary placeholder:text-primary/60 text-[11px] font-[500] ${fontClass}`}
           />
         </GradientBorderBox>
 
@@ -45,13 +45,13 @@ const handleSubmit = async ( e: React.FormEvent<HTMLFormElement> ): Promise<void
 
       <div className="flex items-center gap-[5px] tracking-[-0.25px]">
         <p
-          className={`${fontClass} font-[500] whitespace-nowrap text-[10px] text-primary`}
+          className={`${fontClass} font-[500] whitespace-nowrap text-[12px] text-primary`}
         >
           {t("note")}
         </p>
 
         <p
-          className={`w-[535px] font-[500] ${fontClass} text-[10px] `}
+          className={`w-[535px] font-[500] ${fontClass} text-[12px] `}
         >
           {t("parentPinNote")}
         </p>

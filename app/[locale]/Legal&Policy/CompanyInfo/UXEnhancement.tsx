@@ -50,7 +50,7 @@ export default function UXEnhancement() {
         </p>
       </GradientBorderBox>
 
-      <p data-aos="fade-up" className={`${locale === "en" ?"font-inter":"font-cairo font-[500]"} font-[400] md:text-[12px] text-[10px] tracking-normal-[-0.25px] my-[10px] text-center md:w-auto w-[90%] mx-auto`}>
+      <p data-aos="fade-up" className={`${locale === "en" ?"font-inter":"font-cairo font-[500]"} font-[400] md:text-[12px] text-[12px] tracking-normal-[-0.25px] my-[10px] text-center md:w-auto w-[90%] mx-auto`}>
         {t("footer")}
       </p>
     </div>

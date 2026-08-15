@@ -62,7 +62,7 @@ export default function TypeChat() {
           <button
             key={item.id}
             onClick={() => selectTypeChat(item.id)}
-            className={`mx-auto border-[#d1ae76] cursor-pointer w-[153px] h-[37px] rounded-[17px] border text-[10px] font-[500] font-inter flex gap-[5px] items-center justify-center transition-all duration-200 ${selectedType === item.id
+            className={`mx-auto border-[#d1ae76] cursor-pointer w-[153px] h-[37px] rounded-[17px] border text-[12px] font-[500] font-inter flex gap-[5px] items-center justify-center transition-all duration-200 ${selectedType === item.id
                 ? "bg-primary text-white"
                 : "bg-transparent text-primary"
               }`}

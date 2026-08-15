@@ -97,7 +97,7 @@ export default function BlatformSupport() {
             </h2>
             <p
               data-aos="fade-up"
-              className={`w-[170px] mt-[10px] ${locale === "ar" ? "font-montserrat font-[400]" : "font-cairo font-[500]"} text-[10px] leading-[14px] text-center`}
+              className={`w-[170px] mt-[10px] ${locale === "ar" ? "font-montserrat font-[400]" : "font-cairo font-[500]"} text-[12px] leading-[17px] text-center`}
             >
               {t("activation.step1.text")}
             </p>
@@ -117,7 +117,7 @@ export default function BlatformSupport() {
             </h2>
             <p
               data-aos="fade-up"
-              className={`w-[157px] mt-[10px] ${locale === "ar" ? "font-montserrat font-[400]" : "font-cairo font-[500]"} text-[10px] leading-[14px] text-center`}
+              className={`w-[157px] mt-[10px] ${locale === "ar" ? "font-montserrat font-[400]" : "font-cairo font-[500]"} text-[12px] leading-[17px] text-center`}
             >
               {t("activation.step1.text")}
             </p>
@@ -141,7 +141,7 @@ export default function BlatformSupport() {
               data-aos="fade-up"
               className={`w-[241px] mt-[10px] ${
                 locale === "en" ? "font-montserrat" : "font-cairo"
-              } font-[400] text-[10px] leading-[14px] text-center`}
+              } font-[400] text-[12px] leading-[17px] text-center`}
             >
               {t("activation.step3.text1")}
               <span className="text-primary">

@@ -90,7 +90,7 @@ export default function Dashboard() {
                 {t(`${item.key}.title`)}
               </h2>
               <p
-                className={`${locale === "en" ? "font-[400] md:text-[10px] text-[8px] font-inter" : "font-[500] md:text-[14px] text-[10px] font-cairo leading-[27px]"} w-[90%]   tracking-[-0.25px] `}
+                className={`${locale === "en" ? "font-[400] md:text-[10px] text-[11px] font-inter" : "font-[500] md:text-[14px] text-[12px] font-cairo leading-[27px]"} w-[90%]   tracking-[-0.25px] `}
               >
                 {t(`${item.key}.text`)}
               </p>
@@ -110,7 +110,7 @@ export default function Dashboard() {
             {t("notice.title")}
           </h2>
           <p
-            className={`${locale === "en" ? "font-[400] md:text-[10px] text-[8px] font-inter" : "font-[500] md:text-[14px] text-[10px] font-cairo leading-[27px]"} w-[90%]   tracking-[-0.25px] `}
+            className={`${locale === "en" ? "font-[400] md:text-[10px] text-[11px] font-inter" : "font-[500] md:text-[14px] text-[12px] font-cairo leading-[27px]"} w-[90%]   tracking-[-0.25px] `}
           >
             {t("notice.text")}
           </p>

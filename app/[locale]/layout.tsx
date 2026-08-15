@@ -43,7 +43,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider>
           <AosProvider>
             {!hideLayout && <Navbar />}
-            <main className={!hideLayout ? "mt-[100px]" : ""}>
+            <main className={!hideLayout ? "md:mt-[100px] mt-[115px]" : ""}>
               <StructuredData />
               <ActiveSectionProvider>
                 {children}

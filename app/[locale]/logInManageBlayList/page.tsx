@@ -144,7 +144,7 @@ export default function ManagBlayList() {
                     type={item.type}
                     placeholder={t(`form.${item.key}.placeholder`)}
                     value={formData[item.name]}
-                    className="font-[500] font-[inter] md:text-[12px] text-[10px] text-[#ffffff83] border-none outline-none bg-transparent w-full"
+                    className="font-[500] font-[inter] md:text-[12px] text-[12px] text-[#ffffff83] border-none outline-none bg-transparent w-full"
                     onChange={(e) =>
                       setFormData({
                         ...formData,

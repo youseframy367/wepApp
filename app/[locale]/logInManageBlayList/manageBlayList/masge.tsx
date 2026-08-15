@@ -4,7 +4,7 @@ export default function MasgePop({ masege = "", onClose }: MasgePopProps) {
   const locale = useLocale()
   const fontClass = locale === "en" ? "font-inter" : "font-cairo";
   const styleButton =
-    `w-[70px] h-[25px] rounded-[7px] cursor-pointer flex justify-center items-center font-[500] text-[10px] ${fontClass} tracking-[-0.25px] text-[#fff]`;
+    `w-[70px] h-[25px] rounded-[7px] cursor-pointer flex justify-center items-center font-[500] text-[12px] ${fontClass} tracking-[-0.25px] text-[#fff]`;
   return (
     <div className="fixed top-0 left-0 w-[100%] h-[100%] z-[999999] flex justify-center items-center bg-black/50">
       <div

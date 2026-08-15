@@ -106,17 +106,17 @@ const [checkedItems, setCheckedItems] = useState<Record<number, boolean>>({});  
             setSearch(e.target.value)
           }
       placeholder={t("search")}
-      className={`flex-1 bg-transparent outline-none text-primary placeholder:text-primary/60 text-[8px] font-[500] ${fontClass}`}
+      className={`flex-1 bg-transparent outline-none text-primary placeholder:text-primary/60 text-[11px] font-[500] ${fontClass}`}
     />
   </GradientBorderBox>
 
   <div className="flex flex-wrap md:flex-nowrap gap-[5px]">
-    <button className="border border-primary md:w-[147px] flex-1 md:flex-none min-w-[100px] h-[29px] flex justify-center items-center text-primary md:text-[12px] text-[9px] font-[600] font-inter rounded-[6px]">
+    <button className="border border-primary md:w-[147px] flex-1 md:flex-none min-w-[100px] h-[29px] flex justify-center items-center text-primary md:text-[12px] text-[11px] font-[600] font-inter rounded-[6px]">
       da:42:67:14:ed:60
     </button>
 
     <button
-      className={`md:w-[114px] flex-1 md:flex-none min-w-[100px] h-[29px] rounded-[6px] flex justify-center items-center md:font-[600] font-[500] ${fontClass} md:text-[12px] text-[10px] tracking-[-0.25px] text-[#000000] bg-primary`}
+      className={`md:w-[114px] flex-1 md:flex-none min-w-[100px] h-[29px] rounded-[6px] flex justify-center items-center md:font-[600] font-[500] ${fontClass} md:text-[12px] text-[12px] tracking-[-0.25px] text-[#000000] bg-primary`}
       onClick={() => {
         router.push(
           `/${locale}/logInManageBlayList/manageBlayList/addPlayList`
@@ -127,7 +127,7 @@ const [checkedItems, setCheckedItems] = useState<Record<number, boolean>>({});  
     </button>
 
     <button
-      className={`md:w-[135px] flex-1 md:flex-none min-w-[120px] h-[29px] rounded-[6px] flex justify-center items-center md:font-[600] font-[500] ${fontClass} md:text-[12px] text-[10px] tracking-[-0.25px] text-[#000000] bg-primary`}
+      className={`md:w-[135px] flex-1 md:flex-none min-w-[120px] h-[29px] rounded-[6px] flex justify-center items-center md:font-[600] font-[500] ${fontClass} md:text-[12px] text-[12px] tracking-[-0.25px] text-[#000000] bg-primary`}
       onClick={() => {
         router.push(
           `/${locale}/logInManageBlayList/manageBlayList/AddXCPlayList`
@@ -138,7 +138,7 @@ const [checkedItems, setCheckedItems] = useState<Record<number, boolean>>({});  
     </button>
   </div>
 </div>
-      <div className={`md:font-[500] font-[400] tracking-[-0.25px] md:text-[10px] text-[6px] ${fontClass}  flex md:justify-around justify-between  my-[15px]`}>
+      <div className={`md:font-[500] font-[400] tracking-[-0.25px] md:text-[10px] text-[9px] ${fontClass}  flex md:justify-around justify-between  my-[15px]`}>
         <h3>{t("table.playlistName")}</h3>
         <h3>{t("table.subscription")}</h3>
         <h3>{t("table.activationDate")}</h3>
@@ -155,7 +155,7 @@ const [checkedItems, setCheckedItems] = useState<Record<number, boolean>>({});  
             key={item.id}
             className="md:p-4  px-2 py-4 md:w-[100%] w-[110%] mx-auto"
           >
-            <div className=" tracking-[-0.25px] items-center font-[600] whitespace-nowrap text-inter md:text-[10px] text-[6px] flex  ">
+            <div className=" tracking-[-0.25px] items-center font-[600] whitespace-nowrap text-inter md:text-[10px] text-[9px] flex  ">
               <div className="flex md:gap-[10px] gap-[5px] items-center text-primary">
                 <ImageCheckbox
                   checked={checkedItems[item.id] || false}
@@ -182,7 +182,7 @@ const [checkedItems, setCheckedItems] = useState<Record<number, boolean>>({});  
                 className="md:mx-[2%] mx-[1%] md:w-auto w-[10px]"
               />
               <button
-                className={`md:w-[62px] w-[30px] h-[15px] rounded-[3px] flex justify-center items-center md:text-[8px] text-[6px] md:font-[600] font-[400] font-inter text-[#fff] md:mx-[5%] mx-[1%] tracking-[-0.25px] ${item.Status === "Active" ? "bg-[#1E7A29]  " : "bg-[#7A1E24] "} cursor-pointer`}
+                className={`md:w-[62px] w-[30px] h-[15px] rounded-[3px] flex justify-center items-center md:text-[10px] text-[9px] md:font-[600] font-[400] font-inter text-[#fff] md:mx-[5%] mx-[1%] tracking-[-0.25px] ${item.Status === "Active" ? "bg-[#1E7A29]  " : "bg-[#7A1E24] "} cursor-pointer`}
               >
                 {item.Status}
               </button>

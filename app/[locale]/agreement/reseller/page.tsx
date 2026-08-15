@@ -22,7 +22,7 @@ export default function AgreementReseller() {
         data={LegalTermsOfTheContract}
         namespace="LegalTermsOfTheContract"
         AccordionGradientBoxclassName=" md:grid-cols-2"
-        parentClassName="md:-mt-[100px] -mt-[50px]"
+        parentClassName="md:-mt-[100px] -mt-[60px]"
         visibleLines={3}
         CuntEffect={1}
       />

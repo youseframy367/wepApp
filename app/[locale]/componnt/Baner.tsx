@@ -38,7 +38,7 @@ export default function BanerCommponnt({
       </p>
 
       <p
-        className={`font-[500] text-[10px] md:text-[14px] ${fontClass} bg-gradient-to-r from-[#FCD570] via-[#DB9D39] via-[#FEF2B4] via-[#F5C35E] via-[#F5C35E] to-[#FCD570] bg-clip-text text-transparent leading-[20px]`}
+        className={`font-[500] text-[12px] md:text-[14px] ${fontClass} bg-gradient-to-r from-[#FCD570] via-[#DB9D39] via-[#FEF2B4] via-[#F5C35E] via-[#F5C35E] to-[#FCD570] bg-clip-text text-transparent leading-[20px]`}
       >
         {t("description")}
       </p>

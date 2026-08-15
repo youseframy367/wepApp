@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
-import ContactIcon from "../componnt/contactIcon";
+import ContactIcon from "../component/ContactIcon";
 
 interface HeaderItem { title: string; navigate: string; }
 
@@ -35,7 +35,7 @@ export default function Header() {
   const hidingOfHeader: HeaderItem[] = [
     { title: t("home"), navigate: "/" },
     { title: t("managePlaylist"), navigate: "/logInManageBlayList" },
-    { title: t("legalPolicy"), navigate: "/Legal&Policy" },
+    { title: t("legalPolicy"), navigate: "/legal-policy" },
     { title: t("downloadWatching"), navigate: "/DownloadAndWatching" },
     { title: t("dashboard"), navigate: "/Dashboard" },
     { title: t("faq") , navigate:"/FAQ" },

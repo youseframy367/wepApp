@@ -2,10 +2,9 @@
 
 import { useState } from "react";
 import api from "../../../../services/api";
-import GradientBorderBox from "../../../componnt/GradiantBox";
+import GradientBorderBox from "../../../component/GradiantBox";
 import { useLocale, useTranslations } from "next-intl";
-import ImageCheckbox from "../../../componnt/CheckBox";
-
+import ImageCheckbox from "../../../component/CheckBox";
 interface FormData {
   playlistName: string;
   userName: string;

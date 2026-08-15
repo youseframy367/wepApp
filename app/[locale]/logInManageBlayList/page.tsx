@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-import GradientBorderBox from "../componnt/GradiantBox";
+import GradientBorderBox from "../component/GradiantBox";
 import { useLocale, useTranslations } from "next-intl";
 import Chat from "../chat/ComponentParent"
 import api from "../../services/api";

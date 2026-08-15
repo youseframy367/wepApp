@@ -1,9 +1,19 @@
-import BanerCommponnt from "../../componnt/Baner";
-import FirstPoint from "../../componnt/FirstPoint";
-import MapOfAccorditionGradientBox from "../../componnt/MapOfAccordionGradientBox";
-import AccordionGradientBox from "../../componnt/AccordionGradientBox";
+import BanerCommponnt from "../../component/Baner";
+import FirstPoint from "../../component/FirstPoint";
+import MapOfAccorditionGradientBox from "../../component/MapOfAccordionGradientBox";
+import AccordionGradientBox from "../../component/AccordionGradientBox";
 import {  useTranslations } from "next-intl";
 import { sections } from "./DisclaimerData";
+import { generateSeo } from "@/Metadata/Seo";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return generateSeo({ locale, namespace: "Seo.DisclaimerOfContent", path: "/legal-policy/DisclaimerOfContent" });
+}
 export default function DisclaimerContent() {
   const t = useTranslations("disclaimerOfContent");
 

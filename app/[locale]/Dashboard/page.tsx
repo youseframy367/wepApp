@@ -1,6 +1,16 @@
 import { DashboardData } from "./DashboardData";
-import BlackBox from "../componnt/BlackBox";
+import BlackBox from "../component/BlackBox";
 import { useTranslations, useLocale } from "next-intl";
+import { generateSeo } from "@/Metadata/Seo";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return generateSeo({ locale, namespace: "Seo.Dashboard", path: "/Dashboard" });
+}
 export default function Dashboard() {
   const t = useTranslations("Dashboard");
   const locale = useLocale();

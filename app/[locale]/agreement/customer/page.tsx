@@ -1,14 +1,13 @@
 "use client";
-import BanerCommponnt from "../../componnt/Baner";
-import Worning from "../../componnt/warning";
+import BanerCommponnt from "../../component/Baner";
+import Worning from "../../component/warning";
 import { agreementCustomerData } from "./AgreementCustomerDate";
-import GradientBorderBox from "../../componnt/GradiantBox";
-import MapOfAccorditionGradientBox from "../../componnt/MapOfAccordionGradientBox";
+import GradientBorderBox from "../../component/GradiantBox";
+import MapOfAccorditionGradientBox from "../../component/MapOfAccordionGradientBox";
 import { useTranslations , useLocale } from "next-intl";
-import PrivcyComponnt from "../../componnt/ContanerPrivcy";
+import PrivcyComponnt from "../../component/ContanerPrivcy";
 import { DeteGoToBage } from "./AgreementCustomerDate";
-import CheckAgreement from "../../componnt/checkAgreement";
-
+import CheckAgreement from "../../component/CheckAgreement";
 export default function AgreementCustomer(){
   const t = useTranslations("agreementCustomer");
   const local = useLocale();

@@ -1,7 +1,6 @@
-import GradientBorderBox from "../componnt/GradiantBox";
+import GradientBorderBox from "../component/GradiantBox";
 import { useTranslations, useLocale } from "next-intl";
 import { useState } from "react";
-import axios from "axios"
 import api from "@/app/services/api";
 export default function DeviceKey() {
   const [deviceKey, setDeviceKey] = useState<string>("");
@@ -12,15 +11,10 @@ export default function DeviceKey() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>): Promise<void> => {
     e.preventDefault();
     try {
-      const { data } = await api.post("/device-key", { deviceKey, });
-      console.log(data); setDeviceKey("");
-    }
-    catch
-    (error: unknown) {
-      if (axios.isAxiosError(error)) {
-        console.error(error.response?.data || error.message);
-      }
-      else { console.error("Unexpected error:", error); }
+      await api.post("/device-key", { deviceKey });
+      setDeviceKey("");
+    } catch (error: unknown) {
+      void error;
     }
   };
   return (

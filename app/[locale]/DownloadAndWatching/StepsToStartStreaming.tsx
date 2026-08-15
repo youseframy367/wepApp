@@ -1,4 +1,4 @@
-import BlackBox from "../componnt/BlackBox";
+import BlackBox from "../component/BlackBox";
 import { useLocale } from "next-intl";
 import { useTranslations } from "next-intl";
 export default function BlatformSupport() {

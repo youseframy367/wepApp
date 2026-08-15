@@ -59,21 +59,21 @@ export const DeteGoToBage = [
   {
     key: "privacyPolicy",
     img: "/imge/agreement/customer/privacyPolicy.png",
-    navigate: "./Legal&Policy/privacyPolicy"
+    navigate: "./legal-policy/privacyPolicy"
   },
   {
     key: "termsOfService",
     img: "/imge/agreement/customer/trems.png",
-    navigate: "./Legal&Policy/TermsAndConditions"
+    navigate: "./legal-policy/TermsAndConditions"
   },
   {
     key: "refundPolicy",
     img: "/imge/agreement/customer/refund.png",
-    navigate: "./Legal&Policy/RefundPolicy"
+    navigate: "./legal-policy/RefundPolicy"
   },
   {
     key: "disclaimerOfContent",
     img: "/imge/agreement/customer/Disclaimer.png",
-    navigate: "./Legal&Policy/DisclaimerOfContent"
+    navigate: "./legal-policy/DisclaimerOfContent"
   }
 ];

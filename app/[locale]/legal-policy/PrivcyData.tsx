@@ -5,49 +5,48 @@ export const DeteGoToBage: TypeData[] = [
   {
     key: "privacyPolicy",
     img: "/imge/policy/PrivacyPolicy.png",
-    navigate: "/Legal&Policy/privacyPolicy",
+    navigate: "./legal-policy/privacyPolicy",
   },
   {
     key: "termsAndConditions",
     img: "/imge/policy/Terms&Conditions.png",
-    navigate: "/Legal&Policy/TermsAndConditions",
+    navigate: "./legal-policy/TermsAndConditions",
   },
   {
     key: "refundPolicy",
     img: "/imge/policy/RefundPolicy.png",
-    navigate: "/Legal&Policy/RefundPolicy",
+    navigate: "./legal-policy/RefundPolicy",
   },
   {
     key: "eula",
     img: "/imge/policy/endUserAgreement.png",
-    navigate: "/Legal&Policy/EULA",
+    navigate: "./legal-policy/EULA",
   },
   {
     key: "disclaimerOfContent",
     img: "/imge/policy/Disclaimer.png",
-    navigate: "/Legal&Policy/DisclaimerOfContent",
+    navigate: "./legal-policy/DisclaimerOfContent",
   },
   {
     key: "notSellOrShare",
     img: "/imge/policy/notsellOrsheer.png",
-    navigate: "/Legal&Policy/NotSellOrShare",
+    navigate: "./legal-policy/NotSellOrShare",
   },
 ];
 export const aboutUs: TypeData[] = [
   {
     key: "ourMission",
     img: "/imge/policy/OurMission.png",
-    navigate :"/Legal&Policy/OurMission"
+    navigate: "./legal-policy/OurMission",
   },
   {
     key: "companyInfo",
     img: "/imge/policy/companyInfo.png",
-    navigate:"/Legal&Policy/CompanyInfo"
+    navigate: "./legal-policy/CompanyInfo",
   },
   {
     key: "globalCompliance",
     img: "/imge/policy/GlobalCompliance.png",
-    navigate:"/Legal&Policy/GlobalCompliance"
+    navigate: "./legal-policy/GlobalCompliance",
   },
 ];
-

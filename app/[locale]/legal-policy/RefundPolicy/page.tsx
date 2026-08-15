@@ -1,7 +1,7 @@
-import BanerCommponnt from "../../componnt/Baner";
-import FirstPoint from "../../componnt/FirstPoint";
+import BanerCommponnt from "../../component/Baner";
+import FirstPoint from "../../component/FirstPoint";
 import { useLocale, useTranslations } from "next-intl";
-import ContanerTextAndImg from "../../componnt/ContnerImgAndText";
+import ContanerTextAndImg from "../../component/ContnerImgAndText";
 import {
   LegalGroundsForNoRefund,
   PurchasesAndPayments,
@@ -10,8 +10,18 @@ import {
   LegalGroundsForNoRefundSiven,
   ContactBeforePurchase,
 } from "./RefundPolicyData";
-import PolicyNote from "../../componnt/PolicyNote";
-import ComponntBox from "../../componnt/BoxComponent";
+import PolicyNote from "../../component/PolicyNote";
+import ComponntBox from "../../component/BoxComponent";
+import { generateSeo } from "@/Metadata/Seo";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return generateSeo({ locale, namespace: "Seo.RefundPolicy", path: "/legal-policy/RefundPolicy" });
+}
 export default function RefundPolicy() {
   const locale = useLocale();
   const t = useTranslations("refundPolicy");

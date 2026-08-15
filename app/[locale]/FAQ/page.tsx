@@ -1,7 +1,7 @@
-import BanerCommponnt from "../componnt/Baner";
-import FirstPoint from "../componnt/FirstPoint";
-import GradientBorderBox from "../componnt/GradiantBox";
-import Title from "../componnt/TitleComponent";
+import BanerCommponnt from "../component/Baner";
+import FirstPoint from "../component/FirstPoint";
+import GradientBorderBox from "../component/GradiantBox";
+import Title from "../component/TitleComponent";
 import {
   GeneralInformation,
   AccountRegistration,
@@ -13,8 +13,18 @@ import {
   Payment,
   Travel,
 } from "./FAQData";
-import MapOfAccorditionGradientBox from "../componnt/MapOfAccordionGradientBox";
+import MapOfAccorditionGradientBox from "../component/MapOfAccordionGradientBox";
 import { useTranslations, useLocale } from "next-intl";
+import { generateSeo } from "@/Metadata/Seo";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return generateSeo({ locale, namespace: "Seo.FAQ", path: "/FAQ" });
+}
 export default function FAQ() {
   const locale = useLocale();
   const sections = [

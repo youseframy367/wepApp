@@ -1,8 +1,7 @@
-import GradientBorderBox from "../componnt/GradiantBox";
+import GradientBorderBox from "../component/GradiantBox";
 import { useTranslations, useLocale } from "next-intl";
 import { useState } from "react";
 import api from "@/app/services/api";
-import axios from "axios";
 export default function TransferDevice() {
   const t = useTranslations("TransferDevice");
   const locale = useLocale();
@@ -12,18 +11,11 @@ export default function TransferDevice() {
     e.preventDefault();
 
     try {
-      const { data } = await api.post("/transfer-device", {
-        deviceMac,
-      });
-
-      console.log(data);
-
+      await api.post("/transfer-device", { deviceMac });
       setDeviceMac("");
-    }catch (error: unknown) {
-  if (axios.isAxiosError(error)) {
-    console.error(error.response?.data || error.message);
-  }
-}
+    } catch (error: unknown) {
+      void error;
+    }
   };
   return (
     <div className="flex flex-col gap-[15px]">

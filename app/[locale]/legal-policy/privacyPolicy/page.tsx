@@ -1,12 +1,22 @@
-import BanerCommponnt from "../../componnt/Baner";
+import BanerCommponnt from "../../component/Baner";
 import Image from "next/image";
-import GradientBorderBox from "../../componnt/GradiantBox";
-import Worning from "../../componnt/warning";
+import GradientBorderBox from "../../component/GradiantBox";
+import Worning from "../../component/warning";
 import { useLocale, useTranslations } from "next-intl";
 import { PrivacyPolicyData } from "./PrivacyPolicyDate";
-import FirstPoint from "../../componnt/FirstPoint";
-import Agreement from "../../componnt/Agreement";
-import MapOfAccorditionGradientBox from "../../componnt/MapOfAccordionGradientBox";
+import FirstPoint from "../../component/FirstPoint";
+import Agreement from "../../component/Agreement";
+import MapOfAccorditionGradientBox from "../../component/MapOfAccordionGradientBox";
+import { generateSeo } from "@/Metadata/Seo";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return generateSeo({ locale, namespace: "Seo.PrivacyPolicy", path: "/legal-policy/privacyPolicy" });
+}
 export default function PrivacyPolicy() {
   const locale = useLocale();
   const fontClass = locale === "en" ? "font-inter" : "font-cairo";

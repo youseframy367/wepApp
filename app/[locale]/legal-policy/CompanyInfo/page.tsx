@@ -1,18 +1,28 @@
-import BanerCommponnt from "../../componnt/Baner";
+import BanerCommponnt from "../../component/Baner";
 import { useTranslations, useLocale } from "next-intl";
-import PrivacyPolicyHero from "../../componnt/PrivacyPolicyHero";
-import ContanerTextAndImg from "../../componnt/ContnerImgAndText";
-import Agreement from "../../componnt/Agreement";
-import Title from "../../componnt/TitleComponent";
-import ComponntBox from "../../componnt/BoxComponent";
+import PrivacyPolicyHero from "../../component/PrivacyPolicyHero";
+import ContanerTextAndImg from "../../component/ContnerImgAndText";
+import Agreement from "../../component/Agreement";
+import Title from "../../component/TitleComponent";
+import ComponntBox from "../../component/BoxComponent";
 import { ImportantLegalNotice, Differentiators } from "./CompanyInfoData";
 import Headquarters from "./Headquarters";
 import UXEnhancement from "./UXEnhancement";
 import FinalConclusion from "./FinalConclusion";
 import EvaluationSummary from "./EvaluationSummary";
 
-import MapOfAccorditionGradientBox from "../../componnt/MapOfAccordionGradientBox";
-import AccordionGradientBox from "../../componnt/AccordionGradientBox";
+import MapOfAccorditionGradientBox from "../../component/MapOfAccordionGradientBox";
+import AccordionGradientBox from "../../component/AccordionGradientBox";
+import { generateSeo } from "@/Metadata/Seo";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return generateSeo({ locale, namespace: "Seo.CompanyInfo", path: "/legal-policy/CompanyInfo" });
+}
 export default function CompanyInfo() {
   const t = useTranslations("CompanyInfo");
   const locale = useLocale();

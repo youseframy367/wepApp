@@ -1,11 +1,21 @@
-import BanerCommponnt from "../../componnt/Baner";
-import FirstPoint from "../../componnt/FirstPoint";
-import ContanerTextAndImg from "../../componnt/ContnerImgAndText";
+import BanerCommponnt from "../../component/Baner";
+import FirstPoint from "../../component/FirstPoint";
+import ContanerTextAndImg from "../../component/ContnerImgAndText";
 import { useTranslations, useLocale } from "next-intl";
-import PolicyNote from "../../componnt/PolicyNote";
-import Title from "../../componnt/TitleComponent";
+import PolicyNote from "../../component/PolicyNote";
+import Title from "../../component/TitleComponent";
 import { LegalCompliance } from "./GlobalComplianceData";
-import MapOfAccorditionGradientBox from "../../componnt/MapOfAccordionGradientBox";
+import MapOfAccorditionGradientBox from "../../component/MapOfAccordionGradientBox";
+import { generateSeo } from "@/Metadata/Seo";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return generateSeo({ locale, namespace: "Seo.GlobalCompliance", path: "/legal-policy/GlobalCompliance" });
+}
 export default function GlobalCompliance() {
   const t = useTranslations("GlobalCompliance");
   const locale = useLocale();

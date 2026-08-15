@@ -1,16 +1,26 @@
-import BanerCommponnt from "../../componnt/Baner";
+import BanerCommponnt from "../../component/Baner";
 import { useLocale, useTranslations } from "next-intl";
-import Title from "../../componnt/TitleComponent";
-import Worning from "../../componnt/warning";
+import Title from "../../component/TitleComponent";
+import Worning from "../../component/warning";
 import {
   optOutRightsData,
   relationshipWithPrivacy,
   contact,
 } from "./NotSellOrSheraData";
-import Agreement from "../../componnt/Agreement"
-import PrivacyPolicyHero from "../../componnt/PrivacyPolicyHero"
-import ContanerTextAndImg from "../../componnt/ContnerImgAndText";
-import MapOfAccorditionGradientBox from "../../componnt/MapOfAccordionGradientBox";
+import Agreement from "../../component/Agreement"
+import PrivacyPolicyHero from "../../component/PrivacyPolicyHero"
+import ContanerTextAndImg from "../../component/ContnerImgAndText";
+import MapOfAccorditionGradientBox from "../../component/MapOfAccordionGradientBox";
+import { generateSeo } from "@/Metadata/Seo";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return generateSeo({ locale, namespace: "Seo.NotSellOrShare", path: "/legal-policy/NotSellOrShare" });
+}
 export default function NotSellOrSheer() {
   const locale = useLocale();
   const t = useTranslations("doNotSellOrShare");

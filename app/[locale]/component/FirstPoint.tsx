@@ -1,6 +1,6 @@
 
 import { useLocale } from "next-intl";
-import Container from "./contaner";
+import Container from "./Contaner";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 

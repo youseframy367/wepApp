@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Fragment } from "react";
 import { useLocale } from "next-intl";
-import Container from "../componnt/contaner";
+import Container from "../component/Contaner";
 
 
 export default function Footer() {
@@ -42,7 +42,7 @@ export default function Footer() {
     {
       titleEn: "Terms of Service",
       titleAr: "القانون والسياسات",
-      link: "/Legal&Policy",
+      link: "/legal-policy",
     },
     {
       titleEn: "Playlist Management",

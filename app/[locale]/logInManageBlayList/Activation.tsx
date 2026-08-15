@@ -1,6 +1,6 @@
 "use client";
 import { JSX, useState } from "react";
-import BlackBox from "../componnt/BlackBox";
+import BlackBox from "../component/BlackBox";
 import { useLocale, useTranslations } from "next-intl";
 type Plan = 1 | 2;
 interface PaymentMethod {

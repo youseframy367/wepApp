@@ -3,8 +3,8 @@ import { useState } from "react";
 import MasgePop from "./masge";
 import { useRouter } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
-import GradientBorderBox from "../../componnt/GradiantBox";
-import ImageCheckbox from "../../componnt/CheckBox";
+import GradientBorderBox from "../../component/GradiantBox";
+import ImageCheckbox from "../../component/CheckBox";
 
 interface Playlist {
   id: number;

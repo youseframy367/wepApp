@@ -1,12 +1,22 @@
-import BanerCommponnt from "../../componnt/Baner";
-import Worning from "../../componnt/warning";
+import BanerCommponnt from "../../component/Baner";
+import Worning from "../../component/warning";
 import { useLocale, useTranslations } from "next-intl";
-import FirstPoint from "../../componnt/FirstPoint";
+import FirstPoint from "../../component/FirstPoint";
 import { LegalTermsOfTheContract } from "./AgreementResellerData";
-import MapOfAccorditionGradientBox from "../../componnt/MapOfAccordionGradientBox";
+import MapOfAccorditionGradientBox from "../../component/MapOfAccordionGradientBox";
 import { choicesAdd } from "./AgreementResellerData";
-import CheckAgreement from "../../componnt/checkAgreement";
-import Agreement from "../../componnt/Agreement";
+import CheckAgreement from "../../component/CheckAgreement";
+import Agreement from "../../component/Agreement";
+import { generateSeo } from "@/Metadata/Seo";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return generateSeo({ locale, namespace: "Seo.AgreementReseller", path: "/agreement/reseller" });
+}
 export default function AgreementReseller() {
   const local = useLocale();
   const t = useTranslations("AgreementReseller");

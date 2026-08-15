@@ -1,4 +1,4 @@
-import Worning from "../componnt/warning";
+import Worning from "../component/warning";
 import { useLocale , useTranslations } from "next-intl";
 export default function Baner() {
   const t = useTranslations("HomeBanner");

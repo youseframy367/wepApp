@@ -1,16 +1,25 @@
-import GradientBorderBox from "../componnt/GradiantBox";
+import GradientBorderBox from "../component/GradiantBox";
 import { useTranslations, useLocale } from "next-intl";
 import { useState } from "react";
 import api from "@/app/services/api";
-import axios from "axios";
 export default function ParentPIN() {
   const [parentPin, setParentPin] = useState<string>("");
   const locale = useLocale();
 
-  const fontClass = locale === "en" ? "font-inter" : "font-cairo"
+  const fontClass = locale === "en" ? "font-inter" : "font-cairo";
   const t = useTranslations("ParentPIN");
 
-const handleSubmit = async ( e: React.FormEvent<HTMLFormElement> ): Promise<void> => { e.preventDefault(); try { const { data } = await api.post("/parent-pin", { parentPin, }); console.log(data); setParentPin(""); } catch (error: unknown) { if (axios.isAxiosError(error)) { console.error( error.response?.data || error.message ); } else { console.error("Unexpected error:", error); } } };
+  const handleSubmit = async (
+    e: React.FormEvent<HTMLFormElement>,
+  ): Promise<void> => {
+    e.preventDefault();
+    try {
+      await api.post("/parent-pin", { parentPin });
+      setParentPin("");
+    } catch (error: unknown) {
+      void error;
+    }
+  };
   return (
     <div
       className={`flex flex-col gap-[15px] ${fontClass}`}

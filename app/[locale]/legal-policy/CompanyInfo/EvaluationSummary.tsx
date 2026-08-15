@@ -1,5 +1,5 @@
 import { useTranslations, useMessages, useLocale } from "next-intl";
-import GradientBorderBox from "../../componnt/GradiantBox";
+import GradientBorderBox from "../../component/GradiantBox";
 
 interface EvaluationCriterion {
   title: string;

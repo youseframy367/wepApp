@@ -1,7 +1,17 @@
-import BanerCommponnt from "../../componnt/Baner";
+import BanerCommponnt from "../../component/Baner";
 import { useTranslations, useLocale } from "next-intl";
 import { OurMission } from "./OurMissionData";
-import GradientBorderBox from "../../componnt/GradiantBox";
+import GradientBorderBox from "../../component/GradiantBox";
+import { generateSeo } from "@/Metadata/Seo";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return generateSeo({ locale, namespace: "Seo.OurMission", path: "/legal-policy/OurMission" });
+}
 export default function OurMissionPage() {
   const t = useTranslations("OurMission");
   const locale = useLocale();

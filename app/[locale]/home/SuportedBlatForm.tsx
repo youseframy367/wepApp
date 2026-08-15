@@ -1,6 +1,6 @@
 import { supportedBlatform } from "./HomeData";
-import GradientBorderBox from "../componnt/GradiantBox";
-import BlackBox from "../componnt/BlackBox";
+import GradientBorderBox from "../component/GradiantBox";
+import BlackBox from "../component/BlackBox";
 import { useTranslations , useLocale} from "next-intl";
 export default function BlatformSupport() {
   const t = useTranslations("platformSupport");

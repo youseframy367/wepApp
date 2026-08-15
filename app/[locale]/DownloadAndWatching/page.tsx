@@ -1,8 +1,18 @@
-import BanerCommponnt from "../componnt/Baner";
-import Worning from "../componnt/warning";
+import BanerCommponnt from "../component/Baner";
+import Worning from "../component/warning";
 import { useTranslations } from "next-intl";
 import BlatformSupport from "./StepsToStartStreaming"
 import SupportedDevices from "./SupportedDevices"
+import { generateSeo } from "@/Metadata/Seo";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return generateSeo({ locale, namespace: "Seo.DownloadAndWatching", path: "/DownloadAndWatching" });
+}
 export default function DownloadAndWatching() {
   const t = useTranslations("DownloadAndWatching");
   return (

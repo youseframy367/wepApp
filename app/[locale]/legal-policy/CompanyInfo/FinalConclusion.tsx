@@ -1,4 +1,4 @@
-import Agreement from "../../componnt/Agreement";
+import Agreement from "../../component/Agreement";
 import { useTranslations ,useLocale } from "next-intl";
 export default function FinalConclusion() {
   const t=useTranslations("CompanyInfo.FinalConclusion")

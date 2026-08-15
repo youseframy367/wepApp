@@ -1,5 +1,5 @@
 import React from "react";
-import BlackBox from "../componnt/BlackBox";
+import BlackBox from "../component/BlackBox";
 import { useTranslations } from "next-intl";
 
 interface Device {

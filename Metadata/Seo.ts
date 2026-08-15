@@ -8,7 +8,7 @@ type SeoOptions = {
   image?: string;
 };
 
-const BASE_URL = "https://exclusivemovies.com";
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://exclusivemovies.com";
 
 export async function generateSeo({
   locale,

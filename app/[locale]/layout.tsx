@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-const BASE_URL_LAYOUT = "https://exclusivemovies.com";
+const BASE_URL_LAYOUT = process.env.NEXT_PUBLIC_SITE_URL ?? "https://exclusivemovies.com";
 import "../globals.css";
 import "../assets/fonts.css";
 import { NextIntlClientProvider } from "next-intl";

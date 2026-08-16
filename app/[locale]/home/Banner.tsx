@@ -50,7 +50,7 @@ export default function Baner() {
             {t("trial")}
           </p>
         </div>
-        <Image src="/imge/home/EXBRO.webp" alt="EX-PRO" width={560} height={331} loading="lazy" priority data-aos="fade-out" className="z-5 mx-auto md:mx-0" />
+        <Image src="/imge/home/EXBRO.webp" alt="EX-PRO" width={560} height={331} loading="lazy" priority data-aos="fade-out" sizes="(max-width: 768px) 90vw, 45vw" className="z-5 mx-auto md:mx-0 w-full md:max-w-[45%] max-w-[560px] h-auto" />
       </div>
 
       <Worning

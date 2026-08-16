@@ -45,9 +45,9 @@ export default function PrivcyComponnt({
               <img
                 src={item.img}
                 alt={t(`cards.${item.key}.title`)}
-                className="md:mt-[50px] md:w-auto md:h-auto w-[120px] my-auto"
+                className="md:mt-[50px] md:w-auto md:h-auto w-[120px] max-w-[40%] my-auto"
               ></img>
-              <div className="flex flex-col justify-between  text-[#fff] mt-[15px]">
+              <div className="flex flex-col justify-between  text-[#fff] mt-[15px] min-w-0 flex-1">
                 <h3
                   className={`font-[600] md:text-[30px] text-[20px] text-primary ${locale === "en" ? "font-montserrat" : "font-cairo md:text-[30px] text-[20px] font-[600] leading-[30px]"} `}
                 >

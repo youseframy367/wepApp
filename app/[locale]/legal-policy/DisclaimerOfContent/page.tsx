@@ -37,7 +37,7 @@ export default function DisclaimerContent() {
 
       <AccordionGradientBox
         className="w-[90%] mx-auto my-[30px]"
-        icon="/imge/policy/DisclaimerOfContent/ACCEPTANCE.svg"
+        icon="/imge/policy/DisclaimerOfContent/ACCEPTANCE.webp"
         title={t("acceptance.title")}
         paragraph={<p>{t("acceptance.description")}</p>}
         visibleLines={2}

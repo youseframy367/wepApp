@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useTranslations ,useLocale } from "next-intl";
 
 export default function Headquarters() {
@@ -13,11 +14,15 @@ export default function Headquarters() {
         <div className="flex flex-col gap-[20px]">
         
           <div className="flex gap-[27px] items-start">
-            <img
-            data-aos="fade-out"
-              src="/imge/policy/CompanyInfo/UK.svg"
-              alt={t("images.ukAlt")}
-            />
+            <Image
+        alt=""
+        src="/imge/policy/CompanyInfo/UK.webp"
+        data-aos="fade-out"
+        loading="lazy"
+        unoptimized
+        width="50"
+        height="50"
+      />
 
             <div className="flex flex-col gap-[16px]">
               <h2 data-aos="fade-up" className={`md:font-[600] font-[500] md:text-[24px] text-[20px] ${locale === "en" ?"font-inter":"font-cairo"} text-primary tracking-[-0.25px]`}>
@@ -32,11 +37,15 @@ export default function Headquarters() {
 
         
           <div className="flex gap-[27px] items-start">
-            <img
-            data-aos="fade-out"
-              src="/imge/policy/CompanyInfo/EG.svg"
-              alt={t("images.egAlt")}
-            />
+            <Image
+        alt=""
+        src="/imge/policy/CompanyInfo/EG.webp"
+        data-aos="fade-out"
+        loading="lazy"
+        unoptimized
+        width="50"
+        height="50"
+      />
 
             <div className="flex flex-col gap-[16px]">
               <h2 data-aos="fade-up" className={`md:font-[600] font-[500] md:text-[24px] text-[20px] ${locale === "en" ?"font-inter":"font-cairo"} text-primary tracking-[-0.25px]`}>
@@ -50,10 +59,14 @@ export default function Headquarters() {
           </div>
         </div>
 
-        <img
-          src="/imge/policy/CompanyInfo/map.svg"
-          alt={t("images.mapAlt")}
-        />
+        <Image
+        alt=""
+        src="/imge/policy/CompanyInfo/map.webp"
+        loading="lazy"
+        unoptimized
+        width="331"
+        height="220"
+      />
       </div>
     </div>
   );

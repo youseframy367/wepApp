@@ -31,13 +31,13 @@ export default function NotSellOrSheer() {
    
       <Title titleKey="importantLegalNotice" />
       <Worning
-        img="/imge/policy/DoNotSellOrShare/EXPROIcon.svg"
+        img="/imge/policy/DoNotSellOrShare/EXPROIcon.webp"
         text={t("warning.text")}
       />
       <Title titleKey="sharingLegalDefinition" />
       <ContanerTextAndImg
         namespace="doNotSellOrShare.legalDefinition"
-        img="/imge/policy/DoNotSellOrShare/LegalDefinition.svg"
+        img="/imge/policy/DoNotSellOrShare/LegalDefinition.webp"
         positionEffect="50%"
       />
       <Title titleKey="optOutRights" />
@@ -49,7 +49,7 @@ export default function NotSellOrSheer() {
       <Title titleKey="globalPrivacyControl" />
       <ContanerTextAndImg
         namespace="doNotSellOrShare.globalPrivacyControl"
-        img="/imge/policy/DoNotSellOrShare/chexkHand.svg"
+        img="/imge/policy/DoNotSellOrShare/chexkHand.webp"
         positionEffect="20%"
       />
       <Title titleKey="nonDiscrimination" />

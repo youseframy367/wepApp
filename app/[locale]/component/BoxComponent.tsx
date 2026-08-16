@@ -16,7 +16,7 @@ export default function ComponntBox({ data, namespace, className }: ComponentBox
   const t = useTranslations(namespace);
 
   return (
-    <div className={`w-[90%] mx-auto ${className} flex flex-col gap-[20px]`}>
+    <div className={`w-[90%] mx-auto ${className} flex flex-col gap-[20px] overflow-x-clip`}>
       {data.map((item) => (
         <GradientBorderBox
           key={item.key}
@@ -30,7 +30,7 @@ export default function ComponntBox({ data, namespace, className }: ComponentBox
 
           <div
             data-aos="fade-up"
-            className={`flex flex-col gap-[10px] ${locale === "en" ? "font-montserrat" : "font-cairo"
+            className={`flex flex-col gap-[10px] min-w-0 ${locale === "en" ? "font-montserrat" : "font-cairo"
               }`}
           >
             {t.has(`${item.key}.title`) && (

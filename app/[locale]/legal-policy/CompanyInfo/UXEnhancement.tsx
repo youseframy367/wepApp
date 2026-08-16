@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useTranslations ,useLocale } from "next-intl"
 import Title from "../../component/TitleComponent";
 import GradientBorderBox from "../../component/GradientBox";
@@ -8,20 +9,27 @@ export default function UXEnhancement() {
   return (
     <div>
       <div className="relative w-[90%] mx-auto flex justify-center mt-[70px] mb-[40px]">
-        <img
-      
-          src="/imge/effectTwo.svg"
-          className="absolute md:top-[120%] top-[30%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"
-          alt="effect"
-        />
+        <Image
+        src="/imge/effectTwo.webp"
+        className="absolute md:top-[120%] top-[30%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none w-[100%] h-auto"
+        alt="effect"
+        loading="lazy"
+        unoptimized
+        width="1280"
+        height="508"
+      />
 
         <div className="flex gap-[20px] items-center z-99">
-          <img
-          data-aos="fade-out"
-            src="/imge/policy/CompanyInfo/UXEnhancement.svg"
-            alt="UX Enhancement"
-            className="md:w-auto w-[70px]"
-          />
+          <Image
+        src="/imge/policy/CompanyInfo/UXEnhancement.webp"
+        data-aos="fade-out"
+        alt="UX Enhancement"
+        className="md:w-auto w-[70px]"
+        loading="lazy"
+        unoptimized
+        width="103"
+        height="95"
+      />
 
           <div className="flex flex-col md:gap-[5px]">
             <h1 data-aos="fade-up" className={`md:font-[600] font-[500] md:text-[60px] text-[30px] text-primary ${locale === "en" ?"font-montserrat":"font-cairo"}`}>
@@ -38,12 +46,16 @@ export default function UXEnhancement() {
       <Title titleKey="Pre-PurchaseNotice" />
 
       <GradientBorderBox className="flex gap-[24px] py-[20px] px-[30px] items-center w-[90%] mx-auto">
-        <img
-          data-aos="fade-out"
-          src="/imge/policy/CompanyInfo/ExProSubscriptions.svg"
-          alt="ExProSubscriptions"
-          className="md:w-auto w-[70px]"
-        />
+        <Image
+        src="/imge/policy/CompanyInfo/ExProSubscriptions.webp"
+        data-aos="fade-out"
+        alt="ExProSubscriptions"
+        className="md:w-auto w-[70px]"
+        loading="lazy"
+        unoptimized
+        width="89"
+        height="68"
+      />
 
         <p data-aos="fade-up" className={`font-[400] md:text-[14px] text-[12px] leading-[21px] ${locale === "en" ? "font-inter" :"font-cairo font-[500] text-[16px] leading-[26px]"}  tracking-[-0.25px]`}>
           {t("notice")}

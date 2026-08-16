@@ -17,9 +17,9 @@ export default function FinalConclusion() {
       <Agreement
         nameSpace="agrrmant"
         className="my-[30px]"
-        imgOne="/imge/policy/GlobalCompliance/stor.svg"
-        imgTwo="/imge/policy/GlobalCompliance/rr.svg"
-        imgThree="/imge/policy/GlobalCompliance/world.svg"
+        imgOne="/imge/policy/GlobalCompliance/stor.webp"
+        imgTwo="/imge/policy/GlobalCompliance/rr.webp"
+        imgThree="/imge/policy/GlobalCompliance/world.webp"
       />
       <p className={`${locale === "en" ?"font-inter":"font-cairo md:font-[500] font-[400] md:text-[16px] text-[12px]"} font-[400] md:text-[12px] text-[12px] md:w-auto w-[90%] mx-auto tracking-[-0.25px] text-center`}>
         {t("description")}

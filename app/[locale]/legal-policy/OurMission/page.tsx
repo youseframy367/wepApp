@@ -19,7 +19,7 @@ export default function OurMissionPage() {
     <div className="flex flex-col">
       <BanerCommponnt
         namespace="OurMission.banner"
-        imgUrl="/imge/policy/OurMission/OurMission.svg"
+        imgUrl="/imge/policy/OurMission/OurMission.webp"
         classNameImg="w-[193px] mt-[270px] "
         classNameContainer="md:mt-[-150px]"
       />

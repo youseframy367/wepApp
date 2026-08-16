@@ -46,7 +46,7 @@ export default function Header() {
       <div className="flex items-center justify-between px-4 md:px-[15px] h-full">
         {/* Logo */}
         <Image
-          src="/imge/header/logoHeader.svg"
+          src="/imge/header/logoHeader.webp"
           alt="logo Header"
           width={202}
           height={61}

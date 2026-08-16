@@ -31,7 +31,7 @@ export default function RefundPolicy() {
       <BanerCommponnt namespace="refundPolicy.banner" />
       <FirstPoint
         withContainer={false}
-        urlImg="/imge/logo.svg"
+        urlImg="/imge/logo.webp"
         namespace="refundPolicy.firstPoint"
       />
 

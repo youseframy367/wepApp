@@ -12,7 +12,7 @@ interface PrivacyPolicyHeroProps {
 export default function PrivacyPolicyHero({
   nameSpace,
   className = "",
-  img = "/imge/policy/DoNotSellOrShare/Ltd.svg",
+  img = "/imge/policy/DoNotSellOrShare/Ltd.webp",
   showLaws = true,
   effect = false,
 }: PrivacyPolicyHeroProps) {
@@ -29,14 +29,14 @@ export default function PrivacyPolicyHero({
       <img
         src={img}
         alt={t("Policy.companyTitle")}
-        className="md:my-auto my-[30px] md:w-auto w-[90%] z-50"
+        className="md:my-auto my-[30px] md:w-auto md:max-w-[36%] w-[90%] z-50"
       />
 
       <div className="md:w-[60%] w-full flex flex-col z-50">
         <h2
           className={`${
             locale === "en" ? "font-montserrat" : "font-cairo"
-          } font-[600] md:text-[60px] text-[35px] text-primary`}
+          } font-[600] md:text-[44px] lg:text-[60px] text-[35px] text-primary`}
         >
           {t("Policy.companyTitle")}
         </h2>

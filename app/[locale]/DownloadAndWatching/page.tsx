@@ -19,7 +19,7 @@ export default function DownloadAndWatching() {
     <div>
       <BanerCommponnt
         namespace="DownloadAndWatching.Banner"
-        imgUrl="/imge/policy/DownloadAndWatching/DownloadAndWatching.svg"
+        imgUrl="/imge/policy/DownloadAndWatching/DownloadAndWatching.webp"
         withContainer={false}
         classNameImg="md:mt-[320px] mt-[300px]"
       />
@@ -29,7 +29,7 @@ export default function DownloadAndWatching() {
         text={t("note.text")}
         classNamep="flex-row-reverse"
         className="md:mt-[400px] mt-[350px]"
-        img="/imge/policy/DownloadAndWatching/EXPRO.svg"
+        img="/imge/policy/DownloadAndWatching/EXPRO.webp"
       />
       <SupportedDevices/>
       <BlatformSupport/>

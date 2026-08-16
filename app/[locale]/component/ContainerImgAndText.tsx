@@ -37,7 +37,7 @@ export default function ContanerTextAndImg({
             src={img}
             alt="cknowledges"
             data-aos="fade-out"
-            className="md:mx-0 mx-auto md:my-0  my-[20px]"
+            className="md:mx-0 mx-auto md:my-0 my-[20px] md:max-w-[45%] w-[70%] md:w-auto h-auto max-h-[400px]"
             unoptimized
             loading="lazy"
           />

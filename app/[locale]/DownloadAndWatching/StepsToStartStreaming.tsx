@@ -1,3 +1,4 @@
+import Image from "next/image";
 import BlackBox from "../component/BlackBox";
 import { useLocale } from "next-intl";
 import { useTranslations } from "next-intl";
@@ -16,11 +17,15 @@ export default function BlatformSupport() {
           {t("title")}
         </h1>
         <div className="w-[100%] md:my-[50px] my-[30px] flex md:flex-row flex-col md:gap-[10px] gap-[15px] relative">
-          <img
-            src="/imge/effectTwo.svg"
-            className="absolute md:top-[0%] top-[-8%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"
-            alt="effect"
-          />
+          <Image
+        src="/imge/effectTwo.webp"
+        className="absolute md:top-[0%] top-[-8%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none w-[100%] h-auto"
+        alt="effect"
+        loading="lazy"
+        unoptimized
+        width="1280"
+        height="508"
+      />
           <BlackBox borderEfect={false} className="flex flex-col  justify-center items-center md:w-[33%] w-[100%] h-[175px]">
             <h1
               data-aos="fade-out"

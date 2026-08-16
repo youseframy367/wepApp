@@ -6,16 +6,24 @@ export default function Baner() {
   const locale = useLocale();
   return (
     <div className="md:mt-[150px] mt-[150px] relative">
-      <img
-        src="/imge/effectTwo.svg"
-        className="absolute md:hidden block w-[100%] top-[10%]  z-0 pointer-events-none"
+      <Image
+        src="/imge/effectTwo.webp"
         alt="effect"
+        width={1600}
+        height={1600}
+        unoptimized
+        loading="lazy"
+        className="absolute md:hidden block w-[100%] top-[10%]  z-0 pointer-events-none"
       />
 
-      <img
-        src="/imge/effectTwo.svg"
-        className="absolute md:w-[100%] w-[100%] md:top-[40%] top-[35%] md:left-1/2 md:-translate-x-1/2 md:-translate-y-1/2 z-0 pointer-events-none"
+      <Image
+        src="/imge/effectTwo.webp"
         alt="effect"
+        width={1600}
+        height={1600}
+        unoptimized
+        loading="lazy"
+        className="absolute md:w-[100%] w-[100%] md:top-[40%] top-[35%] md:left-1/2 md:-translate-x-1/2 md:-translate-y-1/2 z-0 pointer-events-none"
       />
       <div className="flex md:flex-row flex-col-reverse flex-col w-[90%] md:justify-between md:mx-auto md:items-center">
         <div className="flex flex-col gap-[14px] md:w-[450px] w-[100%] ">

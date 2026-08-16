@@ -27,27 +27,35 @@ export default function MapOfAccorditionGradientBox({
 
   return (
     <div className={`w-[90%] mx-auto relative ${parentClassName}`}>
-      <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className="" />
+      <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className=" w-[100%] h-auto" />
 
-      <img
-        src="/imge/effectTwo.svg"
-        className={` ${CuntEffect === 0 ? "hidden" : ""} absolute md:top-[50%] top-[30%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none`}
+      <Image
+        src="/imge/effectTwo.webp"
         alt="effect"
+        loading="lazy"
+        unoptimized
+        width="1280"
+        height="508"
       />
 
-      <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className="" />
+      <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className=" w-[100%] h-auto" />
 
-      <img
-        src="/imge/effectTwo.svg"
-        className={` ${CuntEffect === 0 ? "hidden" : ""} absolute md:hidden top-[67%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none`}
+      <Image
+        src="/imge/effectTwo.webp"
         alt="effect"
+        loading="lazy"
+        unoptimized
+        width="1280"
+        height="508"
       />
 
-      <img
-        src="/imge/effectThree.svg"
-        className={`absolute md:top-[93%] top-[90%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none ${CuntEffect === 1 || CuntEffect === 0 ? "hidden" : "block"
-          }`}
+      <Image
+        src="/imge/effectThree.webp"
         alt="effect"
+        loading="lazy"
+        unoptimized
+        width="1280"
+        height="661"
       />
 
       <div

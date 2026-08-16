@@ -6,7 +6,7 @@ export const PrivacyPolicyData: TypeData[] = [
   },
   {
     key: "platformDataSecurity",
-    img: "/imge/policy/privacyPolicy/worning.svg",
+    img: "/imge/policy/privacyPolicy/worning.webp",
   },
   {
     key: "permissionsUsed",

@@ -32,10 +32,14 @@ export default function SupportedDevices() {
           {devices.map((device, index) => (
             <React.Fragment key={device.name}>
               <div className="flex justify-center flex-1 min-w-[90px]">
-                <img
+                <Image
                   data-aos="fade-out"
-                  src={`/imge/policy/DownloadAndWatching/${device.name}.svg`}
+                  src={`/imge/policy/DownloadAndWatching/${device.name}.webp`}
                   alt={device.alt}
+                  width={130}
+                  height={130}
+                  unoptimized
+                  loading="lazy"
                   className="w-[80px] md:w-[120px] lg:w-[130px] object-contain"
                 />
               </div>

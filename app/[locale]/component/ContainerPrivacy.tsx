@@ -24,7 +24,7 @@ export default function PrivcyComponnt({
   data = [],
   namespace,
   positionEffect = "25%",
-  urlEffect = "/imge/effectTwo.svg",
+  urlEffect = "/imge/effectTwo.webp",
 }:PrivacyComponentProps) {
   const locale = useLocale();
   const router = useRouter();

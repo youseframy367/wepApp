@@ -15,7 +15,7 @@ export default function Bolicy() {
     <div>
       <BanerCommponnt
         classNameContainer="md:mt-[90px] mt-[100px]"
-        imgUrl="/imge/policy/policyBaner.svg"
+        imgUrl="/imge/policy/policyBaner.webp"
         namespace="banner"
       ></BanerCommponnt>
       <PrivcyComponnt

@@ -23,13 +23,13 @@ export default function GlobalCompliance() {
     <div>
       <BanerCommponnt
         namespace="GlobalCompliance.banner"
-        imgUrl="/imge/policy/GlobalCompliance/GlobalCompliance.svg"
+        imgUrl="/imge/policy/GlobalCompliance/GlobalCompliance.webp"
         withContainer={false}
         classNameImg="md:mt-[270px]"
       />
       <FirstPoint
         withContainer={false}
-        urlImg="/imge/logo.svg"
+        urlImg="/imge/logo.webp"
         namespace="GlobalCompliance.firstPoint"
         className="mt-[300px]"
       />
@@ -44,19 +44,19 @@ export default function GlobalCompliance() {
       </div>
       <ContanerTextAndImg
         namespace="GlobalCompliance.globalPrivacyControl"
-        img="/imge/policy/DoNotSellOrShare/chexkHand.svg"
+        img="/imge/policy/DoNotSellOrShare/chexkHand.webp"
         positionEffect="20%"
       />
       <FirstPoint
         withContainer={false}
-        urlImg="/imge/policy/GlobalCompliance/LegalFrameworks.svg"
+        urlImg="/imge/policy/GlobalCompliance/LegalFrameworks.webp"
         namespace="GlobalCompliance.twoPoint"
         className="mt-[50px]"
       />
       <PolicyNote NameParentSpace="GlobalCompliance" className="my-[20px]" />
       <Title
         titleKey="LegalCompliance"
-        urlImg="/imge/policy/GlobalCompliance/LegalCompliance.svg"
+        urlImg="/imge/policy/GlobalCompliance/LegalCompliance.webp"
       />
       <MapOfAccorditionGradientBox
         data={LegalCompliance}

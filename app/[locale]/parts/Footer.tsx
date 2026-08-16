@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -65,11 +66,15 @@ export default function Footer() {
             className="flex items-center sm:space-x-8.75 space-x-5 3xl:mb-10! mb-5"
             onClick={() => handleNav("/")}
           >
-            <img
-              src="/imge/footer/logo.svg"
-              alt="Exclusive Movies LTD"
-              className="3xl:w-40! md:w-24 sm:w-17 w-12 3xl:h-40! md:h-22.5 sm:h-17 h-12"
-            />
+            <Image
+        src="/imge/footer/logo.webp"
+        alt="Exclusive Movies LTD"
+        className="3xl:w-40! md:w-24 sm:w-17 w-12 3xl:h-40! md:h-22.5 sm:h-17 h-12"
+        loading="lazy"
+        unoptimized
+        width="1600"
+        height="1600"
+      />
             <h2 className="text-primary font-medium 3xl:text-7xl! lg:text-3xl md:text-[26px] sm:text-2xl min-[425px]:text-lg text-base 3xl:leading-14! lg:leading-7 md:leading-6 sm:leading-5 leading-4">
               Exclusive Movies LTD
             </h2>

@@ -26,7 +26,7 @@ export default function EvaluationSummary() {
         </p>
       </div>
 
-      <div className="md:w-[90%] w-[100%] mx-auto my-[30px] overflow-x-auto md:overflow-visible">
+      <div className="md:w-[90%] w-[100%] mx-auto my-[30px] overflow-x-auto">
         <div className="flex justify-around md:justify-around gap-4 min-w-max">
           {criteria.map((item, index) => (
             <GradientBorderBox

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import GradientBorderBox from "./GradientBox";
 import { useLocale, useTranslations } from "next-intl";
 
@@ -20,7 +21,14 @@ export default function PolicyNote({ NameParentSpace, className }: PolicyNotePro
           className="flex gap-[20px] items-center"
           data-aos="fade-up"
         >
-          <img src="/imge/policy/refundPolicy/point.svg" alt="point" />
+          <Image
+        src="/imge/policy/refundPolicy/point.webp"
+        alt="point"
+        loading="lazy"
+        unoptimized
+        width="50"
+        height="40"
+      />
 
           <p
             className={`md:font-[600] font-[500] ${locale === "en"

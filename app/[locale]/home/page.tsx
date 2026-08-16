@@ -1,6 +1,6 @@
 
 import BlatformSupport from "./SuportedBlatForm"
-import Baner from "./Baner"
+import Baner from "./Banner"
 import WhatIsExpro from "./WhatIsEXPRO"
 import { generateSeo } from "@/Metadata/Seo";
 

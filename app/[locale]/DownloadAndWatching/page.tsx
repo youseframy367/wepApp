@@ -1,5 +1,5 @@
-import BanerCommponnt from "../component/Baner";
-import Worning from "../component/warning";
+import BanerCommponnt from "../component/Banner";
+import Worning from "../component/Warning";
 import { useTranslations } from "next-intl";
 import BlatformSupport from "./StepsToStartStreaming"
 import SupportedDevices from "./SupportedDevices"

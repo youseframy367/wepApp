@@ -21,7 +21,10 @@ export default function LoadingScreen() {
 
     // Wait for mainBg image to load
     const img = new Image();
-    img.src = typeof mainBgUrl === "string" ? mainBgUrl : mainBgUrl.src;
+    img.src =
+      typeof mainBgUrl === "string"
+        ? mainBgUrl
+        : String((mainBgUrl as { src?: string }).src ?? "");
     // Wait for ALL window resources + give React 800ms to render icons
     const onWindowLoad = () => setTimeout(finish, 800);
 

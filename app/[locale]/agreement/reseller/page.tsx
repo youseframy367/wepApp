@@ -1,5 +1,5 @@
-import BanerCommponnt from "../../component/Baner";
-import Worning from "../../component/warning";
+import BanerCommponnt from "../../component/Banner";
+import Worning from "../../component/Warning";
 import { useLocale, useTranslations } from "next-intl";
 import FirstPoint from "../../component/FirstPoint";
 import { LegalTermsOfTheContract } from "./AgreementResellerData";

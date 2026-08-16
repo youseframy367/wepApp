@@ -1,7 +1,7 @@
-import BanerCommponnt from "../../component/Baner";
+import BanerCommponnt from "../../component/Banner";
 import Image from "next/image";
-import GradientBorderBox from "../../component/GradiantBox";
-import Worning from "../../component/warning";
+import GradientBorderBox from "../../component/GradientBox";
+import Worning from "../../component/Warning";
 import { useLocale, useTranslations } from "next-intl";
 import { PrivacyPolicyData } from "./PrivacyPolicyDate";
 import FirstPoint from "../../component/FirstPoint";

@@ -1,7 +1,7 @@
-import BanerCommponnt from "../../component/Baner";
+import BanerCommponnt from "../../component/Banner";
 import { useTranslations, useLocale } from "next-intl";
 import { OurMission } from "./OurMissionData";
-import GradientBorderBox from "../../component/GradiantBox";
+import GradientBorderBox from "../../component/GradientBox";
 import { generateSeo } from "@/Metadata/Seo";
 
 export async function generateMetadata({

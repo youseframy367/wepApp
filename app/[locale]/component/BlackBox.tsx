@@ -1,5 +1,5 @@
 import { twMerge } from "tailwind-merge";
-import GradientBorderBox from "./GradiantBox";
+import GradientBorderBox from "./GradientBox";
 import { ReactNode } from "react"
 interface BlackBoxProps {
   children: ReactNode;

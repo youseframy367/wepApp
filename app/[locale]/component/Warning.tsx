@@ -1,5 +1,5 @@
 import { useLocale } from "next-intl";
-import GradientBorderBox from "./GradiantBox";
+import GradientBorderBox from "./GradientBox";
 import Image from "next/image";
 
 interface WorningProps {

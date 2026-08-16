@@ -1,6 +1,6 @@
-import BanerCommponnt from "../component/Baner";
+import BanerCommponnt from "../component/Banner";
 import FirstPoint from "../component/FirstPoint";
-import GradientBorderBox from "../component/GradiantBox";
+import GradientBorderBox from "../component/GradientBox";
 import Title from "../component/TitleComponent";
 import {
   GeneralInformation,

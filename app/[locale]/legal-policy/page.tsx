@@ -1,9 +1,9 @@
 "use client";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import BanerCommponnt from "../component/Baner";
-import PrivcyComponnt from "../component/ContanerPrivcy";
-import GradientBorderBox from "../component/GradiantBox";
+import BanerCommponnt from "../component/Banner";
+import PrivcyComponnt from "../component/ContainerPrivacy";
+import GradientBorderBox from "../component/GradientBox";
 import { aboutUs, DeteGoToBage } from "./PrivcyData";
 import { useLocale, useTranslations } from "next-intl";
 export default function Bolicy() {

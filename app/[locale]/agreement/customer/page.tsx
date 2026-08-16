@@ -1,11 +1,11 @@
 "use client";
-import BanerCommponnt from "../../component/Baner";
-import Worning from "../../component/warning";
+import BanerCommponnt from "../../component/Banner";
+import Worning from "../../component/Warning";
 import { agreementCustomerData } from "./AgreementCustomerDate";
-import GradientBorderBox from "../../component/GradiantBox";
+import GradientBorderBox from "../../component/GradientBox";
 import MapOfAccorditionGradientBox from "../../component/MapOfAccordionGradientBox";
 import { useTranslations , useLocale } from "next-intl";
-import PrivcyComponnt from "../../component/ContanerPrivcy";
+import PrivcyComponnt from "../../component/ContainerPrivacy";
 import { DeteGoToBage } from "./AgreementCustomerDate";
 import CheckAgreement from "../../component/CheckAgreement";
 export default function AgreementCustomer(){

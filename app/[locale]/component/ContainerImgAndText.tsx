@@ -1,4 +1,4 @@
-import GradientBorderBox from "./GradiantBox";
+import GradientBorderBox from "./GradientBox";
 import { useLocale, useTranslations } from "next-intl";
 interface ContanerTextAndImgProps {
   namespace: string;

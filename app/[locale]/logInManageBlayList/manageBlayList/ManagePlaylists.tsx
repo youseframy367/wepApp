@@ -3,7 +3,7 @@ import { useState } from "react";
 import MasgePop from "./masge";
 import { useRouter } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
-import GradientBorderBox from "../../component/GradiantBox";
+import GradientBorderBox from "../../component/GradientBox";
 import ImageCheckbox from "../../component/CheckBox";
 
 interface Playlist {

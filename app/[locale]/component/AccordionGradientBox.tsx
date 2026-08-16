@@ -1,7 +1,7 @@
 "use client";
 
 import { useLayoutEffect, useRef, useState, useEffect, ReactNode } from "react";
-import GradientBorderBox from "./GradiantBox";
+import GradientBorderBox from "./GradientBox";
 import { useLocale } from "next-intl";
 import Image from "next/image";
 

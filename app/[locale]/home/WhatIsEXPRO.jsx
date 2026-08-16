@@ -1,5 +1,5 @@
 import { WhatIsEXPRO } from "../home/HomeData";
-import GradientBorderBox from "../component/GradiantBox";
+import GradientBorderBox from "../component/GradientBox";
 import { useLocale } from "next-intl";
 import { useTranslations } from "next-intl";
 export default function WhatIsExpro() {

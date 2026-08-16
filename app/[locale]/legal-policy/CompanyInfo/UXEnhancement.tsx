@@ -1,6 +1,6 @@
 import { useTranslations ,useLocale } from "next-intl"
 import Title from "../../component/TitleComponent";
-import GradientBorderBox from "../../component/GradiantBox";
+import GradientBorderBox from "../../component/GradientBox";
 
 export default function UXEnhancement() {
   const t = useTranslations("CompanyInfo.UXEnhancement");

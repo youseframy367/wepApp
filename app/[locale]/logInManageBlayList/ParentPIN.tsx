@@ -1,4 +1,4 @@
-import GradientBorderBox from "../component/GradiantBox";
+import GradientBorderBox from "../component/GradientBox";
 import { useTranslations, useLocale } from "next-intl";
 import { useState } from "react";
 import api from "@/app/services/api";

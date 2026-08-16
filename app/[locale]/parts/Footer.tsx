@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Fragment } from "react";
 import { useLocale } from "next-intl";
-import Container from "../component/Contaner";
+import Container from "../component/Container";
 
 
 export default function Footer() {

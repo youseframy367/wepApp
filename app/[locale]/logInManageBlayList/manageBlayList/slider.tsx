@@ -1,7 +1,7 @@
 "use client";
 import { JSX, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
-import GradientBorderBox from "../../component/GradiantBox";
+import GradientBorderBox from "../../component/GradientBox";
 import { useActiveSection } from "../../context/ActiveSectionContext";
 
 

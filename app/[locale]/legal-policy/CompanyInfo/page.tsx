@@ -1,7 +1,7 @@
-import BanerCommponnt from "../../component/Baner";
+import BanerCommponnt from "../../component/Banner";
 import { useTranslations, useLocale } from "next-intl";
 import PrivacyPolicyHero from "../../component/PrivacyPolicyHero";
-import ContanerTextAndImg from "../../component/ContnerImgAndText";
+import ContanerTextAndImg from "../../component/ContainerImgAndText";
 import Agreement from "../../component/Agreement";
 import Title from "../../component/TitleComponent";
 import ComponntBox from "../../component/BoxComponent";

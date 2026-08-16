@@ -1,4 +1,4 @@
-import GradientBorderBox from "./GradiantBox";
+import GradientBorderBox from "./GradientBox";
 import { useLocale, useTranslations } from "next-intl";
 import type { StaticImageData } from "next/image";
 interface ComponentBoxItem {

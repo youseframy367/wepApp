@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import api from "../../../../services/api";
-import GradientBorderBox from "../../../component/GradiantBox";
+import GradientBorderBox from "../../../component/GradientBox";
 import { useLocale, useTranslations } from "next-intl";
 import ImageCheckbox from "../../../component/CheckBox";
 interface FormData {

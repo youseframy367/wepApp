@@ -1,7 +1,7 @@
-import BanerCommponnt from "../../component/Baner";
+import BanerCommponnt from "../../component/Banner";
 import FirstPoint from "../../component/FirstPoint";
 import { useLocale, useTranslations } from "next-intl";
-import ContanerTextAndImg from "../../component/ContnerImgAndText";
+import ContanerTextAndImg from "../../component/ContainerImgAndText";
 import {
   LegalGroundsForNoRefund,
   PurchasesAndPayments,

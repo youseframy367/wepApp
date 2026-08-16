@@ -1,6 +1,6 @@
-import BanerCommponnt from "../../component/Baner";
+import BanerCommponnt from "../../component/Banner";
 import FirstPoint from "../../component/FirstPoint";
-import ContanerTextAndImg from "../../component/ContnerImgAndText";
+import ContanerTextAndImg from "../../component/ContainerImgAndText";
 import { useTranslations, useLocale } from "next-intl";
 import PolicyNote from "../../component/PolicyNote";
 import Title from "../../component/TitleComponent";

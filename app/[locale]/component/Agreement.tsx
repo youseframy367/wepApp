@@ -1,4 +1,4 @@
-import GradientBorderBox from "./GradiantBox";
+import GradientBorderBox from "./GradientBox";
 import { useTranslations, useLocale } from "next-intl";
 import { twMerge } from "tailwind-merge";
 

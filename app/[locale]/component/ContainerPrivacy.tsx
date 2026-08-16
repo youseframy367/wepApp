@@ -1,6 +1,6 @@
 "use client";
 
-import GradientBorderBox from "./GradiantBox";
+import GradientBorderBox from "./GradientBox";
 import { useLocale, useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
 

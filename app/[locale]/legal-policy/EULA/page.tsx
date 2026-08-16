@@ -1,4 +1,4 @@
-import BanerCommponnt from "../../component/Baner";
+import BanerCommponnt from "../../component/Banner";
 import FirstPoint from "../../component/FirstPoint";
 import { DataEULA } from "./DataEULA";
 import MapOfAccorditionGradientBox from "../../component/MapOfAccordionGradientBox";

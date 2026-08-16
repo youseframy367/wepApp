@@ -3,7 +3,7 @@ import { useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { setAgreementStep } from "../actions";
 import { useState } from "react";
-import GradientBorderBox from "./GradiantBox";
+import GradientBorderBox from "./GradientBox";
 import ImageCheckbox from "./CheckBox";
 import { useLocale , useTranslations} from "next-intl";
 

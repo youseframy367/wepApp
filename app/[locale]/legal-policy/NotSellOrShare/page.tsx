@@ -1,7 +1,7 @@
-import BanerCommponnt from "../../component/Baner";
+import BanerCommponnt from "../../component/Banner";
 import { useLocale, useTranslations } from "next-intl";
 import Title from "../../component/TitleComponent";
-import Worning from "../../component/warning";
+import Worning from "../../component/Warning";
 import {
   optOutRightsData,
   relationshipWithPrivacy,
@@ -9,7 +9,7 @@ import {
 } from "./NotSellOrSheraData";
 import Agreement from "../../component/Agreement"
 import PrivacyPolicyHero from "../../component/PrivacyPolicyHero"
-import ContanerTextAndImg from "../../component/ContnerImgAndText";
+import ContanerTextAndImg from "../../component/ContainerImgAndText";
 import MapOfAccorditionGradientBox from "../../component/MapOfAccordionGradientBox";
 import { generateSeo } from "@/Metadata/Seo";
 

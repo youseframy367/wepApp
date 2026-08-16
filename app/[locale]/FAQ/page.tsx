@@ -71,7 +71,7 @@ export default function FAQ() {
         )}
       </GradientBorderBox>
       <Title
-        urlImg="/imge/agreement/reseller/i.svg"
+        urlImg="/imge/agreement/i.svg"
         titleKey="GeneralInformation"
       />
       <MapOfAccorditionGradientBox
@@ -80,7 +80,7 @@ export default function FAQ() {
         namespace="FAQ.GeneralInformation"
       />
       <Title
-        urlImg="/imge/agreement/reseller/i.svg"
+        urlImg="/imge/agreement/i.svg"
         titleKey="AccountRegistration"
       />
       <MapOfAccorditionGradientBox
@@ -88,14 +88,14 @@ export default function FAQ() {
         data={AccountRegistration}
         namespace="FAQ.AccountRegistration"
       />
-      <Title urlImg="/imge/agreement/reseller/i.svg" titleKey="Subscription" />
+      <Title urlImg="/imge/agreement/i.svg" titleKey="Subscription" />
       <MapOfAccorditionGradientBox
         CuntEffect={1}
         data={Subscription}
         namespace="FAQ.Subscription"
       />
       <Title
-        urlImg="/imge/agreement/reseller/i.svg"
+        urlImg="/imge/agreement/i.svg"
         titleKey="TechnicalSupport"
       />
       <MapOfAccorditionGradientBox
@@ -104,7 +104,7 @@ export default function FAQ() {
         namespace="FAQ.TechnicalSupport"
       />
       <Title
-        urlImg="/imge/agreement/reseller/i.svg"
+        urlImg="/imge/agreement/i.svg"
         titleKey="DataProtection"
       />
       <MapOfAccorditionGradientBox
@@ -113,7 +113,7 @@ export default function FAQ() {
         namespace="FAQ.DataProtection"
       />
       <Title
-        urlImg="/imge/agreement/reseller/i.svg"
+        urlImg="/imge/agreement/i.svg"
         titleKey="LegalCompliance"
       />
       <MapOfAccorditionGradientBox
@@ -122,7 +122,7 @@ export default function FAQ() {
         namespace="FAQ.LegalCompliance"
       />
       <Title
-        urlImg="/imge/agreement/reseller/i.svg"
+        urlImg="/imge/agreement/i.svg"
         titleKey="DeviceManagement"
       />
       <MapOfAccorditionGradientBox
@@ -130,13 +130,13 @@ export default function FAQ() {
         data={DeviceManagement}
         namespace="FAQ.DeviceManagement"
       />
-      <Title urlImg="/imge/agreement/reseller/i.svg" titleKey="Payment" />
+      <Title urlImg="/imge/agreement/i.svg" titleKey="Payment" />
       <MapOfAccorditionGradientBox
         CuntEffect={1}
         data={Payment}
         namespace="FAQ.Payment"
       />
-      <Title urlImg="/imge/agreement/reseller/i.svg" titleKey="Travel" />
+      <Title urlImg="/imge/agreement/i.svg" titleKey="Travel" />
       <MapOfAccorditionGradientBox
         CuntEffect={1}
         data={Travel}

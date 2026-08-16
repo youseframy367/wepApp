@@ -3,7 +3,7 @@
 import { cookies } from "next/headers";
 
 export async function setAgreementStep(
-  step: "customer" | "reseller" | "done"
+  step: "customer" | "done"
 ) {
   const cookieStore = await cookies();
 

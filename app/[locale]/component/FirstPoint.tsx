@@ -29,6 +29,8 @@ export default function FirstPoint({
           alt="i"
           width={40}
           height={40}
+          unoptimized
+          loading="lazy"
         />
         <p
           className={`text-primary-animated md:font-[500] font-[300] md:text-[30px] text-[20px] md:leading-[40px] leading-[25px]  ${locale === "ar" ? "font-cairo" : "font-Montserrat"

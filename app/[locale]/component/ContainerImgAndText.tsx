@@ -1,4 +1,5 @@
 import GradientBorderBox from "./GradientBox";
+import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 interface ContanerTextAndImgProps {
   namespace: string;
@@ -13,7 +14,7 @@ export default function ContanerTextAndImg({
   namespace,
   img,
   ul = false,
-  effect = "/imge/effect.png",
+  effect = "/imge/effect.webp",
   positionEffect = "50%",
 }: ContanerTextAndImgProps) {
   const locale = useLocale();
@@ -22,19 +23,25 @@ export default function ContanerTextAndImg({
 
   return (
     <div className=" relative">
-      <img
+      <Image
         src={effect}
         style={{ top: positionEffect }}
         className={`absolute left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none`}
         alt="effect"
+        unoptimized
+        loading="lazy"
       />
       <GradientBorderBox className="flex md:flex-row flex-col items-center relative gap-[20px] w-[90%] mx-auto md:p-[20px] p-[10px] my-[5px]">
-        <img
-          src={img}
-          alt="cknowledges"
-          data-aos="fade-out"
-          className="md:mx-0 mx-auto md:my-0  my-[20px]"
-        ></img>
+        {img && (
+          <Image
+            src={img}
+            alt="cknowledges"
+            data-aos="fade-out"
+            className="md:mx-0 mx-auto md:my-0  my-[20px]"
+            unoptimized
+            loading="lazy"
+          />
+        )}
         <ul
           className={`${ul ? "list-disc" : ""} ${locale === "ar" ? "pr-6" : "pl-6"} `}
         >

@@ -24,7 +24,7 @@ export default function Bolicy() {
         className="md:mt-[90px] mt-[140px]"
         classNameP="md:h-[70px] h-[80px]"
         positionEffect="90%"
-        urlEffect="/imge/effect.png"
+        urlEffect="/imge/effect.webp"
       />
       <div
         data-aos="fade-up"

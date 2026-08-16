@@ -1,6 +1,7 @@
 import { DashboardData } from "./DashboardData";
 import BlackBox from "../component/BlackBox";
 import { useTranslations, useLocale } from "next-intl";
+import Image from "next/image";
 import { generateSeo } from "@/Metadata/Seo";
 
 export async function generateMetadata({
@@ -18,11 +19,7 @@ export default function Dashboard() {
 
   return (
     <div className="text-center flex flex-col gap-[10px] relative">
-      <img
-        src="/imge/effect.png"
-        className="absolute md:top-[-2%] top-[0%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"
-        alt="effect"
-      />
+      <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className="absolute md:top-[-2%] top-[0%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none" />
       <h1 data-aos="fade-up" className="font-montserrat font-[700] md:mt-[100px] mt-[70px] md:text-[70px] text-[60px] text-primary-animated items-center">
         {t("title")}
       </h1>
@@ -44,12 +41,15 @@ export default function Dashboard() {
       >
         {t("description")}
       </p>
-      <img
+      <Image
         data-aos="fade-out"
-        src="/imge/home/EXBRO.png"
+        src="/imge/home/EXBRO.webp"
         alt="EX-PRO"
-        className="z-5 mx-auto  md:w-[560px] w-[90%]"
-      ></img>
+        width={560}
+        height={331}
+        sizes="(min-width: 768px) 560px, 90vw"
+        className="z-5 mx-auto  md:w-[560px] w-[90%] h-auto"
+      />
       <button
       data-aos="fade-out"
         className={`md:w-[327px] w-[280px] h-[60px] flex items-center justify-center gap-[10px] rounded-[10px] bg-primary ${locale === "en" ? " font-[600] font-inter md:text-[24px] text-[20px]" : " font-[700] md:text-[22px] text-[19px] font-cairo"} tracking-[-0.25px] text-[#000000] mx-auto`}
@@ -81,18 +81,14 @@ export default function Dashboard() {
         </p>
       </div>
       <div className="grid md:grid-cols-2  grid-cols-1 mt-[20px] w-[90%] mx-auto gap-[20px] text-start relative">
-        <img
-          src="/imge/effect.png"
-          className="absolute md:top-[20%] top-[0%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"
-          alt="effect"
-        />
+        <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className="absolute md:top-[20%] top-[0%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none" />
         {DashboardData.map((item) => (
           <BlackBox
             borderEfect={false}
             key={item.key}
             className="flex gap-[15px] items-center w-[100%] p-[10px]"
           >
-            <img src={item.img} alt={item.key} className="md:w-auto w-[80px]" data-aos="fade-out" />
+            <Image src={item.img} alt={item.key} width={114} height={110} className="md:w-auto w-[80px] h-auto" data-aos="fade-out" />
             <div className="flex flex-col gap-[10px]" data-aos="fade-up">
               <h2
                 className={`font-[500] ${locale === "en" ? "font-montserrat" : "font-cairo"} md:text-[20px] text-[18px] text-primary-dark`}
@@ -112,7 +108,7 @@ export default function Dashboard() {
         borderEfect={false}
         className="flex gap-[15px] items-center w-[100%] py-[20px] px-[30px] w-[90%] mx-auto text-start my-[20px]"
       >
-        <img src="/imge/worning.png" alt="Notice" data-aos="fade-out" />
+        <Image src="/imge/worning.webp" alt="Notice" width={42} height={34} data-aos="fade-out" />
         <div className="flex flex-col gap-[10px]" data-aos="fade-up">
           <h2
             className={`font-[500] ${locale === "en" ? "font-montserrat" : "font-cairo"} md:text-[20px] text-[18px] text-primary-dark`}

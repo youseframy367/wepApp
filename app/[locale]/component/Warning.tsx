@@ -16,7 +16,7 @@ export default function Worning({
   className,
   classNamep,
   reverse = false,
-  img = "/imge/worning.png",
+  img = "/imge/worning.webp",
 }: WorningProps) {
   const locale = useLocale();
   return (

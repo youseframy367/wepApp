@@ -14,7 +14,7 @@ export async function generateMetadata({
     locale,
     namespace: "Seo.Home",
     path: "/",
-    image: "/imge/home/EXBRO.png",
+    image: "/imge/home/EXBRO.webp",
   });
 }
 

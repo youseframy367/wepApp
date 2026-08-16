@@ -32,7 +32,7 @@ export async function generateSeo({
   locale,
   namespace,
   path,
-  image = "/og-image.jpg",
+  image = "/og-image.webp",
 }: SeoOptions): Promise<Metadata> {
   const { title, description } = readSeo({ locale, namespace });
 

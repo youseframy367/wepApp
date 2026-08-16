@@ -1,9 +1,9 @@
-import goldSeparator from "./images/constants/gold-separator.png";
+import goldSeparator from "./images/constants/gold-separator.webp";
 
 import logo from "./images/logo/logo.svg";
-import navBg from "./images/navbar/navbar-bg.png";
+import navBg from "./images/navbar/navbar-bg.webp";
 
-import effect from "./images/constants/effect.png";
+import effect from "./images/constants/effect.webp";
 
 import plus from "./images/constants/plus.svg";
 import minus from "./images/constants/minus.svg";

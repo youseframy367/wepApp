@@ -1,4 +1,5 @@
 import BanerCommponnt from "../../component/Banner";
+import Image from "next/image";
 import FirstPoint from "../../component/FirstPoint";
 import { useLocale, useTranslations } from "next-intl";
 import ContanerTextAndImg from "../../component/ContainerImgAndText";
@@ -35,7 +36,7 @@ export default function RefundPolicy() {
       />
 
       <div className="flex gap-[20px] items-center w-[90%] mx-auto mt-[20px] ">
-        <img src="/imge/policy/refundPolicy/todoSmoll.png" alt="todo" width="40px" />
+        <Image src="/imge/policy/refundPolicy/todoSmoll.webp" alt="todo" width={40} height={37} />
         <h2
           className={`${locale === "en" ? "font-inter md:font-[700] font-[600] " : "font-cairo md:font-[600] font-[500]"} tracking-[-0.25px] md:text-[18px] text-[16px]`}
         >
@@ -46,12 +47,12 @@ export default function RefundPolicy() {
       <ContanerTextAndImg
         namespace="refundPolicy.acknowledges"
         ul={true}
-        img="/imge/policy/refundPolicy/labtobExPro.png"
+        img="/imge/policy/refundPolicy/labtobExPro.webp"
       />
       <FirstPoint
         className="md:my-[20px] my-[40px]"
         withContainer={false}
-        urlImg="/imge/policy/refundPolicy/Purchases.png"
+        urlImg="/imge/policy/refundPolicy/Purchases.webp"
         namespace="refundPolicy.purchasesAndPayments"
       />
 
@@ -61,7 +62,7 @@ export default function RefundPolicy() {
       />
       <FirstPoint
         className="md:my-[0px] mt-[-40px]"
-        urlImg="/imge/policy/refundPolicy/Legal.png"
+        urlImg="/imge/policy/refundPolicy/Legal.webp"
         namespace="refundPolicy.LegalGrounds"
       />
 
@@ -73,7 +74,7 @@ export default function RefundPolicy() {
       <FirstPoint
         withContainer={false}
         className="my-[30px]"
-        urlImg="/imge/policy/refundPolicy/NoRefunde.png"
+        urlImg="/imge/policy/refundPolicy/NoRefunde.webp"
         namespace="refundPolicy.NoRefundsOrCancellationsApplyToSection"
       />
 
@@ -84,7 +85,7 @@ export default function RefundPolicy() {
 
       <FirstPoint
         className="md:mt-[0px] mt-[-40px]"
-        urlImg="/imge/policy/refundPolicy/mony.png"
+        urlImg="/imge/policy/refundPolicy/mony.webp"
         namespace="refundPolicy.ChargebacksAndFraudulent"
       />
       <PolicyNote
@@ -94,7 +95,7 @@ export default function RefundPolicy() {
 
       <FirstPoint
         className="md:mt-[0px] mt-[-40px]"
-        urlImg="/imge/policy/refundPolicy/platform.png"
+        urlImg="/imge/policy/refundPolicy/platform.webp"
         namespace="refundPolicy.PlatformSpecificRefundNotes"
       />
       <ComponntBox
@@ -106,17 +107,13 @@ export default function RefundPolicy() {
       <FirstPoint
         withContainer={false}
         className="my-[30px]"
-        urlImg="/imge/policy/refundPolicy/Lega.png"
+        urlImg="/imge/policy/refundPolicy/Lega.webp"
         namespace="refundPolicy.legalGroundsForNoRefund"
       />
       <div className=" relative">
-        <img
-          src="/imge/effect.png"
-          className="absolute top-[50%] 
+        <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className="absolute top-[50%] 
         
-          left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"
-          alt="effect"
-        />
+          left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none" />
         <ComponntBox
           data={LegalGroundsForNoRefundSiven}
           namespace="refundPolicy.LegalGroundsForNoRefundSiven"
@@ -125,17 +122,13 @@ export default function RefundPolicy() {
       <FirstPoint
         withContainer={false}
         className="my-[30px]"
-        urlImg="/imge/policy/refundPolicy/contact.png"
+        urlImg="/imge/policy/refundPolicy/contact.webp"
         namespace="refundPolicy.contactBeforePurchase"
       />
       <div className=" relative">
-        <img
-          src="/imge/effect.png"
-          className="absolute top-[50%] 
+        <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className="absolute top-[50%] 
         
-          left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"
-          alt="effect"
-        />
+          left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none" />
         <ComponntBox
           data={ContactBeforePurchase}
           namespace="refundPolicy.ContactBeforePurchase"

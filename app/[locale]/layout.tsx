@@ -50,13 +50,13 @@ export async function generateMetadata({
       siteName: "Exclusive Movies",
       locale: locale === "ar" ? "ar_EG" : "en_US",
       type: "website",
-      images: [{ url: "/imge/home/EXBRO.png", width: 1200, height: 630, alt: title }],
+      images: [{ url: "/imge/home/EXBRO.webp", width: 1200, height: 630, alt: title }],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: ["/imge/home/EXBRO.png"],
+      images: ["/imge/home/EXBRO.webp"],
     },
   };
 }

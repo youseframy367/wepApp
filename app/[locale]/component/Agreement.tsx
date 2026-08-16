@@ -1,5 +1,6 @@
 import GradientBorderBox from "./GradientBox";
 import { useTranslations, useLocale } from "next-intl";
+import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 
 
@@ -63,9 +64,9 @@ export default function Agreement({ nameSpace, className, imgOne, imgTwo, imgThr
       </div>
       {(imgOne || imgTwo || imgThree) && (
         <div className="flex gap-[30px]">
-          {imgOne && <img src={imgOne} className="max-w-[150px]" alt="icon" />}
-          {imgTwo && <img src={imgTwo} className="max-w-[150px]" alt="icon" />}
-          {imgThree && <img src={imgThree} className="max-w-[150px]" alt="icon" />}
+          {imgOne && <Image src={imgOne} className="max-w-[150px]" alt="icon" unoptimized loading="lazy" />}
+          {imgTwo && <Image src={imgTwo} className="max-w-[150px]" alt="icon" unoptimized loading="lazy" />}
+          {imgThree && <Image src={imgThree} className="max-w-[150px]" alt="icon" unoptimized loading="lazy" />}
         </div>
       )}
     </GradientBorderBox>

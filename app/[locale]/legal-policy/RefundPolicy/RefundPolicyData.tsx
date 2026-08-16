@@ -2,36 +2,36 @@
 export const PurchasesAndPayments = [
   {
     key: "securePayments",
-    img: "/imge/policy/refundPolicy/squr.png",
+    img: "/imge/policy/refundPolicy/squr.webp",
   },
   {
     key: "purchaseAuthorization",
-    img: "/imge/policy/refundPolicy/eay.png",
+    img: "/imge/policy/refundPolicy/eay.webp",
   },
 ];
 
 export const LegalGroundsForNoRefund = [
   {
     key: "instantDigitalServices",
-    img: "/imge/policy/refundPolicy/adu.png",
+    img: "/imge/policy/refundPolicy/adu.webp",
   },
   {
     key: "ukAndEuLaw",
-    img: "/imge/policy/refundPolicy/Lega.png",
+    img: "/imge/policy/refundPolicy/Lega.webp",
   },
   {
     key: "egyptianLaw",
-    img: "/imge/policy/refundPolicy/squrty.png",
+    img: "/imge/policy/refundPolicy/squrty.webp",
   },
 ];
 export const NoRefundsOrCancellationsApplyTo = [
   {
     key: "activatedServices",
-    img: "/imge/policy/refundPolicy/false.png",
+    img: "/imge/policy/refundPolicy/false.webp",
   },
   {
     key: "chargebacksAndRenewals",
-    img: "/imge/policy/refundPolicy/agree.png",
+    img: "/imge/policy/refundPolicy/agree.webp",
   },
 ];
 
@@ -57,46 +57,46 @@ export const ChargebacksAndFraudulentDisputes={
 export const PlatformSpecificRefundNotes = [
   {
     key: "appStorePurchases",
-    img: "/imge/policy/refundPolicy/bag.png",
+    img: "/imge/policy/refundPolicy/bag.webp",
   },
   {
     key: "directPurchases",
-    img: "/imge/policy/refundPolicy/setting.png",
+    img: "/imge/policy/refundPolicy/setting.webp",
   },
 ];
 export const LegalGroundsForNoRefundSiven = [
   {
     key: "governingLaw",
-    img: "/imge/policy/refundPolicy/bag.png",
+    img: "/imge/policy/refundPolicy/bag.webp",
   },
   {
     key: "dataProtectionLaws",
-    img: "/imge/policy/refundPolicy/adl.png",
+    img: "/imge/policy/refundPolicy/adl.webp",
   },
   {
     key: "jurisdiction",
-    img: "/imge/policy/refundPolicy/se.png",
+    img: "/imge/policy/refundPolicy/se.webp",
   },
 ];
 export const ContactBeforePurchase = [
   {
     key: "supportTeam",
-    img: "/imge/policy/refundPolicy/serves.png",
+    img: "/imge/policy/refundPolicy/serves.webp",
   },
   {
     key: "contactUs",
-    img: "/imge/policy/refundPolicy/contactUs.png",
+    img: "/imge/policy/refundPolicy/contactUs.webp",
   },
   {
     key: "location",
-    img: "/imge/policy/refundPolicy/location.png",
+    img: "/imge/policy/refundPolicy/location.webp",
   },
   {
     key: "purchaseClarification",
-    img: "/imge/policy/refundPolicy/mon.png",
+    img: "/imge/policy/refundPolicy/mon.webp",
   },
   {
     key: "acknowledgement",
-    img: "/imge/policy/refundPolicy/worning.png",
+    img: "/imge/policy/refundPolicy/worning.webp",
   },
 ];

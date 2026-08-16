@@ -32,7 +32,7 @@ export default function PrivacyPolicy() {
       <FirstPoint
         className={`${locale === "en" ? "mt-[-56px] md:mt-0 " : ""}`}
         namespace="privacyPolicy.disclaimer"
-        urlImg="/imge/policy/privacyPolicy/ddd.png"
+        urlImg="/imge/policy/privacyPolicy/ddd.webp"
       />
 
       <MapOfAccorditionGradientBox
@@ -46,7 +46,7 @@ export default function PrivacyPolicy() {
       <GradientBorderBox className="w-[90%] mx-auto p-[20px] flex items-center gap-[15px] mt-[20px] ">
         <Image
           data-aos="fade-out"
-          src="/imge/policy/privacyPolicy/cuntactUs.png"
+          src="/imge/policy/privacyPolicy/cuntactUs.webp"
           alt="contactUs"
           width={70}
           height={70}

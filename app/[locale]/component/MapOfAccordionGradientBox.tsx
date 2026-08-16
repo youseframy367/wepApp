@@ -1,3 +1,4 @@
+import Image from "next/image";
 import AccordionGradientBox from "./AccordionGradientBox";
 import { useTranslations } from "next-intl";
 
@@ -26,14 +27,7 @@ export default function MapOfAccorditionGradientBox({
 
   return (
     <div className={`w-[90%] mx-auto relative ${parentClassName}`}>
-      <img
-        src="/imge/effect.png"
-        className={`absolute md:top-[20%] top-[10%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none ${CuntEffect === 1 || CuntEffect === 2 || CuntEffect === 0
-            ? "hidden"
-            : "block"
-          }`}
-        alt="effect"
-      />
+      <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className="" />
 
       <img
         src="/imge/effectTwo.svg"
@@ -41,11 +35,7 @@ export default function MapOfAccorditionGradientBox({
         alt="effect"
       />
 
-      <img
-        src="/imge/effect.png"
-        className={` ${CuntEffect === 0 ? "hidden" : ""} absolute top-[50%] md:hidden left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none`}
-        alt="effect"
-      />
+      <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className="" />
 
       <img
         src="/imge/effectTwo.svg"

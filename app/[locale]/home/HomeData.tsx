@@ -2,19 +2,19 @@ export interface TypeData { img: string; key: string; }
 
 export const WhatIsEXPRO: TypeData[] = [
   {
-    img: "/imge/home/easeToUse.png",
+    img: "/imge/home/easeToUse.webp",
     key: "easeToUse"
   },
   {
-    img: "/imge/home/core.png",
+    img: "/imge/home/core.webp",
     key: "coreFeatures"
   },
   {
-    img: "/imge/home/prantalControl.png",
+    img: "/imge/home/prantalControl.webp",
     key: "parentalControls"
   },
   {
-    img: "/imge/home/secur.png",
+    img: "/imge/home/secur.webp",
     key: "securePlayback"
   }
 ];
@@ -22,18 +22,18 @@ export const WhatIsEXPRO: TypeData[] = [
 export const supportedBlatform: TypeData[] = [
   {
     key: "smartTv",
-    img: "/imge/home/exproSmartTV.png",
+    img: "/imge/home/exproSmartTV.webp",
   },
   {
     key: "androidDevices",
-    img: "/imge/home/androidDevice.png",
+    img: "/imge/home/androidDevice.webp",
   },
   {
     key: "appleDevices",
-    img: "/imge/home/abbDevices.png",
+    img: "/imge/home/abbDevices.webp",
   },
   {
     key: "pcAndLaptop",
-    img: "/imge/home/pcAndLabtop.png",
+    img: "/imge/home/pcAndLabtop.webp",
   },
 ];

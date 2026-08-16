@@ -2,7 +2,7 @@ export interface TypeData { img: string; key: string;}
 export const PrivacyPolicyData: TypeData[] = [
   {
     key: "mediaPlayerOnly",
-    img: "/imge/policy/privacyPolicy/logo.png",
+    img: "/imge/policy/privacyPolicy/logo.webp",
   },
   {
     key: "platformDataSecurity",
@@ -10,67 +10,67 @@ export const PrivacyPolicyData: TypeData[] = [
   },
   {
     key: "permissionsUsed",
-    img: "/imge/policy/privacyPolicy/lesning.png",
+    img: "/imge/policy/privacyPolicy/lesning.webp",
   },
   {
     key: "userGeneratedContent",
-    img: "/imge/policy/privacyPolicy/visa.png",
+    img: "/imge/policy/privacyPolicy/visa.webp",
   },
   {
     key: "informationWeCollect",
-    img: "/imge/policy/privacyPolicy/info.png",
+    img: "/imge/policy/privacyPolicy/info.webp",
   },
   {
     key: "howWeUseInformation",
-    img: "/imge/policy/privacyPolicy/HowUsInfo.png",
+    img: "/imge/policy/privacyPolicy/HowUsInfo.webp",
   },
   {
     key: "legalBasisForProcessing",
-    img: "/imge/policy/privacyPolicy/todo.png",
+    img: "/imge/policy/privacyPolicy/todo.webp",
   },
   {
     key: "sharingYourInformation",
-    img: "/imge/policy/privacyPolicy/sherInfo.png",
+    img: "/imge/policy/privacyPolicy/sherInfo.webp",
   },
   {
     key: "internationalDataTransfers",
-    img: "/imge/policy/privacyPolicy/translateInfo.png",
+    img: "/imge/policy/privacyPolicy/translateInfo.webp",
   },
   {
     key: "dataRetention",
-    img: "/imge/policy/privacyPolicy/seftiInfo.png",
+    img: "/imge/policy/privacyPolicy/seftiInfo.webp",
   },
   {
     key: "yourDataRights",
-    img: "/imge/policy/privacyPolicy/seveData.png",
+    img: "/imge/policy/privacyPolicy/seveData.webp",
   },
   {
     key: "dataSecurity",
-    img: "/imge/policy/privacyPolicy/sefteOfdata.png",
+    img: "/imge/policy/privacyPolicy/sefteOfdata.webp",
   },
 
   {
     key: "childrenPrivacy",
-    img: "/imge/policy/privacyPolicy/sohibleKeds.png",
+    img: "/imge/policy/privacyPolicy/sohibleKeds.webp",
   },
   {
     key: "externalLinks",
-    img: "/imge/policy/privacyPolicy/outputUrl.png",
+    img: "/imge/policy/privacyPolicy/outputUrl.webp",
   },
   {
     key: "googleAdvertising",
-    img: "/imge/policy/privacyPolicy/gogelSeting.png",
+    img: "/imge/policy/privacyPolicy/gogelSeting.webp",
   },
   {
     key: "consentCookies",
-    img: "/imge/policy/privacyPolicy/fileConcat.png",
+    img: "/imge/policy/privacyPolicy/fileConcat.webp",
   },
   {
     key: "logFiles",
-    img: "/imge/policy/privacyPolicy/segalNezam.png",
+    img: "/imge/policy/privacyPolicy/segalNezam.webp",
   },
   {
     key: "privacyPolicyChanges",
-    img: "/imge/policy/privacyPolicy/changeSbichial.png",
+    img: "/imge/policy/privacyPolicy/changeSbichial.webp",
   },
 ];

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Worning from "../component/Warning";
 import { useLocale , useTranslations } from "next-intl";
 export default function Baner() {
@@ -49,12 +50,7 @@ export default function Baner() {
             {t("trial")}
           </p>
         </div>
-        <img
-          data-aos="fade-out"
-          src="/imge/home/EXBRO.png"
-          alt="EX-PRO"
-          className="z-5 mx-auto md:mx-0"
-        ></img>
+        <Image src="/imge/home/EXBRO.webp" alt="EX-PRO" width={560} height={331} loading="lazy" priority data-aos="fade-out" className="z-5 mx-auto md:mx-0" />
       </div>
 
       <Worning

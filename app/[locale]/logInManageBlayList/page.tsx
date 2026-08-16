@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 import GradientBorderBox from "../component/GradientBox";
 import { useLocale, useTranslations } from "next-intl";
@@ -101,11 +102,7 @@ export default function ManagBlayList() {
 
   return (
     <div className="flex flex-col justify-center items-center md:min-h-[110vh] min-h-[70vh]">
-      <img
-        src="/imge/effect.png"
-        className="absolute md:top-[0%] top-[10%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"
-        alt="effect"
-      />
+      <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className="absolute md:top-[0%] top-[10%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none" />
 
       <h1
         className={`text-primary-animated tracking-[-0.25px] font-[500] md:font-[700] ${locale === "ar"
@@ -136,7 +133,7 @@ export default function ManagBlayList() {
 
               <GradientBorderBox className="flex justify-between h-[43px] px-[15px]">
                 <div className="flex gap-[10px]">
-                  <img src={item.img} alt="icon" width="24" height="24" />
+                  <Image src={item.img} alt="icon" width={24} height={24} unoptimized loading="lazy" />
 
                   <div className="w-[1px] h-[27px] bg-primary my-auto"></div>
 
@@ -159,7 +156,7 @@ export default function ManagBlayList() {
                     type="button"
                     className="w-[31px] h-[28px] cursor-pointer border-primary rounded-[4px] flex justify-center items-center my-auto"
                   >
-                    <img src={item.imgRelode} alt="reload" />
+                    <Image src={item.imgRelode} alt="reload" unoptimized loading="lazy" />
                   </button>
                 )}
               </GradientBorderBox>

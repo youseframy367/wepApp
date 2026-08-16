@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import BanerCommponnt from "../../component/Banner";
 import Worning from "../../component/Warning";
 import { agreementCustomerData } from "./AgreementCustomerDate";
@@ -27,11 +28,7 @@ export default function AgreementCustomer(){
           data-aos="fade-up"
           className={`${local === "ar" ? "font-cairo " : ""} flex md:gap-[20px] gap-[10px]`}
         >
-          <img
-            src="/imge/agreement/customer/about.png"
-            alt="aboutIcon"
-            className="w-auto md:w-[120px]"
-          ></img>
+          <Image src="/imge/agreement/customer/about.webp" alt="aboutIcon" width={114} height={108} loading="lazy"  className="w-auto md:w-[120px]" />
           <div className=" flex flex-col md:gap-[10px] gap-[5px]">
             <h2
               className={`${local === "ar" ? "font-cairo md:text-[30px] md:font-[500] text-[20px] font-[400]" : "md:font-[500] text-[20px] mb-[-5px]"} text-start text-primary font-medium md:text-[26px] min-[425px]:text-xl text-base`}

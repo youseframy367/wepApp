@@ -1,4 +1,5 @@
 import Container from "./Container";
+import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 
 interface BanerCommponntProps {
@@ -21,7 +22,13 @@ export default function BanerCommponnt({
   const content = (
     <div className="w-[100%] h-[115px] flex flex-col gap-[15px] justify-center items-center md:mt-[100px] mt-[90px]">
       {imgUrl && (
-        <img src={imgUrl} className={classNameImg} alt={t("title")} />
+        <Image
+          src={imgUrl}
+          className={classNameImg}
+          alt={t("title")}
+          unoptimized
+          loading="lazy"
+        />
       )}
 
       <h1

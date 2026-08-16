@@ -3,106 +3,106 @@ export interface FAQItem { img: string; key: string; }
 
 export const GeneralInformation: FAQItem[] = [
     {
-        img: "/imge/FAQ/WhatisExPro.png",
+        img: "/imge/FAQ/WhatisExPro.webp",
         key: "WhatisExPro",
     },
     {
-        img: "/imge/FAQ/different.png",
+        img: "/imge/FAQ/different.webp",
         key: "differentFromOtherMedia",
     },
     {
-        img: "/imge/FAQ/countries.png",
+        img: "/imge/FAQ/countries.webp",
         key: "countries",
     },
 ];
 
 export const AccountRegistration: FAQItem[] = [
     {
-        img: "/imge/FAQ/createAccount.png",
+        img: "/imge/FAQ/createAccount.webp",
         key: 'createAccount'
     },
     {
-        img: '/imge/FAQ/information.png',
+        img: '/imge/FAQ/information.webp',
         key: 'information',
 
     },
     {
-        img: '/imge/FAQ/multipleAccounts.png',
+        img: '/imge/FAQ/multipleAccounts.webp',
         key: "multipleAccounts"
     }
 ]
 export const Subscription: FAQItem[] = [
     {
-        img: '/imge/FAQ/subscription.png',
+        img: '/imge/FAQ/subscription.webp',
         key: "subscriptionBenefits"
     },
     {
-        img: '/imge/FAQ/billed.png',
+        img: '/imge/FAQ/billed.webp',
         key: "billing"
     },
     {
-        img: '/imge/FAQ/ddd.png',
+        img: '/imge/FAQ/ddd.webp',
         key: "cancellation"
     },
 ]
 export const TechnicalSupport: FAQItem[] = [
     {
-        img: '/imge/FAQ/crashing.png',
+        img: '/imge/FAQ/crashing.webp',
         key: "appCrashing"
     },
     {
-        img: '/imge/FAQ/videoPlay.png',
+        img: '/imge/FAQ/videoPlay.webp',
         key: "videoPlayback"
     },
 
 ]
 export const DataProtection: FAQItem[] = [
     {
-        img: '/imge/FAQ/track.png',
+        img: '/imge/FAQ/track.webp',
         key: "tracking",
     },
     {
-        img: "/imge/FAQ/dataProtected.png",
+        img: "/imge/FAQ/dataProtected.webp",
         key: "dataSecurity"
     }
 ]
 export const LegalCompliance: FAQItem[] = [
     {
-        img: "/imge/FAQ/responsible.png",
+        img: "/imge/FAQ/responsible.webp",
         key: 'contentResponsibility'
     },
     {
-        img: "/imge/FAQ/violate.png",
+        img: "/imge/FAQ/violate.webp",
         key: 'termsViolations'
     },
 ]
 export const DeviceManagement: FAQItem[] = [
     {
-        img: "/imge/FAQ/devicescanIuse.png",
+        img: "/imge/FAQ/devicescanIuse.webp",
         key: "deviceLimit"
     },
     {
-        img: "/imge/FAQ/manageDevices.png",
+        img: "/imge/FAQ/manageDevices.webp",
         key: "deviceManagement"
     },
 ]
 export const Payment: FAQItem[] = [
     {
-        img: "/imge/FAQ/paymentMethods.png",
+        img: "/imge/FAQ/paymentMethods.webp",
         key: "paymentMethods"
     },
     {
-        img: '/imge/FAQ/offerRefunds.png',
+        img: '/imge/FAQ/offerRefunds.webp',
         key: 'refundPolicy'
     }
 ]
 export const Travel: FAQItem[] = [
     {
-        img: "/imge/FAQ/whileTraveling.png",
+        img: "/imge/FAQ/whileTraveling.webp",
         key: 'travelUsage'
     },
     {
-        img: '/imge/FAQ/chargedExtra.png',
+        img: '/imge/FAQ/chargedExtra.webp',
         key: "additionalCharges"
     }
 ]

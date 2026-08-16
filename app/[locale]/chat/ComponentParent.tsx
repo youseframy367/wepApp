@@ -22,7 +22,7 @@ export default function Chat() {
         className="fixed bottom-3 right-3 w-[73px]"
       >
         <img
-          src={isOpen ? "/imge/Chat/drwer.svg" : "/imge/Chat/openChat.png"}
+          src={isOpen ? "/imge/Chat/drwer.svg" : "/imge/Chat/openChat.webp"}
           alt="chat"
         />
       </button>

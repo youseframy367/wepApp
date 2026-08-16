@@ -1,4 +1,5 @@
 import { WhatIsEXPRO } from "../home/HomeData";
+import Image from "next/image";
 import GradientBorderBox from "../component/GradientBox";
 import { useLocale } from "next-intl";
 import { useTranslations } from "next-intl";
@@ -10,7 +11,15 @@ export default function WhatIsExpro() {
   return (
     <div className="flex flex-col">
       <div className="flex md:flex-row flex-col  w-[90%] mx-auto md:justify-between my-[70px] items-center">
-        <img src="/imge/home/WhatIsEXPRO.png" alt="WhatIsExPro"  data-aos="fade-out"></img>
+        <Image
+          src="/imge/home/WhatIsEXPRO.webp"
+          alt="WhatIsExPro"
+          width={520}
+          height={308}
+          sizes="(min-width: 768px) 520px, 90vw"
+          className="w-full h-auto"
+          data-aos="fade-out"
+        />
 
         <div className="flex items-center flex-col gap-[14px] md:w-[520px] w-[100%] items-start">
           <h1
@@ -40,17 +49,9 @@ export default function WhatIsExpro() {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 relative z-10 w-[90%] mx-auto md:my-[20px] my-[10px]">
-        <img
-          src="/imge/effect.png"
-          className="absolute md:top-[40%] top-[10%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"
-          alt="effect"
-        />
+        <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className="absolute md:top-[40%] top-[10%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none" />
 
-         <img
-          src="/imge/effect.png"
-          className="absolute md:hidden block top-[60%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"
-          alt="effect"
-        />
+         <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className="absolute md:hidden block top-[60%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none" />
         {WhatIsEXPRO.map((item, index) => (
           <GradientBorderBox
             key={index}

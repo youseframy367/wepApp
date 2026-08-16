@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { supportedBlatform } from "./HomeData";
 import GradientBorderBox from "../component/GradientBox";
 import BlackBox from "../component/BlackBox";
@@ -23,11 +24,7 @@ export default function BlatformSupport() {
         </p>
       </div>
       <div className="flex flex-col items-center  relative">
-        <img
-          src="/imge/effect.png"
-          className="absolute md:top-[20%] top-[10%] scale-x-[-1] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"
-          alt="effect"
-        />
+        <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className="absolute md:top-[20%] top-[10%] scale-x-[-1] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none" />
         <div
           className={`flex overflow-x-auto md:overflow-x-visible no-scrollbar overflow-y-visible gap-[12px] md:w-[90%] w-[110%]   ${locale === "ar" ? "mr-[-5%]" : "ml-[-5%]"} md:mx-auto mx-auto md:my-[70px] my-[40px]`}
         >
@@ -77,11 +74,7 @@ export default function BlatformSupport() {
           {t("activation.title")}
         </h1>
         <div className="w-[100%] md:my-[50px] my-[30px] flex md:flex-row flex-col md:gap-[10px] gap-[15px] relative">
-          <img
-            src="/imge/effect.png"
-            className="absolute md:top-[20%] top-[10%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"
-            alt="effect"
-          />
+          <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className="absolute md:top-[20%] top-[10%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none" />
           <BlackBox  borderEfect={false} className="flex flex-col  justify-center items-center md:w-[33%] w-[100%] h-[175px]">
             <h1
               data-aos="fade-out"
@@ -161,11 +154,7 @@ export default function BlatformSupport() {
           {t("plans.title")}
         </h1>
         <div className="w-[100%] md:my-[50px] my-[20px] flex md:flex-row flex-col md:justify-between md:gap-[10px] gap-[15px] relative">
-          <img
-            src="/imge/effect.png"
-            className="absolute md:top-[0%] top-[10%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"  
-            alt="effect"
-          />
+          <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className="absolute md:top-[0%] top-[10%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none" />
           <BlackBox  borderEfect={false}  className="flex md:w-[45%] w-[100%] px-[15px] items-center gap-[15px] h-[102px] ">
             <img
               data-aos="fade-out"

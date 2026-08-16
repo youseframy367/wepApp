@@ -17,7 +17,7 @@ export default function Container({
       style={
         withBackground
           ? {
-              backgroundImage: "url(/imge/effect.png)",
+              backgroundImage: "url(/imge/effect.webp)",
               ...style,
             }
           : style

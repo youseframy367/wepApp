@@ -1,5 +1,6 @@
-import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
+import enSeo from "../messages/en/Seo.json";
+import arSeo from "../messages/ar/Seo.json";
 
 type SeoOptions = {
   locale: string;
@@ -10,24 +11,38 @@ type SeoOptions = {
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://exclusivemovies.com";
 
+// Direct JSON imports — bypass next-intl message loader, which fails to
+// resolve the "Seo" namespace at runtime in production.
+function readSeo({ locale, namespace }: { locale: string; namespace: string }): {
+  title: string;
+  description: string;
+} {
+  const data = locale === "ar" ? arSeo : enSeo;
+  const pageKey = namespace.startsWith("Seo.") ? namespace.slice(4) : namespace;
+  const page = (data as Record<string, unknown>)[pageKey] as
+    | { title?: string; description?: string }
+    | undefined;
+  return {
+    title: page?.title ?? "",
+    description: page?.description ?? "",
+  };
+}
+
 export async function generateSeo({
   locale,
   namespace,
   path,
   image = "/og-image.jpg",
 }: SeoOptions): Promise<Metadata> {
-  const t = await getTranslations({
-    locale,
-    namespace,
-  });
+  const { title, description } = readSeo({ locale, namespace });
 
   const url = `${BASE_URL}/${locale}${path}`;
 
   return {
     metadataBase: new URL(BASE_URL),
 
-    title: t("title"),
-    description: t("description"),
+    title,
+    description,
 
     alternates: {
       canonical: url,
@@ -50,8 +65,8 @@ export async function generateSeo({
     },
 
     openGraph: {
-      title: t("title"),
-      description: t("description"),
+      title,
+      description,
       url,
       siteName: "Exclusive Movies",
       locale: locale === "ar" ? "ar_EG" : "en_US",
@@ -61,15 +76,15 @@ export async function generateSeo({
           url: image,
           width: 1200,
           height: 630,
-          alt: t("title"),
+          alt: title,
         },
       ],
     },
 
     twitter: {
       card: "summary_large_image",
-      title: t("title"),
-      description: t("description"),
+      title,
+      description,
       images: [image],
     },
   };

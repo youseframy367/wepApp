@@ -21,7 +21,7 @@ export default function SupportedDevices() {
 
   return (
     <div className="relative flex flex-col justify-center">
-      <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className="absolute top-[10%] left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none z-0 md:top-[20%]" />
+      <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy"  className="absolute top-[10%] left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none z-0 md:top-[20%]" />
 
       <h1 className="text-primary text-[24px] md:text-[40px] my-10 font-semibold text-center relative z-10" data-aos="fade-up">
         {t("SupportedDevicesTitle")}

@@ -27,7 +27,7 @@ export default function MapOfAccorditionGradientBox({
 
   return (
     <div className={`w-[90%] mx-auto relative ${parentClassName}`}>
-      <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className=" w-[100%] h-auto" />
+      <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy"  className=" w-[100%] h-auto" />
 
       <Image
         src="/imge/effectTwo.webp"
@@ -38,7 +38,7 @@ export default function MapOfAccorditionGradientBox({
         height="508"
       />
 
-      <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className=" w-[100%] h-auto" />
+      <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy"  className=" w-[100%] h-auto" />
 
       <Image
         src="/imge/effectTwo.webp"

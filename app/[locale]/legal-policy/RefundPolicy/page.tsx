@@ -111,7 +111,7 @@ export default function RefundPolicy() {
         namespace="refundPolicy.legalGroundsForNoRefund"
       />
       <div className=" relative">
-        <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className="absolute top-[50%] 
+        <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy"  className="absolute top-[50%] 
         
           left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none" />
         <ComponntBox
@@ -126,7 +126,7 @@ export default function RefundPolicy() {
         namespace="refundPolicy.contactBeforePurchase"
       />
       <div className=" relative">
-        <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className="absolute top-[50%] 
+        <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy"  className="absolute top-[50%] 
         
           left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none" />
         <ComponntBox

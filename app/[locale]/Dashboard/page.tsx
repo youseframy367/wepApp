@@ -19,7 +19,7 @@ export default function Dashboard() {
 
   return (
     <div className="text-center flex flex-col gap-[10px] relative">
-      <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className="absolute md:top-[-2%] top-[0%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none" />
+      <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy"  className="absolute md:top-[-2%] top-[0%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none" />
       <h1 data-aos="fade-up" className="font-montserrat font-[700] md:mt-[100px] mt-[70px] md:text-[70px] text-[60px] text-primary-animated items-center">
         {t("title")}
       </h1>
@@ -81,7 +81,7 @@ export default function Dashboard() {
         </p>
       </div>
       <div className="grid md:grid-cols-2  grid-cols-1 mt-[20px] w-[90%] mx-auto gap-[20px] text-start relative">
-        <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className="absolute md:top-[20%] top-[0%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none" />
+        <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy"  className="absolute md:top-[20%] top-[0%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none" />
         {DashboardData.map((item) => (
           <BlackBox
             borderEfect={false}

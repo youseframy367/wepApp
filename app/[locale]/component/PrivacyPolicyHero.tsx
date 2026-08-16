@@ -24,7 +24,7 @@ export default function PrivacyPolicyHero({
       className={`w-[90%] md:flex-row flex-col relative mx-auto flex items-center justify-between ${className}`}
     >
       {effect && (
-        <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className="absolute md:top-[70%] top-[10%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none" />
+        <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy"  className="absolute md:top-[70%] top-[10%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none" />
       )}
       <img
         src={img}

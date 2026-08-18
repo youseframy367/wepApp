@@ -40,7 +40,7 @@ export default function OurMissionPage() {
             <img
               src={item.img}
               alt="icon"
-              className={` ${locale === "en" ? "md:ml-[-60px] ml-[-50px] " : "md:mr-[-60px] mr-[-50px]"} z-[91] relative md:w-auto w-[80px] `}
+              className={` ${locale === "en" ? "md:ml-[-60px] ml-[-50px] " : "md:mr-[-60px] mr-[-50px]"} z-[91] relative md:w-[110px] w-[80px] `}
             />
             <div className="flex flex-col gap-[8px]">
               <h2

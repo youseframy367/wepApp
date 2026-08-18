@@ -1,5 +1,5 @@
 "use client";
-import { JSX, useState } from "react";
+import { JSX, useState, useEffect } from "react";
 import BlackBox from "../component/BlackBox";
 import { useLocale, useTranslations } from "next-intl";
 type Plan = 1 | 2;
@@ -17,6 +17,24 @@ export default function Activation(): JSX.Element {
   const [indexSelect, setIndexSelect] = useState<number>(0)
   const [cartActive, setCartActive] = useState<number>(0);
   const fontClass = locale === "en" ? "font-inter" : "font-cairo";
+
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const stripeItems = isMobile
+    ? ["stripe", "stripe", "stripe"]
+    : ["stripe", "stripe", "stripe", "stripe", "stripe"];
 
 
   const paymentMethods: PaymentMethod[] = [
@@ -42,17 +60,17 @@ export default function Activation(): JSX.Element {
 
   return (
     <div>
-      <h1 className={`text-primary font-[400] ${fontClass} text-[18px] md:mb-0 mb-[20px] tracking-[-0.25px]`}>
+      <h1 className={`text-primary font-[400] ${fontClass} text-[18px] md:mb-0 mb-[20px] mx-[15px] tracking-[-0.25px]`}>
         {t("title")}
       </h1>
       <h2 className={`font-[600] text-[24px] ${fontClass} text-primary tracking-[-0.25px] text-center`}>
         {t("titleOfSelectPlan")}
       </h2>
 
-      <div className="w-[100%] md:my-[30px] my-[40px] flex md:flex-row flex-col md:justify-between md:gap-[10px] gap-[15px] ">
+      <div className="w-[100%] md:my-[30px] my-[40px] flex md:flex-row flex-col md:justify-between md:gap-[10px] gap-[15px] relative ">
         <BlackBox
           borderEfect={false}
-          className={` ${selectPlan !== 2 ? "opacity-60" : ""} flex md:w-[45%] w-[100%] px-[15px] items-center gap-[15px] h-[102px] `}
+          className={` ${selectPlan !== 2 ? "opacity-60" : ""} flex md:w-[45%] w-[95%] md:mx-0 mx-auto px-[15px] items-center gap-[15px] h-[102px] `}
           onClick={() => setSelectPlan(2)}
         >
           <img
@@ -72,8 +90,8 @@ export default function Activation(): JSX.Element {
             <p
               data-aos="fade-up"
               className={`${locale === "en"
-                  ? "font-montserrat font-[600] text-[12px]"
-                  : "font-cairo font-[500] text-[14px]"
+                ? "font-montserrat font-[600] text-[12px]"
+                : "font-cairo font-[500] text-[14px]"
                 }`}
             >
               {t("plans.yearly.text")}{" "}
@@ -85,7 +103,7 @@ export default function Activation(): JSX.Element {
         </BlackBox>
         <BlackBox
           borderEfect={false}
-          className={` ${selectPlan !== 1 ? "opacity-60" : ""}  flex md:w-[45%] w-[100%] px-[15px] items-center gap-[15px] h-[102px] `}
+          className={` ${selectPlan !== 1 ? "opacity-60" : ""}  flex md:w-[45%] w-[95%] md:mx-0 mx-auto px-[15px] items-center gap-[15px] h-[102px] `}
           onClick={() => setSelectPlan(1)}
         >
           <img
@@ -105,8 +123,8 @@ export default function Activation(): JSX.Element {
             <p
               data-aos="fade-up"
               className={`${locale === "en"
-                  ? "font-montserrat font-[600] text-[12px]"
-                  : "font-cairo font-[500] text-[14px]"
+                ? "font-montserrat font-[600] text-[12px]"
+                : "font-cairo font-[500] text-[14px]"
                 }`}
             >
               {t("plans.halfYear.text")}{" "}
@@ -122,20 +140,26 @@ export default function Activation(): JSX.Element {
         {t("titleOfTypePayment")}
       </h2>
       <div className="flex justify-around my-[40px]">
-        {["stripe", "stripe", "stripe", "stripe", "stripe"].map(
-          (item, index) => (
-            <div
-              key={index}
-              className={`${indexSelect === index
-                  ? "opacity-100 font-[800] "
-                  : "opacity-25 font-[500]"
-                } w-[113px] h-[44px] flex justify-center items-center font-inter text-[18px]  text-primary border-[1px] border-primary rounded-[4px]`}
-              onClick={() => setIndexSelect(index)}
-            >
-              {item}
-            </div>
-          ),
-        )}
+        {stripeItems.map((item, index) => (
+          <div
+            key={index}
+            className={`
+        ${indexSelect === index
+                ? "opacity-100 font-[800]"
+                : "opacity-25 font-[500]"
+              }
+        w-[113px] h-[44px]
+        flex justify-center items-center
+        font-inter text-[18px]
+        text-primary
+        border-[1px] border-primary
+        rounded-[4px]
+      `}
+            onClick={() => setIndexSelect(index)}
+          >
+            {item}
+          </div>
+        ))}
       </div>
       <h2 className={`font-[600] text-[24px] ${fontClass} text-primary tracking-[-0.25px] text-center`}>
         {t("ChooseyourPaymentType")}
@@ -146,8 +170,8 @@ export default function Activation(): JSX.Element {
           <div
             key={index}
             className={`md:w-[258px] w-[80%] md:mx-0 mx-auto px-[20px] h-[100px] rounded-[12px] flex gap-[10px] md:justify-center justify-start items-center ${cartActive === index
-                ? "border-[1.5px] border-primary bg-[#261D08]"
-                : " border-[#D4A82A33]/20 bg-[#0F0A03] "
+              ? "border-[1.5px] border-primary bg-[#261D08]"
+              : " border-[#D4A82A33]/20 bg-[#0F0A03] "
               }relative z-[9999]`}
             onClick={() => setCartActive(index)}
           >

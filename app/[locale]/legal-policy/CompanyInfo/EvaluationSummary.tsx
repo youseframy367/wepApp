@@ -26,20 +26,20 @@ export default function EvaluationSummary() {
         </p>
       </div>
 
-      <div className="md:w-[90%] w-[100%] mx-auto my-[30px] overflow-x-auto">
-        <div className="flex justify-around md:justify-around gap-4 min-w-max">
-          {criteria.map((item, index) => (
-            <GradientBorderBox
-              key={index}
-              className="w-[194px] h-[98px] shrink-0 py-[13px] px-[5px] flex justify-center items-center font-[700] text-[14px] text-primary text-center font-Montserrat"
-            >
-              {item.title}
-              <br />
-              {item.rating}
-            </GradientBorderBox>
-          ))}
-        </div>
-      </div>
+   <div className="md:w-[90%] w-full mx-auto my-[30px] overflow-x-auto md:overflow-x-visible overflow-y-hidden no-scrollbar">
+  <div className="flex gap-4 min-w-max md:min-w-0 md:justify-around">
+    {criteria.map((item, index) => (
+      <GradientBorderBox
+        key={index}
+        className="w-[194px] h-[98px] shrink-0 py-[13px] px-[5px] flex justify-center items-center font-[700] text-[14px] text-primary text-center font-Montserrat"
+      >
+        {item.title}
+        <br />
+        {item.rating}
+      </GradientBorderBox>
+    ))}
+  </div>
+</div>
     </div>
   );
 }

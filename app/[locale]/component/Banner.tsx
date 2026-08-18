@@ -24,7 +24,10 @@ export default function BanerCommponnt({
       {imgUrl && (
         <Image
           src={imgUrl}
+           width={170}
+    height={170}
           className={classNameImg}
+
           alt={t("title")}
           unoptimized
           loading="lazy"

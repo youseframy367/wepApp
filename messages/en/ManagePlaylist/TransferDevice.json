@@ -1,5 +1,5 @@
 {
-  "TransferDevice": {
+  "TransferDevic": {
     "title": "Device ID",
     "subtitle": "New Transfer Device (Max length: 17)",
     "description": "Transfer your activation and playlists to another device MAC Address. Please note that you can switch activation only one time.",

@@ -17,7 +17,7 @@ export default function WhatIsExpro() {
           width={520}
           height={308}
           sizes="(min-width: 768px) 520px, 90vw"
-          className="w-full h-auto"
+          className="w-full h-auto md:w-[45%]"
           data-aos="fade-out"
         />
 
@@ -49,9 +49,9 @@ export default function WhatIsExpro() {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 relative z-10 w-[90%] mx-auto md:my-[20px] my-[10px]">
-        <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className="absolute md:top-[40%] top-[10%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none" />
+        <Image src="/imge/effect.webp" alt="effect" width={1280} height={509}  priority  className="absolute md:top-[40%] top-[10%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none" />
 
-         <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy" priority  className="absolute md:hidden block top-[60%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none" />
+         <Image src="/imge/effect.webp" alt="effect" width={1280} height={509}  priority  className="absolute md:hidden block top-[60%]  left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none" />
         {WhatIsEXPRO.map((item, index) => (
           <GradientBorderBox
             key={index}

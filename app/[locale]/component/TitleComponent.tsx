@@ -15,8 +15,8 @@ export default function Title({ titleKey, urlImg = "/imge/policy/DoNotSellOrShar
       <Image
         src={urlImg}
         alt={t.has(safeTitleKey) ? t(safeTitleKey) : safeTitleKey}
-        width={40}
-        height={40}
+        width={50}
+        height={50}
       />
 
       <h1

@@ -6,10 +6,11 @@ interface AccordionItem {
   key: string;
   img: string;
 }
+
 interface MapOfAccordionGradientBoxProps {
   AccordionGradientBoxclassName?: string;
   data: AccordionItem[];
-  visibleLines?: 2|3;
+  visibleLines?: 2 | 3;
   parentClassName?: string;
   CuntEffect?: number;
   namespace: string;
@@ -22,50 +23,95 @@ export default function MapOfAccorditionGradientBox({
   parentClassName,
   CuntEffect = 3,
   namespace,
-}:MapOfAccordionGradientBoxProps) {
+}: MapOfAccordionGradientBoxProps) {
   const t = useTranslations(namespace);
 
   return (
-    <div className={`w-[90%] mx-auto relative ${parentClassName}`}>
-      <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy"  className=" w-[100%] h-auto" />
+    <div
+      className={`w-[90%] mx-auto relative ${parentClassName ?? ""}`}
+    >
+      {/* Effect 1 - Desktop */}
+      <Image
+        src="/imge/effect.webp"
+        alt="effect"
+        width={1280}
+        height={509}
+        loading="lazy"
+        className={`absolute md:top-[20%] top-[10%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none w-full h-auto ${
+          CuntEffect === 1 ||
+          CuntEffect === 2 ||
+          CuntEffect === 0
+            ? "hidden"
+            : "block"
+        }`}
+      />
 
+      {/* Effect 2 - Desktop */}
       <Image
         src="/imge/effectTwo.webp"
         alt="effect"
+        width={1280}
+        height={508}
         loading="lazy"
         unoptimized
-        width="1280"
-        height="508"
+        className={`absolute md:top-[50%] top-[30%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none w-full h-auto ${
+          CuntEffect === 0 ? "hidden" : "block"
+        }`}
       />
 
-      <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy"  className=" w-[100%] h-auto" />
+      {/* Effect 1 - Mobile */}
+      <Image
+        src="/imge/effect.webp"
+        alt="effect"
+        width={1280}
+        height={509}
+        loading="lazy"
+        className={`absolute top-[50%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none w-full h-auto md:hidden ${
+          CuntEffect === 0 ? "hidden" : "block"
+        }`}
+      />
 
+      {/* Effect 2 - Mobile */}
       <Image
         src="/imge/effectTwo.webp"
         alt="effect"
+        width={1280}
+        height={508}
         loading="lazy"
         unoptimized
-        width="1280"
-        height="508"
+        className={`absolute md:hidden top-[67%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none w-full h-auto ${
+          CuntEffect === 0 ? "hidden" : "block"
+        }`}
       />
 
+      {/* Effect 3 */}
       <Image
         src="/imge/effectThree.webp"
         alt="effect"
+        width={1280}
+        height={661}
         loading="lazy"
         unoptimized
-        width="1280"
-        height="661"
+        className={`absolute md:top-[93%] top-[90%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none w-full h-auto ${
+          CuntEffect === 1 || CuntEffect === 0
+            ? "hidden"
+            : "block"
+        }`}
       />
 
+      {/* Accordion Content */}
       <div
-        className={`grid grid-cols-1 gap-6 relative z-10 ${AccordionGradientBoxclassName}`}
+        className={`grid grid-cols-1 gap-6 relative z-10 ${
+          AccordionGradientBoxclassName ?? ""
+        }`}
       >
         {data.map((item) => {
           const description = t.raw(`${item.key}.description`);
+
           const list = t.has(`${item.key}.list`)
             ? t.raw(`${item.key}.list`)
             : [];
+
           return (
             <AccordionGradientBox
               key={item.key}
@@ -74,7 +120,9 @@ export default function MapOfAccorditionGradientBox({
               visibleLines={visibleLines}
               paragraph={
                 <div>
-                  {typeof description === "string" && <p>{description}</p>}
+                  {typeof description === "string" && (
+                    <p>{description}</p>
+                  )}
 
                   {Array.isArray(description) && (
                     <ul className="list-disc pr-5 space-y-1">

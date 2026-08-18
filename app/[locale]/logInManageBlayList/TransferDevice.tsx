@@ -3,7 +3,9 @@ import { useTranslations, useLocale } from "next-intl";
 import { useState } from "react";
 import api from "@/app/services/api";
 export default function TransferDevice() {
-  const t = useTranslations("TransferDevice");
+const t = useTranslations("TransferDevic");
+
+
   const locale = useLocale();
   const fontClass = locale === "en" ? "font-inter" : "font-cairo";
   const [deviceMac, setDeviceMac] = useState<string>("");
@@ -18,7 +20,7 @@ export default function TransferDevice() {
     }
   };
   return (
-    <div className="flex flex-col gap-[15px]">
+    <div className="flex flex-col gap-[15px] md:mx-0 mx-[10px]">
       <h1
         className={` text-primary ${locale === "en" ? "font-[400] font-inter" : "font-[500] font-cairo"} text-[18px] tracking-[-0.25px]`}
       >
@@ -53,8 +55,8 @@ export default function TransferDevice() {
         </button>
       </form>
       <div className={` ${fontClass} flex items-center gap-[5px] `}>
-        <p className=" font-[500] text-[12px] text-primary">{t("WordNot")}</p>
-        <p className="w-[535px] font-[500]  text-[12px] tracking-[-0.25px]">
+        <p className=" font-[500] text-[12px] text-primary whitespace-nowrap ">{t("WordNot")}</p>
+        <p className="w-[535px] font-[500]  text-[12px] tracking-[-0.25px]  ">
           {t("note")}
         </p>
       </div>

@@ -19,7 +19,7 @@ export default function DeviceKey() {
   };
   return (
     <div
-      className={`flex flex-col gap-[15px] ${locale === "en" ? "font-inter" : "font-cairo"}`}
+      className={`flex flex-col gap-[15px] ${locale === "en" ? "font-inter" : "font-cairo"}md:mx-0 mx-[10px]`}
     >
       <h2
         className={`${locale === "en" ? "font-inter" : "font-cairo font-[600] text-[18px]"} text-primary`}

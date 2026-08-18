@@ -1,5 +1,8 @@
-export interface TypeData { img: string; key: string; }
-
+export interface TypeData {
+  img: string;
+  key: string;
+  className?: string;
+}
 export const WhatIsEXPRO: TypeData[] = [
   {
     img: "/imge/home/easeToUse.webp",
@@ -35,5 +38,6 @@ export const supportedBlatform: TypeData[] = [
   {
     key: "pcAndLaptop",
     img: "/imge/home/pcAndLabtop.webp",
+    className: "mt-[10px]",
   },
 ];

@@ -1,11 +1,11 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
 import ContactIcon from "../component/ContactIcon";
-
+import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
 interface HeaderItem { title: string; navigate: string; }
 
 export default function Header() {
@@ -38,20 +38,47 @@ export default function Header() {
     { title: t("legalPolicy"), navigate: "/legal-policy" },
     { title: t("downloadWatching"), navigate: "/DownloadAndWatching" },
     { title: t("dashboard"), navigate: "/Dashboard" },
-    { title: t("faq") , navigate:"/FAQ" },
+    { title: t("faq"), navigate: "/FAQ" },
   ];
 
+  const headerRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (!open) return;
+
+      if (
+        headerRef.current &&
+        !headerRef.current.contains(event.target as Node)
+      ) {
+        setOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [open]);
+
   return (
-    <header className="fixed top-0 left-0 w-full h-[106px] bg-black z-[999]">
+    <header
+      ref={headerRef}
+      className="fixed top-0 left-0 w-full h-[106px] bg-black z-[999]">
       <div className="flex items-center justify-between px-4 md:px-[15px] h-full">
         {/* Logo */}
-        <Image
-          src="/imge/header/logoHeader.webp"
-          alt="logo Header"
-          width={202}
-          height={61}
-          priority
-        />
+        <Link href={`/${locale}`} className="cursor-pointer">
+
+          <Image
+            src="/imge/header/logoHeader.webp"
+            alt="logo Header"
+            width={202}
+            height={61}
+            priority
+
+          />
+        </Link>
 
         {/* Desktop Menu */}
         <ul className="hidden lg:flex flex-row space-x-6 text-white">
@@ -63,11 +90,10 @@ export default function Header() {
                   navigateWithLocale(item.navigate);
                 }
               }}
-              className={`cursor-pointer font-[500] text-[18px] transition-all duration-300 ${
-                currentPath === item.navigate
+              className={`cursor-pointer font-[500] text-[18px] transition-all duration-300 ${currentPath === item.navigate
                   ? "text-primary-animated"
                   : "text-white hover:text-primary-animated"
-              }`}
+                }`}
             >
               {item.title}
             </li>
@@ -151,17 +177,16 @@ export default function Header() {
           {hidingOfHeader.map((item, i) => (
             <div
               key={i}
-             onClick={() => {
-  setOpen(false);
-  if (item.navigate) {
-    navigateWithLocale(item.navigate);
-  }
-}}
-            className={`cursor-pointer font-[500] text-[18px] transition-all duration-300 ${
-  currentPath === item.navigate
-    ? "text-primary-animated"
-    : "text-white hover:text-primary-animated"
-}`}
+              onClick={() => {
+                setOpen(false);
+                if (item.navigate) {
+                  navigateWithLocale(item.navigate);
+                }
+              }}
+              className={`cursor-pointer font-[500] text-[18px] transition-all duration-300 ${currentPath === item.navigate
+                  ? "text-primary-animated"
+                  : "text-white hover:text-primary-animated"
+                }`}
             >
               {item.title}
             </div>
@@ -179,26 +204,22 @@ export default function Header() {
           >
             <div className="relative w-39 h-9.5 rounded-[20px] p-px overflow-hidden">
               <div
-                className={`contact-border-billboard transition-opacity duration-300 ${
-                  contactHovered ? "opacity-0" : "opacity-100"
-                }`}
+                className={`contact-border-billboard transition-opacity duration-300 ${contactHovered ? "opacity-0" : "opacity-100"
+                  }`}
               />
 
               <div
-                className={`absolute inset-0 bg-primary transition-opacity duration-300 ${
-                  contactHovered ? "opacity-100" : "opacity-0"
-                }`}
+                className={`absolute inset-0 bg-primary transition-opacity duration-300 ${contactHovered ? "opacity-100" : "opacity-0"
+                  }`}
               />
 
               <div
-                className={`relative z-10 h-full rounded-[19px] flex items-center justify-center space-x-2.5 transition-colors duration-300 ${
-                  contactHovered ? "bg-transparent" : "bg-[#0a0a0a]"
-                }`}
+                className={`relative z-10 h-full rounded-[19px] flex items-center justify-center space-x-2.5 transition-colors duration-300 ${contactHovered ? "bg-transparent" : "bg-[#0a0a0a]"
+                  }`}
               >
                 <span
-                  className={`font-inter font-semibold text-base ${
-                    contactHovered ? "text-basic-white" : "text-primary"
-                  }`}
+                  className={`font-inter font-semibold text-base ${contactHovered ? "text-basic-white" : "text-primary"
+                    }`}
                 >
                   {t("contactUs")}
                 </span>
@@ -213,39 +234,39 @@ export default function Header() {
               </div>
             </div>
           </a>
-        
 
 
 
-<div className=" flex justify-center items-center">
-  {!langImgError ? (
-    <img
-      src={
-        locale === "ar"
-          ? "/imge/header/EnLang.svg"
-          : "/imge/header/arLang.svg"
-      }
-      alt="Language"
-      className="cursor-pointer w-[50px]  object-contain"
-      onClick={() => {
-        changeLanguage();
-        setOpen(false);
-      }}
-      onError={() => setLangImgError(true)}
-    />
-  ) : (
-    <button
-      onClick={() => {
-        changeLanguage();
-        setOpen(false);
-      }}
-      className="w-full h-full text-white border border-white/30 rounded-[20px]"
-    >
-      {locale === "ar" ? "EN" : "AR"}
-    </button>
-  )}
-</div>
-</div>
+
+          <div className=" flex justify-center items-center">
+            {!langImgError ? (
+              <img
+                src={
+                  locale === "ar"
+                    ? "/imge/header/EnLang.svg"
+                    : "/imge/header/arLang.svg"
+                }
+                alt="Language"
+                className="cursor-pointer w-[50px]  object-contain"
+                onClick={() => {
+                  changeLanguage();
+                  setOpen(false);
+                }}
+                onError={() => setLangImgError(true)}
+              />
+            ) : (
+              <button
+                onClick={() => {
+                  changeLanguage();
+                  setOpen(false);
+                }}
+                className="w-full h-full text-white border border-white/30 rounded-[20px]"
+              >
+                {locale === "ar" ? "EN" : "AR"}
+              </button>
+            )}
+          </div>
+        </div>
 
       )}
 

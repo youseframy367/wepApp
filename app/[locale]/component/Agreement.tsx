@@ -62,13 +62,45 @@ export default function Agreement({ nameSpace, className, imgOne, imgTwo, imgThr
           </p>
         )}
       </div>
-      {(imgOne || imgTwo || imgThree) && (
-        <div className="flex gap-[30px]">
-          {imgOne && <Image src={imgOne} className="max-w-[150px]" alt="icon" unoptimized loading="lazy" />}
-          {imgTwo && <Image src={imgTwo} className="max-w-[150px]" alt="icon" unoptimized loading="lazy" />}
-          {imgThree && <Image src={imgThree} className="max-w-[150px]" alt="icon" unoptimized loading="lazy" />}
-        </div>
-      )}
+     {(imgOne || imgTwo || imgThree) && (
+  <div className="flex gap-[30px]">
+    {imgOne && (
+      <Image
+        src={imgOne}
+        alt="icon"
+        width={150}
+        height={150}
+        className="max-w-[150px] h-auto object-contain"
+        unoptimized
+        loading="lazy"
+      />
+    )}
+
+    {imgTwo && (
+      <Image
+        src={imgTwo}
+        alt="icon"
+        width={150}
+        height={150}
+        className="max-w-[150px] h-auto object-contain"
+        unoptimized
+        loading="lazy"
+      />
+    )}
+
+    {imgThree && (
+      <Image
+        src={imgThree}
+        alt="icon"
+        width={150}
+        height={150}
+        className="max-w-[150px] h-auto object-contain"
+        unoptimized
+        loading="lazy"
+      />
+    )}
+  </div>
+)}
     </GradientBorderBox>
   );
 }

@@ -20,7 +20,7 @@ export default function UsersStatus() {
   const style = "flex justify-between items-center my-[20px] text-start";
 
   return (
-    <div className={`font-[700] ${locale === "en" ? "font-inter" : "font-cairo"} md:text-[14px] text-[12px] tracking-[-0.25px]  md:mx-[1%]`}>
+    <div className={`font-[700] ${locale === "en" ? "font-inter" : "font-cairo"} md:text-[14px] text-[12px] tracking-[-0.25px]  md:mx-[1%] mx-[15px]`}>
       <div className={`${style} text-primary `}>
         <p>{t("macAddress")}:</p>
         <p>{data.MacAddress}</p>

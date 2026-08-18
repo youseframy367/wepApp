@@ -29,7 +29,7 @@ export default function BlatformSupport() {
           <BlackBox borderEfect={false} className="flex flex-col  justify-center items-center md:w-[33%] w-[100%] h-[175px]">
             <h1
               data-aos="fade-out"
-              className={`${locale === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] md:text-[60px] text-[70px] mt-[-10px]  text-primary`}
+              className={`${locale === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] text-[60px]  mt-[-10px]  text-primary`}
             >
               {t("stepOne.id")}
             </h1>
@@ -49,7 +49,7 @@ export default function BlatformSupport() {
           <BlackBox borderEfect={false} className="flex flex-col  justify-center items-center md:w-[33%] w-[100%] h-[175px]">
             <h1
               data-aos="fade-out"
-              className={`${locale === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] md:text-[60px] text-[70px] mt-[-10px]  text-primary`}
+              className={`${locale === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] text-[60px]  mt-[-10px]  text-primary`}
             >
               {t("stepTwo.id")}
             </h1>
@@ -71,7 +71,7 @@ export default function BlatformSupport() {
           <BlackBox borderEfect={false} className="flex flex-col justify-center items-center md:w-[33%] w-[100%] h-[175px]">
             <h1
               data-aos="fade-out"
-              className={`${locale === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] md:text-[60px] text-[70px] mt-[-10px] text-primary`}
+              className={`${locale === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] text-[60px]  mt-[-10px] text-primary`}
             >
               {t("stepThree.id")}
             </h1>

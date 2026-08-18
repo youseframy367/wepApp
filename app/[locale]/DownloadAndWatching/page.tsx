@@ -21,7 +21,7 @@ export default function DownloadAndWatching() {
         namespace="DownloadAndWatching.Banner"
         imgUrl="/imge/policy/DownloadAndWatching/DownloadAndWatching.webp"
         withContainer={false}
-        classNameImg="md:mt-[320px] mt-[300px]"
+        classNameImg="md:mt-[320px] mt-[300px] md:w-[300px] w-[250px] md:mb-[-30px] "
       />
       <Worning
         reverse={true}

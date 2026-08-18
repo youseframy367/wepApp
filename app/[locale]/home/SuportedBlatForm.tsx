@@ -31,19 +31,19 @@ export default function BlatformSupport() {
           {blatformData.map((item) => (
             <GradientBorderBox
               key={item.key}
-              className="flex-1 basis-0 min-w-0 h-[140px] md:overflow-none overflow-visible"
+              className="flex-1 basis-0 w-auto h-[140px] md:overflow-none overflow-visible"
             >
-              <div className="flex flex-col items-center md:gap-[14px] gap-[8px] pt-[50px] md:mt-[-100px] mt-[-40px] px-[15px]">
+              <div className="flex flex-col items-center md:gap-[14px] gap-[8px] pt-[50px] md:mt-[-100px] mt-[-30px] relative  z-[9999] px-[15px]">
                 <img
                   data-aos="fade-out"
                   src={item.img}
                   alt={t(`cards.${item.key}.title`)}
-                  className="relative z-20 md:w-auto w-[80px]"
+                  className="relative z-20 md:w-auto w-[60px]"
                 />
 
                 <h2
                   data-aos="fade-up"
-                  className={` font-[700] ${locale === "en" ? "md:text-[18px] text-[16px] font-montserrat leading-[18px]" : "font-cairo leading-[23px] md:text-[16px] whitespace-nowrap md:whitespace-normal text-[14px]"} text-primary  text-center`}
+                  className={` font-[700] ${locale === "en" ? "md:text-[18px] text-[16px] font-montserrat leading-[18px]" : "font-cairo leading-[23px] md:text-[16px] whitespace-nowrap md:whitespace-normal text-[14px]"} text-primary  text-center ${item.className ?? ""} `}
                 >
                   {t(`cards.${item.key}.title`)}
                 </h2>
@@ -78,7 +78,7 @@ export default function BlatformSupport() {
           <BlackBox  borderEfect={false} className="flex flex-col  justify-center items-center md:w-[33%] w-[100%] h-[175px]">
             <h1
               data-aos="fade-out"
-              className={`${locale === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] md:text-[60px] text-[70px] mt-[-10px]  text-primary`}
+              className={`${locale === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800]  text-[60px] mt-[-10px]  text-primary`}
             >
               01
             </h1>
@@ -98,7 +98,7 @@ export default function BlatformSupport() {
           <BlackBox  borderEfect={false}  className="flex flex-col  justify-center items-center md:w-[33%] w-[100%] h-[175px]">
             <h1
               data-aos="fade-out"
-              className={`${locale === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] md:text-[60px] text-[70px] mt-[-10px]  text-primary`}
+              className={`${locale === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] text-[60px]  mt-[-10px]  text-primary`}
             >
               02
             </h1>
@@ -118,7 +118,7 @@ export default function BlatformSupport() {
           <BlackBox  borderEfect={false}  className="flex flex-col justify-center items-center md:w-[33%] w-[100%] h-[175px]">
             <h1
               data-aos="fade-out"
-              className={`${locale === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] md:text-[60px] text-[70px] mt-[-10px] text-primary`}
+              className={`${locale === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] text-[60px]  mt-[-10px] text-primary`}
             >
               03
             </h1>

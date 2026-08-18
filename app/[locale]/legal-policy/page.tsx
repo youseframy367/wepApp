@@ -62,7 +62,7 @@ export default function Bolicy() {
                 {t(`cards.${item.key}.title`)}
               </h1>
               <p
-                className={`${fontClass} font-[400] w-[95%] text-[14px] tracking-[-0.25px]`}
+                className={`${fontClass} font-[400] md:w-[95%] w-[80%] text-[14px] tracking-[-0.25px]`}
               >
                 {t(`cards.${item.key}.description`)}
               </p>

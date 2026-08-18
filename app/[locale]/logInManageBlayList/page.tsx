@@ -47,7 +47,7 @@ export default function ManagBlayList() {
       key: "captcha",
       type: "text",
       img: "/imge/manageBlayList/chekSifty.svg",
-      imgRelode: "/imge/manageBlayList/refresh 2.svg",
+      imgRelode: "/imge/manageBlayList/refresh.svg",
     },
   ];
 
@@ -102,7 +102,7 @@ export default function ManagBlayList() {
 
   return (
     <div className="flex flex-col justify-center items-center md:min-h-[110vh] min-h-[70vh]">
-      <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} loading="lazy"  className="absolute md:top-[0%] top-[10%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none" />
+      <Image src="/imge/effect.webp" alt="effect" width={1280} height={509} className="absolute md:top-[0%] top-[10%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none" />
 
       <h1
         className={`text-primary-animated tracking-[-0.25px] font-[500] md:font-[700] ${locale === "ar"
@@ -156,7 +156,13 @@ export default function ManagBlayList() {
                     type="button"
                     className="w-[31px] h-[28px] cursor-pointer border-primary rounded-[4px] flex justify-center items-center my-auto"
                   >
-                    <Image src={item.imgRelode} alt="reload" unoptimized loading="lazy" />
+                    <Image
+                      src={item.imgRelode}
+                      alt="reload"
+                      width={20}
+                      height={20}
+                      unoptimized
+                    />
                   </button>
                 )}
               </GradientBorderBox>

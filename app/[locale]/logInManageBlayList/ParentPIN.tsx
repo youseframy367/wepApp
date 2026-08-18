@@ -22,7 +22,7 @@ export default function ParentPIN() {
   };
   return (
     <div
-      className={`flex flex-col gap-[15px] ${fontClass}`}
+      className={`flex flex-col gap-[15px] md:mx-0 mx-[10px] ${fontClass}`}
     >
       <h2
         className={`${locale === "en" ? "font-inter" : "font-cairo font-[600] text-[18px]"} text-primary`}

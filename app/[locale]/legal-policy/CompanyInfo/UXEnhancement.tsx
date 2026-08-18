@@ -24,7 +24,7 @@ export default function UXEnhancement() {
         src="/imge/policy/CompanyInfo/UXEnhancement.webp"
         data-aos="fade-out"
         alt="UX Enhancement"
-        className="md:w-auto w-[70px]"
+        className="md:w-[100px] w-[70px]"
         loading="lazy"
         unoptimized
         width="103"
@@ -50,7 +50,7 @@ export default function UXEnhancement() {
         src="/imge/policy/CompanyInfo/ExProSubscriptions.webp"
         data-aos="fade-out"
         alt="ExProSubscriptions"
-        className="md:w-auto w-[70px]"
+        className="md:w-[100px] w-[70px]"
         loading="lazy"
         unoptimized
         width="89"

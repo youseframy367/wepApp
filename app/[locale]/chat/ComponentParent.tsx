@@ -9,7 +9,7 @@ export default function Chat() {
   return (
     <>
       {isOpen && (
-        <div className="fixed bottom-24 right-3 md:w-[372px] border-[1px] h-[65vh] max-h-[628px]  rounded-2xl border border-secondary bg-black/60 shadow-2xl z-99">
+        <div dir="ltr" className="fixed bottom-24 right-3 md:w-[372px] border-[1px] h-[65vh] max-h-[628px]  rounded-2xl border border-secondary md:bg-black/60 bg-black/80 shadow-2xl z-99">
           <Header />
           <TypeChat/>
                 <Maseg />

@@ -25,22 +25,26 @@ export default function ContanerTextAndImg({
     <div className=" relative">
       <Image
         src={effect}
-        style={{ top: positionEffect }}
-        className={`absolute left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none`}
         alt="effect"
-        unoptimized
+        width={3280}
+        height={509}
         loading="lazy"
+        unoptimized
+        className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none w-full h-auto"
+        style={{ top: positionEffect }}
       />
       <GradientBorderBox className="flex md:flex-row flex-col items-center relative gap-[20px] w-[90%] mx-auto md:p-[20px] p-[10px] my-[5px]">
         {img && (
-          <Image
-            src={img}
-            alt="cknowledges"
-            data-aos="fade-out"
-            className="md:mx-0 mx-auto md:my-0 my-[20px] md:max-w-[45%] w-[70%] md:w-auto h-auto max-h-[400px]"
-            unoptimized
-            loading="lazy"
-          />
+        <Image
+  src={img}
+  alt="acknowledges"
+  width={400}
+  height={400}
+  data-aos="fade-out"
+  className="md:mx-0 mx-auto md:my-0 my-[20px] md:max-w-[30%] w-[70%] md:w-auto h-auto max-h-[400px] object-contain"
+  unoptimized
+  loading="lazy"
+/>
         )}
         <ul
           className={`${ul ? "list-disc" : ""} ${locale === "ar" ? "pr-6" : "pl-6"} `}

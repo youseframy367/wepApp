@@ -92,7 +92,7 @@ const [checkedItems, setCheckedItems] = useState<Record<number, boolean>>({});  
         />
       )}
      <div className="flex flex-col gap-2 md:flex-row md:justify-between">
-  <GradientBorderBox className="rounded-[4px] md:w-[232px] w-full h-[29px] flex items-center px-3 gap-2">
+  <GradientBorderBox className="rounded-[4px] md:w-[232px] w-[95%] md:mx-0 mx-auto h-[29px] flex items-center px-3 gap-2">
     <img
       src="/imge/manageBlayList/manageBlayList/Search.svg"
       alt="search"
@@ -110,7 +110,7 @@ const [checkedItems, setCheckedItems] = useState<Record<number, boolean>>({});  
     />
   </GradientBorderBox>
 
-  <div className="flex flex-wrap md:flex-nowrap gap-[5px]">
+  <div className="flex flex-wrap md:flex-nowrap gap-[5px] md:w-auto w-[95%] md:mx-0 mx-auto">
     <button className="border border-primary md:w-[147px] flex-1 md:flex-none min-w-[100px] h-[29px] flex justify-center items-center text-primary md:text-[12px] text-[11px] font-[600] font-inter rounded-[6px]">
       da:42:67:14:ed:60
     </button>
@@ -138,22 +138,21 @@ const [checkedItems, setCheckedItems] = useState<Record<number, boolean>>({});  
     </button>
   </div>
 </div>
-      <div className={`md:font-[500] font-[400] tracking-[-0.25px] md:text-[10px] text-[9px] ${fontClass}  flex md:justify-around justify-between  my-[15px]`}>
+      <div className={`md:font-[500] font-[400] tracking-[-0.25px] md:text-[10px] text-[9px] ${fontClass}  flex justify-around   my-[15px]`}>
         <h3>{t("table.playlistName")}</h3>
         <h3>{t("table.subscription")}</h3>
         <h3>{t("table.activationDate")}</h3>
         <h3>{t("table.expirationDate")}</h3>
-        <h3>{t("table.renew")}</h3>
         <h3>{t("table.status")}</h3>
         <h3>{t("table.edit")}</h3>
         <h3>{t("table.delete")}</h3>
       </div>
 
-      <div className="flex flex-col gap-3 h-[90vh] overflow-y-scroll no-scrollbar md:mx-[-20px] mx-[0px] md:px-[20px] ">
+      <div className="flex flex-col gap-3 h-[90vh]  no-scrollbar md:mx-[-20px] mx-[0px] md:px-[20px] ">
         {filteredData.map((item) => (
           <GradientBorderBox
             key={item.id}
-            className="md:p-4  px-2 py-4 md:w-[100%] w-[110%] mx-auto"
+            className="md:p-4  px-2 py-4 md:w-[100%] w-[100%]  mx-auto"
           >
             <div className=" tracking-[-0.25px] items-center font-[600] whitespace-nowrap text-inter md:text-[10px] text-[9px] flex  ">
               <div className="flex md:gap-[10px] gap-[5px] items-center text-primary">
@@ -176,13 +175,9 @@ const [checkedItems, setCheckedItems] = useState<Record<number, boolean>>({});  
               <div className="text-primary md:mx-[7%] mx-[1%]">
                 {item.ExpirationDate}
               </div>
-              <img
-                src="/imge/manageBlayList/manageBlayList/Renew.svg"
-                alt="Renew"
-                className="md:mx-[2%] mx-[1%] md:w-auto w-[10px]"
-              />
+              
               <button
-                className={`md:w-[62px] w-[30px] h-[15px] rounded-[3px] flex justify-center items-center md:text-[10px] text-[9px] md:font-[600] font-[400] font-inter text-[#fff] md:mx-[5%] mx-[1%] tracking-[-0.25px] ${item.Status === "Active" ? "bg-[#1E7A29]  " : "bg-[#7A1E24] "} cursor-pointer`}
+                className={`md:w-[62px] min-w-[40px] h-[15px] rounded-[3px] flex justify-center items-center md:text-[10px] text-[9px] md:font-[600] font-[400] font-inter text-[#fff] md:mx-[5%] mx-[1%] tracking-[-0.25px] ${item.Status === "Active" ? "bg-[#1E7A29]  " : "bg-[#7A1E24] "} cursor-pointer`}
               >
                 {item.Status}
               </button>
@@ -195,7 +190,7 @@ const [checkedItems, setCheckedItems] = useState<Record<number, boolean>>({});  
               <img
                 src="/imge/manageBlayList/manageBlayList/delate.svg"
                 alt="delate"
-                className={` ${locale === "en" ? "md:ml-[6%] ml-[1%]" : "md:mr-[6%] md:mr-[1%]"} cursor-pointer md:w-auto w-[15px]`}
+                className={` ${locale === "en" ? "md:ml-[6%] ml-[.5%]" : "md:mr-[6%] mr-[.5%]"} cursor-pointer md:w-auto w-[15px]`}
                 onClick={() => {
                   setDeleatOpen(true);
                 }}

@@ -5,7 +5,7 @@ import GradientBorderBox from "../../component/GradientBox";
 import { useActiveSection } from "../../context/ActiveSectionContext";
 
 
-type MenuItem = { id: | "manage-playlists" | "activation" | "transfer-device" | "users-status" | "parent-pin" | "device-key" | "logout"; title: string; icon: string; }; 
+type MenuItem = { id: | "manage-playlists" | "activation" | "transfer-device" | "users-status" | "parent-pin" | "device-key" | "logout"; title: string; icon: string; };
 export default function SliderManageBlayList(): JSX.Element {
   const locale = useLocale();
   const t = useTranslations("ManagePlaylist");
@@ -49,7 +49,7 @@ export default function SliderManageBlayList(): JSX.Element {
     },
   ];
 
-  function handleClick(item: MenuItem): void{
+  function handleClick(item: MenuItem): void {
     setActiveSection(item.id);
     setOpen(false);
   }
@@ -87,16 +87,15 @@ export default function SliderManageBlayList(): JSX.Element {
         className={`
     fixed md:absolute top-0 h-screen flex flex-row   z-50
     ${locale === "en" ? "left-0" : "right-0"}
-    md:w-[20%] w-[75%]
+    md:w-[20%] w-[60%]
     transition-transform duration-300
     md:translate-x-0
-    ${
-      open
-        ? "translate-x-0"
-        : locale === "en"
-          ? "-translate-x-full"
-          : "translate-x-full"
-    }
+    ${open
+            ? "translate-x-0"
+            : locale === "en"
+              ? "-translate-x-full"
+              : "translate-x-full"
+          }
     md:flex
   `}
       >
@@ -108,9 +107,8 @@ export default function SliderManageBlayList(): JSX.Element {
               onClick={() => handleClick(item)}
             >
               <div
-                className={`${
-                  activeSection === item.id ? "" : "opacity-[60%]"
-                } flex items-center justify-center mx-auto gap-4`}
+                className={`${activeSection === item.id ? "" : "opacity-[60%]"
+                  } flex items-center justify-center mx-auto gap-4 md:my-0 my-[15px]`}
               >
                 <img
                   src={item.icon}
@@ -119,13 +117,11 @@ export default function SliderManageBlayList(): JSX.Element {
                 />
 
                 <h2
-                  className={`${
-                    activeSection === item.id
+                  className={`${activeSection === item.id
                       ? "md:text-[24px] text-[20px] font-[700]"
                       : "font-[400] text-[16px]"
-                  } text-primary ${
-                    locale === "en" ? "font-montserrat" : "font-cairo"
-                  } w-[160px]`}
+                    } text-primary ${locale === "en" ? "font-montserrat" : "font-cairo"
+                    } w-[160px]`}
                 >
                   {item.title}
                 </h2>

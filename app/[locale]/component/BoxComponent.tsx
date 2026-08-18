@@ -24,6 +24,8 @@ export default function ComponntBox({ data, namespace, className }: ComponentBox
         >
 
           <img
+          className="w-[100px]"
+        
             src={typeof item.img === "string" ? item.img : item.img.src}
             alt="logo" />
 

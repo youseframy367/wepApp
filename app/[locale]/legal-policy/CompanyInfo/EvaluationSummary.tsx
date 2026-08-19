@@ -26,8 +26,8 @@ export default function EvaluationSummary() {
         </p>
       </div>
 
-   <div className="md:w-[90%] w-full mx-auto my-[30px] overflow-x-auto md:overflow-x-visible overflow-y-hidden no-scrollbar">
-  <div className="flex gap-4 min-w-max md:min-w-0 md:justify-around">
+   <div className="md:w-[90%] w-full mx-auto my-[30px] overflow-x-auto overflow-y-hidden no-scrollbar relative">
+  <div className="flex gap-4 min-w-max justify-around">
     {criteria.map((item, index) => (
       <GradientBorderBox
         key={index}

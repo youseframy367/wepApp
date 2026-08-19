@@ -63,14 +63,14 @@ export default function Agreement({ nameSpace, className, imgOne, imgTwo, imgThr
         )}
       </div>
      {(imgOne || imgTwo || imgThree) && (
-  <div className="flex gap-[30px]">
+  <div className="flex md:gap-[30px] gap-[10px] md:flex-nowrap flex-wrap md:justify-end justify-center">
     {imgOne && (
       <Image
         src={imgOne}
         alt="icon"
         width={150}
         height={150}
-        className="max-w-[150px] h-auto object-contain"
+        className="max-w-[150px] w-[70px] md:w-[150px] h-auto object-contain shrink"
         unoptimized
         loading="lazy"
       />
@@ -82,7 +82,7 @@ export default function Agreement({ nameSpace, className, imgOne, imgTwo, imgThr
         alt="icon"
         width={150}
         height={150}
-        className="max-w-[150px] h-auto object-contain"
+        className="max-w-[150px] w-[70px] md:w-[150px] h-auto object-contain shrink"
         unoptimized
         loading="lazy"
       />
@@ -94,7 +94,7 @@ export default function Agreement({ nameSpace, className, imgOne, imgTwo, imgThr
         alt="icon"
         width={150}
         height={150}
-        className="max-w-[150px] h-auto object-contain"
+        className="max-w-[150px] w-[70px] md:w-[150px] h-auto object-contain shrink"
         unoptimized
         loading="lazy"
       />

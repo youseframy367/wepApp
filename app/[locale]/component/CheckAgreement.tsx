@@ -37,12 +37,12 @@ const t = useTranslations("agreementConfirmation");
     <div>
       <GradientBorderBox className="w-[90%] block mx-auto flex px-[20px] items-center h-[68px] md:my-[40px] my-[30px]">
         <div
-          className="flex gap-[30px] items-center  w-[100%] shrink-0"
+          className="flex gap-[30px] items-center  w-[100%] min-w-0"
           data-aos="fade-up"
         >
           <ImageCheckbox checked={agree} onChange={setAgree} name="agree" />
           <p
-            className={`text-[#fff] font-[400] md:text-[16px] text-[14px] ${locale === "en" ? "font-inter ml-[-15px] " : " font-cairo font-[400] md:text-[19px] text-[15px] tracking-[-0.25px] mr-[-15px]"}`}
+            className={`text-[#fff] font-[400] md:text-[16px] text-[14px] min-w-0 ${locale === "en" ? "font-inter ml-[-15px] " : " font-cairo font-[400] md:text-[19px] text-[15px] tracking-[-0.25px] mr-[-15px]"}`}
           >
              {t("checkbox")}
           </p>

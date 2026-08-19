@@ -31,7 +31,7 @@ export default function BlatformSupport() {
           {blatformData.map((item) => (
             <GradientBorderBox
               key={item.key}
-              className="flex-1 basis-0 w-auto h-[140px] md:overflow-none overflow-visible"
+              className="flex-1 basis-0 min-w-0 w-auto h-[140px] md:overflow-none overflow-visible"
             >
               <div className="flex flex-col items-center md:gap-[14px] gap-[8px] pt-[50px] md:mt-[-100px] mt-[-30px] relative  z-[9999] px-[15px]">
                 <img

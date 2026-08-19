@@ -59,14 +59,16 @@ export default function Headquarters() {
           </div>
         </div>
 
-        <Image
-        alt=""
-        src="/imge/policy/CompanyInfo/map.webp"
-        loading="lazy"
-        unoptimized
-        width="331"
-        height="220"
-      />
+        <div className="relative w-[35%] md:max-w-[300px] h-[90px] md:h-[220px] min-w-0">
+          <Image
+            alt=""
+            src="/imge/policy/CompanyInfo/map.webp"
+            loading="lazy"
+            unoptimized
+            fill
+            className="object-contain"
+          />
+        </div>
       </div>
     </div>
   );

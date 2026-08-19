@@ -9,6 +9,7 @@ import EULA from "./LegalPolicy/EULA.json";
 import NotSellOrShare from "./LegalPolicy/NotSellOrShare.json";
 import disclaimerOfContent from "./LegalPolicy/disclaimerOfContent.json";
 import agreementCustomer from "./agreement/AgreementCustomer.json";
+import AgreementReseller from "./agreement/AgreementReseller.json";
 import OurMission from "./LegalPolicy/OurMission.json";
 import companyInfo from "./LegalPolicy/companyInfo.json";
 import GlobalCompliance from "./LegalPolicy/GlobalCompliance.json";
@@ -35,6 +36,7 @@ export default {
   ...NotSellOrShare,
   ...disclaimerOfContent,
   ...agreementCustomer,
+  ...AgreementReseller,
   ...OurMission,
   ...companyInfo,
   ...GlobalCompliance,

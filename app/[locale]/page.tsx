@@ -2,6 +2,7 @@ import { generateSeo } from "@/Metadata/Seo";
 import { cookies } from "next/headers";
 import HomeBage from "./home/page";
 import AgreementCustomer from "./agreement/customer/page";
+import AgreementReseller from "./agreement/reseller/page";
 
 export async function generateMetadata({
   params,
@@ -23,8 +24,11 @@ export default async function Home() {
 
  const step = cookieStore.get("agreementStep")?.value;
 
-if (!step) {
-  return <AgreementCustomer  />;
+if (!step || step === "reseller") {
+  if (step === "reseller") {
+    return <AgreementReseller />;
+  }
+  return <AgreementCustomer />;
 }
 
   return (

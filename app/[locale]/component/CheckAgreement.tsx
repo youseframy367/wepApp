@@ -8,7 +8,7 @@ import ImageCheckbox from "./CheckBox";
 import { useLocale , useTranslations} from "next-intl";
 
 type Props = {
-  agreementType: "customer";
+  agreementType: "customer" | "reseller";
 };
 
 export default function CheckAgreement({ agreementType }: Props) {
@@ -21,7 +21,15 @@ const t = useTranslations("agreementConfirmation");
     if (!agree) return;
 
     startTransition(async () => {
-      await setAgreementStep("done");      router.push(`/${locale}`);
+      if (agreementType === "customer") {
+        await setAgreementStep("reseller");
+        router.push(`/${locale}/agreement/reseller`);
+        return;
+      }
+
+      // agreementType === "reseller"
+      await setAgreementStep("done");
+      router.push(`/${locale}/Dashboard`);
       router.refresh();
     });
   };

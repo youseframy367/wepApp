@@ -1,8 +1,10 @@
 import { DashboardData } from "./DashboardData";
 import BlackBox from "../component/BlackBox";
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { generateSeo } from "@/Metadata/Seo";
+import { cookies } from "next/headers";
+import { redirect } from "next/navigation";
 
 export async function generateMetadata({
   params,
@@ -12,9 +14,24 @@ export async function generateMetadata({
   const { locale } = await params;
   return generateSeo({ locale, namespace: "Seo.Dashboard", path: "/Dashboard" });
 }
-export default function Dashboard() {
+async function DashboardGate({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const cookieStore = await cookies();
+  const step = cookieStore.get("agreementStep")?.value;
+  if (step !== "done") {
+    redirect(`/${locale}/agreement/reseller`);
+  }
+  return <Dashboard locale={locale} />;
+}
+
+export default DashboardGate;
+
+function Dashboard({ locale }: { locale: string }) {
   const t = useTranslations("Dashboard");
-  const locale = useLocale();
   const fontClass = locale === "en" ? "font-inter" : "font-cairo";
 
   return (

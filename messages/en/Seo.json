@@ -90,5 +90,9 @@
   "AgreementCustomer": {
     "title": "Customer Agreement — Exclusive Movies",
     "description": "The customer agreement covering acceptance of terms, service nature, refund policy, and your responsibilities."
+  },
+  "AgreementReseller": {
+    "title": "Reseller Agreement — Exclusive Movies",
+    "description": "The reseller agreement defining the terms, conditions, and obligations for Exclusive Movies reseller partners."
   }
 }

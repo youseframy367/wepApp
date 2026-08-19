@@ -73,7 +73,7 @@ export default async function LocaleLayout({
   const cookieStore = await cookies();
   const step = cookieStore.get("agreementStep")?.value;
 
-  const hideLayout = !step || step === "customer";
+  const hideLayout = !step || step === "customer" || step === "reseller";
   const isAr = locale === "ar";
 
   return (

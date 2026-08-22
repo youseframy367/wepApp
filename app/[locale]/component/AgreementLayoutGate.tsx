@@ -14,7 +14,10 @@ export default function AgreementLayoutGate({
   const modalContentRef = useRef<HTMLDivElement>(null);
   
   // Detect if we are on an agreement page
-  const isAgreementPage = pathname.includes("/agreement/");
+  // We check for /agreement/ path or if it's the root path without a cookie (handled by the page itself)
+  // However, since this is a client component, we check the pathname.
+  // The home page renders AgreementCustomer if no cookie is present.
+  const isAgreementPage = pathname.includes("/agreement/") || (pathname.split('/').length <= 2 && typeof document !== 'undefined' && !document.cookie.includes("agreementStep="));
 
   useEffect(() => {
     if (isAgreementPage) {

@@ -1,7 +1,5 @@
 import { getRequestConfig } from "next-intl/server";
 
-
-
 export default getRequestConfig(async ({ requestLocale }) => {
   const locale = (await requestLocale) || "en";
 
@@ -12,7 +10,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     messages,
     onError: (error) => {
       if (error.code === "MISSING_MESSAGE") {
-        void 
+        // Handle missing messages silently
       }
     },
   };

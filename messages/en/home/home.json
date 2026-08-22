@@ -1,0 +1,107 @@
+{
+  "HomeBanner": {
+    "title": "EX PRO Player",
+    "subtitle": "Premium Media Playback. Designed for the Big Screen.",
+    "description": "EX PRO Player is a modern media player application built for Smart TVs and supported devices. It delivers smooth playback, elegant visuals, and effortless navigation—so you can enjoy your own legally obtained media sources in one refined interface.",
+    "button": "Activate Your Device",
+    "trial": "7-day free trial · then XX/year per device",
+    "warning": {
+      "title": "Important Notice:",
+      "text": "EX PRO Player is a standalone media player only. It does not provide, host, sell, or include any media content, channels, or subscriptions. Users are responsible for adding and managing their own legally obtained media sources."
+    }
+  },
+  "whatIsExpro": {
+    "title": "What is EX PRO Player?",
+    "description": "EX PRO Player is a premium playback application developed by Exclusive Movies Ltd. It allows users to organize and play their personal or third-party media sources using supported playlist formats, optimized for TV screens and remote-control navigation. We focus on performance, stability, privacy, and compliance—not content distribution.",
+    "highlightsTitle": "Highlights",
+    "highlights": [
+      "Supports widely used playlist formats (including M3U / M3U8)",
+      "Optimized for Smart TVs and large displays",
+      "Dedicated sections for Live streams, Movies, Series, and Catch-up (when supported by the source)",
+      "Favorites, categories, and search for fast navigation"
+    ],
+    "cards": {
+      "easeToUse": {
+        "title": "A Cinematic, Easy-to-Use Interface",
+        "text": "Enjoy a refined dark-gold theme with rich posters, smooth transitions, and layouts designed specifically for the living-room experience."
+      },
+      "coreFeatures": {
+        "title": "Core Features",
+        "text": "Fast loading and smooth playback Movie and series details with posters and metadata (when available from the source) Multi-language audio and subtitle support (content-dependent) Optimized for remote."
+      },
+      "parentalControls": {
+        "title": "Built-In Parental Controls",
+        "text": "EX PRO Player includes parental control options to help families manage access to content categories. Restrict sections based on preferences or ratings and create a safer viewing environment on shared device."
+      },
+      "securePlayback": {
+        "title": "Reliable, Secure Playback",
+        "text": "Stability is at the core of EX PRO Player. The application is engineered for consistent performance across supported platforms, ensuring smooth navigation and reliable playback without interruptions."
+      }
+    }
+  },
+ 
+  "platformSupport": {
+    "title": "Supported Platforms",
+    "description": "EX PRO Player is available on a wide range of compatible devices, including:",
+
+    "cards": {
+      "smartTv": {
+        "title": "Smart TVs",
+        "text": "Samsung, LG webOS"
+      },
+      "androidDevices": {
+        "title": "Android Devices",
+        "text": "Android TV, Android-based TV boxes, Android mobile phones"
+      },
+      "appleDevices": {
+        "title": "Apple Devices",
+        "text": "iOS, MacOS, Apple TV"
+      },
+      "pcAndLaptop": {
+        "title": "PCs & Laptops",
+        "text": "Microsoft Windows, Linux"
+      }
+    },
+
+    "availability": "Availability may vary depending on device model, operating system version, and app store policies.",
+
+    "activation": {
+      "title": "How to Activate?",
+
+      "step1": {
+        "title": "Install the App",
+        "text": "Download and install EX PRO Player from the official app store on your device."
+      },
+
+      "step2": {
+        "title": "Get Your Device Details",
+        "text": "Open the app to view your Device MAC address and Device Key."
+      },
+
+      "step3": {
+        "title": "Activate Online",
+        "text1": "Visit ",
+        "website": "activate.expro.uk",
+        "text2": ", enter your MAC and Key, choose a plan, complete payment, and your device will be activated instantly."
+      }
+    },
+
+    "plans": {
+      "title": "Simple Activation Plans",
+
+      "yearly": {
+        "title": "12-Month Subscription",
+        "text": "Activate EX PRO Player on one device for",
+        "highlight": "12 Months. One-time payment"
+      },
+
+      "halfYear": {
+        "title": "6-Month Subscription",
+        "text": "Activate EX PRO Player on one device for",
+        "highlight": "6 Months. One-time payment"
+      }
+    }
+  }
+}
+
+

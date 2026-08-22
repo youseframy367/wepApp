@@ -1,0 +1,66 @@
+{
+  "GlobalCompliance": {
+    "banner": {
+      "title": "Global Compliance",
+      "subtitle": "Effective Date: 20 February 2026",
+      "description": "Issued By: Exclusive LTD.  I  Website: exclusivemovies.com"
+    },
+    "firstPoint": {
+      "title": "1. Global Regulatory Compliance",
+      "description": "At Exclusive Movies Ltd, global regulatory compliance forms a fundamental pillar of our operational and technological framework. We are committed to maintaining the highest standards of legal, regulatory, and ethical responsibility across all jurisdictions in which our technologies are accessed or utilized."
+    },
+
+    "acknowledgement": {
+      "title": "International Compliance Standards"
+    },
+
+    "globalPrivacyControl": {
+      "items": [
+        "The Ex Pro Media Player has been designed and developed in alignment with internationally recognized ",
+        "legal and regulatory frameworks governing digital services, data protection, consumer rights, and ",
+        "platform governance. Our policies, operational procedures, and technical safeguards are structured to",
+        "comply with applicable legislation including, but not limited to:"
+    ]
+    },
+     "twoPoint": {
+      "title": "1. Legal Frameworks",
+      "description": "“Exclusive Movies Ltd operates in full compliance with internationally recognized legal and regulatory frameworks governing data protection, privacy rights, digital consumer protection, and platform governance, ensuring that all services provided through Ex Pro Media Player adhere to the highest standards of legality, transparency, and responsible digital operation across all jurisdictions"
+    },
+      "ChargebacksAndFraudulentDisputes": {
+      "list": [
+        "United Kingdom Data Protection Act and UK GDPR ",
+        "European Union General Data Protection Regulation (EU GDPR) ",
+        "Egyptian Personal Data Protection Law No. 151 of 2020",
+        "California Consumer Privacy Act (CCPA/CPRA) ",
+        "International digital consumer protection principles ",
+        "Google Play Developer Policies and Apple App Store Review Guidelines"
+      ]
+    },
+
+  "LegalCompliance": {
+      "operates": {
+        "title": " ",
+        "description": "Exclusive Movies Ltd operates under a strict compliance-oriented governance model that prioritizes transparency, lawful processing of data, user privacy, and responsible digital service delivery."
+
+      
+      },
+      "AccordinglyUsers":{
+        "title": " ",
+        "description":"Accordingly, users bear full responsibility for ensuring that any media sources or content they access through the application comply with applicable copyright laws and licensing requirements within their respective jurisdictions."
+      },
+      "review":{
+       "title": " ",
+
+        "description":"Through continuous legal review, technical safeguards, and policy updates, Exclusive Movies Ltd remains committed to maintaining full regulatory compliance while providing secure, transparent, and legally responsible digital media technologies on a global scale."
+      },
+      "madiaPlayr":{
+          "title": " ",
+       "description":"It is important to emphasize that Ex Pro operates strictly as a neutral media player technology and does not host, distribute, provide, or promote any audiovisual content. Any external media sources accessed through the application are supplied solely by users or third parties outside the control or responsibility of Exclusive Movies Ltd."
+      }
+  }
+
+},
+  "titles":{
+      "LegalCompliance":"Legal Compliance & Neutral Platform Polic"
+  }
+}

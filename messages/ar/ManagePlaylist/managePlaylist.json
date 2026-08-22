@@ -1,0 +1,41 @@
+{
+  "ManagePlaylist": {
+    "search": "بحث",
+    "addPlaylist": "إضافة قائمة تشغيل",
+    "addXCPlaylist": "إضافة قائمة XC",
+
+    "table": {
+      "playlistName": "اسم قائمة التشغيل",
+      "subscription": "مدة الاشتراك",
+      "activationDate": "تاريخ التفعيل",
+      "expirationDate": "تاريخ الانتهاء",
+      "renew": "تجديد",
+      "status": "الحالة",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+
+    "subscription": {
+      "yearly": "اشتراك لمدة 12 شهرًا"
+    },
+
+    "status": {
+      "active": "نشط",
+      "inactive": "غير نشط"
+    },
+
+    "popup": {
+      "deletePlaylist": "أدخل رمز PIN لحذف قائمة التشغيل"
+    },
+   
+  "playlist": {
+    "managePlaylists": "إدارة القوائم",
+    "activation": "التفعيل",
+    "transferDevice": "نقل الجهاز",
+    "usersStatus": "حالة المستخدمين",
+    "parentPin": "الرقم السري للأب",
+    "deviceKey": "مفتاح الجهاز",
+    "logout": "تسجيل الخروج"
+  }
+}
+  }

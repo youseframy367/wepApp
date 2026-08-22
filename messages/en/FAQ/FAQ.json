@@ -1,0 +1,210 @@
+{
+  "FAQ": {
+    "Banner": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Effective Date: 20 February 2026",
+      "description": "Issued By: Exclusive LTD.  I  Website: exclusivemovies.com"
+    },
+    "firstPoint": {
+      "title": "Critical Disclaimer",
+      "description": "Ex Pro is a media player application only. It does not include, host, store, or provide any movies, series, TV channels, or video content. All media sources (files, streams, URLs) must be added by you, the user. Exclusive Movies Ltd is not responsible for the legality, quality, or safety of any third-party content played through the app."
+    },
+    "sections": {
+      "GeneralInformation": "General Information",
+      "DataProtection": "Privacy & Data Protection",
+      "Travel": "International Access",
+      "AccountRegistration": "Account & Registration",
+      "LegalCompliance": "Legal & Compliance",
+      "Subscription": "Subscription & Billing",
+      "DeviceManagement": "Device Management",
+      "TechnicalSupport": "Technical Support",
+      "Payment": "Payment & Refunds"
+    },
+    "GeneralInformation": {
+      "WhatisExPro": {
+        "title": "1. What is Ex Pro?",
+        "description": "Ex Pro is a premium media player application developed by Exclusive Movies Ltd. It allows you to play video files and streams from your own personal sources (e.g., local storage, personal servers, or legally accessed streaming links). Important: Ex Pro does not contain or deliver any built-in content. We do not provide movies, series, or channels. You are solely responsible for ensuring that any media you play complies with applicable copyright laws."
+      },
+      "differentFromOtherMedia": {
+        "title": "2. How is Ex Pro different from other media players?",
+        "description": "Ex Pro offers advanced features for power users.",
+        "list": [
+          "Secure Device Authentication: Protects your app access.",
+          "Multi-Format Support: Plays MKV, MP4, AVI, and more.",
+          "Global Compliance: Built with GDPR, UK GDPR, CCPA, and Egypt PDPL in mind.",
+          "Premium Playback: Subtitle sync, audio track switching, and playback speed control.",
+          "Flexible Payments: Via Stripe and Paymob (processed by PCI DSS Level 1 compliant providers).",
+          "Unlike basic players, Ex Pro focuses on security, compliance, and user experience — not content provision."
+        ]
+      },
+      "countries": {
+        "title": "3. In which countries is Ex Pro available?",
+        "description": "Ex Pro is available globally as a software application. However, your use of the app must comply with local laws, especially regarding the media content you choose to play.",
+        "list": [
+          "European Union: GDPR",
+          "United Kingdom: UK GDPR",
+          "United States: CCPA",
+          "Egypt: PDPL No. 151 of 2020"
+        ]
+      }
+    },
+    "AccountRegistration": {
+      "createAccount": {
+        "title": "1. How do I create an account?",
+        "description": "To access premium features:",
+        "list": [
+          "Download the Ex Pro app.",
+          "Click \"Sign Up\" and provide your email and a strong password.",
+          "Verify your email via the confirmation link.",
+          "Complete device registration for security.",
+          "Purchase a subscription if desired."
+        ]
+      },
+      "information": {
+        "title": "2. What information do you require?",
+        "description": "We follow strict data minimization:",
+        "list": [
+          "Email: For account identification.",
+          "Password: Encrypted and never stored in plain text.",
+          "Country: To apply the correct legal compliance rules.",
+          "Payment data: Handled exclusively by PCI DSS Level 1 compliant payment providers.",
+          "We do not collect file names, media URLs, viewing history, or content metadata."
+        ]
+      },
+      "multipleAccounts": {
+        "title": "3. Can I have multiple accounts?",
+        "description": "One account per individual is permitted under our Terms of Service. If available, household subscriptions may allow multiple user profiles for use within the same household."
+      }
+    },
+    "Subscription": {
+      "subscriptionBenefits": {
+        "title": "1. What do I get with a subscription?",
+        "description": "A subscription unlocks premium playback features such as:",
+        "list": [
+          "Advanced subtitle controls.",
+          "Multi-audio track management.",
+          "Enhanced device authentication.",
+          "Priority technical support.",
+          "Note: Subscriptions do not include any video content. You must provide your own media sources."
+        ]
+      },
+      "billing": {
+        "title": "2. How often am I billed?",
+        "description": "Choose monthly or annual billing. Subscriptions auto-renew unless canceled via your app store or account settings. Where applicable, a subscription renewal notice may be sent prior to renewal."
+      },
+      "cancellation": {
+        "title": "3. Can I cancel my subscription?",
+        "description": "Yes. You can cancel at any time. Access to premium features continues until the end of your paid billing period. No partial refunds are issued because the service is delivered instantly as digital software."
+      }
+    },
+    "TechnicalSupport": {
+      "appCrashing": {
+        "title": "1. The app is crashing. What should I do?",
+        "description": "Try the following troubleshooting steps:",
+        "list": [
+          "Update to the latest version of Ex Pro.",
+          "Restart your device.",
+          "Clear the app cache (Settings > Apps > Ex Pro > Storage).",
+          "Reinstall the app.",
+          "If the issue persists, contact us at info@exclusivemoviess.com with your device model and OS version."
+        ]
+      },
+      "videoPlayback": {
+        "title": "2. Why won't my video play?",
+        "description": "Ex Pro supports most common formats (MP4, MKV, AVI, etc.). If a file won't play:",
+        "list": [
+          "Ensure the file is not corrupted.",
+          "Check that you have the proper playback rights for the file.",
+          "Try a different video file to isolate the issue.",
+          "We cannot assist with playback of unauthorized or DRM-protected content from third parties."
+        ]
+      }
+    },
+    "DataProtection": {
+      "tracking": {
+        "title": "1. Do you track what I watch?",
+        "description": "No. Ex Pro does not collect, store, or transmit any information about the media files you play, including file names, paths, URLs, or playback history. We only collect technical data necessary for app functionality and security (e.g., device type and OS version)."
+      },
+      "dataSecurity": {
+        "title": "2. How is my data protected?",
+        "description": "We implement industry-standard security measures (encryption, access controls) and comply with:",
+        "list": [
+          "EU & UK GDPR",
+          "California CCPA",
+          "Egypt PDPL No. 151 of 2020",
+          "Your data is never sold.",
+          "Payment details are processed by PCI DSS Level 1 compliant payment providers.",
+          "Exclusive Movies Ltd does not process or store card details."
+        ]
+      }
+    },
+    "LegalCompliance": {
+      "contentResponsibility": {
+        "title": "1. Are you responsible for the content I play?",
+        "description": "No. Ex Pro is a playback tool only. You are solely responsible for ensuring that any media you play through the app is legally obtained and complies with copyright laws in your jurisdiction. Exclusive Movies Ltd disclaims all liability for third-party content."
+      },
+      "termsViolations": {
+        "title": "2. What if I violate your Terms?",
+        "description": "Violations (e.g., reverse engineering, unauthorized redistribution of the app, or using it for illegal purposes) may result in:",
+        "list": [
+          "Account suspension.",
+          "Termination of service without refund.",
+          "We enforce these measures to protect our software and comply with the law."
+        ]
+      }
+    },
+    "DeviceManagement": {
+      "deviceLimit": {
+        "title": "1. How many devices can I use?",
+        "description": "Each subscription is valid for use on one registered device only. To use Ex Pro on an additional device, a separate subscription is required."
+      },
+      "deviceManagement": {
+        "title": "2. How do I manage devices?",
+        "description": "Go to Account Settings > Security > Manage Devices to view, rename, or remotely sign out your devices."
+      }
+    },
+    "Payment": {
+      "paymentMethods": {
+        "title": "1. What payment methods do you accept?",
+        "description": "We accept the following payment methods:",
+        "list": [
+          "Credit/Debit Cards via Stripe.",
+          "Mobile Wallets (Vodafone Cash, etc.) via Paymob in Egypt.",
+          "Payments are processed by PCI DSS Level 1 compliant payment providers.",
+          "Exclusive Movies Ltd does not process or store card details."
+        ]
+      },
+      "refundPolicy": {
+        "title": "2. Do you offer refunds?",
+        "description": "All sales are final. Ex Pro is a digital software service that activates instantly upon purchase. By completing payment, you consent to the immediate commencement of the service and waive the right to cancel or receive a refund in accordance with:",
+        "list": [
+          "UK Consumer Contracts Regulations 2013, Regulation 28(b).",
+          "EU Directive 2011/83/EU, Article 16(e).",
+          "Egyptian Consumer Protection Law No. 181 of 2018, Article 12.",
+          "No exceptions are made for change of mind, technical issues with third-party content, or user error."
+        ]
+      }
+    },
+    "Travel": {
+      "travelUsage": {
+        "title": "1. Can I use Ex Pro while traveling?",
+        "description": "Yes. Ex Pro works globally. However, your use of any media content must comply with the local copyright laws in your current location."
+      },
+      "additionalCharges": {
+        "title": "2. Will I be charged extra?",
+        "description": "Your subscription price is fixed in your home currency. However, your bank may apply foreign transaction fees. We recommend using Wi-Fi to avoid mobile data roaming charges."
+      }
+    }
+  },
+  "titles": {
+    "GeneralInformation": "1. General Information",
+    "AccountRegistration": "2. Account & Registration",
+    "Subscription": "3. Subscription & Billing",
+    "TechnicalSupport": "4. Technical Support",
+    "DataProtection": "5. Privacy & Data Protection",
+    "LegalCompliance": "6. Legal & Compliance",
+    "DeviceManagement": "7. Device Management",
+    "Payment": "8. Payment & Refunds",
+    "Travel": "9. International Access"
+  }
+}

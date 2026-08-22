@@ -1,0 +1,53 @@
+{
+  "DownloadAndWatching": {
+    "Banner": {
+      "title": "Download & Watching",
+      "subtitle": "Effective Date: 20 February 2026",
+      "description": "Issued By: Exclusive LTD.  I  Website: exclusivemovies.com"
+    },
+    "note": {
+      "title": "wherever you are",
+      "text": "Download EX PRO on your favorite devices and experience seamless, high-quality streaming "
+    },
+    "activation": {
+      "title": "How to Activate?",
+
+      "step1": {
+        "title": "Install the App",
+        "text": "Download and install EX PRO Player from the official app store on your device."
+      },
+
+      "step2": {
+        "title": "Get Your Device Details",
+        "text": "Open the app to view your Device MAC address and Device Key."
+      },
+
+      "step3": {
+        "title": "Activate Online",
+        "text1": "Visit ",
+        "website": "activate.expro.uk",
+        "text2": ", enter your MAC and Key, choose a plan, complete payment, and your device will be activated instantly."
+      }
+    },
+    "SupportedDevicesTitle": "Supported Devices",
+
+    "platformSupport": {
+      "title":"Simple Steps to Start Streaming",
+      "stepOne": {
+        "id": "01",
+        "title": "Download & Install",
+        "description": "Get the EX PRO media player on your device by clicking the download button."
+      },
+      "stepTwo": {
+        "id": "02",
+        "title": "Launch & Set Up",
+        "description": "Open the app, enter your unique activation details and set up your playlist."
+      },
+      "stepThree": {
+        "id": "03",
+        "title": "Start Watching",
+        "description": "Enjoy a high quality streaming experience with EX PRO, customized to your liking."
+      }
+    }
+  }
+}

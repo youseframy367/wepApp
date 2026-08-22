@@ -1,0 +1,36 @@
+{
+  "Activation": {
+    "title": "Activation Plans",
+    "titleOfSelectPlan": "Select your Activation Plan",
+    "plans": {
+      "title": "Simple Activation Plans",
+
+      "yearly": {
+        "title": "12-Month Subscription",
+        "text": "Activate EX PRO Player on one device for",
+        "highlight": "12 Months. One-time payment"
+      },
+
+      "halfYear": {
+        "title": "6-Month Subscription",
+        "text": "Activate EX PRO Player on one device for",
+        "highlight": "6 Months. One-time payment"
+      }
+    },
+    "titleOfTypePayment": "Select your Payment Gateway",
+    "ChooseyourPaymentType": "Choose your Payment Type",
+    "paymentMethods": {
+      "creditCard": {
+        "title": "Credit Card",
+        "text": "Pay quickly and securely with your card"
+      },
+      "paypal": {
+        "title": "PayPal",
+        "text": "Secure online payments with global trust"
+      },
+      "eWallet": { "title": "E-Wallet",
+       "text": "Store your money and pay"
+       }
+    }
+  }
+}

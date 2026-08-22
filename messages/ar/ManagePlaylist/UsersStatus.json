@@ -1,0 +1,10 @@
+{
+  "UsersStatus": {
+    "macAddress": "عنوان MAC",
+    "status": "الحالة",
+    "creationDate": "تاريخ الإنشاء",
+    "expirationDate": "تاريخ الانتهاء",
+    "active": "نشط",
+    "inactive": "غير نشط"
+  }
+}

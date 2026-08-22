@@ -1,0 +1,41 @@
+{
+  "ManagePlaylist": {
+    "search": "Search",
+    "addPlaylist": "Add Playlist",
+    "addXCPlaylist": "Add XC Playlist",
+
+    "table": {
+      "playlistName": "Playlist Name",
+      "subscription": "Subscription ETA",
+      "activationDate": "Activation Date",
+      "expirationDate": "Expiration Date",
+      "renew": "Renew",
+      "status": "Status",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+
+    "subscription": {
+      "yearly": "12-Month Subscription"
+    },
+
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+
+    "popup": {
+      "deletePlaylist": "Enter Playlist PIN to Delete Playlist"
+    },
+  
+  "playlist": {
+    "managePlaylists": "Manage Playlists",
+    "activation": "Activation",
+    "transferDevice": "Transfer Device",
+    "usersStatus": "Users Status",
+    "parentPin": "Parent PIN",
+    "deviceKey": "Device Key",
+    "logout": "Logout"
+  }
+}
+  }

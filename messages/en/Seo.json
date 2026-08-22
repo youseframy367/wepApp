@@ -1,0 +1,94 @@
+{
+  "Home": {
+    "title": "Exclusive Movies — Secure, Privacy-Focused Streaming with Ex Pro",
+    "description": "Exclusive Movies provides secure, privacy-focused digital media solutions through the Ex Pro Media Player. Stream, download, and manage playlists safely on any device."
+  },
+  "Dashboard": {
+    "title": "Dashboard — Ex Pro Player",
+    "description": "Enter your dashboard to manage your Ex Pro device activation, playlists, and streaming preferences securely."
+  },
+  "Login": {
+    "title": "Login & Manage Playlists — Ex Pro",
+    "description": "Log in to manage your M3U and XC playlists, activate devices, and control playback on Ex Pro Media Player."
+  },
+  "AddPlaylist": {
+    "title": "Add Playlist — Ex Pro Player",
+    "description": "Add your favorite M3U or M3U8 playlist to Ex Pro and start streaming instantly on any device."
+  },
+  "AddXCPlaylist": {
+    "title": "Add XC Playlist — Ex Pro Player",
+    "description": "Connect your Xtream Codes (XC) playlist to Ex Pro with username, password, and host for full EPG support."
+  },
+  "ManagePlaylists": {
+    "title": "Manage Playlists — Ex Pro Player",
+    "description": "Organize, renew, and manage all your streaming playlists in one secure dashboard with Ex Pro."
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions — Exclusive Movies",
+    "description": "Find answers about Ex Pro Media Player, device activation, subscriptions, international access, and privacy."
+  },
+  "DownloadAndWatching": {
+    "title": "Download & Watching — Ex Pro Player",
+    "description": "Learn how to download and start streaming with Ex Pro Media Player on Smart TVs and supported devices."
+  },
+  "LegalPolicy": {
+    "title": "Legal & Policy — Exclusive Movies",
+    "description": "Read the privacy policy, terms and conditions, refund policy, and compliance documents of Exclusive Movies."
+  },
+  "PrivacyPolicy": {
+    "title": "Privacy Policy — Exclusive Movies",
+    "description": "How Exclusive Movies collects, protects, and handles your personal data when using Ex Pro Media Player."
+  },
+  "TermsAndConditions": {
+    "title": "Terms and Conditions — Exclusive Movies",
+    "description": "The terms governing your use of the Exclusive Movies platform and Ex Pro Media Player services."
+  },
+  "RefundPolicy": {
+    "title": "Refund Policy — Exclusive Movies",
+    "description": "Refund conditions for purchases made through Ex Pro and affiliated digital platforms operated by Exclusive Movies."
+  },
+  "EULA": {
+    "title": "End User License Agreement — Ex Pro",
+    "description": "The legally binding license agreement for downloading, installing, and using the Ex Pro Media Player application."
+  },
+  "NotSellOrShare": {
+    "title": "Do Not Sell or Share My Personal Information — Exclusive Movies",
+    "description": "Your rights under the California Consumer Privacy Act to opt out of the sale or sharing of personal information."
+  },
+  "DisclaimerOfContent": {
+    "title": "Disclaimer of Content — Ex Pro",
+    "description": "Ex Pro is a media player only. Content responsibility lies with third-party sources; verify legality before streaming."
+  },
+  "OurMission": {
+    "title": "Our Mission — Exclusive Movies",
+    "description": "Exclusive Movies' mission to develop safe, transparent digital media solutions in compliance with international standards."
+  },
+  "CompanyInfo": {
+    "title": "Company Information — Exclusive Movies",
+    "description": "Learn about Exclusive Movies Ltd, our origin, evaluation, and commitment to global compliance and data protection."
+  },
+  "GlobalCompliance": {
+    "title": "Global Compliance — Exclusive Movies",
+    "description": "How Exclusive Movies maintains compliance with international legal and regulatory standards."
+  },
+  "Activation": {
+    "title": "Device Activation — Ex Pro Player",
+    "description": "Activate your device on Ex Pro Player using your device ID, device key, and verification code."
+  },
+  "TransferDevice": {
+    "title": "Transfer Device — Ex Pro Player",
+    "description": "Transfer your Ex Pro subscription to a new device using the device's MAC address."
+  },
+  "DeviceKey": {
+    "title": "Device Key — Ex Pro Player",
+    "description": "Enter your device key to complete Ex Pro Player device activation."
+  },
+  "ParentPIN": {
+    "title": "Parent PIN — Ex Pro Player",
+    "description": "Set a parent PIN to enable safe, controlled access to Ex Pro Player for all users."
+  },
+  "AgreementCustomer": {
+    "title": "Customer Agreement — Exclusive Movies",
+    "description": "The customer agreement covering acceptance of terms, service nature, refund policy, and your responsibilities."
+  }
+}

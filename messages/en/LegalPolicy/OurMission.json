@@ -1,0 +1,25 @@
+{
+  "OurMission": {
+    "banner": {
+      "title": "Our Mission",
+      "subtitle": "Effective Date: 20 February 2026",
+      "description": "Issued By: Exclusive LTD.  I  Website: exclusivemovies.com"
+    },
+    "text": "Our mission at Exclusive Movies Ltd is to develop secure, transparent, and compliant media technologies that empower users to manage and enjoy their own digital media responsibly.",
+    "heading": " Privacy & Compliance Commitment",
+    "containers": {
+      "NeutralMedia": {
+        "title": "Neutral Media Player & User Responsibility",
+        "description": "Through the Ex Pro Media Player, we aim to provide a reliable and privacy-focused platform designed solely as a neutral media playback tool. The application does not host, distribute, or provide any audiovisual content, and users retain full responsibility for any external media sources they choose to access or integrate."
+      },
+      "Compliance": {
+        "title": "Compliance & Data Protection",
+        "description": "We are committed to operating under internationally recognized legal and data-protection frameworks, including applicable regulations in the United Kingdom, the European Union, and other relevant jurisdictions. Our mission is to ensure that innovation in media technology is built upon strong principles of privacy protection, legal compliance, user transparency, and responsible digital use."
+      },
+      "TrustedSoftware": {
+        "title": "Trusted Software & Digital Integrity",
+        "description": "By maintaining strict adherence to these principles, Exclusive Movies Ltd strives to create trustworthy software solutions that respect intellectual property rights, protect user data, and uphold the highest standards of digital integrity."
+      }
+    }
+  }
+}

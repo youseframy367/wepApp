@@ -4,6 +4,7 @@ import { useLayoutEffect, useRef, useState, useEffect, ReactNode } from "react";
 import GradientBorderBox from "./GradientBox";
 import { useLocale } from "next-intl";
 import Image from "next/image";
+import { accordionCoordinator } from "./AccordionCoordinator";
 
 interface AccordionGradientBoxProps {
   icon: string;
@@ -32,6 +33,14 @@ export default function AccordionGradientBox({
 }: AccordionGradientBoxProps) {
   const [open, setOpen] = useState(false);
   const paragraphRef = useRef<HTMLDivElement>(null);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 640);
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
   const contentRef = useRef<HTMLDivElement>(null);
   const [collapsedHeight, setCollapsedHeight] = useState(26 * visibleLines);
   const [expandedHeight, setExpandedHeight] = useState<number>(26 * visibleLines);
@@ -72,6 +81,17 @@ export default function AccordionGradientBox({
     window.addEventListener("resize", recalculateExpanded);
     return () => window.removeEventListener("resize", recalculateExpanded);
   }, [children, paragraph, open]);
+
+  useEffect(() => {
+    if (open && isMobile) {
+      const closeHandler = () => setOpen(false);
+      const unregister = accordionCoordinator.register(closeHandler);
+      accordionCoordinator.closeOthers(closeHandler);
+      return () => {
+        unregister();
+      };
+    }
+  }, [open, isMobile]);
 
   const showToggle = hasOverflow || !!children;
 

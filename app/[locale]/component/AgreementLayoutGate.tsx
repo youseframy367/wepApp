@@ -10,7 +10,7 @@ export default function AgreementLayoutGate({
 }) {
   const pathname = usePathname();
   // Hide header and footer only on agreement pages
-  const isAgreementPage = /\/agreement(\/|$)/.test(pathname);
+  const isAgreementPage = pathname.includes("/agreement/");
 
   return (
     <>

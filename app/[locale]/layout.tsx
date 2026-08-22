@@ -6,6 +6,7 @@ import { generateSeo } from "@/Metadata/Seo";
 import { ActiveSectionProvider } from "./context/ActiveSectionContext";
 import AgreementLayoutGate from "./component/AgreementLayoutGate";
 import ClientErrorBoundary from "./component/ClientErrorBoundary";
+import { cookies } from "next/headers";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
@@ -34,6 +35,10 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
   const isAr = locale === "ar";
+  
+  const cookieStore = await cookies();
+  const step = cookieStore.get("agreementStep")?.value;
+  const isAgreementAccepted = step === "done" || step === "customer";
 
   return (
     <html lang={locale} dir={isAr ? "rtl" : "ltr"}>
@@ -41,7 +46,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider>
           <AosProvider>
             <ClientErrorBoundary>
-              <AgreementLayoutGate>
+              <AgreementLayoutGate initialAgreementAccepted={isAgreementAccepted}>
                 <ActiveSectionProvider>{children}</ActiveSectionProvider>
               </AgreementLayoutGate>
             </ClientErrorBoundary>

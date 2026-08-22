@@ -27,7 +27,7 @@ export default function Bolicy() {
         urlEffect="/imge/effect.webp"
       />
       <div
-        data-aos="fade-up"
+        
         className="flex flex-col mb-[40px] mt-[60px] items-center"
       >
         <h2
@@ -48,14 +48,14 @@ export default function Bolicy() {
             className="flex gap-[15px] p-[20px] md:w-[31%] w-[100%] h-[169px]"
           >
             <Image
-              data-aos="fade-out"
+              
               src={item.img}
               alt={t(`cards.${item.key}.title`)}
               width={68}
               height={68}
               className="md:mt-[5px] w-[70px] h-[70px]"
             />
-            <div data-aos="fade-up" className="flex flex-col gap-[10px]">
+            <div  className="flex flex-col gap-[10px]">
               <h1
                 className={`font-[700] md:text-[22px] text-[20px] ${locale === "en" ? " font-montserrat" : "font-cairo"} text-primary`}
               >

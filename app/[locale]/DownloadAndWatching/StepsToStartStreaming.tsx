@@ -11,7 +11,7 @@ export default function BlatformSupport() {
 
       <div className="w-[90%] flex flex-col items-center mx-auto my-[60px]">
         <h1
-          data-aos="fade-up"
+          
           className={`${locale === "en" ? "font-inter" : "font-cairo"} font-[600] md:text-[40px] text-[20px] leading-[42px] text-primary md:mt-[50px] mt-`}
         >
           {t("title")}
@@ -28,19 +28,19 @@ export default function BlatformSupport() {
       />
           <BlackBox borderEfect={false} className="flex flex-col  justify-center items-center md:w-[33%] w-[100%] h-[175px]">
             <h1
-              data-aos="fade-out"
+              
               className={`${locale === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] text-[60px]  mt-[-10px]  text-primary`}
             >
               {t("stepOne.id")}
             </h1>
             <h2
-              data-aos="fade-up"
+              
               className={`${locale === "en" ? "font-montserrat" : "font-cairo"}  font-[500] text-[20px] text-primary mt-[-15px]`}
             >
              {t("stepOne.title")}
             </h2>
             <p
-              data-aos="fade-up"
+              
               className={`w-[180px] mt-[10px] ${locale === "ar" ? "font-montserrat font-[400]" : "font-cairo font-[500]"} text-[12px] leading-[17px] text-center`}
             >
               {t("stepOne.description")}
@@ -48,19 +48,19 @@ export default function BlatformSupport() {
           </BlackBox>
           <BlackBox borderEfect={false} className="flex flex-col  justify-center items-center md:w-[33%] w-[100%] h-[175px]">
             <h1
-              data-aos="fade-out"
+              
               className={`${locale === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] text-[60px]  mt-[-10px]  text-primary`}
             >
               {t("stepTwo.id")}
             </h1>
             <h2
-              data-aos="fade-up"
+              
               className={`${locale === "en" ? "font-montserrat" : "font-cairo"}  font-[500] text-[20px] text-primary mt-[-15px]`}
             >
               {t("stepThree.title")}
             </h2>
             <p
-              data-aos="fade-up"
+              
               className={`w-[241px] mt-[10px] ${
                 locale === "en" ? "font-montserrat" : "font-cairo"
               } font-[400] text-[12px] leading-[17px] text-center`}
@@ -70,21 +70,21 @@ export default function BlatformSupport() {
           </BlackBox>
           <BlackBox borderEfect={false} className="flex flex-col justify-center items-center md:w-[33%] w-[100%] h-[175px]">
             <h1
-              data-aos="fade-out"
+              
               className={`${locale === "en" ? "font-montserrat" : "font-cairo"} md:font-[900] font-[800] text-[60px]  mt-[-10px] text-primary`}
             >
               {t("stepThree.id")}
             </h1>
 
             <h2
-              data-aos="fade-up"
+              
               className={`${locale === "en" ? "font-montserrat" : "font-cairo"} font-[500] text-[20px] text-primary mt-[-15px]`}
             >
               {t("stepThree.title")}
             </h2>
 
             <p
-              data-aos="fade-up"
+              
               className={`w-[241px] mt-[10px] ${
                 locale === "en" ? "font-montserrat" : "font-cairo"
               } font-[400] text-[12px] leading-[17px] text-center`}

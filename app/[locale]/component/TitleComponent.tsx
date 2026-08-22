@@ -11,7 +11,7 @@ export default function Title({ titleKey, urlImg = "/imge/policy/DoNotSellOrShar
   const t = useTranslations("titles");
   const safeTitleKey = titleKey ?? "";
   return (
-    <div className="flex gap-[15px] items-center w-[90%] mx-auto my-[30px]" data-aos="fade-up">
+    <div className="flex gap-[15px] items-center w-[90%] mx-auto my-[30px]" >
       <Image
         src={urlImg}
         alt={t.has(safeTitleKey) ? t(safeTitleKey) : safeTitleKey}

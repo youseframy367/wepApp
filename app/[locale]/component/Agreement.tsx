@@ -33,7 +33,7 @@ export default function Agreement({ nameSpace, className, imgOne, imgTwo, imgThr
       <div>
         {notes.map((item, index) => (
           <div
-            data-aos="fade-up"
+            
             key={index}
             className="flex items-center md:gap-[30px] gap-[7px]"
           >
@@ -49,7 +49,7 @@ export default function Agreement({ nameSpace, className, imgOne, imgTwo, imgThr
 
         {(hasFooterText || hasFooterHighlight) && (
           <p
-            data-aos="fade-up"
+            
             className={`md:px-[40px] px-[30px] md:font-[400] font-[300] md:text-[18px] text-[16px] tracking-[-0.25px] ${fontClass}`}
           >
             {hasFooterText && t("notes.footer.text")}

@@ -28,7 +28,7 @@ export default function Worning({
         alt="Worning"
         width={40}
         height={40}
-        data-aos="fade-up"
+        
       />
       <p
         className={`${classNamep} ${locale === "en"

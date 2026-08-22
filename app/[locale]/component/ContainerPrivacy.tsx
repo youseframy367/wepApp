@@ -41,7 +41,7 @@ export default function PrivcyComponnt({
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 relative z-10">
         {data.map((item) => (
           <GradientBorderBox key={item.key} className="h-[249px] p-[10px] ">
-            <div className="flex md:gap-[20px]  gap-[2px]" data-aos="fade-up">
+            <div className="flex md:gap-[20px]  gap-[2px]" >
               <img
                 src={item.img}
                 alt={t(`cards.${item.key}.title`)}

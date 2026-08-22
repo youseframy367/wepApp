@@ -45,14 +45,14 @@ export default function PrivacyPolicy() {
 
       <GradientBorderBox className="w-[90%] mx-auto p-[20px] flex items-center gap-[15px] mt-[20px] ">
         <Image
-          data-aos="fade-out"
+          
           src="/imge/policy/privacyPolicy/cuntactUs.webp"
           alt="contactUs"
           width={70}
           height={70}
           className="md:w-auto md:w-[103px] w-[70px] md:h-[54px] h-[30px]"
         />
-        <div className="flex flex-col gap-[5px]" data-aos="fade-up">
+        <div className="flex flex-col gap-[5px]" >
           <h2
             className={`md:text-[26px] text-[20px] font-[500] ${locale === "en" ? "font-montserrat" : "font-cairo"} text-primary`}
           >

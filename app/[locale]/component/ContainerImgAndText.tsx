@@ -40,7 +40,7 @@ export default function ContanerTextAndImg({
   alt="acknowledges"
   width={400}
   height={400}
-  data-aos="fade-out"
+  
   className="md:mx-0 mx-auto md:my-0 my-[20px] md:max-w-[30%] w-[70%] md:w-auto h-auto max-h-[400px] object-contain"
   unoptimized
   loading="lazy"
@@ -53,7 +53,7 @@ export default function ContanerTextAndImg({
             items.map((item, index) => (
               <li
                 key={index}
-                data-aos="fade-up"
+                
                 className={` ${locale === "en" ? "font-inter font-[400]" : "font-cairo font-[500]"} text-[16px] leading-[30px] tracking-[-0.25px]`}
               >
                 {item}

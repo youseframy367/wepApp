@@ -107,12 +107,12 @@ export default function AccordionGradientBox({
           width={24}
           height={24}
           className={`shrink-0 ${iconClassName}`}
-          data-aos="fade-up"
+          
         />
         {hasTitle && (
           <h3
             className={`sm:hidden flex-1 min-w-0 ${titleClassName}`}
-            data-aos="fade-up"
+            
           >
             {title}
           </h3>
@@ -143,7 +143,7 @@ export default function AccordionGradientBox({
               ? "font-cairo text-[22px] font-[500] leading-[40px]"
               : "font-inter"
               }`}
-            data-aos="fade-up"
+            
           >
             {title}
           </h3>
@@ -157,7 +157,7 @@ export default function AccordionGradientBox({
         >
           <div ref={contentRef}>
             <div
-              data-aos="fade-up"
+              
               ref={paragraphRef}
               className={`${paragraphClassName} ${local === "ar"
                 ? "font-cairo text-[14px] font-[500]"

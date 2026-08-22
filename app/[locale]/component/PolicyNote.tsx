@@ -19,7 +19,7 @@ export default function PolicyNote({ NameParentSpace, className }: PolicyNotePro
         <div
           key={index}
           className="flex gap-[20px] items-center"
-          data-aos="fade-up"
+          
         >
           <Image
         src="/imge/policy/refundPolicy/point.webp"

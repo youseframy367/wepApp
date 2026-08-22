@@ -37,7 +37,7 @@ export default function CheckAgreement({ agreementType }: Props) {
       <GradientBorderBox className="w-[90%] block mx-auto flex px-[20px] items-center h-[68px] md:my-[40px] my-[30px]">
         <div
           className="flex gap-[30px] items-center  w-[100%] shrink-0"
-          data-aos="fade-up"
+          
         >
           <ImageCheckbox checked={agree} onChange={setAgree} name="agree" />
           <p

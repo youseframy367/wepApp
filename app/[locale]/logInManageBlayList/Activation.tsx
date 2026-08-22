@@ -74,7 +74,7 @@ export default function Activation(): JSX.Element {
           onClick={() => setSelectPlan(2)}
         >
           <img
-            data-aos="fade-out"
+            
             src="/imge/home/4$.webp"
             alt="$4"
             width="67px"
@@ -82,13 +82,13 @@ export default function Activation(): JSX.Element {
           ></img>
           <div>
             <h2
-              data-aos="fade-up"
+              
               className={`${locale === "en" ? "font-montserrat " : "font-cairo"} md:font-[500] font-[600] md:text-[24px] text-[16px] text-primary`}
             >
               {t("plans.yearly.title")}
             </h2>
             <p
-              data-aos="fade-up"
+              
               className={`${locale === "en"
                 ? "font-montserrat font-[600] text-[12px]"
                 : "font-cairo font-[500] text-[14px]"
@@ -107,7 +107,7 @@ export default function Activation(): JSX.Element {
           onClick={() => setSelectPlan(1)}
         >
           <img
-            data-aos="fade-out"
+            
             src="/imge/home/6$.webp"
             alt="$4"
             width="67px"
@@ -115,13 +115,13 @@ export default function Activation(): JSX.Element {
           ></img>
           <div>
             <h2
-              data-aos="fade-up"
+              
               className={`${locale === "en" ? "font-montserrat " : "font-cairo"}md:font-[500] font-[600] md:text-[24px] text-[16px] text-primary`}
             >
               {t("plans.halfYear.title")}
             </h2>
             <p
-              data-aos="fade-up"
+              
               className={`${locale === "en"
                 ? "font-montserrat font-[600] text-[12px]"
                 : "font-cairo font-[500] text-[14px]"

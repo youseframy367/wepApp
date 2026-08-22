@@ -3,7 +3,6 @@ import { usePathname } from "next/navigation";
 import Header from "../parts/Header";
 import Footer from "../parts/Footer";
 import { useEffect, useRef, useState } from "react";
-import AOS from "aos";
 
 export default function AgreementLayoutGate({
   children,
@@ -27,14 +26,7 @@ export default function AgreementLayoutGate({
 
   useEffect(() => {
     setMounted(true);
-    if (showModal) {
-      // Use requestAnimationFrame for smoother refresh
-      const handle = requestAnimationFrame(() => {
-        AOS.refresh();
-      });
-      return () => cancelAnimationFrame(handle);
-    }
-  }, [showModal, pathname]);
+  }, []);
 
   return (
     <>

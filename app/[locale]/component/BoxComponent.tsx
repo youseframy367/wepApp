@@ -31,7 +31,7 @@ export default function ComponntBox({ data, namespace, className }: ComponentBox
 
 
           <div
-            data-aos="fade-up"
+            
             className={`flex flex-col gap-[10px] min-w-0 ${locale === "en" ? "font-montserrat" : "font-cairo"
               }`}
           >

@@ -55,13 +55,13 @@ export default function CompanyInfo() {
 
         <div className="flex flex-col gap-[22px] z-50 min-w-0 flex-1  ">
           <h2
-            data-aos="fade-up"
+            
             className="md:font-[600] font-[500] md:text-[52px] lg:text-[60px] text-[36px] text-primary font-montserrat"
           >
             {t("OurMission.title")}
           </h2>
           <p
-            data-aos="fade-up"
+            
             className={`${locale === "en" ? "font-[400]" : "font-[500] text-[18px] leading-[32px]"} tracking-[-0.25px] max-w-[620px]`}
           >
             {t("OurMission.description")}
@@ -69,7 +69,7 @@ export default function CompanyInfo() {
         </div>
         <Image
         src="/imge/policy/CompanyInfo/OurMission.webp"
-        data-aos="fade-up"
+        
         alt="Our Mission"
         sizes="(max-width: 768px) 40vw, 38vw"
         className="z-50 mx-[10px] w-full max-w-[240px] md:max-w-[300px] lg:max-w-[360px] h-auto"
@@ -81,7 +81,7 @@ export default function CompanyInfo() {
       </div>
       <div className="flex flex-col items-center relative">
         <h1
-          data-aos="fade-up"
+          
           className="md:font-[600] font-[500] md:text-[44px] lg:text-[60px] text-[40px] text-primary mx-auto"
         >
           {t("WhatWeOffer.title")}
@@ -97,7 +97,7 @@ export default function CompanyInfo() {
       <div className="flex flex-col gap-[15px] items-center relative mt-[30px]">
         <Image
         src="/imge/effectTwo.webp"
-        data-aos="fade-up"
+        
         className="absolute md:top-[50%] top-[30%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none w-[100%] h-auto"
         alt="effect"
         loading="lazy"
@@ -106,13 +106,13 @@ export default function CompanyInfo() {
         height="508"
       />
         <h1
-          data-aos="fade-up"
+          
           className="md:font-[600] font-[500] md:text-[44px] lg:text-[60px] text-[30px] text-primary mx-auto"
         >
           {t("ComplianceLegality.title")}
         </h1>
         <p
-          data-aos="fade-up"
+          
           className="font-[400] md:text-[16px] text-[12px] mt-[-10px] tracking-[-0.25px]"
         >
           {t("ComplianceLegality.description")}
@@ -138,7 +138,7 @@ export default function CompanyInfo() {
       />
       <div className="flex flex-col gap-[15px] items-center  mt-[60px]">
         <h1
-          data-aos="fade-up"
+          
           className="font-[600]  md:text-[60px] text-[23px] text-primary mx-auto"
         >
           {t("KeyStrengths.title")}

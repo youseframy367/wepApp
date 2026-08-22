@@ -38,7 +38,7 @@ export default function AgreementReseller() {
       />
       <div
         className="flex gap-[15px] items-center w-[90%] mx-auto my-[30px]"
-        data-aos="fade-up"
+        
       >
         <img src="/imge/agreement/reseller/add.webp" alt="addIcon"></img>
         <p

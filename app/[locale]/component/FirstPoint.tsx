@@ -20,7 +20,7 @@ export default function FirstPoint({
   const t = useTranslations(namespace)
   const content = (
     <div
-      data-aos="fade-up"
+      
       className={`relative ${withContainer === false ? "w-[90%] mx-auto" : ""} ${className}`}
     >
       <div className="flex gap-[10px] text-[#fff] items-center">

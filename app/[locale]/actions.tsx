@@ -8,7 +8,7 @@ export async function setAgreementStep(
   const cookieStore = await cookies();
 
   cookieStore.set("agreementStep", step, {
-    httpOnly: true,
+    httpOnly: false,
     secure: process.env.NODE_ENV === "production",
     sameSite: "lax",
     maxAge: 60 * 60 * 24 * 365,

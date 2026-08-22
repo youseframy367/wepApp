@@ -104,7 +104,7 @@ export default function Footer() {
           <div className="flex items-center space-x-1.25 mb-3.75">
             <img
               className="3xl:size-12! size-6"
-              src="/imge/footer/mail.svg"
+              src="/imge/footer/mail.webp"
               alt="info@exclusivemovies.com"
             />
             <a href="mailto:info@exclusivemovies.com">
@@ -116,7 +116,7 @@ export default function Footer() {
           <div className="flex items-center space-x-1.25 mb-3.75">
             <img
               className="3xl:size-12! size-6"
-              src="/imge/footer/phone.svg"
+              src="/imge/footer/phone.webp"
               alt="+447836310462"
             />
             <a href="tel:+447836310462">
@@ -128,32 +128,32 @@ export default function Footer() {
           <div className="flex flex-row items-center space-x-2.5 mb-5">
             {[
               {
-                icon: "/imge/footer/social/facebook.svg",
+                icon: "/imge/footer/social/facebook.webp",
                 link: "https://www.facebook.com/ExclusiveMoviesOfficial",
                 alt: "Facebook",
               },
               {
-                icon: "/imge/footer/social/instagram.svg",
+                icon: "/imge/footer/social/instagram.webp",
                 link: "https://www.instagram.com/exclusivemoviesofficial",
                 alt: "Instagram",
               },
               {
-                icon: "/imge/footer/social/x.svg",
+                icon: "/imge/footer/social/x.webp",
                 link: "https://x.com/ExclusiveMovies",
                 alt: "X",
               },
               {
-                icon: "/imge/footer/social/tiktok.svg",
+                icon: "/imge/footer/social/tiktok.webp",
                 link: "https://www.tiktok.com/@exclusivemoviesofficial",
                 alt: "TikTok",
               },
               {
-                icon: "/imge/footer/social/youtube.svg",
+                icon: "/imge/footer/social/youtube.webp",
                 link: "https://youtube.com/@exclusivemoviesofficial",
                 alt: "Youtube",
               },
               {
-                icon: "/imge/footer/social/linkedin.svg",
+                icon: "/imge/footer/social/linkedin.webp",
                 link: "https://www.linkedin.com/company/exclusivemovies/",
                 alt: "LinkedIn",
               },

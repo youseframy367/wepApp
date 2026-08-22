@@ -40,7 +40,7 @@ export default function AgreementReseller() {
         className="flex gap-[15px] items-center w-[90%] mx-auto my-[30px]"
         data-aos="fade-up"
       >
-        <img src="/imge/agreement/reseller/add.svg" alt="addIcon"></img>
+        <img src="/imge/agreement/reseller/add.webp" alt="addIcon"></img>
         <p
           className={` text-primary font-[500] md:text-[30px] text-[20px] md:leading-[40px] leading-[25px] ${local === "ar" ? "font-cairo " : "font-montserrat"}`}
         >

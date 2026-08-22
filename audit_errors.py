@@ -52,7 +52,7 @@ async def check_page(page, route: str):
 
     # leaked translation keys in rendered text
     leaks = re.findall(r">([A-Z][a-zA-Z]+\.[a-zA-Z0-9_.]+)<", html)
-    leaks = [l for l in leaks if "." in l and not any(k in l.lower() for k in ["http", "www", ".com", ".js", ".css", ".svg", ".png", ".webp", ".jpg"])]
+    leaks = [l for l in leaks if "." in l and not any(k in l.lower() for k in ["http", "www", ".com", ".js", ".css", ".webp", ".png", ".webp", ".jpg"])]
     # dedupe
     leaks = list(dict.fromkeys(leaks))[:10]
 

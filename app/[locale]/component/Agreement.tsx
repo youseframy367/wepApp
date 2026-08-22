@@ -37,7 +37,7 @@ export default function Agreement({ nameSpace, className, imgOne, imgTwo, imgThr
             key={index}
             className="flex items-center md:gap-[30px] gap-[7px]"
           >
-            <img src="/imge/checkBox.svg" alt="icon" width="22" height="22" />
+            <img src="/imge/checkBox.webp" alt="icon" width="22" height="22" />
 
             <p
               className={`md:font-[400] font-[300] md:text-[18px] text-[14px] tracking-[-0.25px] ${fontClass}`}

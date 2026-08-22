@@ -39,7 +39,7 @@ export async function generateSeo({
   const url = `${BASE_URL}/${locale}${path}`;
 
   return {
-    metadataBase: new URL(BASE_URL),
+    // metadataBase: new URL(BASE_URL),
 
     title,
     description,
@@ -73,7 +73,7 @@ export async function generateSeo({
       type: "website",
       images: [
         {
-          url: image,
+          url: `${BASE_URL}${image}`,
           width: 1200,
           height: 630,
           alt: title,
@@ -85,7 +85,7 @@ export async function generateSeo({
       card: "summary_large_image",
       title,
       description,
-      images: [image],
+      images: [`${BASE_URL}${image}`],
     },
   };
 }

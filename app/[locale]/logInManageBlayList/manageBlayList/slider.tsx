@@ -15,37 +15,37 @@ export default function SliderManageBlayList(): JSX.Element {
     {
       id: "manage-playlists",
       title: t("playlist.managePlaylists"),
-      icon: "/imge/manageBlayList/managePalyList.svg",
+      icon: "/imge/manageBlayList/managePalyList.webp",
     },
     {
       id: "activation",
       title: t("playlist.activation"),
-      icon: "/imge/manageBlayList/Activation.svg",
+      icon: "/imge/manageBlayList/Activation.webp",
     },
     {
       id: "transfer-device",
       title: t("playlist.transferDevice"),
-      icon: "/imge/manageBlayList/Transfer Device.svg",
+      icon: "/imge/manageBlayList/Transfer Device.webp",
     },
     {
       id: "users-status",
       title: t("playlist.usersStatus"),
-      icon: "/imge/manageBlayList/UsersStatus.svg",
+      icon: "/imge/manageBlayList/UsersStatus.webp",
     },
     {
       id: "parent-pin",
       title: t("playlist.parentPin"),
-      icon: "/imge/manageBlayList/Parent PIN.svg",
+      icon: "/imge/manageBlayList/Parent PIN.webp",
     },
     {
       id: "device-key",
       title: t("playlist.deviceKey"),
-      icon: "/imge/manageBlayList/Device Key.svg",
+      icon: "/imge/manageBlayList/Device Key.webp",
     },
     {
       id: "logout",
       title: t("playlist.logout"),
-      icon: "/imge/manageBlayList/Logout.svg",
+      icon: "/imge/manageBlayList/Logout.webp",
     },
   ];
 

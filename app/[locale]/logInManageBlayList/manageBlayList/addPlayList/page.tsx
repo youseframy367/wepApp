@@ -81,17 +81,17 @@ export default function ManagBlayList() {
     {
       key: "PlaylistName",
       type: "text",
-      img: "/imge/manageBlayList/manageBlayList/AddPlayList/namePlayList.svg",
+      img: "/imge/manageBlayList/manageBlayList/AddPlayList/namePlayList.webp",
     },
     {
       key: "PlaylistURL",
       type: "text",
-      img: "/imge/manageBlayList/manageBlayList/AddPlayList/playLisyUrl.svg",
+      img: "/imge/manageBlayList/manageBlayList/AddPlayList/playLisyUrl.webp",
     },
     {
       key: "XMLTV",
       type: "text",
-      img: "/imge/manageBlayList/manageBlayList/AddPlayList/XML.svg",
+      img: "/imge/manageBlayList/manageBlayList/AddPlayList/XML.webp",
     },
   ];
 
@@ -99,12 +99,12 @@ export default function ManagBlayList() {
     {
       key: "PIN",
       type: "text",
-      img: "/imge/manageBlayList/manageBlayList/AddPlayList/PIN.svg",
+      img: "/imge/manageBlayList/manageBlayList/AddPlayList/PIN.webp",
     },
     {
       key: "confirmPIN",
       type: "text",
-      img: "/imge/manageBlayList/manageBlayList/AddPlayList/PIN.svg",
+      img: "/imge/manageBlayList/manageBlayList/AddPlayList/PIN.webp",
     },
   ];
 

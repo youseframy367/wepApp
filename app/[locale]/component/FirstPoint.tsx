@@ -11,7 +11,7 @@ interface FirstPointProps {
   namespace: string;
 }
 export default function FirstPoint({
-  urlImg = "/imge/agreement/i.svg",
+  urlImg = "/imge/agreement/i.webp",
   withContainer = true,
   className = "",
   namespace

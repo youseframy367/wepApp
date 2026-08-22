@@ -106,7 +106,7 @@ export default function AccordionGradientBox({
             aria-label={open ? "Collapse" : "Expand"}
           >
             <Image
-              src={open ? "/imge/mins.svg" : "/imge/plus.svg"}
+              src={open ? "/imge/mins.webp" : "/imge/plus.webp"}
               alt={open ? "Collapse" : "Expand"}
               width={32}
               height={32}
@@ -161,7 +161,7 @@ export default function AccordionGradientBox({
           aria-label={open ? "Collapse" : "Expand"}
         >
           <Image
-            src={open ? "/imge/mins.svg" : "/imge/plus.svg"}
+            src={open ? "/imge/mins.webp" : "/imge/plus.webp"}
             alt={open ? "Collapse" : "Expand"}
             width={24}
             height={24}

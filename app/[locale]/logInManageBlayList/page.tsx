@@ -34,20 +34,20 @@ export default function ManagBlayList() {
       name: "device_id",
       key: "deviceId",
       type: "text",
-      img: "/imge/manageBlayList/idIcon.svg",
+      img: "/imge/manageBlayList/idIcon.webp",
     },
     {
       name: "device_key",
       key: "deviceKey",
       type: "text",
-      img: "/imge/manageBlayList/keyIcon.svg",
+      img: "/imge/manageBlayList/keyIcon.webp",
     },
     {
       name: "captcha",
       key: "captcha",
       type: "text",
-      img: "/imge/manageBlayList/chekSifty.svg",
-      imgRelode: "/imge/manageBlayList/refresh.svg",
+      img: "/imge/manageBlayList/chekSifty.webp",
+      imgRelode: "/imge/manageBlayList/refresh.webp",
     },
   ];
 

@@ -5,7 +5,7 @@ export default function StructuredData() {
     "@type": "Organization",
     name: "Exclusive Movies Ltd",
     url: siteUrl,
-    logo: `${siteUrl}/logo.svg`,
+    logo: `${siteUrl}/logo.webp`,
     description:
       "Exclusive Movies develops secure and privacy-focused digital media solutions through Ex Pro Media Player.",
     email: "support@exclusivemovies.com",

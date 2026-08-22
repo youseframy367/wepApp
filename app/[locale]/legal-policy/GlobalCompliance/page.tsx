@@ -35,7 +35,7 @@ export default function GlobalCompliance() {
       />
 
       <div className="flex gap-[20px] items-center w-[90%] mx-auto mt-[20px] ">
-        <img src="/imge/policy/todo.svg" alt="todo" width="40px" />
+        <img src="/imge/policy/todo.webp" alt="todo" width="40px" />
         <h2
           className={`${locale === "en" ? "font-inter md:font-[700] font-[600] " : "font-cairo md:font-[600] font-[500]"} tracking-[-0.25px] md:text-[18px] text-[16px]`}
         >

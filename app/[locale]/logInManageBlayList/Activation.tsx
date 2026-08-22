@@ -40,19 +40,19 @@ export default function Activation(): JSX.Element {
   const paymentMethods: PaymentMethod[] = [
     {
       id: "credit-card",
-      img: "/imge/manageBlayList/CreditCard.svg",
+      img: "/imge/manageBlayList/CreditCard.webp",
       title: "paymentMethods.creditCard.title",
       text: "paymentMethods.creditCard.text",
     },
     {
       id: "paypal",
-      img: "/imge/manageBlayList/PayPal.svg",
+      img: "/imge/manageBlayList/PayPal.webp",
       title: "paymentMethods.paypal.title",
       text: "paymentMethods.paypal.text",
     },
     {
       id: "wallet",
-      img: "/imge/manageBlayList/E-Wallet.svg",
+      img: "/imge/manageBlayList/E-Wallet.webp",
       title: "paymentMethods.eWallet.title",
       text: "paymentMethods.eWallet.text",
     },
@@ -75,7 +75,7 @@ export default function Activation(): JSX.Element {
         >
           <img
             data-aos="fade-out"
-            src="/imge/home/4$.svg"
+            src="/imge/home/4$.webp"
             alt="$4"
             width="67px"
             height="56px"
@@ -108,7 +108,7 @@ export default function Activation(): JSX.Element {
         >
           <img
             data-aos="fade-out"
-            src="/imge/home/6$.svg"
+            src="/imge/home/6$.webp"
             alt="$4"
             width="67px"
             height="56px"

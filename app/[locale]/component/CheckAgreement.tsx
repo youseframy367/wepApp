@@ -8,7 +8,7 @@ import ImageCheckbox from "./CheckBox";
 import { useLocale , useTranslations} from "next-intl";
 
 type Props = {
-  agreementType: "customer";
+  agreementType: "customer" | "reseller";
 };
 
 export default function CheckAgreement({ agreementType }: Props) {
@@ -16,15 +16,22 @@ export default function CheckAgreement({ agreementType }: Props) {
   const [agree, setAgree] = useState(false);
   const router = useRouter();
   const [pending, startTransition] = useTransition();
-const t = useTranslations("agreementConfirmation");
+  const t = useTranslations("agreementConfirmation");
+
   const handleAccept = () => {
     if (!agree) return;
-
     startTransition(async () => {
-      await setAgreementStep("done");      router.push(`/${locale}`);
+      if (agreementType === "customer") {
+        await setAgreementStep("customer");
+        router.push(`/${locale}`);
+      } else {
+        await setAgreementStep("done");
+        router.push(`/${locale}/Dashboard`);
+      }
       router.refresh();
     });
   };
+
   return (
     <div>
       <GradientBorderBox className="w-[90%] block mx-auto flex px-[20px] items-center h-[68px] md:my-[40px] my-[30px]">
@@ -40,7 +47,6 @@ const t = useTranslations("agreementConfirmation");
           </p>
         </div>
       </GradientBorderBox>
-
       <button
         disabled={!agree || pending}
         onClick={handleAccept}

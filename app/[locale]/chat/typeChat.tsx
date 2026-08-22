@@ -9,26 +9,26 @@ export default function TypeChat() {
     {
       id: "activate_ex_pro",
       title: "Activate EX PRO",
-      iconActive: "/imge/Chat/iconActivateExPro.svg",
-      icon: "/imge/Chat/iconActivActivateEXPRO.svg",
+      iconActive: "/imge/Chat/iconActivateExPro.webp",
+      icon: "/imge/Chat/iconActivActivateEXPRO.webp",
     },
     {
       id: "supported_devices",
       title: "Supported Devices",
-      iconActive: "/imge/Chat/icconSupported.svg",
-      icon: "/imge/Chat/iconActivSupportedDevices.svg",
+      iconActive: "/imge/Chat/icconSupported.webp",
+      icon: "/imge/Chat/iconActivSupportedDevices.webp",
     },
     {
       id: "contact_h_support",
       title: "Contact .H Support",
-      iconActive: "/imge/Chat/iconHSupport.svg",
-      icon: "/imge/Chat/iconActivContactHSupport.svg",
+      iconActive: "/imge/Chat/iconHSupport.webp",
+      icon: "/imge/Chat/iconActivContactHSupport.webp",
     },
     {
       id: "legal_compliance",
       title: "Legal & Compliance",
-      iconActive: "/imge/Chat/iconCompliance.svg",
-      icon: "/imge/Chat/iconActiveLegalCompliance.svg",
+      iconActive: "/imge/Chat/iconCompliance.webp",
+      icon: "/imge/Chat/iconActiveLegalCompliance.webp",
     },
   ];
 

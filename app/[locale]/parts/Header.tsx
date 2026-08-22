@@ -142,8 +142,8 @@ export default function Header() {
             <img
               src={
                 locale === "ar"
-                  ? "/imge/header/EnLang.svg"
-                  : "/imge/header/arLang.svg"
+                  ? "/imge/header/EnLang.webp"
+                  : "/imge/header/arLang.webp"
               }
               alt="Language"
               className="cursor-pointer"
@@ -243,8 +243,8 @@ export default function Header() {
               <img
                 src={
                   locale === "ar"
-                    ? "/imge/header/EnLang.svg"
-                    : "/imge/header/arLang.svg"
+                    ? "/imge/header/EnLang.webp"
+                    : "/imge/header/arLang.webp"
                 }
                 alt="Language"
                 className="cursor-pointer w-[50px]  object-contain"

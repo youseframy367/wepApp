@@ -158,7 +158,7 @@ export default function BlatformSupport() {
           <BlackBox  borderEfect={false}  className="flex md:w-[45%] w-[100%] px-[15px] items-center gap-[15px] h-[102px] ">
             <img
               data-aos="fade-out"
-              src="/imge/home/4$.svg"
+              src="/imge/home/4$.webp"
               alt="$4"
               width="67px"
               height="56px"
@@ -188,7 +188,7 @@ export default function BlatformSupport() {
           <BlackBox  borderEfect={false}  className="flex md:w-[45%] w-[100%] px-[15px] items-center gap-[15px] h-[102px] ">
             <img
               data-aos="fade-out"
-              src="/imge/home/6$.svg"
+              src="/imge/home/6$.webp"
               alt="$4"
               width="67px"
               height="56px"

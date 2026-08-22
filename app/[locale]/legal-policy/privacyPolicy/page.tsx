@@ -66,7 +66,7 @@ export default function PrivacyPolicy() {
           </p>
 
           <div className="flex gap-[10px]  items-center">
-            <img src="/imge/policy/privacyPolicy/email.svg" alt="Email"></img>
+            <img src="/imge/policy/privacyPolicy/email.webp" alt="Email"></img>
             <p
               className={`font-[400] ${fontClass} md:text-[14px] text-[12px] tracking-[-0.25px]`}
             >
@@ -75,7 +75,7 @@ export default function PrivacyPolicy() {
           </div>
 
           <div className="flex gap-[10px]  items-center">
-            <img src="/imge/policy/privacyPolicy/location.svg" alt="location"></img>
+            <img src="/imge/policy/privacyPolicy/location.webp" alt="location"></img>
             <p
               className={`font-[400] ${fontClass} md:text-[14px] text-[12px] tracking-[-0.25px]`}
             >

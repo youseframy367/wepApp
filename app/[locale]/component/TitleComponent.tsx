@@ -6,7 +6,7 @@ interface TitleProps {
   urlImg?: string;
 }
 
-export default function Title({ titleKey, urlImg = "/imge/policy/DoNotSellOrShare/iconworning.svg" }: TitleProps) {
+export default function Title({ titleKey, urlImg = "/imge/policy/DoNotSellOrShare/iconworning.webp" }: TitleProps) {
   const locale = useLocale();
   const t = useTranslations("titles");
   const safeTitleKey = titleKey ?? "";

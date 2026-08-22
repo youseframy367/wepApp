@@ -25,7 +25,7 @@ export default function ImageCheckbox({
 
       {checked ? (
         <img
-          src="/imge/checkBox.svg"
+          src="/imge/checkBox.webp"
           alt="checked"
           className={imgClassName}
         />

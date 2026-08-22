@@ -55,7 +55,7 @@ export default function FAQ() {
           item ? (
             <div key={index} className="flex items-center gap-[10px]">
               <img
-                src="/imge/checkBox.svg"
+                src="/imge/checkBox.webp"
                 alt="check"
                 className="w-[25px] h-[25px]"
               />
@@ -71,7 +71,7 @@ export default function FAQ() {
         )}
       </GradientBorderBox>
       <Title
-        urlImg="/imge/agreement/i.svg"
+        urlImg="/imge/agreement/i.webp"
         titleKey="GeneralInformation"
       />
       <MapOfAccorditionGradientBox
@@ -80,7 +80,7 @@ export default function FAQ() {
         namespace="FAQ.GeneralInformation"
       />
       <Title
-        urlImg="/imge/agreement/i.svg"
+        urlImg="/imge/agreement/i.webp"
         titleKey="AccountRegistration"
       />
       <MapOfAccorditionGradientBox
@@ -88,14 +88,14 @@ export default function FAQ() {
         data={AccountRegistration}
         namespace="FAQ.AccountRegistration"
       />
-      <Title urlImg="/imge/agreement/i.svg" titleKey="Subscription" />
+      <Title urlImg="/imge/agreement/i.webp" titleKey="Subscription" />
       <MapOfAccorditionGradientBox
         CuntEffect={1}
         data={Subscription}
         namespace="FAQ.Subscription"
       />
       <Title
-        urlImg="/imge/agreement/i.svg"
+        urlImg="/imge/agreement/i.webp"
         titleKey="TechnicalSupport"
       />
       <MapOfAccorditionGradientBox
@@ -104,7 +104,7 @@ export default function FAQ() {
         namespace="FAQ.TechnicalSupport"
       />
       <Title
-        urlImg="/imge/agreement/i.svg"
+        urlImg="/imge/agreement/i.webp"
         titleKey="DataProtection"
       />
       <MapOfAccorditionGradientBox
@@ -113,7 +113,7 @@ export default function FAQ() {
         namespace="FAQ.DataProtection"
       />
       <Title
-        urlImg="/imge/agreement/i.svg"
+        urlImg="/imge/agreement/i.webp"
         titleKey="LegalCompliance"
       />
       <MapOfAccorditionGradientBox
@@ -122,7 +122,7 @@ export default function FAQ() {
         namespace="FAQ.LegalCompliance"
       />
       <Title
-        urlImg="/imge/agreement/i.svg"
+        urlImg="/imge/agreement/i.webp"
         titleKey="DeviceManagement"
       />
       <MapOfAccorditionGradientBox
@@ -130,13 +130,13 @@ export default function FAQ() {
         data={DeviceManagement}
         namespace="FAQ.DeviceManagement"
       />
-      <Title urlImg="/imge/agreement/i.svg" titleKey="Payment" />
+      <Title urlImg="/imge/agreement/i.webp" titleKey="Payment" />
       <MapOfAccorditionGradientBox
         CuntEffect={1}
         data={Payment}
         namespace="FAQ.Payment"
       />
-      <Title urlImg="/imge/agreement/i.svg" titleKey="Travel" />
+      <Title urlImg="/imge/agreement/i.webp" titleKey="Travel" />
       <MapOfAccorditionGradientBox
         CuntEffect={1}
         data={Travel}

@@ -94,7 +94,7 @@ const [checkedItems, setCheckedItems] = useState<Record<number, boolean>>({});  
      <div className="flex flex-col gap-2 md:flex-row md:justify-between">
   <GradientBorderBox className="rounded-[4px] md:w-[232px] w-[95%] md:mx-0 mx-auto h-[29px] flex items-center px-3 gap-2">
     <img
-      src="/imge/manageBlayList/manageBlayList/Search.svg"
+      src="/imge/manageBlayList/manageBlayList/Search.webp"
       alt="search"
       className="w-3 h-3"
     />
@@ -183,12 +183,12 @@ const [checkedItems, setCheckedItems] = useState<Record<number, boolean>>({});  
               </button>
 
               <img
-                src="/imge/manageBlayList/manageBlayList/edit.svg"
+                src="/imge/manageBlayList/manageBlayList/edit.webp"
                 alt="Edit"
                 className="mx-[1%] cursor-pointer md:w-auto w-[15px]"
               />
               <img
-                src="/imge/manageBlayList/manageBlayList/delate.svg"
+                src="/imge/manageBlayList/manageBlayList/delate.webp"
                 alt="delate"
                 className={` ${locale === "en" ? "md:ml-[6%] ml-[.5%]" : "md:mr-[6%] mr-[.5%]"} cursor-pointer md:w-auto w-[15px]`}
                 onClick={() => {

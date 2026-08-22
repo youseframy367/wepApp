@@ -1,0 +1,4118 @@
+{
+  "public": [
+    {
+      "path": "public/file.webp",
+      "name": "file.webp",
+      "width": 16,
+      "height": 16,
+      "size_kb": 0.18,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/globe.webp",
+      "name": "globe.webp",
+      "width": 16,
+      "height": 16,
+      "size_kb": 0.33,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/next.webp",
+      "name": "next.webp",
+      "width": 394,
+      "height": 80,
+      "size_kb": 2.11,
+      "aspect_ratio": 4.92
+    },
+    {
+      "path": "public/vercel.webp",
+      "name": "vercel.webp",
+      "width": 1155,
+      "height": 1000,
+      "size_kb": 9.37,
+      "aspect_ratio": 1.16
+    },
+    {
+      "path": "public/window.webp",
+      "name": "window.webp",
+      "width": 16,
+      "height": 16,
+      "size_kb": 0.14,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/checkBox.webp",
+      "name": "checkBox.webp",
+      "width": 30,
+      "height": 30,
+      "size_kb": 0.52,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/effect.webp",
+      "name": "effect.webp",
+      "width": 1280,
+      "height": 509,
+      "size_kb": 436.66,
+      "aspect_ratio": 2.51
+    },
+    {
+      "path": "public/imge/effectThree.webp",
+      "name": "effectThree.webp",
+      "width": 1600,
+      "height": 1600,
+      "size_kb": 542.73,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/effectTwo.webp",
+      "name": "effectTwo.webp",
+      "width": 1600,
+      "height": 1600,
+      "size_kb": 523.15,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/logo.webp",
+      "name": "logo.webp",
+      "width": 77,
+      "height": 56,
+      "size_kb": 4.95,
+      "aspect_ratio": 1.38
+    },
+    {
+      "path": "public/imge/mins.webp",
+      "name": "mins.webp",
+      "width": 35,
+      "height": 35,
+      "size_kb": 0.48,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/plus.webp",
+      "name": "plus.webp",
+      "width": 35,
+      "height": 35,
+      "size_kb": 0.53,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/worning.png",
+      "name": "worning.png",
+      "width": 42,
+      "height": 34,
+      "size_kb": 2.21,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "public/imge/worning.webp",
+      "name": "worning.webp",
+      "width": 42,
+      "height": 34,
+      "size_kb": 1.51,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "public/imge/Chat/MREX.png",
+      "name": "MREX.png",
+      "width": 63,
+      "height": 67,
+      "size_kb": 8.55,
+      "aspect_ratio": 0.94
+    },
+    {
+      "path": "public/imge/Chat/MREX.webp",
+      "name": "MREX.webp",
+      "width": 63,
+      "height": 67,
+      "size_kb": 2.71,
+      "aspect_ratio": 0.94
+    },
+    {
+      "path": "public/imge/Chat/drwer.webp",
+      "name": "drwer.webp",
+      "width": 73,
+      "height": 73,
+      "size_kb": 1.62,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/Chat/icconSupported.webp",
+      "name": "icconSupported.webp",
+      "width": 20,
+      "height": 20,
+      "size_kb": 0.26,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/Chat/iconActivActivateEXPRO.webp",
+      "name": "iconActivActivateEXPRO.webp",
+      "width": 16,
+      "height": 20,
+      "size_kb": 0.34,
+      "aspect_ratio": 0.8
+    },
+    {
+      "path": "public/imge/Chat/iconActivContactHSupport.webp",
+      "name": "iconActivContactHSupport.webp",
+      "width": 16,
+      "height": 20,
+      "size_kb": 0.43,
+      "aspect_ratio": 0.8
+    },
+    {
+      "path": "public/imge/Chat/iconActivSupportedDevices.webp",
+      "name": "iconActivSupportedDevices.webp",
+      "width": 20,
+      "height": 20,
+      "size_kb": 0.43,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/Chat/iconActivateExPro.webp",
+      "name": "iconActivateExPro.webp",
+      "width": 16,
+      "height": 20,
+      "size_kb": 0.19,
+      "aspect_ratio": 0.8
+    },
+    {
+      "path": "public/imge/Chat/iconActiveLegalCompliance.webp",
+      "name": "iconActiveLegalCompliance.webp",
+      "width": 20,
+      "height": 20,
+      "size_kb": 0.49,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/Chat/iconCompliance.webp",
+      "name": "iconCompliance.webp",
+      "width": 20,
+      "height": 20,
+      "size_kb": 0.3,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/Chat/iconHSupport.webp",
+      "name": "iconHSupport.webp",
+      "width": 16,
+      "height": 20,
+      "size_kb": 0.3,
+      "aspect_ratio": 0.8
+    },
+    {
+      "path": "public/imge/Chat/openChat.png",
+      "name": "openChat.png",
+      "width": 80,
+      "height": 80,
+      "size_kb": 14.59,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/Chat/openChat.webp",
+      "name": "openChat.webp",
+      "width": 80,
+      "height": 80,
+      "size_kb": 4.59,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/Dashbord/Cinematic.png",
+      "name": "Cinematic.png",
+      "width": 114,
+      "height": 100,
+      "size_kb": 21.27,
+      "aspect_ratio": 1.14
+    },
+    {
+      "path": "public/imge/Dashbord/Cinematic.webp",
+      "name": "Cinematic.webp",
+      "width": 114,
+      "height": 100,
+      "size_kb": 7.41,
+      "aspect_ratio": 1.14
+    },
+    {
+      "path": "public/imge/Dashbord/Controls.png",
+      "name": "Controls.png",
+      "width": 79,
+      "height": 110,
+      "size_kb": 11.97,
+      "aspect_ratio": 0.72
+    },
+    {
+      "path": "public/imge/Dashbord/Controls.webp",
+      "name": "Controls.webp",
+      "width": 79,
+      "height": 110,
+      "size_kb": 4.38,
+      "aspect_ratio": 0.72
+    },
+    {
+      "path": "public/imge/Dashbord/EnterDashbord.webp",
+      "name": "EnterDashbord.webp",
+      "width": 28,
+      "height": 26,
+      "size_kb": 0.41,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/Dashbord/ExpertSupport.png",
+      "name": "ExpertSupport.png",
+      "width": 98,
+      "height": 100,
+      "size_kb": 14.24,
+      "aspect_ratio": 0.98
+    },
+    {
+      "path": "public/imge/Dashbord/ExpertSupport.webp",
+      "name": "ExpertSupport.webp",
+      "width": 98,
+      "height": 100,
+      "size_kb": 6.56,
+      "aspect_ratio": 0.98
+    },
+    {
+      "path": "public/imge/Dashbord/Features.png",
+      "name": "Features.png",
+      "width": 100,
+      "height": 100,
+      "size_kb": 19.27,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/Dashbord/Features.webp",
+      "name": "Features.webp",
+      "width": 100,
+      "height": 100,
+      "size_kb": 6.35,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/Dashbord/Reliable.png",
+      "name": "Reliable.png",
+      "width": 96,
+      "height": 100,
+      "size_kb": 19.54,
+      "aspect_ratio": 0.96
+    },
+    {
+      "path": "public/imge/Dashbord/Reliable.webp",
+      "name": "Reliable.webp",
+      "width": 96,
+      "height": 100,
+      "size_kb": 7.1,
+      "aspect_ratio": 0.96
+    },
+    {
+      "path": "public/imge/Dashbord/Secure.webp",
+      "name": "Secure.webp",
+      "width": 25,
+      "height": 25,
+      "size_kb": 0.73,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/Dashbord/SupportedPlatforms.png",
+      "name": "SupportedPlatforms.png",
+      "width": 110,
+      "height": 85,
+      "size_kb": 19.32,
+      "aspect_ratio": 1.29
+    },
+    {
+      "path": "public/imge/Dashbord/SupportedPlatforms.webp",
+      "name": "SupportedPlatforms.webp",
+      "width": 110,
+      "height": 85,
+      "size_kb": 6.51,
+      "aspect_ratio": 1.29
+    },
+    {
+      "path": "public/imge/Dashbord/drwer.webp",
+      "name": "drwer.webp",
+      "width": 13,
+      "height": 28,
+      "size_kb": 0.23,
+      "aspect_ratio": 0.46
+    },
+    {
+      "path": "public/imge/FAQ/WhatisExPro.png",
+      "name": "WhatisExPro.png",
+      "width": 120,
+      "height": 114,
+      "size_kb": 21.24,
+      "aspect_ratio": 1.05
+    },
+    {
+      "path": "public/imge/FAQ/WhatisExPro.webp",
+      "name": "WhatisExPro.webp",
+      "width": 120,
+      "height": 114,
+      "size_kb": 6.26,
+      "aspect_ratio": 1.05
+    },
+    {
+      "path": "public/imge/FAQ/billed.png",
+      "name": "billed.png",
+      "width": 112,
+      "height": 104,
+      "size_kb": 20.49,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/FAQ/billed.webp",
+      "name": "billed.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 8.71,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/FAQ/chargedExtra.png",
+      "name": "chargedExtra.png",
+      "width": 95,
+      "height": 85,
+      "size_kb": 15.36,
+      "aspect_ratio": 1.12
+    },
+    {
+      "path": "public/imge/FAQ/chargedExtra.webp",
+      "name": "chargedExtra.webp",
+      "width": 95,
+      "height": 85,
+      "size_kb": 5.66,
+      "aspect_ratio": 1.12
+    },
+    {
+      "path": "public/imge/FAQ/countries.png",
+      "name": "countries.png",
+      "width": 112,
+      "height": 104,
+      "size_kb": 21.85,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/FAQ/countries.webp",
+      "name": "countries.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 6.44,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/FAQ/crashing.png",
+      "name": "crashing.png",
+      "width": 120,
+      "height": 114,
+      "size_kb": 23.62,
+      "aspect_ratio": 1.05
+    },
+    {
+      "path": "public/imge/FAQ/crashing.webp",
+      "name": "crashing.webp",
+      "width": 120,
+      "height": 114,
+      "size_kb": 8.82,
+      "aspect_ratio": 1.05
+    },
+    {
+      "path": "public/imge/FAQ/createAccount.png",
+      "name": "createAccount.png",
+      "width": 112,
+      "height": 104,
+      "size_kb": 23.49,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/FAQ/createAccount.webp",
+      "name": "createAccount.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 7.07,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/FAQ/dataProtected.png",
+      "name": "dataProtected.png",
+      "width": 112,
+      "height": 104,
+      "size_kb": 22.14,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/FAQ/dataProtected.webp",
+      "name": "dataProtected.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 5.86,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/FAQ/ddd.png",
+      "name": "ddd.png",
+      "width": 112,
+      "height": 104,
+      "size_kb": 16.1,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/FAQ/ddd.webp",
+      "name": "ddd.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 5.35,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/FAQ/devicescanIuse.png",
+      "name": "devicescanIuse.png",
+      "width": 121,
+      "height": 73,
+      "size_kb": 17.34,
+      "aspect_ratio": 1.66
+    },
+    {
+      "path": "public/imge/FAQ/devicescanIuse.webp",
+      "name": "devicescanIuse.webp",
+      "width": 121,
+      "height": 73,
+      "size_kb": 5.75,
+      "aspect_ratio": 1.66
+    },
+    {
+      "path": "public/imge/FAQ/different.png",
+      "name": "different.png",
+      "width": 112,
+      "height": 104,
+      "size_kb": 23.28,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/FAQ/different.webp",
+      "name": "different.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 5.89,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/FAQ/information.png",
+      "name": "information.png",
+      "width": 112,
+      "height": 104,
+      "size_kb": 20.54,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/FAQ/information.webp",
+      "name": "information.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 6.3,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/FAQ/manageDevices.png",
+      "name": "manageDevices.png",
+      "width": 98,
+      "height": 82,
+      "size_kb": 11.0,
+      "aspect_ratio": 1.2
+    },
+    {
+      "path": "public/imge/FAQ/manageDevices.webp",
+      "name": "manageDevices.webp",
+      "width": 98,
+      "height": 82,
+      "size_kb": 3.04,
+      "aspect_ratio": 1.2
+    },
+    {
+      "path": "public/imge/FAQ/multipleAccounts.png",
+      "name": "multipleAccounts.png",
+      "width": 112,
+      "height": 104,
+      "size_kb": 23.49,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/FAQ/multipleAccounts.webp",
+      "name": "multipleAccounts.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 7.07,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/FAQ/offerRefunds.png",
+      "name": "offerRefunds.png",
+      "width": 106,
+      "height": 76,
+      "size_kb": 17.3,
+      "aspect_ratio": 1.39
+    },
+    {
+      "path": "public/imge/FAQ/offerRefunds.webp",
+      "name": "offerRefunds.webp",
+      "width": 106,
+      "height": 76,
+      "size_kb": 6.04,
+      "aspect_ratio": 1.39
+    },
+    {
+      "path": "public/imge/FAQ/paymentMethods.png",
+      "name": "paymentMethods.png",
+      "width": 120,
+      "height": 114,
+      "size_kb": 27.44,
+      "aspect_ratio": 1.05
+    },
+    {
+      "path": "public/imge/FAQ/paymentMethods.webp",
+      "name": "paymentMethods.webp",
+      "width": 120,
+      "height": 114,
+      "size_kb": 7.84,
+      "aspect_ratio": 1.05
+    },
+    {
+      "path": "public/imge/FAQ/responsible.png",
+      "name": "responsible.png",
+      "width": 100,
+      "height": 94,
+      "size_kb": 20.13,
+      "aspect_ratio": 1.06
+    },
+    {
+      "path": "public/imge/FAQ/responsible.webp",
+      "name": "responsible.webp",
+      "width": 100,
+      "height": 94,
+      "size_kb": 7.62,
+      "aspect_ratio": 1.06
+    },
+    {
+      "path": "public/imge/FAQ/subscription.png",
+      "name": "subscription.png",
+      "width": 120,
+      "height": 114,
+      "size_kb": 29.08,
+      "aspect_ratio": 1.05
+    },
+    {
+      "path": "public/imge/FAQ/subscription.webp",
+      "name": "subscription.webp",
+      "width": 120,
+      "height": 114,
+      "size_kb": 8.95,
+      "aspect_ratio": 1.05
+    },
+    {
+      "path": "public/imge/FAQ/track.png",
+      "name": "track.png",
+      "width": 114,
+      "height": 108,
+      "size_kb": 20.66,
+      "aspect_ratio": 1.06
+    },
+    {
+      "path": "public/imge/FAQ/track.webp",
+      "name": "track.webp",
+      "width": 114,
+      "height": 108,
+      "size_kb": 4.52,
+      "aspect_ratio": 1.06
+    },
+    {
+      "path": "public/imge/FAQ/videoPlay.png",
+      "name": "videoPlay.png",
+      "width": 112,
+      "height": 104,
+      "size_kb": 16.97,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/FAQ/videoPlay.webp",
+      "name": "videoPlay.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 7.05,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/FAQ/violate.png",
+      "name": "violate.png",
+      "width": 112,
+      "height": 104,
+      "size_kb": 30.73,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/FAQ/violate.webp",
+      "name": "violate.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 9.91,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/FAQ/whileTraveling.png",
+      "name": "whileTraveling.png",
+      "width": 109,
+      "height": 103,
+      "size_kb": 20.4,
+      "aspect_ratio": 1.06
+    },
+    {
+      "path": "public/imge/FAQ/whileTraveling.webp",
+      "name": "whileTraveling.webp",
+      "width": 109,
+      "height": 103,
+      "size_kb": 7.64,
+      "aspect_ratio": 1.06
+    },
+    {
+      "path": "public/imge/agreement/AGREEMENT.png",
+      "name": "AGREEMENT.png",
+      "width": 116,
+      "height": 96,
+      "size_kb": 15.39,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/agreement/AGREEMENT.webp",
+      "name": "AGREEMENT.webp",
+      "width": 116,
+      "height": 96,
+      "size_kb": 6.8,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/agreement/LIMITATION.png",
+      "name": "LIMITATION.png",
+      "width": 106,
+      "height": 87,
+      "size_kb": 17.39,
+      "aspect_ratio": 1.22
+    },
+    {
+      "path": "public/imge/agreement/LIMITATION.webp",
+      "name": "LIMITATION.webp",
+      "width": 106,
+      "height": 87,
+      "size_kb": 6.16,
+      "aspect_ratio": 1.22
+    },
+    {
+      "path": "public/imge/agreement/Layer 3 27.png",
+      "name": "Layer 3 27.png",
+      "width": 87,
+      "height": 78,
+      "size_kb": 16.14,
+      "aspect_ratio": 1.12
+    },
+    {
+      "path": "public/imge/agreement/Layer 3 27.webp",
+      "name": "Layer 3 27.webp",
+      "width": 87,
+      "height": 78,
+      "size_kb": 5.15,
+      "aspect_ratio": 1.12
+    },
+    {
+      "path": "public/imge/agreement/PAYMENT.png",
+      "name": "PAYMENT.png",
+      "width": 103,
+      "height": 75,
+      "size_kb": 15.64,
+      "aspect_ratio": 1.37
+    },
+    {
+      "path": "public/imge/agreement/PAYMENT.webp",
+      "name": "PAYMENT.webp",
+      "width": 103,
+      "height": 75,
+      "size_kb": 5.63,
+      "aspect_ratio": 1.37
+    },
+    {
+      "path": "public/imge/agreement/accunt.png",
+      "name": "accunt.png",
+      "width": 103,
+      "height": 95,
+      "size_kb": 18.91,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/agreement/accunt.webp",
+      "name": "accunt.webp",
+      "width": 103,
+      "height": 95,
+      "size_kb": 6.94,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/agreement/contact.png",
+      "name": "contact.png",
+      "width": 103,
+      "height": 86,
+      "size_kb": 12.12,
+      "aspect_ratio": 1.2
+    },
+    {
+      "path": "public/imge/agreement/contact.webp",
+      "name": "contact.webp",
+      "width": 103,
+      "height": 86,
+      "size_kb": 6.64,
+      "aspect_ratio": 1.2
+    },
+    {
+      "path": "public/imge/agreement/i.webp",
+      "name": "i.webp",
+      "width": 37,
+      "height": 37,
+      "size_kb": 1.09,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/agreement/logo.png",
+      "name": "logo.png",
+      "width": 103,
+      "height": 85,
+      "size_kb": 15.87,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/agreement/logo.webp",
+      "name": "logo.webp",
+      "width": 103,
+      "height": 85,
+      "size_kb": 7.24,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/agreement/privcy.png",
+      "name": "privcy.png",
+      "width": 172,
+      "height": 142,
+      "size_kb": 46.13,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/agreement/privcy.webp",
+      "name": "privcy.webp",
+      "width": 172,
+      "height": 142,
+      "size_kb": 15.57,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/agreement/serverBolicy.png",
+      "name": "serverBolicy.png",
+      "width": 120,
+      "height": 99,
+      "size_kb": 23.53,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/agreement/serverBolicy.webp",
+      "name": "serverBolicy.webp",
+      "width": 120,
+      "height": 99,
+      "size_kb": 8.82,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/agreement/worning.png",
+      "name": "worning.png",
+      "width": 103,
+      "height": 98,
+      "size_kb": 14.04,
+      "aspect_ratio": 1.05
+    },
+    {
+      "path": "public/imge/agreement/worning.webp",
+      "name": "worning.webp",
+      "width": 103,
+      "height": 98,
+      "size_kb": 7.56,
+      "aspect_ratio": 1.05
+    },
+    {
+      "path": "public/imge/agreement/customer/Disclaimer.png",
+      "name": "Disclaimer.png",
+      "width": 172,
+      "height": 142,
+      "size_kb": 39.28,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/agreement/customer/Disclaimer.webp",
+      "name": "Disclaimer.webp",
+      "width": 172,
+      "height": 142,
+      "size_kb": 15.4,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/agreement/customer/GOVERNING.png",
+      "name": "GOVERNING.png",
+      "width": 89,
+      "height": 85,
+      "size_kb": 14.74,
+      "aspect_ratio": 1.05
+    },
+    {
+      "path": "public/imge/agreement/customer/GOVERNING.webp",
+      "name": "GOVERNING.webp",
+      "width": 89,
+      "height": 85,
+      "size_kb": 4.69,
+      "aspect_ratio": 1.05
+    },
+    {
+      "path": "public/imge/agreement/customer/about.png",
+      "name": "about.png",
+      "width": 114,
+      "height": 108,
+      "size_kb": 29.38,
+      "aspect_ratio": 1.06
+    },
+    {
+      "path": "public/imge/agreement/customer/about.webp",
+      "name": "about.webp",
+      "width": 114,
+      "height": 108,
+      "size_kb": 6.69,
+      "aspect_ratio": 1.06
+    },
+    {
+      "path": "public/imge/agreement/customer/final.png",
+      "name": "final.png",
+      "width": 94,
+      "height": 85,
+      "size_kb": 14.49,
+      "aspect_ratio": 1.11
+    },
+    {
+      "path": "public/imge/agreement/customer/final.webp",
+      "name": "final.webp",
+      "width": 94,
+      "height": 85,
+      "size_kb": 4.73,
+      "aspect_ratio": 1.11
+    },
+    {
+      "path": "public/imge/agreement/customer/privacyPolicy.png",
+      "name": "privacyPolicy.png",
+      "width": 172,
+      "height": 142,
+      "size_kb": 44.75,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/agreement/customer/privacyPolicy.webp",
+      "name": "privacyPolicy.webp",
+      "width": 172,
+      "height": 142,
+      "size_kb": 15.11,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/agreement/customer/refund.png",
+      "name": "refund.png",
+      "width": 172,
+      "height": 142,
+      "size_kb": 46.13,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/agreement/customer/refund.webp",
+      "name": "refund.webp",
+      "width": 172,
+      "height": 142,
+      "size_kb": 15.57,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/agreement/customer/trems.png",
+      "name": "trems.png",
+      "width": 172,
+      "height": 142,
+      "size_kb": 39.66,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/agreement/customer/trems.webp",
+      "name": "trems.webp",
+      "width": 172,
+      "height": 142,
+      "size_kb": 11.72,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/agreement/reseller/canon.png",
+      "name": "canon.png",
+      "width": 122,
+      "height": 101,
+      "size_kb": 25.13,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/agreement/reseller/esdarat.png",
+      "name": "esdarat.png",
+      "width": 106,
+      "height": 87,
+      "size_kb": 17.39,
+      "aspect_ratio": 1.22
+    },
+    {
+      "path": "public/imge/agreement/reseller/imgScurty.png",
+      "name": "imgScurty.png",
+      "width": 114,
+      "height": 108,
+      "size_kb": 20.66,
+      "aspect_ratio": 1.06
+    },
+    {
+      "path": "public/imge/agreement/reseller/imgTodo.png",
+      "name": "imgTodo.png",
+      "width": 114,
+      "height": 108,
+      "size_kb": 23.06,
+      "aspect_ratio": 1.06
+    },
+    {
+      "path": "public/imge/footer/logo.webp",
+      "name": "logo.webp",
+      "width": 96,
+      "height": 90,
+      "size_kb": 3.55,
+      "aspect_ratio": 1.07
+    },
+    {
+      "path": "public/imge/footer/mail.webp",
+      "name": "mail.webp",
+      "width": 24,
+      "height": 24,
+      "size_kb": 0.47,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/footer/phone.webp",
+      "name": "phone.webp",
+      "width": 24,
+      "height": 24,
+      "size_kb": 0.68,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/footer/social/facebook.webp",
+      "name": "facebook.webp",
+      "width": 24,
+      "height": 24,
+      "size_kb": 0.38,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/footer/social/instagram.webp",
+      "name": "instagram.webp",
+      "width": 24,
+      "height": 24,
+      "size_kb": 0.56,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/footer/social/linkedin.webp",
+      "name": "linkedin.webp",
+      "width": 24,
+      "height": 24,
+      "size_kb": 0.44,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/footer/social/tiktok.webp",
+      "name": "tiktok.webp",
+      "width": 24,
+      "height": 24,
+      "size_kb": 0.59,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/footer/social/x.webp",
+      "name": "x.webp",
+      "width": 24,
+      "height": 24,
+      "size_kb": 0.62,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/footer/social/youtube.webp",
+      "name": "youtube.webp",
+      "width": 28,
+      "height": 22,
+      "size_kb": 0.41,
+      "aspect_ratio": 1.27
+    },
+    {
+      "path": "public/imge/header/EnLang.webp",
+      "name": "EnLang.webp",
+      "width": 33,
+      "height": 22,
+      "size_kb": 1.02,
+      "aspect_ratio": 1.5
+    },
+    {
+      "path": "public/imge/header/arLang.webp",
+      "name": "arLang.webp",
+      "width": 42,
+      "height": 28,
+      "size_kb": 0.78,
+      "aspect_ratio": 1.5
+    },
+    {
+      "path": "public/imge/header/logoHeader.webp",
+      "name": "logoHeader.webp",
+      "width": 202,
+      "height": 61,
+      "size_kb": 2.76,
+      "aspect_ratio": 3.31
+    },
+    {
+      "path": "public/imge/header/navbar-bg.png",
+      "name": "navbar-bg.png",
+      "width": 1280,
+      "height": 106,
+      "size_kb": 89.43,
+      "aspect_ratio": 12.08
+    },
+    {
+      "path": "public/imge/header/navbar-bg.webp",
+      "name": "navbar-bg.webp",
+      "width": 1280,
+      "height": 106,
+      "size_kb": 1.01,
+      "aspect_ratio": 12.08
+    },
+    {
+      "path": "public/imge/header/uil_arrow-up.webp",
+      "name": "uil_arrow-up.webp",
+      "width": 21,
+      "height": 21,
+      "size_kb": 0.65,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/home/4$.webp",
+      "name": "4$.webp",
+      "width": 65,
+      "height": 50,
+      "size_kb": 1.3,
+      "aspect_ratio": 1.3
+    },
+    {
+      "path": "public/imge/home/6$.webp",
+      "name": "6$.webp",
+      "width": 62,
+      "height": 51,
+      "size_kb": 1.49,
+      "aspect_ratio": 1.22
+    },
+    {
+      "path": "public/imge/home/EXBRO.png",
+      "name": "EXBRO.png",
+      "width": 560,
+      "height": 331,
+      "size_kb": 335.52,
+      "aspect_ratio": 1.69
+    },
+    {
+      "path": "public/imge/home/EXBRO.webp",
+      "name": "EXBRO.webp",
+      "width": 560,
+      "height": 331,
+      "size_kb": 87.61,
+      "aspect_ratio": 1.69
+    },
+    {
+      "path": "public/imge/home/WhatIsEXPRO.png",
+      "name": "WhatIsEXPRO.png",
+      "width": 520,
+      "height": 308,
+      "size_kb": 321.06,
+      "aspect_ratio": 1.69
+    },
+    {
+      "path": "public/imge/home/WhatIsEXPRO.webp",
+      "name": "WhatIsEXPRO.webp",
+      "width": 520,
+      "height": 308,
+      "size_kb": 85.09,
+      "aspect_ratio": 1.69
+    },
+    {
+      "path": "public/imge/home/abbDevices.png",
+      "name": "abbDevices.png",
+      "width": 98,
+      "height": 75,
+      "size_kb": 16.89,
+      "aspect_ratio": 1.31
+    },
+    {
+      "path": "public/imge/home/abbDevices.webp",
+      "name": "abbDevices.webp",
+      "width": 98,
+      "height": 75,
+      "size_kb": 5.81,
+      "aspect_ratio": 1.31
+    },
+    {
+      "path": "public/imge/home/androidDevice.png",
+      "name": "androidDevice.png",
+      "width": 88,
+      "height": 75,
+      "size_kb": 15.63,
+      "aspect_ratio": 1.17
+    },
+    {
+      "path": "public/imge/home/androidDevice.webp",
+      "name": "androidDevice.webp",
+      "width": 88,
+      "height": 75,
+      "size_kb": 4.27,
+      "aspect_ratio": 1.17
+    },
+    {
+      "path": "public/imge/home/core.png",
+      "name": "core.png",
+      "width": 89,
+      "height": 85,
+      "size_kb": 14.74,
+      "aspect_ratio": 1.05
+    },
+    {
+      "path": "public/imge/home/core.webp",
+      "name": "core.webp",
+      "width": 89,
+      "height": 85,
+      "size_kb": 4.69,
+      "aspect_ratio": 1.05
+    },
+    {
+      "path": "public/imge/home/easeToUse.png",
+      "name": "easeToUse.png",
+      "width": 100,
+      "height": 85,
+      "size_kb": 19.68,
+      "aspect_ratio": 1.18
+    },
+    {
+      "path": "public/imge/home/easeToUse.webp",
+      "name": "easeToUse.webp",
+      "width": 100,
+      "height": 85,
+      "size_kb": 5.04,
+      "aspect_ratio": 1.18
+    },
+    {
+      "path": "public/imge/home/exproSmartTV.png",
+      "name": "exproSmartTV.png",
+      "width": 98,
+      "height": 75,
+      "size_kb": 16.86,
+      "aspect_ratio": 1.31
+    },
+    {
+      "path": "public/imge/home/exproSmartTV.webp",
+      "name": "exproSmartTV.webp",
+      "width": 98,
+      "height": 75,
+      "size_kb": 4.16,
+      "aspect_ratio": 1.31
+    },
+    {
+      "path": "public/imge/home/pcAndLabtop.png",
+      "name": "pcAndLabtop.png",
+      "width": 134,
+      "height": 75,
+      "size_kb": 19.37,
+      "aspect_ratio": 1.79
+    },
+    {
+      "path": "public/imge/home/pcAndLabtop.webp",
+      "name": "pcAndLabtop.webp",
+      "width": 134,
+      "height": 75,
+      "size_kb": 4.68,
+      "aspect_ratio": 1.79
+    },
+    {
+      "path": "public/imge/home/prantalControl.png",
+      "name": "prantalControl.png",
+      "width": 94,
+      "height": 85,
+      "size_kb": 14.49,
+      "aspect_ratio": 1.11
+    },
+    {
+      "path": "public/imge/home/prantalControl.webp",
+      "name": "prantalControl.webp",
+      "width": 94,
+      "height": 85,
+      "size_kb": 4.73,
+      "aspect_ratio": 1.11
+    },
+    {
+      "path": "public/imge/home/secur.png",
+      "name": "secur.png",
+      "width": 94,
+      "height": 85,
+      "size_kb": 15.59,
+      "aspect_ratio": 1.11
+    },
+    {
+      "path": "public/imge/home/secur.webp",
+      "name": "secur.webp",
+      "width": 94,
+      "height": 85,
+      "size_kb": 5.86,
+      "aspect_ratio": 1.11
+    },
+    {
+      "path": "public/imge/manageBlayList/Activation.webp",
+      "name": "Activation.webp",
+      "width": 61,
+      "height": 61,
+      "size_kb": 1.73,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/manageBlayList/CreditCard.webp",
+      "name": "CreditCard.webp",
+      "width": 34,
+      "height": 34,
+      "size_kb": 0.51,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/manageBlayList/Device Key.webp",
+      "name": "Device Key.webp",
+      "width": 61,
+      "height": 61,
+      "size_kb": 1.23,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/manageBlayList/E-Wallet.webp",
+      "name": "E-Wallet.webp",
+      "width": 28,
+      "height": 28,
+      "size_kb": 0.64,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/manageBlayList/Logout.webp",
+      "name": "Logout.webp",
+      "width": 61,
+      "height": 61,
+      "size_kb": 0.9,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/manageBlayList/Parent PIN.webp",
+      "name": "Parent PIN.webp",
+      "width": 50,
+      "height": 40,
+      "size_kb": 1.45,
+      "aspect_ratio": 1.25
+    },
+    {
+      "path": "public/imge/manageBlayList/PayPal.webp",
+      "name": "PayPal.webp",
+      "width": 24,
+      "height": 28,
+      "size_kb": 0.59,
+      "aspect_ratio": 0.86
+    },
+    {
+      "path": "public/imge/manageBlayList/Transfer Device.webp",
+      "name": "Transfer Device.webp",
+      "width": 55,
+      "height": 55,
+      "size_kb": 1.93,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/manageBlayList/UsersStatus.webp",
+      "name": "UsersStatus.webp",
+      "width": 61,
+      "height": 61,
+      "size_kb": 1.51,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/manageBlayList/chekSifty.webp",
+      "name": "chekSifty.webp",
+      "width": 47,
+      "height": 28,
+      "size_kb": 0.58,
+      "aspect_ratio": 1.68
+    },
+    {
+      "path": "public/imge/manageBlayList/iconOne.webp",
+      "name": "iconOne.webp",
+      "width": 24,
+      "height": 24,
+      "size_kb": 0.56,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/manageBlayList/iconThree.webp",
+      "name": "iconThree.webp",
+      "width": 29,
+      "height": 23,
+      "size_kb": 0.32,
+      "aspect_ratio": 1.26
+    },
+    {
+      "path": "public/imge/manageBlayList/iconTwo.webp",
+      "name": "iconTwo.webp",
+      "width": 24,
+      "height": 24,
+      "size_kb": 0.72,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/manageBlayList/idIcon.webp",
+      "name": "idIcon.webp",
+      "width": 24,
+      "height": 25,
+      "size_kb": 0.76,
+      "aspect_ratio": 0.96
+    },
+    {
+      "path": "public/imge/manageBlayList/keyIcon.webp",
+      "name": "keyIcon.webp",
+      "width": 24,
+      "height": 24,
+      "size_kb": 0.73,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/manageBlayList/managePalyList.webp",
+      "name": "managePalyList.webp",
+      "width": 61,
+      "height": 61,
+      "size_kb": 1.94,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/manageBlayList/refresh.webp",
+      "name": "refresh.webp",
+      "width": 12,
+      "height": 12,
+      "size_kb": 0.31,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/manageBlayList/manageBlayList/Renew.webp",
+      "name": "Renew.webp",
+      "width": 12,
+      "height": 17,
+      "size_kb": 0.4,
+      "aspect_ratio": 0.71
+    },
+    {
+      "path": "public/imge/manageBlayList/manageBlayList/Search.webp",
+      "name": "Search.webp",
+      "width": 10,
+      "height": 10,
+      "size_kb": 0.23,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/manageBlayList/manageBlayList/delate.webp",
+      "name": "delate.webp",
+      "width": 18,
+      "height": 18,
+      "size_kb": 0.28,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/manageBlayList/manageBlayList/edit.webp",
+      "name": "edit.webp",
+      "width": 18,
+      "height": 18,
+      "size_kb": 0.3,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/manageBlayList/manageBlayList/AddPlayList/PIN.webp",
+      "name": "PIN.webp",
+      "width": 24,
+      "height": 21,
+      "size_kb": 0.54,
+      "aspect_ratio": 1.14
+    },
+    {
+      "path": "public/imge/manageBlayList/manageBlayList/AddPlayList/XML.webp",
+      "name": "XML.webp",
+      "width": 29,
+      "height": 23,
+      "size_kb": 0.32,
+      "aspect_ratio": 1.26
+    },
+    {
+      "path": "public/imge/manageBlayList/manageBlayList/AddPlayList/host.webp",
+      "name": "host.webp",
+      "width": 25,
+      "height": 24,
+      "size_kb": 0.58,
+      "aspect_ratio": 1.04
+    },
+    {
+      "path": "public/imge/manageBlayList/manageBlayList/AddPlayList/namePlayList.webp",
+      "name": "namePlayList.webp",
+      "width": 24,
+      "height": 24,
+      "size_kb": 0.56,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/manageBlayList/manageBlayList/AddPlayList/playLisyUrl.webp",
+      "name": "playLisyUrl.webp",
+      "width": 24,
+      "height": 24,
+      "size_kb": 0.72,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/policy/Disclaimer.png",
+      "name": "Disclaimer.png",
+      "width": 172,
+      "height": 142,
+      "size_kb": 39.28,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/Disclaimer.webp",
+      "name": "Disclaimer.webp",
+      "width": 172,
+      "height": 142,
+      "size_kb": 15.4,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/GlobalCompliance.png",
+      "name": "GlobalCompliance.png",
+      "width": 68,
+      "height": 68,
+      "size_kb": 9.34,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/policy/GlobalCompliance.webp",
+      "name": "GlobalCompliance.webp",
+      "width": 68,
+      "height": 68,
+      "size_kb": 2.94,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/policy/OurMission.png",
+      "name": "OurMission.png",
+      "width": 68,
+      "height": 68,
+      "size_kb": 8.06,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/policy/OurMission.webp",
+      "name": "OurMission.webp",
+      "width": 68,
+      "height": 68,
+      "size_kb": 3.54,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/policy/PrivacyPolicy.png",
+      "name": "PrivacyPolicy.png",
+      "width": 172,
+      "height": 142,
+      "size_kb": 44.75,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/PrivacyPolicy.webp",
+      "name": "PrivacyPolicy.webp",
+      "width": 172,
+      "height": 142,
+      "size_kb": 15.11,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/RefundPolicy.png",
+      "name": "RefundPolicy.png",
+      "width": 172,
+      "height": 142,
+      "size_kb": 46.13,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/RefundPolicy.webp",
+      "name": "RefundPolicy.webp",
+      "width": 172,
+      "height": 142,
+      "size_kb": 15.57,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/Terms&Conditions.png",
+      "name": "Terms&Conditions.png",
+      "width": 172,
+      "height": 142,
+      "size_kb": 39.66,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/Terms&Conditions.webp",
+      "name": "Terms&Conditions.webp",
+      "width": 172,
+      "height": 142,
+      "size_kb": 11.72,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/companyInfo.png",
+      "name": "companyInfo.png",
+      "width": 68,
+      "height": 68,
+      "size_kb": 8.25,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/policy/companyInfo.webp",
+      "name": "companyInfo.webp",
+      "width": 68,
+      "height": 68,
+      "size_kb": 3.36,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/policy/endUserAgreement.png",
+      "name": "endUserAgreement.png",
+      "width": 172,
+      "height": 142,
+      "size_kb": 46.84,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/endUserAgreement.webp",
+      "name": "endUserAgreement.webp",
+      "width": 172,
+      "height": 142,
+      "size_kb": 15.5,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/notsellOrsheer.png",
+      "name": "notsellOrsheer.png",
+      "width": 172,
+      "height": 142,
+      "size_kb": 30.58,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/notsellOrsheer.webp",
+      "name": "notsellOrsheer.webp",
+      "width": 172,
+      "height": 142,
+      "size_kb": 11.97,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/policyBaner.webp",
+      "name": "policyBaner.webp",
+      "width": 230,
+      "height": 220,
+      "size_kb": 25.51,
+      "aspect_ratio": 1.05
+    },
+    {
+      "path": "public/imge/policy/CompanyInfo/Adliability.webp",
+      "name": "Adliability.webp",
+      "width": 103,
+      "height": 85,
+      "size_kb": 5.11,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/CompanyInfo/CompanyInfo.webp",
+      "name": "CompanyInfo.webp",
+      "width": 205,
+      "height": 201,
+      "size_kb": 16.52,
+      "aspect_ratio": 1.02
+    },
+    {
+      "path": "public/imge/policy/CompanyInfo/DualJurisdiction.webp",
+      "name": "DualJurisdiction.webp",
+      "width": 109,
+      "height": 90,
+      "size_kb": 8.23,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/CompanyInfo/EG.webp",
+      "name": "EG.webp",
+      "width": 50,
+      "height": 50,
+      "size_kb": 0.97,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/policy/CompanyInfo/EXPRO.webp",
+      "name": "EXPRO.webp",
+      "width": 84,
+      "height": 47,
+      "size_kb": 2.68,
+      "aspect_ratio": 1.79
+    },
+    {
+      "path": "public/imge/policy/CompanyInfo/Egypt.webp",
+      "name": "Egypt.webp",
+      "width": 313,
+      "height": 253,
+      "size_kb": 20.84,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "public/imge/policy/CompanyInfo/Egyption.webp",
+      "name": "Egyption.webp",
+      "width": 114,
+      "height": 92,
+      "size_kb": 5.97,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "public/imge/policy/CompanyInfo/ExProSubscriptions.webp",
+      "name": "ExProSubscriptions.webp",
+      "width": 89,
+      "height": 68,
+      "size_kb": 3.9,
+      "aspect_ratio": 1.31
+    },
+    {
+      "path": "public/imge/policy/CompanyInfo/FullCorporate.webp",
+      "name": "FullCorporate.webp",
+      "width": 109,
+      "height": 90,
+      "size_kb": 6.25,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/CompanyInfo/Multi-regime.webp",
+      "name": "Multi-regime.webp",
+      "width": 109,
+      "height": 90,
+      "size_kb": 5.54,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/CompanyInfo/Offer.webp",
+      "name": "Offer.webp",
+      "width": 247,
+      "height": 222,
+      "size_kb": 24.36,
+      "aspect_ratio": 1.11
+    },
+    {
+      "path": "public/imge/policy/CompanyInfo/OurMission.webp",
+      "name": "OurMission.webp",
+      "width": 242,
+      "height": 222,
+      "size_kb": 28.1,
+      "aspect_ratio": 1.09
+    },
+    {
+      "path": "public/imge/policy/CompanyInfo/Technology.webp",
+      "name": "Technology.webp",
+      "width": 109,
+      "height": 90,
+      "size_kb": 6.96,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/CompanyInfo/UK.webp",
+      "name": "UK.webp",
+      "width": 50,
+      "height": 50,
+      "size_kb": 1.84,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/policy/CompanyInfo/USA.webp",
+      "name": "USA.webp",
+      "width": 146,
+      "height": 92,
+      "size_kb": 7.32,
+      "aspect_ratio": 1.59
+    },
+    {
+      "path": "public/imge/policy/CompanyInfo/UXEnhancement.webp",
+      "name": "UXEnhancement.webp",
+      "width": 103,
+      "height": 95,
+      "size_kb": 6.73,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/CompanyInfo/contact.webp",
+      "name": "contact.webp",
+      "width": 91,
+      "height": 68,
+      "size_kb": 3.71,
+      "aspect_ratio": 1.34
+    },
+    {
+      "path": "public/imge/policy/CompanyInfo/madia.webp",
+      "name": "madia.webp",
+      "width": 71,
+      "height": 70,
+      "size_kb": 3.32,
+      "aspect_ratio": 1.01
+    },
+    {
+      "path": "public/imge/policy/CompanyInfo/map.webp",
+      "name": "map.webp",
+      "width": 331,
+      "height": 220,
+      "size_kb": 21.39,
+      "aspect_ratio": 1.5
+    },
+    {
+      "path": "public/imge/policy/CompanyInfo/separation.webp",
+      "name": "separation.webp",
+      "width": 109,
+      "height": 90,
+      "size_kb": 6.16,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/CompanyInfo/sqrity.webp",
+      "name": "sqrity.webp",
+      "width": 71,
+      "height": 70,
+      "size_kb": 3.08,
+      "aspect_ratio": 1.01
+    },
+    {
+      "path": "public/imge/policy/DisclaimerOfContent/ACCEPTANCE.webp",
+      "name": "ACCEPTANCE.webp",
+      "width": 90,
+      "height": 80,
+      "size_kb": 5.27,
+      "aspect_ratio": 1.12
+    },
+    {
+      "path": "public/imge/policy/DisclaimerOfContent/GOVERNINGLAW.webp",
+      "name": "GOVERNINGLAW.webp",
+      "width": 118,
+      "height": 98,
+      "size_kb": 7.46,
+      "aspect_ratio": 1.2
+    },
+    {
+      "path": "public/imge/policy/DisclaimerOfContent/INDEMNIFICATION.webp",
+      "name": "INDEMNIFICATION.webp",
+      "width": 112,
+      "height": 98,
+      "size_kb": 7.75,
+      "aspect_ratio": 1.14
+    },
+    {
+      "path": "public/imge/policy/DisclaimerOfContent/LIMITATIONOFLIABILITY.webp",
+      "name": "LIMITATIONOFLIABILITY.webp",
+      "width": 101,
+      "height": 98,
+      "size_kb": 6.4,
+      "aspect_ratio": 1.03
+    },
+    {
+      "path": "public/imge/policy/DisclaimerOfContent/NOWARRANTY.webp",
+      "name": "NOWARRANTY.webp",
+      "width": 125,
+      "height": 85,
+      "size_kb": 7.49,
+      "aspect_ratio": 1.47
+    },
+    {
+      "path": "public/imge/policy/DisclaimerOfContent/THIRD-PARTY CONTENT.webp",
+      "name": "THIRD-PARTY CONTENT.webp",
+      "width": 97,
+      "height": 98,
+      "size_kb": 4.9,
+      "aspect_ratio": 0.99
+    },
+    {
+      "path": "public/imge/policy/DisclaimerOfContent/USERRESPONSIBILITY.webp",
+      "name": "USERRESPONSIBILITY.webp",
+      "width": 94,
+      "height": 98,
+      "size_kb": 4.59,
+      "aspect_ratio": 0.96
+    },
+    {
+      "path": "public/imge/policy/DoNotSellOrShare/EXPROIcon.webp",
+      "name": "EXPROIcon.webp",
+      "width": 84,
+      "height": 47,
+      "size_kb": 2.68,
+      "aspect_ratio": 1.79
+    },
+    {
+      "path": "public/imge/policy/DoNotSellOrShare/LegalDefinition.webp",
+      "name": "LegalDefinition.webp",
+      "width": 261,
+      "height": 261,
+      "size_kb": 43.93,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/policy/DoNotSellOrShare/Ltd.webp",
+      "name": "Ltd.webp",
+      "width": 389,
+      "height": 244,
+      "size_kb": 23.45,
+      "aspect_ratio": 1.59
+    },
+    {
+      "path": "public/imge/policy/DoNotSellOrShare/Residents.webp",
+      "name": "Residents.webp",
+      "width": 81,
+      "height": 81,
+      "size_kb": 5.9,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/policy/DoNotSellOrShare/chexkHand.webp",
+      "name": "chexkHand.webp",
+      "width": 214,
+      "height": 203,
+      "size_kb": 15.09,
+      "aspect_ratio": 1.05
+    },
+    {
+      "path": "public/imge/policy/DoNotSellOrShare/iconworning.webp",
+      "name": "iconworning.webp",
+      "width": 37,
+      "height": 33,
+      "size_kb": 0.93,
+      "aspect_ratio": 1.12
+    },
+    {
+      "path": "public/imge/policy/DoNotSellOrShare/optOutRights.webp",
+      "name": "optOutRights.webp",
+      "width": 81,
+      "height": 81,
+      "size_kb": 5.9,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/policy/DoNotSellOrShare/registeredAddress.webp",
+      "name": "registeredAddress.webp",
+      "width": 69,
+      "height": 63,
+      "size_kb": 4.71,
+      "aspect_ratio": 1.1
+    },
+    {
+      "path": "public/imge/policy/DoNotSellOrShare/relationshipWithPrivacyLaws.webp",
+      "name": "relationshipWithPrivacyLaws.webp",
+      "width": 89,
+      "height": 88,
+      "size_kb": 6.75,
+      "aspect_ratio": 1.01
+    },
+    {
+      "path": "public/imge/policy/DoNotSellOrShare/selectTwo.webp",
+      "name": "selectTwo.webp",
+      "width": 89,
+      "height": 88,
+      "size_kb": 6.75,
+      "aspect_ratio": 1.01
+    },
+    {
+      "path": "public/imge/policy/DownloadAndWatching/DownloadAndWatching.webp",
+      "name": "DownloadAndWatching.webp",
+      "width": 369,
+      "height": 219,
+      "size_kb": 48.14,
+      "aspect_ratio": 1.68
+    },
+    {
+      "path": "public/imge/policy/DownloadAndWatching/EXPRO.webp",
+      "name": "EXPRO.webp",
+      "width": 52,
+      "height": 40,
+      "size_kb": 1.95,
+      "aspect_ratio": 1.3
+    },
+    {
+      "path": "public/imge/policy/DownloadAndWatching/LG.webp",
+      "name": "LG.webp",
+      "width": 99,
+      "height": 45,
+      "size_kb": 2.99,
+      "aspect_ratio": 2.2
+    },
+    {
+      "path": "public/imge/policy/DownloadAndWatching/android.webp",
+      "name": "android.webp",
+      "width": 84,
+      "height": 60,
+      "size_kb": 3.86,
+      "aspect_ratio": 1.4
+    },
+    {
+      "path": "public/imge/policy/DownloadAndWatching/apple.webp",
+      "name": "apple.webp",
+      "width": 77,
+      "height": 90,
+      "size_kb": 4.79,
+      "aspect_ratio": 0.86
+    },
+    {
+      "path": "public/imge/policy/DownloadAndWatching/linx.webp",
+      "name": "linx.webp",
+      "width": 82,
+      "height": 90,
+      "size_kb": 5.02,
+      "aspect_ratio": 0.91
+    },
+    {
+      "path": "public/imge/policy/DownloadAndWatching/samsung.webp",
+      "name": "samsung.webp",
+      "width": 129,
+      "height": 48,
+      "size_kb": 4.47,
+      "aspect_ratio": 2.69
+    },
+    {
+      "path": "public/imge/policy/DownloadAndWatching/windows.webp",
+      "name": "windows.webp",
+      "width": 94,
+      "height": 90,
+      "size_kb": 5.46,
+      "aspect_ratio": 1.04
+    },
+    {
+      "path": "public/imge/policy/EULA/AgeRequirement.webp",
+      "name": "AgeRequirement.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 7.67,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/EULA/ContactUs.webp",
+      "name": "ContactUs.webp",
+      "width": 103,
+      "height": 54,
+      "size_kb": 4.83,
+      "aspect_ratio": 1.91
+    },
+    {
+      "path": "public/imge/policy/EULA/Disclaimer.webp",
+      "name": "Disclaimer.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 6.92,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/EULA/DisclaimerOfWarranties.webp",
+      "name": "DisclaimerOfWarranties.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 9.2,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/EULA/EntireAgreement.webp",
+      "name": "EntireAgreement.webp",
+      "width": 109,
+      "height": 109,
+      "size_kb": 9.66,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/policy/EULA/GoverningLawandJurisdiction.webp",
+      "name": "GoverningLawandJurisdiction.webp",
+      "width": 102,
+      "height": 73,
+      "size_kb": 4.82,
+      "aspect_ratio": 1.4
+    },
+    {
+      "path": "public/imge/policy/EULA/LimitationOfLiability.webp",
+      "name": "LimitationOfLiability.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 8.04,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/EULA/Location.webp",
+      "name": "Location.webp",
+      "width": 63,
+      "height": 58,
+      "size_kb": 4.12,
+      "aspect_ratio": 1.09
+    },
+    {
+      "path": "public/imge/policy/EULA/Ownership.webp",
+      "name": "Ownership.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 8.83,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/EULA/PaymentsAndSubscriptions.webp",
+      "name": "PaymentsAndSubscriptions.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 6.33,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/EULA/Restrictions.webp",
+      "name": "Restrictions.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 9.89,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/EULA/TermAndTermination.webp",
+      "name": "TermAndTermination.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 6.16,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/EULA/ThirdPartyAdsAndServices.webp",
+      "name": "ThirdPartyAdsAndServices.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 5.97,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/EULA/Updates.webp",
+      "name": "Updates.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 9.95,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/EULA/pag.webp",
+      "name": "pag.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 6.57,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/GlobalCompliance/GlobalCompliance.webp",
+      "name": "GlobalCompliance.webp",
+      "width": 205,
+      "height": 201,
+      "size_kb": 14.78,
+      "aspect_ratio": 1.02
+    },
+    {
+      "path": "public/imge/policy/GlobalCompliance/LegalCompliance.webp",
+      "name": "LegalCompliance.webp",
+      "width": 77,
+      "height": 56,
+      "size_kb": 3.1,
+      "aspect_ratio": 1.38
+    },
+    {
+      "path": "public/imge/policy/GlobalCompliance/LegalFrameworks.webp",
+      "name": "LegalFrameworks.webp",
+      "width": 77,
+      "height": 56,
+      "size_kb": 3.56,
+      "aspect_ratio": 1.38
+    },
+    {
+      "path": "public/imge/policy/GlobalCompliance/clender.webp",
+      "name": "clender.webp",
+      "width": 84,
+      "height": 68,
+      "size_kb": 4.3,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "public/imge/policy/GlobalCompliance/eee.webp",
+      "name": "eee.webp",
+      "width": 84,
+      "height": 68,
+      "size_kb": 4.88,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "public/imge/policy/GlobalCompliance/madia.webp",
+      "name": "madia.webp",
+      "width": 110,
+      "height": 75,
+      "size_kb": 4.02,
+      "aspect_ratio": 1.47
+    },
+    {
+      "path": "public/imge/policy/GlobalCompliance/payMent.webp",
+      "name": "payMent.webp",
+      "width": 84,
+      "height": 68,
+      "size_kb": 3.33,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "public/imge/policy/GlobalCompliance/rr.webp",
+      "name": "rr.webp",
+      "width": 162,
+      "height": 131,
+      "size_kb": 12.72,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "public/imge/policy/GlobalCompliance/stor.webp",
+      "name": "stor.webp",
+      "width": 179,
+      "height": 159,
+      "size_kb": 18.75,
+      "aspect_ratio": 1.13
+    },
+    {
+      "path": "public/imge/policy/GlobalCompliance/world.webp",
+      "name": "world.webp",
+      "width": 148,
+      "height": 133,
+      "size_kb": 12.54,
+      "aspect_ratio": 1.11
+    },
+    {
+      "path": "public/imge/policy/OurMission/Compliance.webp",
+      "name": "Compliance.webp",
+      "width": 109,
+      "height": 109,
+      "size_kb": 9.76,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/policy/OurMission/DigitalIntegrity.webp",
+      "name": "DigitalIntegrity.webp",
+      "width": 109,
+      "height": 109,
+      "size_kb": 9.66,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/policy/OurMission/OurMission.webp",
+      "name": "OurMission.webp",
+      "width": 193,
+      "height": 178,
+      "size_kb": 15.9,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/OurMission/UserResponsibility.webp",
+      "name": "UserResponsibility.webp",
+      "width": 109,
+      "height": 109,
+      "size_kb": 9.41,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/HowUsInfo.png",
+      "name": "HowUsInfo.png",
+      "width": 87,
+      "height": 78,
+      "size_kb": 16.14,
+      "aspect_ratio": 1.12
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/HowUsInfo.webp",
+      "name": "HowUsInfo.webp",
+      "width": 87,
+      "height": 78,
+      "size_kb": 5.15,
+      "aspect_ratio": 1.12
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/changeSbichial.png",
+      "name": "changeSbichial.png",
+      "width": 106,
+      "height": 76,
+      "size_kb": 17.3,
+      "aspect_ratio": 1.39
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/changeSbichial.webp",
+      "name": "changeSbichial.webp",
+      "width": 106,
+      "height": 76,
+      "size_kb": 6.04,
+      "aspect_ratio": 1.39
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/cuntactUs.png",
+      "name": "cuntactUs.png",
+      "width": 103,
+      "height": 54,
+      "size_kb": 14.66,
+      "aspect_ratio": 1.91
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/cuntactUs.webp",
+      "name": "cuntactUs.webp",
+      "width": 103,
+      "height": 54,
+      "size_kb": 4.51,
+      "aspect_ratio": 1.91
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/ddd.png",
+      "name": "ddd.png",
+      "width": 40,
+      "height": 40,
+      "size_kb": 3.8,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/ddd.webp",
+      "name": "ddd.webp",
+      "width": 40,
+      "height": 40,
+      "size_kb": 1.95,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/email.webp",
+      "name": "email.webp",
+      "width": 16,
+      "height": 16,
+      "size_kb": 0.36,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/endUserAgreement.png",
+      "name": "endUserAgreement.png",
+      "width": 109,
+      "height": 90,
+      "size_kb": 20.52,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/fileConcat.png",
+      "name": "fileConcat.png",
+      "width": 110,
+      "height": 65,
+      "size_kb": 16.95,
+      "aspect_ratio": 1.69
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/fileConcat.webp",
+      "name": "fileConcat.webp",
+      "width": 110,
+      "height": 65,
+      "size_kb": 5.82,
+      "aspect_ratio": 1.69
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/gogelSeting.png",
+      "name": "gogelSeting.png",
+      "width": 124,
+      "height": 91,
+      "size_kb": 18.11,
+      "aspect_ratio": 1.36
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/gogelSeting.webp",
+      "name": "gogelSeting.webp",
+      "width": 124,
+      "height": 91,
+      "size_kb": 5.95,
+      "aspect_ratio": 1.36
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/info.png",
+      "name": "info.png",
+      "width": 103,
+      "height": 95,
+      "size_kb": 18.91,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/info.webp",
+      "name": "info.webp",
+      "width": 103,
+      "height": 95,
+      "size_kb": 6.94,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/lesning.png",
+      "name": "lesning.png",
+      "width": 103,
+      "height": 86,
+      "size_kb": 12.12,
+      "aspect_ratio": 1.2
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/lesning.webp",
+      "name": "lesning.webp",
+      "width": 103,
+      "height": 86,
+      "size_kb": 6.64,
+      "aspect_ratio": 1.2
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/location.webp",
+      "name": "location.webp",
+      "width": 16,
+      "height": 19,
+      "size_kb": 0.51,
+      "aspect_ratio": 0.84
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/logo.png",
+      "name": "logo.png",
+      "width": 103,
+      "height": 85,
+      "size_kb": 15.87,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/logo.webp",
+      "name": "logo.webp",
+      "width": 103,
+      "height": 85,
+      "size_kb": 7.24,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/notsellOrsheer.png",
+      "name": "notsellOrsheer.png",
+      "width": 116,
+      "height": 96,
+      "size_kb": 15.39,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/outputUrl.png",
+      "name": "outputUrl.png",
+      "width": 116,
+      "height": 96,
+      "size_kb": 15.39,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/outputUrl.webp",
+      "name": "outputUrl.webp",
+      "width": 116,
+      "height": 96,
+      "size_kb": 6.8,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/sefteOfdata.png",
+      "name": "sefteOfdata.png",
+      "width": 109,
+      "height": 90,
+      "size_kb": 20.52,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/sefteOfdata.webp",
+      "name": "sefteOfdata.webp",
+      "width": 109,
+      "height": 90,
+      "size_kb": 7.49,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/seftiInfo.png",
+      "name": "seftiInfo.png",
+      "width": 120,
+      "height": 99,
+      "size_kb": 23.53,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/seftiInfo.webp",
+      "name": "seftiInfo.webp",
+      "width": 120,
+      "height": 99,
+      "size_kb": 8.82,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/segalNezam.png",
+      "name": "segalNezam.png",
+      "width": 112,
+      "height": 104,
+      "size_kb": 16.97,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/segalNezam.webp",
+      "name": "segalNezam.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 7.05,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/seveData.png",
+      "name": "seveData.png",
+      "width": 121,
+      "height": 100,
+      "size_kb": 20.15,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/seveData.webp",
+      "name": "seveData.webp",
+      "width": 121,
+      "height": 100,
+      "size_kb": 8.43,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/sherInfo.png",
+      "name": "sherInfo.png",
+      "width": 122,
+      "height": 101,
+      "size_kb": 25.13,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/sherInfo.webp",
+      "name": "sherInfo.webp",
+      "width": 122,
+      "height": 101,
+      "size_kb": 9.36,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/sohibleKeds.png",
+      "name": "sohibleKeds.png",
+      "width": 109,
+      "height": 109,
+      "size_kb": 31.31,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/sohibleKeds.webp",
+      "name": "sohibleKeds.webp",
+      "width": 109,
+      "height": 109,
+      "size_kb": 9.99,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/todo.png",
+      "name": "todo.png",
+      "width": 106,
+      "height": 87,
+      "size_kb": 17.39,
+      "aspect_ratio": 1.22
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/todo.webp",
+      "name": "todo.webp",
+      "width": 106,
+      "height": 87,
+      "size_kb": 6.16,
+      "aspect_ratio": 1.22
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/translateInfo.png",
+      "name": "translateInfo.png",
+      "width": 116,
+      "height": 96,
+      "size_kb": 15.39,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/translateInfo.webp",
+      "name": "translateInfo.webp",
+      "width": 116,
+      "height": 96,
+      "size_kb": 6.8,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/visa.png",
+      "name": "visa.png",
+      "width": 103,
+      "height": 75,
+      "size_kb": 15.64,
+      "aspect_ratio": 1.37
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/visa.webp",
+      "name": "visa.webp",
+      "width": 103,
+      "height": 75,
+      "size_kb": 5.63,
+      "aspect_ratio": 1.37
+    },
+    {
+      "path": "public/imge/policy/privacyPolicy/worning.webp",
+      "name": "worning.webp",
+      "width": 103,
+      "height": 98,
+      "size_kb": 9.06,
+      "aspect_ratio": 1.05
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/Lega.png",
+      "name": "Lega.png",
+      "width": 65,
+      "height": 72,
+      "size_kb": 10.62,
+      "aspect_ratio": 0.9
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/Lega.webp",
+      "name": "Lega.webp",
+      "width": 65,
+      "height": 72,
+      "size_kb": 4.3,
+      "aspect_ratio": 0.9
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/Legal.png",
+      "name": "Legal.png",
+      "width": 73,
+      "height": 68,
+      "size_kb": 8.18,
+      "aspect_ratio": 1.07
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/Legal.webp",
+      "name": "Legal.webp",
+      "width": 73,
+      "height": 68,
+      "size_kb": 3.79,
+      "aspect_ratio": 1.07
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/NoRefunde.png",
+      "name": "NoRefunde.png",
+      "width": 74,
+      "height": 70,
+      "size_kb": 10.48,
+      "aspect_ratio": 1.06
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/NoRefunde.webp",
+      "name": "NoRefunde.webp",
+      "width": 74,
+      "height": 70,
+      "size_kb": 4.26,
+      "aspect_ratio": 1.06
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/Purchases.png",
+      "name": "Purchases.png",
+      "width": 75,
+      "height": 56,
+      "size_kb": 7.89,
+      "aspect_ratio": 1.34
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/Purchases.webp",
+      "name": "Purchases.webp",
+      "width": 75,
+      "height": 56,
+      "size_kb": 2.9,
+      "aspect_ratio": 1.34
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/adl.png",
+      "name": "adl.png",
+      "width": 96,
+      "height": 89,
+      "size_kb": 12.26,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/adl.webp",
+      "name": "adl.webp",
+      "width": 96,
+      "height": 89,
+      "size_kb": 4.46,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/adu.png",
+      "name": "adu.png",
+      "width": 72,
+      "height": 68,
+      "size_kb": 9.7,
+      "aspect_ratio": 1.06
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/adu.webp",
+      "name": "adu.webp",
+      "width": 72,
+      "height": 68,
+      "size_kb": 4.25,
+      "aspect_ratio": 1.06
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/agree.png",
+      "name": "agree.png",
+      "width": 94,
+      "height": 89,
+      "size_kb": 13.69,
+      "aspect_ratio": 1.06
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/agree.webp",
+      "name": "agree.webp",
+      "width": 94,
+      "height": 89,
+      "size_kb": 4.57,
+      "aspect_ratio": 1.06
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/bag.png",
+      "name": "bag.png",
+      "width": 84,
+      "height": 68,
+      "size_kb": 11.94,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/bag.webp",
+      "name": "bag.webp",
+      "width": 84,
+      "height": 68,
+      "size_kb": 3.32,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/contact.png",
+      "name": "contact.png",
+      "width": 75,
+      "height": 56,
+      "size_kb": 9.92,
+      "aspect_ratio": 1.34
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/contact.webp",
+      "name": "contact.webp",
+      "width": 75,
+      "height": 56,
+      "size_kb": 3.1,
+      "aspect_ratio": 1.34
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/contactUs.png",
+      "name": "contactUs.png",
+      "width": 103,
+      "height": 54,
+      "size_kb": 14.66,
+      "aspect_ratio": 1.91
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/contactUs.webp",
+      "name": "contactUs.webp",
+      "width": 103,
+      "height": 54,
+      "size_kb": 4.54,
+      "aspect_ratio": 1.91
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/eay.png",
+      "name": "eay.png",
+      "width": 91,
+      "height": 55,
+      "size_kb": 10.15,
+      "aspect_ratio": 1.65
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/eay.webp",
+      "name": "eay.webp",
+      "width": 91,
+      "height": 55,
+      "size_kb": 3.66,
+      "aspect_ratio": 1.65
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/false.png",
+      "name": "false.png",
+      "width": 84,
+      "height": 68,
+      "size_kb": 12.04,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/false.webp",
+      "name": "false.webp",
+      "width": 84,
+      "height": 68,
+      "size_kb": 5.53,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/labtobExPro.png",
+      "name": "labtobExPro.png",
+      "width": 241,
+      "height": 135,
+      "size_kb": 51.34,
+      "aspect_ratio": 1.79
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/labtobExPro.webp",
+      "name": "labtobExPro.webp",
+      "width": 241,
+      "height": 135,
+      "size_kb": 9.56,
+      "aspect_ratio": 1.79
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/location.png",
+      "name": "location.png",
+      "width": 63,
+      "height": 58,
+      "size_kb": 9.8,
+      "aspect_ratio": 1.09
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/location.webp",
+      "name": "location.webp",
+      "width": 63,
+      "height": 58,
+      "size_kb": 3.88,
+      "aspect_ratio": 1.09
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/mon.png",
+      "name": "mon.png",
+      "width": 84,
+      "height": 68,
+      "size_kb": 10.71,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/mon.webp",
+      "name": "mon.webp",
+      "width": 84,
+      "height": 68,
+      "size_kb": 2.93,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/mony.png",
+      "name": "mony.png",
+      "width": 77,
+      "height": 56,
+      "size_kb": 8.19,
+      "aspect_ratio": 1.38
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/mony.webp",
+      "name": "mony.webp",
+      "width": 77,
+      "height": 56,
+      "size_kb": 3.52,
+      "aspect_ratio": 1.38
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/platform.png",
+      "name": "platform.png",
+      "width": 66,
+      "height": 62,
+      "size_kb": 9.53,
+      "aspect_ratio": 1.06
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/platform.webp",
+      "name": "platform.webp",
+      "width": 66,
+      "height": 62,
+      "size_kb": 4.15,
+      "aspect_ratio": 1.06
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/point.webp",
+      "name": "point.webp",
+      "width": 50,
+      "height": 40,
+      "size_kb": 2.2,
+      "aspect_ratio": 1.25
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/se.png",
+      "name": "se.png",
+      "width": 79,
+      "height": 79,
+      "size_kb": 11.83,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/se.webp",
+      "name": "se.webp",
+      "width": 79,
+      "height": 79,
+      "size_kb": 3.21,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/serves.png",
+      "name": "serves.png",
+      "width": 84,
+      "height": 68,
+      "size_kb": 9.33,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/serves.webp",
+      "name": "serves.webp",
+      "width": 84,
+      "height": 68,
+      "size_kb": 3.68,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/setting.png",
+      "name": "setting.png",
+      "width": 77,
+      "height": 71,
+      "size_kb": 15.06,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/setting.webp",
+      "name": "setting.webp",
+      "width": 77,
+      "height": 71,
+      "size_kb": 5.4,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/squr.png",
+      "name": "squr.png",
+      "width": 91,
+      "height": 65,
+      "size_kb": 12.77,
+      "aspect_ratio": 1.4
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/squr.webp",
+      "name": "squr.webp",
+      "width": 91,
+      "height": 65,
+      "size_kb": 4.53,
+      "aspect_ratio": 1.4
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/squrty.png",
+      "name": "squrty.png",
+      "width": 79,
+      "height": 73,
+      "size_kb": 11.16,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/squrty.webp",
+      "name": "squrty.webp",
+      "width": 79,
+      "height": 73,
+      "size_kb": 3.89,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/todoSmoll.png",
+      "name": "todoSmoll.png",
+      "width": 40,
+      "height": 37,
+      "size_kb": 3.63,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/todoSmoll.webp",
+      "name": "todoSmoll.webp",
+      "width": 40,
+      "height": 37,
+      "size_kb": 1.71,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/true.webp",
+      "name": "true.webp",
+      "width": 65,
+      "height": 72,
+      "size_kb": 4.61,
+      "aspect_ratio": 0.9
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/worning.png",
+      "name": "worning.png",
+      "width": 42,
+      "height": 34,
+      "size_kb": 2.24,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "public/imge/policy/refundPolicy/worning.webp",
+      "name": "worning.webp",
+      "width": 42,
+      "height": 34,
+      "size_kb": 1.52,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/Neza.png",
+      "name": "Neza.png",
+      "width": 114,
+      "height": 108,
+      "size_kb": 20.69,
+      "aspect_ratio": 1.06
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/Neza.webp",
+      "name": "Neza.webp",
+      "width": 114,
+      "height": 108,
+      "size_kb": 4.55,
+      "aspect_ratio": 1.06
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/UserObligations.png",
+      "name": "UserObligations.png",
+      "width": 109,
+      "height": 109,
+      "size_kb": 31.39,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/UserObligations.webp",
+      "name": "UserObligations.webp",
+      "width": 109,
+      "height": 109,
+      "size_kb": 9.95,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/ageRq.png",
+      "name": "ageRq.png",
+      "width": 105,
+      "height": 117,
+      "size_kb": 25.22,
+      "aspect_ratio": 0.9
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/ageRq.webp",
+      "name": "ageRq.webp",
+      "width": 105,
+      "height": 117,
+      "size_kb": 8.69,
+      "aspect_ratio": 0.9
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/agree.webp",
+      "name": "agree.webp",
+      "width": 120,
+      "height": 114,
+      "size_kb": 7.16,
+      "aspect_ratio": 1.05
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/ahlaMasolia.png",
+      "name": "ahlaMasolia.png",
+      "width": 112,
+      "height": 104,
+      "size_kb": 23.43,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/ahlaMasolia.webp",
+      "name": "ahlaMasolia.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 5.92,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/canon.png",
+      "name": "canon.png",
+      "width": 112,
+      "height": 104,
+      "size_kb": 17.22,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/canon.webp",
+      "name": "canon.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 7.29,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/copyRight.png",
+      "name": "copyRight.png",
+      "width": 112,
+      "height": 104,
+      "size_kb": 23.57,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/copyRight.webp",
+      "name": "copyRight.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 7.11,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/cuntactUs.png",
+      "name": "cuntactUs.png",
+      "width": 103,
+      "height": 54,
+      "size_kb": 14.66,
+      "aspect_ratio": 1.91
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/cuntactUs.webp",
+      "name": "cuntactUs.webp",
+      "width": 103,
+      "height": 54,
+      "size_kb": 4.51,
+      "aspect_ratio": 1.91
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/endUse.png",
+      "name": "endUse.png",
+      "width": 120,
+      "height": 114,
+      "size_kb": 23.89,
+      "aspect_ratio": 1.05
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/endUse.webp",
+      "name": "endUse.webp",
+      "width": 120,
+      "height": 114,
+      "size_kb": 9.12,
+      "aspect_ratio": 1.05
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/masolia.png",
+      "name": "masolia.png",
+      "width": 112,
+      "height": 104,
+      "size_kb": 16.25,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/masolia.webp",
+      "name": "masolia.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 5.39,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/paymint.png",
+      "name": "paymint.png",
+      "width": 120,
+      "height": 114,
+      "size_kb": 29.21,
+      "aspect_ratio": 1.05
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/paymint.webp",
+      "name": "paymint.webp",
+      "width": 120,
+      "height": 114,
+      "size_kb": 9.14,
+      "aspect_ratio": 1.05
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/rqurUser.webp",
+      "name": "rqurUser.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 7.01,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/seftyBata.png",
+      "name": "seftyBata.png",
+      "width": 112,
+      "height": 104,
+      "size_kb": 20.69,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/seftyBata.webp",
+      "name": "seftyBata.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 6.33,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/ubdate.png",
+      "name": "ubdate.png",
+      "width": 112,
+      "height": 104,
+      "size_kb": 20.81,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/ubdate.webp",
+      "name": "ubdate.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 9.06,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/ubdates.png",
+      "name": "ubdates.png",
+      "width": 112,
+      "height": 104,
+      "size_kb": 22.22,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/ubdates.webp",
+      "name": "ubdates.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 5.86,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/we.png",
+      "name": "we.png",
+      "width": 121,
+      "height": 73,
+      "size_kb": 17.4,
+      "aspect_ratio": 1.66
+    },
+    {
+      "path": "public/imge/policy/trems&condtion/we.webp",
+      "name": "we.webp",
+      "width": 121,
+      "height": 73,
+      "size_kb": 5.71,
+      "aspect_ratio": 1.66
+    }
+  ],
+  "assets": [
+    {
+      "path": "app/assets/images/about/icons/ex-pro.webp",
+      "name": "ex-pro.webp",
+      "width": 126,
+      "height": 126,
+      "size_kb": 4.34,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "app/assets/images/about/icons/scope.webp",
+      "name": "scope.webp",
+      "width": 126,
+      "height": 126,
+      "size_kb": 7.36,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "app/assets/images/about/icons/vision.webp",
+      "name": "vision.webp",
+      "width": 126,
+      "height": 126,
+      "size_kb": 5.77,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "app/assets/images/aboutUs/UxEnhancement/UxEnhancement.webp",
+      "name": "UxEnhancement.webp",
+      "width": 103,
+      "height": 95,
+      "size_kb": 6.03,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "app/assets/images/aboutUs/UxEnhancement/digital.webp",
+      "name": "digital.webp",
+      "width": 89,
+      "height": 68,
+      "size_kb": 3.42,
+      "aspect_ratio": 1.31
+    },
+    {
+      "path": "app/assets/images/aboutUs/complianceLegality/alert.webp",
+      "name": "alert.webp",
+      "width": 43,
+      "height": 43,
+      "size_kb": 0.84,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "app/assets/images/aboutUs/complianceLegality/data.webp",
+      "name": "data.webp",
+      "width": 71,
+      "height": 70,
+      "size_kb": 2.75,
+      "aspect_ratio": 1.01
+    },
+    {
+      "path": "app/assets/images/aboutUs/complianceLegality/egypt.webp",
+      "name": "egypt.webp",
+      "width": 114,
+      "height": 92,
+      "size_kb": 5.17,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "app/assets/images/aboutUs/complianceLegality/uk.webp",
+      "name": "uk.webp",
+      "width": 146,
+      "height": 92,
+      "size_kb": 6.29,
+      "aspect_ratio": 1.59
+    },
+    {
+      "path": "app/assets/images/aboutUs/finalConclusion/app.webp",
+      "name": "app.webp",
+      "width": 179,
+      "height": 146,
+      "size_kb": 16.25,
+      "aspect_ratio": 1.23
+    },
+    {
+      "path": "app/assets/images/aboutUs/finalConclusion/corporate.webp",
+      "name": "corporate.webp",
+      "width": 148,
+      "height": 133,
+      "size_kb": 10.88,
+      "aspect_ratio": 1.11
+    },
+    {
+      "path": "app/assets/images/aboutUs/finalConclusion/investor.webp",
+      "name": "investor.webp",
+      "width": 162,
+      "height": 131,
+      "size_kb": 11.4,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "app/assets/images/aboutUs/headquarters/egFlag.webp",
+      "name": "egFlag.webp",
+      "width": 50,
+      "height": 50,
+      "size_kb": 0.86,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "app/assets/images/aboutUs/headquarters/headquarters.webp",
+      "name": "headquarters.webp",
+      "width": 331,
+      "height": 220,
+      "size_kb": 18.32,
+      "aspect_ratio": 1.5
+    },
+    {
+      "path": "app/assets/images/aboutUs/headquarters/ukFlag.webp",
+      "name": "ukFlag.webp",
+      "width": 50,
+      "height": 50,
+      "size_kb": 1.64,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "app/assets/images/aboutUs/keyStrengthsDifferentiators/dual.webp",
+      "name": "dual.webp",
+      "width": 109,
+      "height": 90,
+      "size_kb": 7.57,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "app/assets/images/aboutUs/keyStrengthsDifferentiators/full.webp",
+      "name": "full.webp",
+      "width": 109,
+      "height": 90,
+      "size_kb": 5.57,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "app/assets/images/aboutUs/originBackground/flag.webp",
+      "name": "flag.webp",
+      "width": 313,
+      "height": 253,
+      "size_kb": 17.62,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "app/assets/images/aboutUs/ourMission/ourMission.webp",
+      "name": "ourMission.webp",
+      "width": 242,
+      "height": 222,
+      "size_kb": 24.61,
+      "aspect_ratio": 1.09
+    },
+    {
+      "path": "app/assets/images/aboutUs/whatWeOffer/earth.webp",
+      "name": "earth.webp",
+      "width": 247,
+      "height": 222,
+      "size_kb": 20.98,
+      "aspect_ratio": 1.11
+    },
+    {
+      "path": "app/assets/images/constants/effect.png",
+      "name": "effect.png",
+      "width": 1280,
+      "height": 509,
+      "size_kb": 1450.69,
+      "aspect_ratio": 2.51
+    },
+    {
+      "path": "app/assets/images/constants/effect.webp",
+      "name": "effect.webp",
+      "width": 1280,
+      "height": 509,
+      "size_kb": 436.66,
+      "aspect_ratio": 2.51
+    },
+    {
+      "path": "app/assets/images/constants/gold-separator.png",
+      "name": "gold-separator.png",
+      "width": 326,
+      "height": 75,
+      "size_kb": 52.2,
+      "aspect_ratio": 4.35
+    },
+    {
+      "path": "app/assets/images/constants/gold-separator.webp",
+      "name": "gold-separator.webp",
+      "width": 326,
+      "height": 75,
+      "size_kb": 20.39,
+      "aspect_ratio": 4.35
+    },
+    {
+      "path": "app/assets/images/constants/mainBg.webp",
+      "name": "mainBg.webp",
+      "width": 4096,
+      "height": 6144,
+      "size_kb": 655.5,
+      "aspect_ratio": 0.67
+    },
+    {
+      "path": "app/assets/images/constants/minus.webp",
+      "name": "minus.webp",
+      "width": 35,
+      "height": 35,
+      "size_kb": 1.34,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "app/assets/images/constants/plus.webp",
+      "name": "plus.webp",
+      "width": 35,
+      "height": 35,
+      "size_kb": 1.37,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "app/assets/images/footer/mail.webp",
+      "name": "mail.webp",
+      "width": 24,
+      "height": 24,
+      "size_kb": 0.43,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "app/assets/images/footer/phone.webp",
+      "name": "phone.webp",
+      "width": 24,
+      "height": 24,
+      "size_kb": 0.62,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "app/assets/images/footer/social/facebook.webp",
+      "name": "facebook.webp",
+      "width": 24,
+      "height": 24,
+      "size_kb": 0.35,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "app/assets/images/footer/social/instagram.webp",
+      "name": "instagram.webp",
+      "width": 24,
+      "height": 24,
+      "size_kb": 0.51,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "app/assets/images/footer/social/linkedin.webp",
+      "name": "linkedin.webp",
+      "width": 24,
+      "height": 24,
+      "size_kb": 0.41,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "app/assets/images/footer/social/tiktok.webp",
+      "name": "tiktok.webp",
+      "width": 24,
+      "height": 24,
+      "size_kb": 0.55,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "app/assets/images/footer/social/x.webp",
+      "name": "x.webp",
+      "width": 24,
+      "height": 24,
+      "size_kb": 0.57,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "app/assets/images/footer/social/youtube.webp",
+      "name": "youtube.webp",
+      "width": 28,
+      "height": 22,
+      "size_kb": 0.38,
+      "aspect_ratio": 1.27
+    },
+    {
+      "path": "app/assets/images/hero/icons/calendar.webp",
+      "name": "calendar.webp",
+      "width": 95,
+      "height": 76,
+      "size_kb": 5.67,
+      "aspect_ratio": 1.25
+    },
+    {
+      "path": "app/assets/images/hero/icons/earth.webp",
+      "name": "earth.webp",
+      "width": 95,
+      "height": 86,
+      "size_kb": 4.71,
+      "aspect_ratio": 1.1
+    },
+    {
+      "path": "app/assets/images/hero/icons/location.webp",
+      "name": "location.webp",
+      "width": 67,
+      "height": 80,
+      "size_kb": 3.62,
+      "aspect_ratio": 0.84
+    },
+    {
+      "path": "app/assets/images/logo/logo.webp",
+      "name": "logo.webp",
+      "width": 62,
+      "height": 61,
+      "size_kb": 1.88,
+      "aspect_ratio": 1.02
+    },
+    {
+      "path": "app/assets/images/media/ahram.webp",
+      "name": "ahram.webp",
+      "width": 111,
+      "height": 61,
+      "size_kb": 4.42,
+      "aspect_ratio": 1.82
+    },
+    {
+      "path": "app/assets/images/media/ammon.webp",
+      "name": "ammon.webp",
+      "width": 98,
+      "height": 48,
+      "size_kb": 2.07,
+      "aspect_ratio": 2.04
+    },
+    {
+      "path": "app/assets/images/media/ro2ya.webp",
+      "name": "ro2ya.webp",
+      "width": 55,
+      "height": 56,
+      "size_kb": 2.07,
+      "aspect_ratio": 0.98
+    },
+    {
+      "path": "app/assets/images/media/youm7.webp",
+      "name": "youm7.webp",
+      "width": 166,
+      "height": 48,
+      "size_kb": 3.81,
+      "aspect_ratio": 3.46
+    },
+    {
+      "path": "app/assets/images/navbar/navbar-bg.png",
+      "name": "navbar-bg.png",
+      "width": 1280,
+      "height": 106,
+      "size_kb": 89.43,
+      "aspect_ratio": 12.08
+    },
+    {
+      "path": "app/assets/images/navbar/navbar-bg.webp",
+      "name": "navbar-bg.webp",
+      "width": 1280,
+      "height": 106,
+      "size_kb": 1.01,
+      "aspect_ratio": 12.08
+    },
+    {
+      "path": "app/assets/images/originBackground/exPro.webp",
+      "name": "exPro.webp",
+      "width": 452,
+      "height": 335,
+      "size_kb": 27.2,
+      "aspect_ratio": 1.35
+    },
+    {
+      "path": "app/assets/images/privacyCookiesPolicy/header.webp",
+      "name": "header.webp",
+      "width": 274,
+      "height": 274,
+      "size_kb": 30.95,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "app/assets/images/privacyCookiesPolicy/introduction/correct.webp",
+      "name": "correct.webp",
+      "width": 20,
+      "height": 20,
+      "size_kb": 0.17,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "app/assets/images/privacyCookiesPolicy/quickSummary/changes.webp",
+      "name": "changes.webp",
+      "width": 98,
+      "height": 85,
+      "size_kb": 7.9,
+      "aspect_ratio": 1.15
+    },
+    {
+      "path": "app/assets/images/privacyCookiesPolicy/quickSummary/collect.webp",
+      "name": "collect.webp",
+      "width": 103,
+      "height": 85,
+      "size_kb": 7.46,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "app/assets/images/privacyCookiesPolicy/quickSummary/cookies.webp",
+      "name": "cookies.webp",
+      "width": 103,
+      "height": 95,
+      "size_kb": 7.0,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "app/assets/images/privacyCookiesPolicy/quickSummary/how.webp",
+      "name": "how.webp",
+      "width": 113,
+      "height": 82,
+      "size_kb": 6.68,
+      "aspect_ratio": 1.38
+    },
+    {
+      "path": "app/assets/images/privacyCookiesPolicy/quickSummary/inquiries.webp",
+      "name": "inquiries.webp",
+      "width": 103,
+      "height": 85,
+      "size_kb": 7.21,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "app/assets/images/privacyCookiesPolicy/quickSummary/international.webp",
+      "name": "international.webp",
+      "width": 103,
+      "height": 85,
+      "size_kb": 6.34,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "app/assets/images/privacyCookiesPolicy/quickSummary/legal.webp",
+      "name": "legal.webp",
+      "width": 103,
+      "height": 98,
+      "size_kb": 8.13,
+      "aspect_ratio": 1.05
+    },
+    {
+      "path": "app/assets/images/privacyCookiesPolicy/quickSummary/measures.webp",
+      "name": "measures.webp",
+      "width": 96,
+      "height": 90,
+      "size_kb": 5.99,
+      "aspect_ratio": 1.07
+    },
+    {
+      "path": "app/assets/images/privacyCookiesPolicy/quickSummary/minors.webp",
+      "name": "minors.webp",
+      "width": 103,
+      "height": 85,
+      "size_kb": 7.17,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "app/assets/images/privacyCookiesPolicy/quickSummary/parties.webp",
+      "name": "parties.webp",
+      "width": 103,
+      "height": 75,
+      "size_kb": 5.89,
+      "aspect_ratio": 1.37
+    },
+    {
+      "path": "app/assets/images/privacyCookiesPolicy/quickSummary/quickSummary.webp",
+      "name": "quickSummary.webp",
+      "width": 40,
+      "height": 40,
+      "size_kb": 1.66,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "app/assets/images/privacyCookiesPolicy/quickSummary/retention.webp",
+      "name": "retention.webp",
+      "width": 103,
+      "height": 85,
+      "size_kb": 6.85,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "app/assets/images/privacyCookiesPolicy/quickSummary/rights.webp",
+      "name": "rights.webp",
+      "width": 103,
+      "height": 85,
+      "size_kb": 5.86,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "app/assets/images/refundPolicy/header.webp",
+      "name": "header.webp",
+      "width": 256,
+      "height": 256,
+      "size_kb": 41.83,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "app/assets/images/refundPolicy/automaticRenewals/anyRenewal.webp",
+      "name": "anyRenewal.webp",
+      "width": 84,
+      "height": 68,
+      "size_kb": 4.32,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "app/assets/images/refundPolicy/automaticRenewals/automaticRenewals.webp",
+      "name": "automaticRenewals.webp",
+      "width": 77,
+      "height": 56,
+      "size_kb": 3.2,
+      "aspect_ratio": 1.38
+    },
+    {
+      "path": "app/assets/images/refundPolicy/automaticRenewals/canceling.webp",
+      "name": "canceling.webp",
+      "width": 84,
+      "height": 68,
+      "size_kb": 2.97,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "app/assets/images/refundPolicy/automaticRenewals/subscriptions.webp",
+      "name": "subscriptions.webp",
+      "width": 84,
+      "height": 68,
+      "size_kb": 3.97,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "app/assets/images/refundPolicy/chargebacks/chargebacks.webp",
+      "name": "chargebacks.webp",
+      "width": 77,
+      "height": 56,
+      "size_kb": 3.25,
+      "aspect_ratio": 1.38
+    },
+    {
+      "path": "app/assets/images/refundPolicy/chargebacks/contact.webp",
+      "name": "contact.webp",
+      "width": 82,
+      "height": 70,
+      "size_kb": 3.22,
+      "aspect_ratio": 1.17
+    },
+    {
+      "path": "app/assets/images/refundPolicy/chargebacks/suspend.webp",
+      "name": "suspend.webp",
+      "width": 50,
+      "height": 40,
+      "size_kb": 2.0,
+      "aspect_ratio": 1.25
+    },
+    {
+      "path": "app/assets/images/refundPolicy/natureOfService/acknowledges.webp",
+      "name": "acknowledges.webp",
+      "width": 40,
+      "height": 37,
+      "size_kb": 1.6,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "app/assets/images/refundPolicy/natureOfService/exPro.webp",
+      "name": "exPro.webp",
+      "width": 77,
+      "height": 56,
+      "size_kb": 4.54,
+      "aspect_ratio": 1.38
+    },
+    {
+      "path": "app/assets/images/refundPolicy/natureOfService/tv.webp",
+      "name": "tv.webp",
+      "width": 241,
+      "height": 135,
+      "size_kb": 9.84,
+      "aspect_ratio": 1.79
+    },
+    {
+      "path": "app/assets/images/refundPolicy/noRefundPolicy/change.webp",
+      "name": "change.webp",
+      "width": 65,
+      "height": 75,
+      "size_kb": 3.45,
+      "aspect_ratio": 0.87
+    },
+    {
+      "path": "app/assets/images/refundPolicy/noRefundPolicy/device.webp",
+      "name": "device.webp",
+      "width": 110,
+      "height": 75,
+      "size_kb": 3.46,
+      "aspect_ratio": 1.47
+    },
+    {
+      "path": "app/assets/images/refundPolicy/noRefundPolicy/exclamation.webp",
+      "name": "exclamation.webp",
+      "width": 84,
+      "height": 68,
+      "size_kb": 4.34,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "app/assets/images/refundPolicy/noRefundPolicy/internet.webp",
+      "name": "internet.webp",
+      "width": 80,
+      "height": 75,
+      "size_kb": 4.7,
+      "aspect_ratio": 1.07
+    },
+    {
+      "path": "app/assets/images/refundPolicy/noRefundPolicy/noRefundPolicy.webp",
+      "name": "noRefundPolicy.webp",
+      "width": 77,
+      "height": 56,
+      "size_kb": 3.59,
+      "aspect_ratio": 1.38
+    },
+    {
+      "path": "app/assets/images/refundPolicy/noRefundPolicy/partial.webp",
+      "name": "partial.webp",
+      "width": 90,
+      "height": 75,
+      "size_kb": 4.49,
+      "aspect_ratio": 1.2
+    },
+    {
+      "path": "app/assets/images/refundPolicy/noRefundPolicy/payment.webp",
+      "name": "payment.webp",
+      "width": 145,
+      "height": 116,
+      "size_kb": 11.83,
+      "aspect_ratio": 1.25
+    },
+    {
+      "path": "app/assets/images/refundPolicy/noRefundPolicy/policy.webp",
+      "name": "policy.webp",
+      "width": 84,
+      "height": 68,
+      "size_kb": 4.36,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "app/assets/images/refundPolicy/noRefundPolicy/purchases.webp",
+      "name": "purchases.webp",
+      "width": 84,
+      "height": 68,
+      "size_kb": 4.13,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "app/assets/images/refundPolicy/noRefundPolicy/subscription.webp",
+      "name": "subscription.webp",
+      "width": 124,
+      "height": 116,
+      "size_kb": 5.94,
+      "aspect_ratio": 1.07
+    },
+    {
+      "path": "app/assets/images/refundPolicy/technicalIssues/communications.webp",
+      "name": "communications.webp",
+      "width": 84,
+      "height": 68,
+      "size_kb": 3.73,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "app/assets/images/refundPolicy/technicalIssues/refunds.webp",
+      "name": "refunds.webp",
+      "width": 84,
+      "height": 68,
+      "size_kb": 3.16,
+      "aspect_ratio": 1.24
+    },
+    {
+      "path": "app/assets/images/refundPolicy/technicalIssues/technicalIssues.webp",
+      "name": "technicalIssues.webp",
+      "width": 75,
+      "height": 56,
+      "size_kb": 3.11,
+      "aspect_ratio": 1.34
+    },
+    {
+      "path": "app/assets/images/termsOfService/circleExclamation.webp",
+      "name": "circleExclamation.webp",
+      "width": 37,
+      "height": 37,
+      "size_kb": 1.04,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "app/assets/images/termsOfService/header.webp",
+      "name": "header.webp",
+      "width": 256,
+      "height": 256,
+      "size_kb": 30.78,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "app/assets/images/termsOfService/acceptanceOfTerms/acceptanceOfTerms.webp",
+      "name": "acceptanceOfTerms.webp",
+      "width": 106,
+      "height": 85,
+      "size_kb": 6.73,
+      "aspect_ratio": 1.25
+    },
+    {
+      "path": "app/assets/images/termsOfService/governingLawAndDisputeResolution/applicable.webp",
+      "name": "applicable.webp",
+      "width": 95,
+      "height": 85,
+      "size_kb": 5.66,
+      "aspect_ratio": 1.12
+    },
+    {
+      "path": "app/assets/images/termsOfService/governingLawAndDisputeResolution/dispute.webp",
+      "name": "dispute.webp",
+      "width": 107,
+      "height": 85,
+      "size_kb": 6.49,
+      "aspect_ratio": 1.26
+    },
+    {
+      "path": "app/assets/images/termsOfService/iindemnification/indemnification.webp",
+      "name": "indemnification.webp",
+      "width": 106,
+      "height": 85,
+      "size_kb": 6.55,
+      "aspect_ratio": 1.25
+    },
+    {
+      "path": "app/assets/images/termsOfService/subscriptionAndPayment/billing.webp",
+      "name": "billing.webp",
+      "width": 120,
+      "height": 116,
+      "size_kb": 6.22,
+      "aspect_ratio": 1.03
+    },
+    {
+      "path": "app/assets/images/termsOfService/subscriptionAndPayment/cancellation.webp",
+      "name": "cancellation.webp",
+      "width": 109,
+      "height": 104,
+      "size_kb": 8.93,
+      "aspect_ratio": 1.05
+    },
+    {
+      "path": "app/assets/images/termsOfService/subscriptionAndPayment/plans.webp",
+      "name": "plans.webp",
+      "width": 113,
+      "height": 104,
+      "size_kb": 6.88,
+      "aspect_ratio": 1.09
+    },
+    {
+      "path": "app/assets/images/termsOfService/termsAndService/acceptance.webp",
+      "name": "acceptance.webp",
+      "width": 120,
+      "height": 114,
+      "size_kb": 6.18,
+      "aspect_ratio": 1.05
+    },
+    {
+      "path": "app/assets/images/termsOfService/termsAndService/description.webp",
+      "name": "description.webp",
+      "width": 112,
+      "height": 104,
+      "size_kb": 5.63,
+      "aspect_ratio": 1.08
+    },
+    {
+      "path": "app/assets/images/termsOfService/userAccountsAndEligibility/account.webp",
+      "name": "account.webp",
+      "width": 109,
+      "height": 90,
+      "size_kb": 5.39,
+      "aspect_ratio": 1.21
+    },
+    {
+      "path": "app/assets/images/termsOfService/userAccountsAndEligibility/eligibility.webp",
+      "name": "eligibility.webp",
+      "width": 107,
+      "height": 104,
+      "size_kb": 8.62,
+      "aspect_ratio": 1.03
+    },
+    {
+      "path": "app/assets/images/termsOfService/userAccountsAndEligibility/security.webp",
+      "name": "security.webp",
+      "width": 105,
+      "height": 104,
+      "size_kb": 5.9,
+      "aspect_ratio": 1.01
+    },
+    {
+      "path": "app/assets/images/termsOfService/userConductAndProhibitedActivities/attempting.webp",
+      "name": "attempting.webp",
+      "width": 90,
+      "height": 84,
+      "size_kb": 6.23,
+      "aspect_ratio": 1.07
+    },
+    {
+      "path": "app/assets/images/termsOfService/userConductAndProhibitedActivities/sharing.webp",
+      "name": "sharing.webp",
+      "width": 90,
+      "height": 84,
+      "size_kb": 2.63,
+      "aspect_ratio": 1.07
+    },
+    {
+      "path": "app/assets/images/termsOfService/userConductAndProhibitedActivities/termination.webp",
+      "name": "termination.webp",
+      "width": 90,
+      "height": 84,
+      "size_kb": 5.21,
+      "aspect_ratio": 1.07
+    },
+    {
+      "path": "app/assets/images/termsOfService/userConductAndProhibitedActivities/using.webp",
+      "name": "using.webp",
+      "width": 90,
+      "height": 84,
+      "size_kb": 4.03,
+      "aspect_ratio": 1.07
+    },
+    {
+      "path": "app/assets/images/termsOfService/userConductAndProhibitedActivities/violating.webp",
+      "name": "violating.webp",
+      "width": 90,
+      "height": 84,
+      "size_kb": 3.3,
+      "aspect_ratio": 1.07
+    },
+    {
+      "path": "app/assets/images/whyUs/ourCommitment/ourCommitment.webp",
+      "name": "ourCommitment.webp",
+      "width": 317,
+      "height": 248,
+      "size_kb": 20.91,
+      "aspect_ratio": 1.28
+    },
+    {
+      "path": "app/assets/images/whyUs/whatMakesUsDifferent/global.webp",
+      "name": "global.webp",
+      "width": 109,
+      "height": 109,
+      "size_kb": 8.68,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "app/assets/images/whyUs/whatMakesUsDifferent/jurisdiction.webp",
+      "name": "jurisdiction.webp",
+      "width": 112,
+      "height": 109,
+      "size_kb": 8.44,
+      "aspect_ratio": 1.03
+    },
+    {
+      "path": "app/assets/images/whyUs/whatMakesUsDifferent/privacy.webp",
+      "name": "privacy.webp",
+      "width": 109,
+      "height": 109,
+      "size_kb": 8.53,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "app/assets/images/whyUs/whatMakesUsDifferent/secure.webp",
+      "name": "secure.webp",
+      "width": 109,
+      "height": 109,
+      "size_kb": 8.82,
+      "aspect_ratio": 1.0
+    },
+    {
+      "path": "app/assets/images/whyUs/whatMakesUsDifferent/technology.webp",
+      "name": "technology.webp",
+      "width": 110,
+      "height": 109,
+      "size_kb": 8.9,
+      "aspect_ratio": 1.01
+    },
+    {
+      "path": "app/assets/images/whyUs/whatMakesUsDifferent/transparent.webp",
+      "name": "transparent.webp",
+      "width": 109,
+      "height": 109,
+      "size_kb": 5.79,
+      "aspect_ratio": 1.0
+    }
+  ]
+}

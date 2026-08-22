@@ -1,0 +1,1810 @@
+[
+  {
+    "path": "public/imge/manageBlayList/manageBlayList/Search.webp",
+    "name": "Search.webp",
+    "width": 10,
+    "height": 10,
+    "size_kb": 0.23,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/manageBlayList/refresh.webp",
+    "name": "refresh.webp",
+    "width": 12,
+    "height": 12,
+    "size_kb": 0.31,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/manageBlayList/manageBlayList/Renew.webp",
+    "name": "Renew.webp",
+    "width": 12,
+    "height": 17,
+    "size_kb": 0.4,
+    "aspect_ratio": 0.71
+  },
+  {
+    "path": "public/file.webp",
+    "name": "file.webp",
+    "width": 16,
+    "height": 16,
+    "size_kb": 0.18,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/globe.webp",
+    "name": "globe.webp",
+    "width": 16,
+    "height": 16,
+    "size_kb": 0.33,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/window.webp",
+    "name": "window.webp",
+    "width": 16,
+    "height": 16,
+    "size_kb": 0.14,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/policy/privacyPolicy/email.webp",
+    "name": "email.webp",
+    "width": 16,
+    "height": 16,
+    "size_kb": 0.36,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/policy/privacyPolicy/location.webp",
+    "name": "location.webp",
+    "width": 16,
+    "height": 19,
+    "size_kb": 0.51,
+    "aspect_ratio": 0.84
+  },
+  {
+    "path": "public/imge/Chat/iconActivActivateEXPRO.webp",
+    "name": "iconActivActivateEXPRO.webp",
+    "width": 16,
+    "height": 20,
+    "size_kb": 0.34,
+    "aspect_ratio": 0.8
+  },
+  {
+    "path": "public/imge/Chat/iconActivContactHSupport.webp",
+    "name": "iconActivContactHSupport.webp",
+    "width": 16,
+    "height": 20,
+    "size_kb": 0.43,
+    "aspect_ratio": 0.8
+  },
+  {
+    "path": "public/imge/Chat/iconActivateExPro.webp",
+    "name": "iconActivateExPro.webp",
+    "width": 16,
+    "height": 20,
+    "size_kb": 0.19,
+    "aspect_ratio": 0.8
+  },
+  {
+    "path": "public/imge/Chat/iconHSupport.webp",
+    "name": "iconHSupport.webp",
+    "width": 16,
+    "height": 20,
+    "size_kb": 0.3,
+    "aspect_ratio": 0.8
+  },
+  {
+    "path": "public/imge/manageBlayList/manageBlayList/delate.webp",
+    "name": "delate.webp",
+    "width": 18,
+    "height": 18,
+    "size_kb": 0.28,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/manageBlayList/manageBlayList/edit.webp",
+    "name": "edit.webp",
+    "width": 18,
+    "height": 18,
+    "size_kb": 0.3,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/Dashbord/drwer.webp",
+    "name": "drwer.webp",
+    "width": 13,
+    "height": 28,
+    "size_kb": 0.23,
+    "aspect_ratio": 0.46
+  },
+  {
+    "path": "public/imge/Chat/icconSupported.webp",
+    "name": "icconSupported.webp",
+    "width": 20,
+    "height": 20,
+    "size_kb": 0.26,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/Chat/iconActivSupportedDevices.webp",
+    "name": "iconActivSupportedDevices.webp",
+    "width": 20,
+    "height": 20,
+    "size_kb": 0.43,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/Chat/iconActiveLegalCompliance.webp",
+    "name": "iconActiveLegalCompliance.webp",
+    "width": 20,
+    "height": 20,
+    "size_kb": 0.49,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/Chat/iconCompliance.webp",
+    "name": "iconCompliance.webp",
+    "width": 20,
+    "height": 20,
+    "size_kb": 0.3,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "app/assets/images/privacyCookiesPolicy/introduction/correct.webp",
+    "name": "correct.webp",
+    "width": 20,
+    "height": 20,
+    "size_kb": 0.17,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/header/uil_arrow-up.webp",
+    "name": "uil_arrow-up.webp",
+    "width": 21,
+    "height": 21,
+    "size_kb": 0.65,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/manageBlayList/manageBlayList/AddPlayList/PIN.webp",
+    "name": "PIN.webp",
+    "width": 24,
+    "height": 21,
+    "size_kb": 0.54,
+    "aspect_ratio": 1.14
+  },
+  {
+    "path": "public/imge/footer/mail.webp",
+    "name": "mail.webp",
+    "width": 24,
+    "height": 24,
+    "size_kb": 0.47,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/footer/phone.webp",
+    "name": "phone.webp",
+    "width": 24,
+    "height": 24,
+    "size_kb": 0.68,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/footer/social/facebook.webp",
+    "name": "facebook.webp",
+    "width": 24,
+    "height": 24,
+    "size_kb": 0.38,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/footer/social/instagram.webp",
+    "name": "instagram.webp",
+    "width": 24,
+    "height": 24,
+    "size_kb": 0.56,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/footer/social/linkedin.webp",
+    "name": "linkedin.webp",
+    "width": 24,
+    "height": 24,
+    "size_kb": 0.44,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/footer/social/tiktok.webp",
+    "name": "tiktok.webp",
+    "width": 24,
+    "height": 24,
+    "size_kb": 0.59,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/footer/social/x.webp",
+    "name": "x.webp",
+    "width": 24,
+    "height": 24,
+    "size_kb": 0.62,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/manageBlayList/iconOne.webp",
+    "name": "iconOne.webp",
+    "width": 24,
+    "height": 24,
+    "size_kb": 0.56,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/manageBlayList/iconTwo.webp",
+    "name": "iconTwo.webp",
+    "width": 24,
+    "height": 24,
+    "size_kb": 0.72,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/manageBlayList/keyIcon.webp",
+    "name": "keyIcon.webp",
+    "width": 24,
+    "height": 24,
+    "size_kb": 0.73,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/manageBlayList/manageBlayList/AddPlayList/namePlayList.webp",
+    "name": "namePlayList.webp",
+    "width": 24,
+    "height": 24,
+    "size_kb": 0.56,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/manageBlayList/manageBlayList/AddPlayList/playLisyUrl.webp",
+    "name": "playLisyUrl.webp",
+    "width": 24,
+    "height": 24,
+    "size_kb": 0.72,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "app/assets/images/footer/mail.webp",
+    "name": "mail.webp",
+    "width": 24,
+    "height": 24,
+    "size_kb": 0.43,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "app/assets/images/footer/phone.webp",
+    "name": "phone.webp",
+    "width": 24,
+    "height": 24,
+    "size_kb": 0.62,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "app/assets/images/footer/social/facebook.webp",
+    "name": "facebook.webp",
+    "width": 24,
+    "height": 24,
+    "size_kb": 0.35,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "app/assets/images/footer/social/instagram.webp",
+    "name": "instagram.webp",
+    "width": 24,
+    "height": 24,
+    "size_kb": 0.51,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "app/assets/images/footer/social/linkedin.webp",
+    "name": "linkedin.webp",
+    "width": 24,
+    "height": 24,
+    "size_kb": 0.41,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "app/assets/images/footer/social/tiktok.webp",
+    "name": "tiktok.webp",
+    "width": 24,
+    "height": 24,
+    "size_kb": 0.55,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "app/assets/images/footer/social/x.webp",
+    "name": "x.webp",
+    "width": 24,
+    "height": 24,
+    "size_kb": 0.57,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/manageBlayList/idIcon.webp",
+    "name": "idIcon.webp",
+    "width": 24,
+    "height": 25,
+    "size_kb": 0.76,
+    "aspect_ratio": 0.96
+  },
+  {
+    "path": "public/imge/manageBlayList/manageBlayList/AddPlayList/host.webp",
+    "name": "host.webp",
+    "width": 25,
+    "height": 24,
+    "size_kb": 0.58,
+    "aspect_ratio": 1.04
+  },
+  {
+    "path": "public/imge/footer/social/youtube.webp",
+    "name": "youtube.webp",
+    "width": 28,
+    "height": 22,
+    "size_kb": 0.41,
+    "aspect_ratio": 1.27
+  },
+  {
+    "path": "app/assets/images/footer/social/youtube.webp",
+    "name": "youtube.webp",
+    "width": 28,
+    "height": 22,
+    "size_kb": 0.38,
+    "aspect_ratio": 1.27
+  },
+  {
+    "path": "public/imge/Dashbord/Secure.webp",
+    "name": "Secure.webp",
+    "width": 25,
+    "height": 25,
+    "size_kb": 0.73,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/manageBlayList/iconThree.webp",
+    "name": "iconThree.webp",
+    "width": 29,
+    "height": 23,
+    "size_kb": 0.32,
+    "aspect_ratio": 1.26
+  },
+  {
+    "path": "public/imge/manageBlayList/manageBlayList/AddPlayList/XML.webp",
+    "name": "XML.webp",
+    "width": 29,
+    "height": 23,
+    "size_kb": 0.32,
+    "aspect_ratio": 1.26
+  },
+  {
+    "path": "public/imge/manageBlayList/PayPal.webp",
+    "name": "PayPal.webp",
+    "width": 24,
+    "height": 28,
+    "size_kb": 0.59,
+    "aspect_ratio": 0.86
+  },
+  {
+    "path": "public/imge/header/EnLang.webp",
+    "name": "EnLang.webp",
+    "width": 33,
+    "height": 22,
+    "size_kb": 1.02,
+    "aspect_ratio": 1.5
+  },
+  {
+    "path": "public/imge/Dashbord/EnterDashbord.webp",
+    "name": "EnterDashbord.webp",
+    "width": 28,
+    "height": 26,
+    "size_kb": 0.41,
+    "aspect_ratio": 1.08
+  },
+  {
+    "path": "public/imge/manageBlayList/E-Wallet.webp",
+    "name": "E-Wallet.webp",
+    "width": 28,
+    "height": 28,
+    "size_kb": 0.64,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/checkBox.webp",
+    "name": "checkBox.webp",
+    "width": 30,
+    "height": 30,
+    "size_kb": 0.52,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/manageBlayList/CreditCard.webp",
+    "name": "CreditCard.webp",
+    "width": 34,
+    "height": 34,
+    "size_kb": 0.51,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/header/arLang.webp",
+    "name": "arLang.webp",
+    "width": 42,
+    "height": 28,
+    "size_kb": 0.78,
+    "aspect_ratio": 1.5
+  },
+  {
+    "path": "public/imge/policy/DoNotSellOrShare/iconworning.webp",
+    "name": "iconworning.webp",
+    "width": 37,
+    "height": 33,
+    "size_kb": 0.93,
+    "aspect_ratio": 1.12
+  },
+  {
+    "path": "public/imge/mins.webp",
+    "name": "mins.webp",
+    "width": 35,
+    "height": 35,
+    "size_kb": 0.48,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/plus.webp",
+    "name": "plus.webp",
+    "width": 35,
+    "height": 35,
+    "size_kb": 0.53,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "app/assets/images/constants/minus.webp",
+    "name": "minus.webp",
+    "width": 35,
+    "height": 35,
+    "size_kb": 1.34,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "app/assets/images/constants/plus.webp",
+    "name": "plus.webp",
+    "width": 35,
+    "height": 35,
+    "size_kb": 1.37,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/manageBlayList/chekSifty.webp",
+    "name": "chekSifty.webp",
+    "width": 47,
+    "height": 28,
+    "size_kb": 0.58,
+    "aspect_ratio": 1.68
+  },
+  {
+    "path": "public/imge/agreement/i.webp",
+    "name": "i.webp",
+    "width": 37,
+    "height": 37,
+    "size_kb": 1.09,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "app/assets/images/termsOfService/circleExclamation.webp",
+    "name": "circleExclamation.webp",
+    "width": 37,
+    "height": 37,
+    "size_kb": 1.04,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/worning.png",
+    "name": "worning.png",
+    "width": 42,
+    "height": 34,
+    "size_kb": 2.21,
+    "aspect_ratio": 1.24
+  },
+  {
+    "path": "public/imge/worning.webp",
+    "name": "worning.webp",
+    "width": 42,
+    "height": 34,
+    "size_kb": 1.51,
+    "aspect_ratio": 1.24
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/worning.png",
+    "name": "worning.png",
+    "width": 42,
+    "height": 34,
+    "size_kb": 2.24,
+    "aspect_ratio": 1.24
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/worning.webp",
+    "name": "worning.webp",
+    "width": 42,
+    "height": 34,
+    "size_kb": 1.52,
+    "aspect_ratio": 1.24
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/todoSmoll.png",
+    "name": "todoSmoll.png",
+    "width": 40,
+    "height": 37,
+    "size_kb": 3.63,
+    "aspect_ratio": 1.08
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/todoSmoll.webp",
+    "name": "todoSmoll.webp",
+    "width": 40,
+    "height": 37,
+    "size_kb": 1.71,
+    "aspect_ratio": 1.08
+  },
+  {
+    "path": "app/assets/images/refundPolicy/natureOfService/acknowledges.webp",
+    "name": "acknowledges.webp",
+    "width": 40,
+    "height": 37,
+    "size_kb": 1.6,
+    "aspect_ratio": 1.08
+  },
+  {
+    "path": "public/imge/policy/privacyPolicy/ddd.png",
+    "name": "ddd.png",
+    "width": 40,
+    "height": 40,
+    "size_kb": 3.8,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/policy/privacyPolicy/ddd.webp",
+    "name": "ddd.webp",
+    "width": 40,
+    "height": 40,
+    "size_kb": 1.95,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "app/assets/images/privacyCookiesPolicy/quickSummary/quickSummary.webp",
+    "name": "quickSummary.webp",
+    "width": 40,
+    "height": 40,
+    "size_kb": 1.66,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "app/assets/images/aboutUs/complianceLegality/alert.webp",
+    "name": "alert.webp",
+    "width": 43,
+    "height": 43,
+    "size_kb": 0.84,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/manageBlayList/Parent PIN.webp",
+    "name": "Parent PIN.webp",
+    "width": 50,
+    "height": 40,
+    "size_kb": 1.45,
+    "aspect_ratio": 1.25
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/point.webp",
+    "name": "point.webp",
+    "width": 50,
+    "height": 40,
+    "size_kb": 2.2,
+    "aspect_ratio": 1.25
+  },
+  {
+    "path": "app/assets/images/refundPolicy/chargebacks/suspend.webp",
+    "name": "suspend.webp",
+    "width": 50,
+    "height": 40,
+    "size_kb": 2.0,
+    "aspect_ratio": 1.25
+  },
+  {
+    "path": "public/imge/policy/DownloadAndWatching/EXPRO.webp",
+    "name": "EXPRO.webp",
+    "width": 52,
+    "height": 40,
+    "size_kb": 1.95,
+    "aspect_ratio": 1.3
+  },
+  {
+    "path": "public/imge/policy/CompanyInfo/EG.webp",
+    "name": "EG.webp",
+    "width": 50,
+    "height": 50,
+    "size_kb": 0.97,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/policy/CompanyInfo/UK.webp",
+    "name": "UK.webp",
+    "width": 50,
+    "height": 50,
+    "size_kb": 1.84,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "app/assets/images/aboutUs/headquarters/egFlag.webp",
+    "name": "egFlag.webp",
+    "width": 50,
+    "height": 50,
+    "size_kb": 0.86,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "app/assets/images/aboutUs/headquarters/ukFlag.webp",
+    "name": "ukFlag.webp",
+    "width": 50,
+    "height": 50,
+    "size_kb": 1.64,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/manageBlayList/Transfer Device.webp",
+    "name": "Transfer Device.webp",
+    "width": 55,
+    "height": 55,
+    "size_kb": 1.93,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "app/assets/images/media/ro2ya.webp",
+    "name": "ro2ya.webp",
+    "width": 55,
+    "height": 56,
+    "size_kb": 2.07,
+    "aspect_ratio": 0.98
+  },
+  {
+    "path": "public/imge/home/6$.webp",
+    "name": "6$.webp",
+    "width": 62,
+    "height": 51,
+    "size_kb": 1.49,
+    "aspect_ratio": 1.22
+  },
+  {
+    "path": "public/imge/home/4$.webp",
+    "name": "4$.webp",
+    "width": 65,
+    "height": 50,
+    "size_kb": 1.3,
+    "aspect_ratio": 1.3
+  },
+  {
+    "path": "public/imge/policy/EULA/Location.webp",
+    "name": "Location.webp",
+    "width": 63,
+    "height": 58,
+    "size_kb": 4.12,
+    "aspect_ratio": 1.09
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/location.png",
+    "name": "location.png",
+    "width": 63,
+    "height": 58,
+    "size_kb": 9.8,
+    "aspect_ratio": 1.09
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/location.webp",
+    "name": "location.webp",
+    "width": 63,
+    "height": 58,
+    "size_kb": 3.88,
+    "aspect_ratio": 1.09
+  },
+  {
+    "path": "public/imge/manageBlayList/Activation.webp",
+    "name": "Activation.webp",
+    "width": 61,
+    "height": 61,
+    "size_kb": 1.73,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/manageBlayList/Device Key.webp",
+    "name": "Device Key.webp",
+    "width": 61,
+    "height": 61,
+    "size_kb": 1.23,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/manageBlayList/Logout.webp",
+    "name": "Logout.webp",
+    "width": 61,
+    "height": 61,
+    "size_kb": 0.9,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/manageBlayList/UsersStatus.webp",
+    "name": "UsersStatus.webp",
+    "width": 61,
+    "height": 61,
+    "size_kb": 1.51,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/manageBlayList/managePalyList.webp",
+    "name": "managePalyList.webp",
+    "width": 61,
+    "height": 61,
+    "size_kb": 1.94,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "app/assets/images/logo/logo.webp",
+    "name": "logo.webp",
+    "width": 62,
+    "height": 61,
+    "size_kb": 1.88,
+    "aspect_ratio": 1.02
+  },
+  {
+    "path": "public/imge/policy/CompanyInfo/EXPRO.webp",
+    "name": "EXPRO.webp",
+    "width": 84,
+    "height": 47,
+    "size_kb": 2.68,
+    "aspect_ratio": 1.79
+  },
+  {
+    "path": "public/imge/policy/DoNotSellOrShare/EXPROIcon.webp",
+    "name": "EXPROIcon.webp",
+    "width": 84,
+    "height": 47,
+    "size_kb": 2.68,
+    "aspect_ratio": 1.79
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/platform.png",
+    "name": "platform.png",
+    "width": 66,
+    "height": 62,
+    "size_kb": 9.53,
+    "aspect_ratio": 1.06
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/platform.webp",
+    "name": "platform.webp",
+    "width": 66,
+    "height": 62,
+    "size_kb": 4.15,
+    "aspect_ratio": 1.06
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/Purchases.png",
+    "name": "Purchases.png",
+    "width": 75,
+    "height": 56,
+    "size_kb": 7.89,
+    "aspect_ratio": 1.34
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/Purchases.webp",
+    "name": "Purchases.webp",
+    "width": 75,
+    "height": 56,
+    "size_kb": 2.9,
+    "aspect_ratio": 1.34
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/contact.png",
+    "name": "contact.png",
+    "width": 75,
+    "height": 56,
+    "size_kb": 9.92,
+    "aspect_ratio": 1.34
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/contact.webp",
+    "name": "contact.webp",
+    "width": 75,
+    "height": 56,
+    "size_kb": 3.1,
+    "aspect_ratio": 1.34
+  },
+  {
+    "path": "app/assets/images/refundPolicy/technicalIssues/technicalIssues.webp",
+    "name": "technicalIssues.webp",
+    "width": 75,
+    "height": 56,
+    "size_kb": 3.11,
+    "aspect_ratio": 1.34
+  },
+  {
+    "path": "public/imge/Chat/MREX.png",
+    "name": "MREX.png",
+    "width": 63,
+    "height": 67,
+    "size_kb": 8.55,
+    "aspect_ratio": 0.94
+  },
+  {
+    "path": "public/imge/Chat/MREX.webp",
+    "name": "MREX.webp",
+    "width": 63,
+    "height": 67,
+    "size_kb": 2.71,
+    "aspect_ratio": 0.94
+  },
+  {
+    "path": "public/imge/logo.webp",
+    "name": "logo.webp",
+    "width": 77,
+    "height": 56,
+    "size_kb": 4.95,
+    "aspect_ratio": 1.38
+  },
+  {
+    "path": "public/imge/policy/GlobalCompliance/LegalCompliance.webp",
+    "name": "LegalCompliance.webp",
+    "width": 77,
+    "height": 56,
+    "size_kb": 3.1,
+    "aspect_ratio": 1.38
+  },
+  {
+    "path": "public/imge/policy/GlobalCompliance/LegalFrameworks.webp",
+    "name": "LegalFrameworks.webp",
+    "width": 77,
+    "height": 56,
+    "size_kb": 3.56,
+    "aspect_ratio": 1.38
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/mony.png",
+    "name": "mony.png",
+    "width": 77,
+    "height": 56,
+    "size_kb": 8.19,
+    "aspect_ratio": 1.38
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/mony.webp",
+    "name": "mony.webp",
+    "width": 77,
+    "height": 56,
+    "size_kb": 3.52,
+    "aspect_ratio": 1.38
+  },
+  {
+    "path": "app/assets/images/refundPolicy/automaticRenewals/automaticRenewals.webp",
+    "name": "automaticRenewals.webp",
+    "width": 77,
+    "height": 56,
+    "size_kb": 3.2,
+    "aspect_ratio": 1.38
+  },
+  {
+    "path": "app/assets/images/refundPolicy/chargebacks/chargebacks.webp",
+    "name": "chargebacks.webp",
+    "width": 77,
+    "height": 56,
+    "size_kb": 3.25,
+    "aspect_ratio": 1.38
+  },
+  {
+    "path": "app/assets/images/refundPolicy/natureOfService/exPro.webp",
+    "name": "exPro.webp",
+    "width": 77,
+    "height": 56,
+    "size_kb": 4.54,
+    "aspect_ratio": 1.38
+  },
+  {
+    "path": "app/assets/images/refundPolicy/noRefundPolicy/noRefundPolicy.webp",
+    "name": "noRefundPolicy.webp",
+    "width": 77,
+    "height": 56,
+    "size_kb": 3.59,
+    "aspect_ratio": 1.38
+  },
+  {
+    "path": "public/imge/policy/DoNotSellOrShare/registeredAddress.webp",
+    "name": "registeredAddress.webp",
+    "width": 69,
+    "height": 63,
+    "size_kb": 4.71,
+    "aspect_ratio": 1.1
+  },
+  {
+    "path": "public/imge/policy/DownloadAndWatching/LG.webp",
+    "name": "LG.webp",
+    "width": 99,
+    "height": 45,
+    "size_kb": 2.99,
+    "aspect_ratio": 2.2
+  },
+  {
+    "path": "public/imge/policy/GlobalCompliance.png",
+    "name": "GlobalCompliance.png",
+    "width": 68,
+    "height": 68,
+    "size_kb": 9.34,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/policy/GlobalCompliance.webp",
+    "name": "GlobalCompliance.webp",
+    "width": 68,
+    "height": 68,
+    "size_kb": 2.94,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/policy/OurMission.png",
+    "name": "OurMission.png",
+    "width": 68,
+    "height": 68,
+    "size_kb": 8.06,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/policy/OurMission.webp",
+    "name": "OurMission.webp",
+    "width": 68,
+    "height": 68,
+    "size_kb": 3.54,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/policy/companyInfo.png",
+    "name": "companyInfo.png",
+    "width": 68,
+    "height": 68,
+    "size_kb": 8.25,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/policy/companyInfo.webp",
+    "name": "companyInfo.webp",
+    "width": 68,
+    "height": 68,
+    "size_kb": 3.36,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/Lega.png",
+    "name": "Lega.png",
+    "width": 65,
+    "height": 72,
+    "size_kb": 10.62,
+    "aspect_ratio": 0.9
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/Lega.webp",
+    "name": "Lega.webp",
+    "width": 65,
+    "height": 72,
+    "size_kb": 4.3,
+    "aspect_ratio": 0.9
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/true.webp",
+    "name": "true.webp",
+    "width": 65,
+    "height": 72,
+    "size_kb": 4.61,
+    "aspect_ratio": 0.9
+  },
+  {
+    "path": "app/assets/images/media/ammon.webp",
+    "name": "ammon.webp",
+    "width": 98,
+    "height": 48,
+    "size_kb": 2.07,
+    "aspect_ratio": 2.04
+  },
+  {
+    "path": "app/assets/images/refundPolicy/noRefundPolicy/change.webp",
+    "name": "change.webp",
+    "width": 65,
+    "height": 75,
+    "size_kb": 3.45,
+    "aspect_ratio": 0.87
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/adu.png",
+    "name": "adu.png",
+    "width": 72,
+    "height": 68,
+    "size_kb": 9.7,
+    "aspect_ratio": 1.06
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/adu.webp",
+    "name": "adu.webp",
+    "width": 72,
+    "height": 68,
+    "size_kb": 4.25,
+    "aspect_ratio": 1.06
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/Legal.png",
+    "name": "Legal.png",
+    "width": 73,
+    "height": 68,
+    "size_kb": 8.18,
+    "aspect_ratio": 1.07
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/Legal.webp",
+    "name": "Legal.webp",
+    "width": 73,
+    "height": 68,
+    "size_kb": 3.79,
+    "aspect_ratio": 1.07
+  },
+  {
+    "path": "public/imge/policy/CompanyInfo/madia.webp",
+    "name": "madia.webp",
+    "width": 71,
+    "height": 70,
+    "size_kb": 3.32,
+    "aspect_ratio": 1.01
+  },
+  {
+    "path": "public/imge/policy/CompanyInfo/sqrity.webp",
+    "name": "sqrity.webp",
+    "width": 71,
+    "height": 70,
+    "size_kb": 3.08,
+    "aspect_ratio": 1.01
+  },
+  {
+    "path": "app/assets/images/aboutUs/complianceLegality/data.webp",
+    "name": "data.webp",
+    "width": 71,
+    "height": 70,
+    "size_kb": 2.75,
+    "aspect_ratio": 1.01
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/eay.png",
+    "name": "eay.png",
+    "width": 91,
+    "height": 55,
+    "size_kb": 10.15,
+    "aspect_ratio": 1.65
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/eay.webp",
+    "name": "eay.webp",
+    "width": 91,
+    "height": 55,
+    "size_kb": 3.66,
+    "aspect_ratio": 1.65
+  },
+  {
+    "path": "public/imge/policy/DownloadAndWatching/android.webp",
+    "name": "android.webp",
+    "width": 84,
+    "height": 60,
+    "size_kb": 3.86,
+    "aspect_ratio": 1.4
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/NoRefunde.png",
+    "name": "NoRefunde.png",
+    "width": 74,
+    "height": 70,
+    "size_kb": 10.48,
+    "aspect_ratio": 1.06
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/NoRefunde.webp",
+    "name": "NoRefunde.webp",
+    "width": 74,
+    "height": 70,
+    "size_kb": 4.26,
+    "aspect_ratio": 1.06
+  },
+  {
+    "path": "public/imge/Chat/drwer.webp",
+    "name": "drwer.webp",
+    "width": 73,
+    "height": 73,
+    "size_kb": 1.62,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "app/assets/images/hero/icons/location.webp",
+    "name": "location.webp",
+    "width": 67,
+    "height": 80,
+    "size_kb": 3.62,
+    "aspect_ratio": 0.84
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/setting.png",
+    "name": "setting.png",
+    "width": 77,
+    "height": 71,
+    "size_kb": 15.06,
+    "aspect_ratio": 1.08
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/setting.webp",
+    "name": "setting.webp",
+    "width": 77,
+    "height": 71,
+    "size_kb": 5.4,
+    "aspect_ratio": 1.08
+  },
+  {
+    "path": "public/imge/policy/GlobalCompliance/clender.webp",
+    "name": "clender.webp",
+    "width": 84,
+    "height": 68,
+    "size_kb": 4.3,
+    "aspect_ratio": 1.24
+  },
+  {
+    "path": "public/imge/policy/GlobalCompliance/eee.webp",
+    "name": "eee.webp",
+    "width": 84,
+    "height": 68,
+    "size_kb": 4.88,
+    "aspect_ratio": 1.24
+  },
+  {
+    "path": "public/imge/policy/GlobalCompliance/payMent.webp",
+    "name": "payMent.webp",
+    "width": 84,
+    "height": 68,
+    "size_kb": 3.33,
+    "aspect_ratio": 1.24
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/bag.png",
+    "name": "bag.png",
+    "width": 84,
+    "height": 68,
+    "size_kb": 11.94,
+    "aspect_ratio": 1.24
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/bag.webp",
+    "name": "bag.webp",
+    "width": 84,
+    "height": 68,
+    "size_kb": 3.32,
+    "aspect_ratio": 1.24
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/false.png",
+    "name": "false.png",
+    "width": 84,
+    "height": 68,
+    "size_kb": 12.04,
+    "aspect_ratio": 1.24
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/false.webp",
+    "name": "false.webp",
+    "width": 84,
+    "height": 68,
+    "size_kb": 5.53,
+    "aspect_ratio": 1.24
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/mon.png",
+    "name": "mon.png",
+    "width": 84,
+    "height": 68,
+    "size_kb": 10.71,
+    "aspect_ratio": 1.24
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/mon.webp",
+    "name": "mon.webp",
+    "width": 84,
+    "height": 68,
+    "size_kb": 2.93,
+    "aspect_ratio": 1.24
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/serves.png",
+    "name": "serves.png",
+    "width": 84,
+    "height": 68,
+    "size_kb": 9.33,
+    "aspect_ratio": 1.24
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/serves.webp",
+    "name": "serves.webp",
+    "width": 84,
+    "height": 68,
+    "size_kb": 3.68,
+    "aspect_ratio": 1.24
+  },
+  {
+    "path": "app/assets/images/refundPolicy/automaticRenewals/anyRenewal.webp",
+    "name": "anyRenewal.webp",
+    "width": 84,
+    "height": 68,
+    "size_kb": 4.32,
+    "aspect_ratio": 1.24
+  },
+  {
+    "path": "app/assets/images/refundPolicy/automaticRenewals/canceling.webp",
+    "name": "canceling.webp",
+    "width": 84,
+    "height": 68,
+    "size_kb": 2.97,
+    "aspect_ratio": 1.24
+  },
+  {
+    "path": "app/assets/images/refundPolicy/automaticRenewals/subscriptions.webp",
+    "name": "subscriptions.webp",
+    "width": 84,
+    "height": 68,
+    "size_kb": 3.97,
+    "aspect_ratio": 1.24
+  },
+  {
+    "path": "app/assets/images/refundPolicy/noRefundPolicy/exclamation.webp",
+    "name": "exclamation.webp",
+    "width": 84,
+    "height": 68,
+    "size_kb": 4.34,
+    "aspect_ratio": 1.24
+  },
+  {
+    "path": "app/assets/images/refundPolicy/noRefundPolicy/policy.webp",
+    "name": "policy.webp",
+    "width": 84,
+    "height": 68,
+    "size_kb": 4.36,
+    "aspect_ratio": 1.24
+  },
+  {
+    "path": "app/assets/images/refundPolicy/noRefundPolicy/purchases.webp",
+    "name": "purchases.webp",
+    "width": 84,
+    "height": 68,
+    "size_kb": 4.13,
+    "aspect_ratio": 1.24
+  },
+  {
+    "path": "app/assets/images/refundPolicy/technicalIssues/communications.webp",
+    "name": "communications.webp",
+    "width": 84,
+    "height": 68,
+    "size_kb": 3.73,
+    "aspect_ratio": 1.24
+  },
+  {
+    "path": "app/assets/images/refundPolicy/technicalIssues/refunds.webp",
+    "name": "refunds.webp",
+    "width": 84,
+    "height": 68,
+    "size_kb": 3.16,
+    "aspect_ratio": 1.24
+  },
+  {
+    "path": "app/assets/images/refundPolicy/chargebacks/contact.webp",
+    "name": "contact.webp",
+    "width": 82,
+    "height": 70,
+    "size_kb": 3.22,
+    "aspect_ratio": 1.17
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/squrty.png",
+    "name": "squrty.png",
+    "width": 79,
+    "height": 73,
+    "size_kb": 11.16,
+    "aspect_ratio": 1.08
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/squrty.webp",
+    "name": "squrty.webp",
+    "width": 79,
+    "height": 73,
+    "size_kb": 3.89,
+    "aspect_ratio": 1.08
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/squr.png",
+    "name": "squr.png",
+    "width": 91,
+    "height": 65,
+    "size_kb": 12.77,
+    "aspect_ratio": 1.4
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/squr.webp",
+    "name": "squr.webp",
+    "width": 91,
+    "height": 65,
+    "size_kb": 4.53,
+    "aspect_ratio": 1.4
+  },
+  {
+    "path": "app/assets/images/refundPolicy/noRefundPolicy/internet.webp",
+    "name": "internet.webp",
+    "width": 80,
+    "height": 75,
+    "size_kb": 4.7,
+    "aspect_ratio": 1.07
+  },
+  {
+    "path": "public/imge/policy/CompanyInfo/ExProSubscriptions.webp",
+    "name": "ExProSubscriptions.webp",
+    "width": 89,
+    "height": 68,
+    "size_kb": 3.9,
+    "aspect_ratio": 1.31
+  },
+  {
+    "path": "app/assets/images/aboutUs/UxEnhancement/digital.webp",
+    "name": "digital.webp",
+    "width": 89,
+    "height": 68,
+    "size_kb": 3.42,
+    "aspect_ratio": 1.31
+  },
+  {
+    "path": "public/imge/policy/CompanyInfo/contact.webp",
+    "name": "contact.webp",
+    "width": 91,
+    "height": 68,
+    "size_kb": 3.71,
+    "aspect_ratio": 1.34
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/se.png",
+    "name": "se.png",
+    "width": 79,
+    "height": 79,
+    "size_kb": 11.83,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/se.webp",
+    "name": "se.webp",
+    "width": 79,
+    "height": 79,
+    "size_kb": 3.21,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/Chat/openChat.png",
+    "name": "openChat.png",
+    "width": 80,
+    "height": 80,
+    "size_kb": 14.59,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/Chat/openChat.webp",
+    "name": "openChat.webp",
+    "width": 80,
+    "height": 80,
+    "size_kb": 4.59,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/policy/DoNotSellOrShare/Residents.webp",
+    "name": "Residents.webp",
+    "width": 81,
+    "height": 81,
+    "size_kb": 5.9,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/policy/DoNotSellOrShare/optOutRights.webp",
+    "name": "optOutRights.webp",
+    "width": 81,
+    "height": 81,
+    "size_kb": 5.9,
+    "aspect_ratio": 1.0
+  },
+  {
+    "path": "public/imge/home/androidDevice.png",
+    "name": "androidDevice.png",
+    "width": 88,
+    "height": 75,
+    "size_kb": 15.63,
+    "aspect_ratio": 1.17
+  },
+  {
+    "path": "public/imge/home/androidDevice.webp",
+    "name": "androidDevice.webp",
+    "width": 88,
+    "height": 75,
+    "size_kb": 4.27,
+    "aspect_ratio": 1.17
+  },
+  {
+    "path": "app/assets/images/refundPolicy/noRefundPolicy/partial.webp",
+    "name": "partial.webp",
+    "width": 90,
+    "height": 75,
+    "size_kb": 4.49,
+    "aspect_ratio": 1.2
+  },
+  {
+    "path": "public/imge/agreement/Layer 3 27.png",
+    "name": "Layer 3 27.png",
+    "width": 87,
+    "height": 78,
+    "size_kb": 16.14,
+    "aspect_ratio": 1.12
+  },
+  {
+    "path": "public/imge/agreement/Layer 3 27.webp",
+    "name": "Layer 3 27.webp",
+    "width": 87,
+    "height": 78,
+    "size_kb": 5.15,
+    "aspect_ratio": 1.12
+  },
+  {
+    "path": "public/imge/policy/privacyPolicy/HowUsInfo.png",
+    "name": "HowUsInfo.png",
+    "width": 87,
+    "height": 78,
+    "size_kb": 16.14,
+    "aspect_ratio": 1.12
+  },
+  {
+    "path": "public/imge/policy/privacyPolicy/HowUsInfo.webp",
+    "name": "HowUsInfo.webp",
+    "width": 87,
+    "height": 78,
+    "size_kb": 5.15,
+    "aspect_ratio": 1.12
+  },
+  {
+    "path": "public/imge/policy/DownloadAndWatching/apple.webp",
+    "name": "apple.webp",
+    "width": 77,
+    "height": 90,
+    "size_kb": 4.79,
+    "aspect_ratio": 0.86
+  },
+  {
+    "path": "public/imge/policy/DisclaimerOfContent/ACCEPTANCE.webp",
+    "name": "ACCEPTANCE.webp",
+    "width": 90,
+    "height": 80,
+    "size_kb": 5.27,
+    "aspect_ratio": 1.12
+  },
+  {
+    "path": "app/assets/images/hero/icons/calendar.webp",
+    "name": "calendar.webp",
+    "width": 95,
+    "height": 76,
+    "size_kb": 5.67,
+    "aspect_ratio": 1.25
+  },
+  {
+    "path": "public/imge/home/abbDevices.png",
+    "name": "abbDevices.png",
+    "width": 98,
+    "height": 75,
+    "size_kb": 16.89,
+    "aspect_ratio": 1.31
+  },
+  {
+    "path": "public/imge/home/abbDevices.webp",
+    "name": "abbDevices.webp",
+    "width": 98,
+    "height": 75,
+    "size_kb": 5.81,
+    "aspect_ratio": 1.31
+  },
+  {
+    "path": "public/imge/home/exproSmartTV.png",
+    "name": "exproSmartTV.png",
+    "width": 98,
+    "height": 75,
+    "size_kb": 16.86,
+    "aspect_ratio": 1.31
+  },
+  {
+    "path": "public/imge/home/exproSmartTV.webp",
+    "name": "exproSmartTV.webp",
+    "width": 98,
+    "height": 75,
+    "size_kb": 4.16,
+    "aspect_ratio": 1.31
+  },
+  {
+    "path": "public/imge/policy/DownloadAndWatching/linx.webp",
+    "name": "linx.webp",
+    "width": 82,
+    "height": 90,
+    "size_kb": 5.02,
+    "aspect_ratio": 0.91
+  },
+  {
+    "path": "app/assets/images/termsOfService/userConductAndProhibitedActivities/attempting.webp",
+    "name": "attempting.webp",
+    "width": 90,
+    "height": 84,
+    "size_kb": 6.23,
+    "aspect_ratio": 1.07
+  },
+  {
+    "path": "app/assets/images/termsOfService/userConductAndProhibitedActivities/sharing.webp",
+    "name": "sharing.webp",
+    "width": 90,
+    "height": 84,
+    "size_kb": 2.63,
+    "aspect_ratio": 1.07
+  },
+  {
+    "path": "app/assets/images/termsOfService/userConductAndProhibitedActivities/termination.webp",
+    "name": "termination.webp",
+    "width": 90,
+    "height": 84,
+    "size_kb": 5.21,
+    "aspect_ratio": 1.07
+  },
+  {
+    "path": "app/assets/images/termsOfService/userConductAndProhibitedActivities/using.webp",
+    "name": "using.webp",
+    "width": 90,
+    "height": 84,
+    "size_kb": 4.03,
+    "aspect_ratio": 1.07
+  },
+  {
+    "path": "app/assets/images/termsOfService/userConductAndProhibitedActivities/violating.webp",
+    "name": "violating.webp",
+    "width": 90,
+    "height": 84,
+    "size_kb": 3.3,
+    "aspect_ratio": 1.07
+  },
+  {
+    "path": "public/imge/agreement/customer/GOVERNING.png",
+    "name": "GOVERNING.png",
+    "width": 89,
+    "height": 85,
+    "size_kb": 14.74,
+    "aspect_ratio": 1.05
+  },
+  {
+    "path": "public/imge/agreement/customer/GOVERNING.webp",
+    "name": "GOVERNING.webp",
+    "width": 89,
+    "height": 85,
+    "size_kb": 4.69,
+    "aspect_ratio": 1.05
+  },
+  {
+    "path": "public/imge/home/core.png",
+    "name": "core.png",
+    "width": 89,
+    "height": 85,
+    "size_kb": 14.74,
+    "aspect_ratio": 1.05
+  },
+  {
+    "path": "public/imge/home/core.webp",
+    "name": "core.webp",
+    "width": 89,
+    "height": 85,
+    "size_kb": 4.69,
+    "aspect_ratio": 1.05
+  },
+  {
+    "path": "public/imge/policy/DoNotSellOrShare/relationshipWithPrivacyLaws.webp",
+    "name": "relationshipWithPrivacyLaws.webp",
+    "width": 89,
+    "height": 88,
+    "size_kb": 6.75,
+    "aspect_ratio": 1.01
+  },
+  {
+    "path": "public/imge/policy/DoNotSellOrShare/selectTwo.webp",
+    "name": "selectTwo.webp",
+    "width": 89,
+    "height": 88,
+    "size_kb": 6.75,
+    "aspect_ratio": 1.01
+  },
+  {
+    "path": "public/imge/agreement/customer/final.png",
+    "name": "final.png",
+    "width": 94,
+    "height": 85,
+    "size_kb": 14.49,
+    "aspect_ratio": 1.11
+  },
+  {
+    "path": "public/imge/agreement/customer/final.webp",
+    "name": "final.webp",
+    "width": 94,
+    "height": 85,
+    "size_kb": 4.73,
+    "aspect_ratio": 1.11
+  },
+  {
+    "path": "public/imge/home/prantalControl.png",
+    "name": "prantalControl.png",
+    "width": 94,
+    "height": 85,
+    "size_kb": 14.49,
+    "aspect_ratio": 1.11
+  },
+  {
+    "path": "public/imge/home/prantalControl.webp",
+    "name": "prantalControl.webp",
+    "width": 94,
+    "height": 85,
+    "size_kb": 4.73,
+    "aspect_ratio": 1.11
+  },
+  {
+    "path": "public/imge/home/secur.png",
+    "name": "secur.png",
+    "width": 94,
+    "height": 85,
+    "size_kb": 15.59,
+    "aspect_ratio": 1.11
+  },
+  {
+    "path": "public/imge/home/secur.webp",
+    "name": "secur.webp",
+    "width": 94,
+    "height": 85,
+    "size_kb": 5.86,
+    "aspect_ratio": 1.11
+  },
+  {
+    "path": "public/imge/FAQ/manageDevices.png",
+    "name": "manageDevices.png",
+    "width": 98,
+    "height": 82,
+    "size_kb": 11.0,
+    "aspect_ratio": 1.2
+  },
+  {
+    "path": "public/imge/FAQ/manageDevices.webp",
+    "name": "manageDevices.webp",
+    "width": 98,
+    "height": 82,
+    "size_kb": 3.04,
+    "aspect_ratio": 1.2
+  },
+  {
+    "path": "public/imge/FAQ/chargedExtra.png",
+    "name": "chargedExtra.png",
+    "width": 95,
+    "height": 85,
+    "size_kb": 15.36,
+    "aspect_ratio": 1.12
+  },
+  {
+    "path": "public/imge/FAQ/chargedExtra.webp",
+    "name": "chargedExtra.webp",
+    "width": 95,
+    "height": 85,
+    "size_kb": 5.66,
+    "aspect_ratio": 1.12
+  },
+  {
+    "path": "app/assets/images/termsOfService/governingLawAndDisputeResolution/applicable.webp",
+    "name": "applicable.webp",
+    "width": 95,
+    "height": 85,
+    "size_kb": 5.66,
+    "aspect_ratio": 1.12
+  },
+  {
+    "path": "app/assets/images/hero/icons/earth.webp",
+    "name": "earth.webp",
+    "width": 95,
+    "height": 86,
+    "size_kb": 4.71,
+    "aspect_ratio": 1.1
+  },
+  {
+    "path": "app/assets/images/privacyCookiesPolicy/quickSummary/changes.webp",
+    "name": "changes.webp",
+    "width": 98,
+    "height": 85,
+    "size_kb": 7.9,
+    "aspect_ratio": 1.15
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/agree.png",
+    "name": "agree.png",
+    "width": 94,
+    "height": 89,
+    "size_kb": 13.69,
+    "aspect_ratio": 1.06
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/agree.webp",
+    "name": "agree.webp",
+    "width": 94,
+    "height": 89,
+    "size_kb": 4.57,
+    "aspect_ratio": 1.06
+  },
+  {
+    "path": "public/imge/policy/DownloadAndWatching/windows.webp",
+    "name": "windows.webp",
+    "width": 94,
+    "height": 90,
+    "size_kb": 5.46,
+    "aspect_ratio": 1.04
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/adl.png",
+    "name": "adl.png",
+    "width": 96,
+    "height": 89,
+    "size_kb": 12.26,
+    "aspect_ratio": 1.08
+  },
+  {
+    "path": "public/imge/policy/refundPolicy/adl.webp",
+    "name": "adl.webp",
+    "width": 96,
+    "height": 89,
+    "size_kb": 4.46,
+    "aspect_ratio": 1.08
+  },
+  {
+    "path": "public/imge/footer/logo.webp",
+    "name": "logo.webp",
+    "width": 96,
+    "height": 90,
+    "size_kb": 3.55,
+    "aspect_ratio": 1.07
+  },
+  {
+    "path": "app/assets/images/privacyCookiesPolicy/quickSummary/measures.webp",
+    "name": "measures.webp",
+    "width": 96,
+    "height": 90,
+    "size_kb": 5.99,
+    "aspect_ratio": 1.07
+  },
+  {
+    "path": "public/imge/policy/DisclaimerOfContent/USERRESPONSIBILITY.webp",
+    "name": "USERRESPONSIBILITY.webp",
+    "width": 94,
+    "height": 98,
+    "size_kb": 4.59,
+    "aspect_ratio": 0.96
+  },
+  {
+    "path": "public/imge/policy/DisclaimerOfContent/THIRD-PARTY CONTENT.webp",
+    "name": "THIRD-PARTY CONTENT.webp",
+    "width": 97,
+    "height": 98,
+    "size_kb": 4.9,
+    "aspect_ratio": 0.99
+  }
+]

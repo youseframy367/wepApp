@@ -97,7 +97,7 @@ export default function Dashboard() {
       >
         <Image src="/imge/Dashbord/EnterDashbord.webp" alt="GoTODashbord" width={24} height={24} />
         {t("enterDashboard")}
-        <Image src="/imge/Dashbord/drwer.webp" alt="arrow" width={24} height={24} className={locale === "ar" ? "rotate-180" : ""} />
+        <Image src="/imge/Dashbord/drwer.webp" alt="arrow" width={24} height={22} className={locale === "ar" ? "rotate-180" : ""} />
       </button>
       
       <div className="flex text-center items-center justify-center gap-2 md:gap-3 my-3 px-4" data-aos="fade-up">

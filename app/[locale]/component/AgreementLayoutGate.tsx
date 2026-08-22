@@ -63,7 +63,7 @@ export default function AgreementLayoutGate({
             {/* Modal Content Scrollable Area */}
             <div 
               ref={modalContentRef}
-              className="flex-1 overflow-y-auto custom-scrollbar pt-4 pb-10 px-0"
+              className="flex-1 overflow-y-auto  no-scrollbar pt-4 pb-10 px-0"
             >
               <div className="w-full">
                 {children}

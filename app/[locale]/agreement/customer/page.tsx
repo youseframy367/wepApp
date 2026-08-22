@@ -25,7 +25,7 @@ export default function AgreementCustomer(){
       />
       <GradientBorderBox className="w-[90%] my-[40px] mx-[auto] md:h-[143px] h-[155px] flex gap-[24px] items-center px-[20px]">
         <div
-          data-aos="fade-up"
+          
           className={`${local === "ar" ? "font-cairo " : ""} flex md:gap-[20px] gap-[10px]`}
         >
           <Image src="/imge/agreement/customer/about.webp" alt="aboutIcon" width={114} height={108} loading="lazy"  className="w-auto md:w-[120px]" />

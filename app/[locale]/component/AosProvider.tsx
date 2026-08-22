@@ -16,7 +16,7 @@ export default function AosProvider({
     AOS.init({
       duration: 1000,
       once: true,
-      disable: "mobile",
+      // disable: "mobile",
     });
 
     return () => {

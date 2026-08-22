@@ -21,7 +21,7 @@ class ClientErrorBoundary extends React.Component<Props, State> {
   }
 
   componentDidCatch(error: Error, errorInfo: ErrorInfo) {
-    console.error("ClientErrorBoundary caught an error:", error, errorInfo);
+    
     
     // Auto-retry once
     if (this.state.retryCount === 0) {

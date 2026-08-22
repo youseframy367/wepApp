@@ -28,10 +28,11 @@ export default function AgreementLayoutGate({
   useEffect(() => {
     setMounted(true);
     if (showModal) {
-      const timer = setTimeout(() => {
+      // Use requestAnimationFrame for smoother refresh
+      const handle = requestAnimationFrame(() => {
         AOS.refresh();
-      }, 100);
-      return () => clearTimeout(timer);
+      });
+      return () => cancelAnimationFrame(handle);
     }
   }, [showModal, pathname]);
 

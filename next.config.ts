@@ -9,7 +9,9 @@ const nextConfig: NextConfig = {
   experimental: {
     staleTimes: {
       dynamic: 60,
+      static: 180,
     },
+    optimizePackageImports: ["lucide-react", "aos", "framer-motion"],
   },
   images: {
     formats: ["image/avif", "image/webp"],
